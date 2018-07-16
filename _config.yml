@@ -30,7 +30,11 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-analytics
-
+exclude: 
+  - 'build_resume.sh'
+  - 'deploy.sh'
+  - 'Gemfile'
+  - 'Gemfile.lock'
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
