@@ -6,7 +6,7 @@ title: Resume
 ## Android developer, Software developer
 
 > [Download PDF](resume.pdf)  
-> [josef.adamcik@gmail.com](josef.adamcik@gmail.com)  
+> [josef.adamcik@gmail.com](mailto:josef.adamcik@gmail.com)  
 
 
 ------
