@@ -27,22 +27,41 @@ stackoverlflow_username: josef.adamcik
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-feed
-exclude: 
+permalink: /:categories/:title:output_ext
+exclude:
   - 'build_resume.sh'
   - 'deploy.sh'
   - 'Gemfile'
   - 'Gemfile.lock'
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
+  - 'node_modules'
+  - 'vendor/bundle/'
+  - 'vendor/cache/'
+  - 'vendor/gems/'
+  - 'vendor/ruby/'
+plugins:
+  - jekyll-feed
+  - jekyll-responsive-image # https://github.com/wildlyinaccurate/jekyll-responsive-image
+  - jekyll-seo-tag # perpahs included by default?
+  - jekyll-redirect-from   # https://github.com/jekyll/jekyll-redirect-from
+  # https://github.com/envygeeks/jekyll-assets
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/blog.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+responsive_image:
+  template: _includes/responsive-image.html
+  # [Optional, Default: []]
+  # An array of resize configuration objects. Each object must contain at least
+  # a `width` value.
+  sizes:
+    - width: 480  # [Required] How wide the resized image will be.
+      quality: 80 # [Optional] Overrides default_quality for this size.
+    - width: 800
+    - width: 1400
+      quality: 90
