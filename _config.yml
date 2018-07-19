@@ -25,7 +25,7 @@ show_post_footers:    false
 show_social_icons:    true
 ajaxify_contact_form: false
 enable_mathjax: false
-extended_fonts: false
+extended_fonts: falser
 enable_anchorjs: false
 # Preview image for social media aka og:image and twitter:image
 post_preview_image: false
@@ -152,6 +152,7 @@ plugins:
   - jekyll-feed
   - jekyll-responsive-image # https://github.com/wildlyinaccurate/jekyll-responsive-image
   - jekyll-seo-tag # perpahs included by default?
+  - jekyll-art-gallery-generator
 
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
