@@ -3,6 +3,8 @@ layout: page
 title: Resume
 ---
 
+# Josef Adamčík
+
 ## Android developer, Software developer
 
 > [Download PDF](resume.pdf)  

@@ -1,42 +1,24 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer class="center">
+  <div class="measure">
+      {{- site.description | escape -}}
+      {%- if site.email -%}<br><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>{%- endif -%}
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-        <p class="licence">Content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY-4.0</a></p>
-      </div>
-    </div>
-
+      {%- if site.show_social_icons -%}
+        {%- include social_links.html -%}
+      {%- endif -%}
+      <p class="licence"><small>Content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY-4.0</a><small> Built with <a href="https://jekyllrb.com" target="_blank">jekyll</a> and <a href="https://github.com/johnotander/pixyll" taregt="_blank">Pixyll theme</a>.</small></p>
   </div>
-
 </footer>
 
+{% if site.enable_anchorjs %}<!-- AnchorJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.0.0/anchor.min.js"></script>
+<script>
+    anchors.options.visible = 'always';
+    anchors.add('article h2, article h3, article h4, article h5, article h6');
+</script>{% endif %}
+
 {% if jekyll.environment == "production" %}
-<!-- Matomo -->
+<!-- Matomo, measurement at the end -->
 <script type="text/javascript">
   var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
