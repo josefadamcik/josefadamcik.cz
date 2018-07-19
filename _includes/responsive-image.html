@@ -13,5 +13,5 @@ Usage:
 {%- if figcaption -%}
 <figure><a class="imagelink" href="/{{ path }}" target="_image"><img src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}"></a><figcaption>{{ figcaption }}</figcaption></figure>
 {%- else -%}
-<a href="/{{ path }}" target="_image"><img src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}"></a>
+<figure><a class="imagelink" href="/{{ path }}" target="_image"><img src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}"></a></figure>
 {%- endif -%}

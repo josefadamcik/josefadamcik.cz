@@ -6,10 +6,6 @@ source 'https://rubygems.org'
 gem 'github-pages'
 
 
-gem 'exifr'
-gem 'mini_magick'
-gem 'jekyll-minimagick'
-
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-responsive-image" 

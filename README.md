@@ -11,8 +11,3 @@ The theme was copied into this repository and therefore the repository's content
 The content (meaning all files contained in `_posts` and all content published on the website [josef-adamcik.cz](https://josef-adamcik.cz)) is licensed under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/).
 
 
-Other included code:
-
-- [jekkyll photo gallery plugin](https://github.com/aerobless/jekyll-photo-gallery) Copyright (c) 2016 Theodor Winter, MIT license
-
-

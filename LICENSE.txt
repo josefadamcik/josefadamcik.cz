@@ -1,7 +1,6 @@
 Website theme is slightly modified Pixyll theme and licensed under MIT license. Other plugins and libraries are used under MIT licence as incleded below. MIT license applies to all contents of this repository EXCEPT the `_posts` directory.
 
 Copyright (c) 2014-2015 John Otander (original Pixyll theme)
-Copyright (c) 2016 Theodor Winter (https://github.com/aerobless/jekyll-photo-gallery plugin)
 
 MIT License
 

@@ -9,9 +9,6 @@ a {
   text-shadow: white 1px 0px 0px, white -1px 0px 0px;
 }
 
-a.imagelink {
-  background:none;
-}
 
 a:hover,
 a:focus,
@@ -27,6 +24,12 @@ a:active {
   );
   text-shadow: white 1px 0px 0px, white -1px 0px 0px;
 }
+
+
+a.imagelink,a.imagelink:hover, a.imagelinka:focus, a.imagelinka:active {
+  background:none;
+}
+
 
 // Correct issues with buttons
 button,
