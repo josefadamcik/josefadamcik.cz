@@ -5,14 +5,6 @@ categories: various
 published: false
 ---
 
-{%- assign galleryname = "ledcube" -%}
-{%- assign gallery = site.data.galleries | where: "name", galleryname | first -%}
-{%comment%}{{gallery.name}} {{gallery.title}} {{gallery.path}}<br><br>{%endcomment%}
-{%- for image in gallery.images -%}
-    {%- assign imagepath = gallery.path | append: "/" | append: image.path -%}
-    {% responsive_image_block %}
-        path: {{ imagepath }}
-        alt: {{ image.description }}
-        figcaption: {{ image.description }}
-    {% endresponsive_image_block %}
-{%- endfor -%}
+This is test of some formatting.
+
+{%- include gallery.html galleryname="ledcube" -%}

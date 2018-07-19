@@ -10,27 +10,17 @@
       description: "Ok, this is a bit more difficult than expected..."
     - path: IMG_20180501_212233.jpg
       description: "It works!"
-    - path: IMG_20180501_212247.jpg
-      description: ""
-    - path: IMG_20180505_161732.jpg
-      description: "Board for both 74138 ICs."
-    - path: IMG_20180505_161737.jpg
-      description: "Well, my soldering skills are... but that's why I did this project. To practice!"
     - path: IMG_20180505_164228.jpg
-      description: "Testing the first board."
+      description: "Board for both 74138 ICs."
     - path: IMG_20180505_164233.jpg
-      description: "Board with transistors, a button, and a pot for control."
+      description: "Well, my soldering skills are... but that's why I did this project. To practice!"
     - path: IMG_20180505_210420.jpg
-      description: "And here comes the Attiny84."
+      description: "Testing the first board."
     - path: IMG_20180506_182209.jpg
-      description: "This is a mess. I know. Cablegore. I know."
+      description: "Board with transistors, a button, and a pot for control."
     - path: IMG_20180603_221231.jpg
-      description: "Complete! Please, ignore the Ohm symbol. I had kept my resistors in this box, before it became an enclosure for my first enclosured project."
-    - path: IMG_20180605_205523.jpg
-      description: ""
-    - path: IMG_20180605_225518.jpg
-      description: ""
+      description: "And here comes the Attiny84."
     - path: IMG_20180605_225534.jpg
-      description: ""
-    - path: IMG_20180605_225550.jpg
-      description: ""
+      description: "This is a mess. I know. Cablegore. I know."
+    - path: IMG_20180605_225518.jpg
+      description: "Complete! Please, ignore the Ohm symbol. I had kept my resistors in this box, before it became an enclosure for my first enclosured project."
