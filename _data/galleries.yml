@@ -1,6 +1,6 @@
 - name: ledcube
   title: "LED Cube"
-  path: assets/img/ledcube/gallery
+  path: images/ledcube/gallery
   images:
     - path: IMG_20180501_163339.jpg
       description: "First layer!"

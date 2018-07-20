@@ -1,3 +1,7 @@
+//Sprockets requires -> includes js when processing assets.
+//= require photoswipe
+//= require photoswipe-ui-default
+
 /**
 * C&P from http://photoswipe.com/documentation/getting-started.html
 */
