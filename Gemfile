@@ -1,16 +1,17 @@
 source 'https://rubygems.org'
-
-# A simple Ruby Gem to bootstrap dependencies for setting up and
-# maintaining a local Jekyll environment in sync with GitHub Pages
-# https://github.com/github/pages-gem
-gem 'github-pages'
-
-
+gem "jekyll", "~> 3.8.3"
+gem "sprockets", "~> 4.0.beta", {
+  require: false
+}
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-responsive-image" 
   gem 'jekyll-seo-tag'
-  # gem 'jekyll-minifier'
+  gem 'jekyll-figure'  
+  gem "jekyll-assets"
+  gem 'jekyll-paginate'
+  gem 'jekyll-sitemap'
 end
+
 
 

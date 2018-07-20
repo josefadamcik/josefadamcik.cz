@@ -6,7 +6,7 @@
       {%- if site.show_social_icons -%}
         {%- include social_links.html -%}
       {%- endif -%}
-      <p class="licence"><small>Content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY-4.0</a>Built with <a href="https://jekyllrb.com" target="_blank">jekyll</a> and <a href="https://github.com/johnotander/pixyll" taregt="_blank">Pixyll theme</a>.</small></p>
+      <p class="licence"><small>Content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY-4.0</a> <br>Built with <a href="https://jekyllrb.com" target="_blank">jekyll</a> and <a href="https://github.com/johnotander/pixyll" taregt="_blank">Pixyll theme</a>.</small></p>
   </div>
 </footer>
 
@@ -19,9 +19,9 @@
     anchors.add('article h2, article h3, article h4, article h5, article h6');
 </script>{% endif %}
 
-<script src="{{ "/assets/photoswipe/dist/photoswipe.js" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}"></script> 
-<script src="{{ "/assets/photoswipe/dist/photoswipe-ui-default.js" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}"></script> 
-<script src="{{ "/js/gallery.js" | relative_url  }}?{{ site.time | date: "%Y%m%d%H%M" }}"></script> 
+{% asset photoswipe.js %}
+{% asset photoswipe-ui-default.js %}
+{% asset gallery.js %}
 
 {% if jekyll.environment == "production" %}
 <!-- Matomo, measurement at the end -->
