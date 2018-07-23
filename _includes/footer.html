@@ -2,7 +2,6 @@
   <div class="measure">
       {{- site.description | escape -}}
       {%- if site.email -%}<br><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>{%- endif -%}
-
       {%- if site.show_social_icons -%}
         {%- include social_links.html -%}
       {%- endif -%}
@@ -18,6 +17,14 @@
 </script>{% endif %}
 
 {% asset gallery.js %}
+<!-- <script>
+    // wouldn't work in IE8 but that just means no fancy photobox for IE8. And honestly I am perfectly 
+    // fine with that. Get a browser.
+    document.addEventListener("DOMContentLoaded", function(event) { 
+      initPhotoSwipeFromDOM('.post');
+    });
+</script>
+ -->
 
 {% if jekyll.environment == "production" %}
 <!-- Matomo, measurement at the end -->

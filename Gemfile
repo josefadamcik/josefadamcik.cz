@@ -10,6 +10,7 @@ gem "image_optim_bin" # Optional
 gem "image_optim_pack"
 gem "mini_magick"
 gem "autoprefixer-rails"
+gem "redcarpet"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
