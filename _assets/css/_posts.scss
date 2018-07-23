@@ -34,7 +34,8 @@
 }
 
 .meta,
-.post-meta {
+.post-meta,
+.share-page {
   width: auto;
   font-weight: 300;
   margin: 0;
@@ -45,4 +46,12 @@
 
 .related-post-title {
   border-bottom: thin solid #f3f3f3;
+}
+
+.share-page {
+  text-align: right;
+}
+.share-page a {
+  background-image: none;
+
 }

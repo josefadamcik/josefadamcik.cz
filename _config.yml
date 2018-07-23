@@ -10,7 +10,7 @@ date_format: "%b %-d, %Y"
 
 header_pages:
  - index.html
-# - notebook/index.html
+ - notebook/index.html
  - resume.md
 
 # Google services
@@ -82,7 +82,7 @@ text:
     newer: 'Newer'
     older: 'Older'
   share_buttons:
-    text:         'Share this post!'
+    text:         'Share this post.'
     facebook:     'Share on Facebook'
     twitter:      'Share on Twitter'
     googleplus:   'Share on Google+'
