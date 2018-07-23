@@ -17,14 +17,14 @@
 </script>{% endif %}
 
 {% asset gallery.js %}
-<!-- <script>
+<script>
+    initPhotoSwipeFromDOM('.gallery');
     // wouldn't work in IE8 but that just means no fancy photobox for IE8. And honestly I am perfectly 
     // fine with that. Get a browser.
-    document.addEventListener("DOMContentLoaded", function(event) { 
-      initPhotoSwipeFromDOM('.post');
-    });
+    // document.addEventListener("DOMContentLoaded", function(event) { 
+      // initPhotoSwipeFromDOM('.gallery_{{gallery.name}}');
+    // });
 </script>
- -->
 
 {% if jekyll.environment == "production" %}
 <!-- Matomo, measurement at the end -->

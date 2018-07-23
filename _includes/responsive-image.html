@@ -10,5 +10,11 @@ Usage:
 {%- capture srcset -%}
     {%- for i in resized -%}/{{ i.path }} {{ i.width }}w,{%- endfor -%}
 {%- endcapture -%}
+{%- unless ingallery -%}
+<div class="gallery gallery-alone">
+{%- endunless -%}
 <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"><a  itemprop="contentUrl" class="imagelink" href="/{{ path }}" target="_image"  data-size="{{original.width}}x{{original.height}}"><img src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}"  itemprop="thumbnail"></a>{%- if figcaption -%}<figcaption  itemprop="caption description">{{ figcaption }}</figcaption>{%- endif -%}
 </figure>
+{%- unless ingallery -%}
+</div>
+{%- endunless -%}

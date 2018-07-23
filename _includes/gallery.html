@@ -1,20 +1,13 @@
 {%- assign gallery = site.data.galleries | where: "name", include.galleryname | first -%}
 {%comment%}{{gallery.name}} {{gallery.title}} {{gallery.path}}<br><br>{%endcomment%}
-<div itemscope itemtype="http://schema.org/ImageGallery" class="gallery_{{gallery.name}}">
+<div itemscope itemtype="http://schema.org/ImageGallery" class="gallery gallery_{{gallery.name}}">
 {%- for image in gallery.images -%}
     {%- assign imagepath = gallery.path | append: "/" | append: image.path -%}
     {% responsive_image_block %}
         path: {{ imagepath }}
         alt: {{ image.description }}
         figcaption: {{ image.description }}
-        nojs: true
+        ingallery: "1"
     {% endresponsive_image_block %}
 {%- endfor -%}
 </div>
-<script>
-    // wouldn't work in IE8 but that just means no fancy photobox for IE8. And honestly I am perfectly 
-    // fine with that. Get a browser.
-    document.addEventListener("DOMContentLoaded", function(event) { 
-      initPhotoSwipeFromDOM('.gallery_{{gallery.name}}');
-    });
-</script>
