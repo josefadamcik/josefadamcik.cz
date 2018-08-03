@@ -9,14 +9,14 @@ What can I do with a couple of ICs (mainly shift registers), LEDs and basic comp
 
 ## Challenge is fun
 
-I wrote a little bit about my path to hobby electronics in [a previous post about LED cube]({{ site.baseurl }}{% post_url 2018-07-23-led-cube-4x4x4x-attiny84-74138 %}). As I also mentioned that I ordered a bunch of components from AliExpress. They were mostly [components from a list](http://elektrokniha.cz/parts.html) provided in [the book I mentioned in the post too](http://elektrokniha.cz/parts.html). As a consequence I ended up with a pile of components and I began to think, what can I make with them. 
+I wrote a little bit about my path to hobby electronics in [a previous post about LED cube]({{ site.baseurl }}{% post_url 2018-07-23-led-cube-4x4x4x-attiny84-74138 %}). I also mentioned that I ordered a bunch of components from AliExpress. They were mostly [items from a list](http://elektrokniha.cz/parts.html) provided in [the book I mentioned in the post too](http://elektrokniha.cz/parts.html). As a consequence I ended up with a pile of components and I began to think, what can I make with them. 
 
-There were various ICs included and among them a few [shift registers][74595ds]. So, maybe I can drive a row of LEDs with this shift register! And of course, you can connect a shift register to a micro-controller, add LEDs and you can program a lot of things. And it's fun. For a while. But what about a little challenge? What about making something without any micro-controller?
+There were various ICs included and among them a few [shift registers][74595ds]. Maybe I can drive a row of LEDs with a shift register! And of course, you can connect a shift register to a micro-controller, add LEDs and you can program a lot of things. And it's fun. For a while. But what about a little challenge? What about making something without any micro-controller?
 
 ## KITT
 
 
-![KITT from KnigthRider]({{ "/images/knighriderkitt.gif" | absolute_url }} "KITT from KnigthRider"){:width="320" .left .mr2 .mb2}
+![KITT from KnigthRider]({{ "/images/kittblink1/knighriderkitt.gif" | absolute_url }} "KITT from KnigthRider"){:width="320" .left .mr2 .mb2}
 
 Do&nbsp;you&nbsp;remember Knight Rider? A TV show from eighties staring David Hasselhoff and more importantly an intelligent car named [KITT](https://en.wikipedia.org/wiki/KITT). Take a moment and watch [an original intro for the show](https://www.youtube.com/watch?v=oNyXYPhnUIss){:target="_blank"}, it's worth it.
 
