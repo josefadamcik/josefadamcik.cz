@@ -15,20 +15,20 @@ title: Resume
 
 ### Profile {#profile}
 
-Software development is a craft and I seek mastery since 2006.
+Software development is a craft and I seek craftsmanship since 2006.
 
 ------
 
 ### Skills {#skills}
 
 * Android development
-  : I am a skilled Android developer with deep knowledge of Java and Android platform. I keep eye on new trends and technologies (e.g. Kotlin, React Native).
+  : I am a skilled Android developer with deep knowledge of Java and Android platform. I keep eye on new trends and technologies (e.g. Kotlin, Flutter, React Native).
 
 * Back-end development
   : I have experience in API design and back-end development in PHP (Symfony) and Java (Spring, Hibernate, JSF).
 
-* Web front-end develoment
-  : Although my skills in this area are a bit outdated, I had had a strong knowledge of Javascript and related technologies in the times before React changed everything.
+* Web front-end development
+  : Although my skills in this area are a bit outdated, I had had a strong knowledge of JavaScript and related technologies in the times before React changed everything.
 
 -------
 
@@ -37,7 +37,7 @@ Software development is a craft and I seek mastery since 2006.
 1. Android
 1. Kotlin
 1. Java
-1. Javascript
+1. JavaScript
 1. PHP
 1. Symfony
 1. SQL 
@@ -45,7 +45,7 @@ Software development is a craft and I seek mastery since 2006.
 1. CSS
 1. Spring
 1. Hibernate
-1. JSF,RichFaces
+1. JSF
 1. PostgreSQL
 1. MySQL
 1. Python
@@ -54,6 +54,8 @@ Software development is a craft and I seek mastery since 2006.
 1. Git
 1. SVN
 1. Linux
+1. Testing
+1. CI
 
 
 ------
@@ -82,17 +84,17 @@ Smarcoms
 
 ### Education {#education}
 
-Software Engeneering in Economics, master degree
+Software Engineering in Economics, master degree
 : *CVUT FJFI*
   __2006-2010__
   Czech Technical University in Prague, Faculty of Nuclear Sciences and Physical Engineering
 
-Software Engeneering in Economics, bachelor degree
+Software Engineering in Economics, bachelor degree
 : *CVUT FJFI*
   __2003-2006__
   Czech Technical University in Prague, Faculty of Nuclear Sciences and Physical Engineering
 
-electrotechnics, computer technology
+electronics, computer technology
 : *SPŠ strojní a dopravní v Děčíně*
   __1999-2003__
 
