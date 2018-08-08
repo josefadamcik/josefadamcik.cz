@@ -13,6 +13,8 @@ I have been working as software developer for circa 12 years and I know several 
 
 My first experiences with programming, when I was a young boy, were Basic on my father's ZX Spectrum+, later Quick Basic on his laptop and finally Borland Turbo Pascal, which I managed to obtain somehow. 
 
+My only experince with C/C++ was during my studies and as far as I remember, there wasn't as much time dedicated to those languages, as to others, more modern languages. So I basically rememberd just lowleveliness ,
+
 TODO: school and university
 
 ## C++

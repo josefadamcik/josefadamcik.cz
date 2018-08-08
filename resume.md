@@ -101,7 +101,7 @@ electronics, computer technology
 ------
 ### Links {#links}
 
-Website (info and resume)
+Website (info, resume, blog)
 : *[josef-adamcik.cz](https://josef-adamcik.cz)*
 
 Github
