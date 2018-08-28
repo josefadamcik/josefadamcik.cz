@@ -65,9 +65,14 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     // triggers when user clicks on thumbnail
     var onThumbnailsClick = function(e) {
         e = e || window.event;
-        e.preventDefault ? e.preventDefault() : e.returnValue = false;
-
         var eTarget = e.target || e.srcElement;
+
+        //links in figcaption are not handled here
+        if (eTarget.parentNode.tagName && eTarget.parentNode.tagName.toUpperCase() === 'FIGCAPTION') {
+            return;
+        }
+
+        e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
         // find root element of slide
         var clickedListItem = closest(eTarget, function(el) {
