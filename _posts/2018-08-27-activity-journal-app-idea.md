@@ -27,7 +27,7 @@ I want still use the Sportractive application for the tracking of my runs, but I
 
 There are a lot of applications that try to solve similar use cases. I checked a few and none was exactly what I was looking for. I gave up quickly and stayed with my current solution. I believe I would be able to find something that's good enough to cover my needs, but I don't really want to. 
 
-As an Android developer I can write the application myself. That's a great idea, isn't it? Well, it's a terrible idea. If I wanted to enter the saturated market with a new application and attempted to make money, I would be naive. But... that's actually not my goal!
+As an Android developer I can write the application myself. That's a great idea, isn't it? Well, it's a terrible idea. If I wanted to enter the saturated market with the new application and attempted to make money, I would be naive. But... that's actually not my goal!
 
 ## Personal projects and why to write an app that's not likely to be released
 
@@ -60,7 +60,7 @@ With TrackOnTrakt, the new technologies and concepts I tried were:
 For this new project, I would like to:
 
 - continue with Kotlin and deepen my knowledge of the language,
-- use Android Components (they came out after I started TrackOnTrakt),
+- use Android Components (which came out after I started TrackOnTrakt),
 - avoid RxJava, focus more on Android Components and maybe try to use coroutines from Kotlin,
 - use MVVM, maybe with DataBinding (I am actually bit afraid to use DataBinding, but I'll see),
 - Clean Architecture, perhaps,
@@ -101,6 +101,6 @@ The application stores data only in the device. There is no API, no backend, no 
 
 ## Next steps
 
-I am going to continue with some basic design steps (flow diagrams, wire frames) until I have a good idea what I actually want to start buildings. I will share the results. 
+I am going to continue with some basic design steps (flow diagrams, wire frames) until I have a good idea what I actually want to start building. I am also going to cover design and development on this blog, so stay tuned for more.
 
 
