@@ -84,7 +84,7 @@ English
 : proficient
 
 German
-: beginner
+: beginner (I am in the learning proccess and currently unable to offer cooperation in German language)
 
 ------
 

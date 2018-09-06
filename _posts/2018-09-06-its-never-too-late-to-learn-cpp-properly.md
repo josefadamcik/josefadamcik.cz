@@ -1,0 +1,66 @@
+---
+layout: post
+title: It's never too late to learn C++ properly.
+categories: programming
+published: true
+---
+
+If you asked me a year ago to learn C++, I would politely refuse. Now I am (re)learning it. 
+
+<!--more-->
+
+## Languages, languages, languages
+
+My first experiences with programming, when I was a young boy, were Basic on my father's ZX Spectrum+, later Quick Basic on his laptop and finally Borland Turbo Pascal, which I managed to obtain somehow. And then it escalated quickly: C/C++, a tiny bit of Assembler, and a lot of Visual Basic on the secondary school, Java in my free time and finally at the university: Pascal, C/C++, Java, C#, Python and maybe more.
+
+I have been working as software developer for circa 12 years and I have met several languages. Java is my daily bread, but I have significant experience with ECMAScript (AKA JavaScript) and PHP and at least brief experience with many others: Kotlin, Python, Dart, TypeScript, Ruby and so on.  
+
+## C++
+
+As you can see, I had met C and C++ during my studies, I had even passed at least two exams in those languages. I must admit I wasn't fan of C/C++ back than so I had learned only as much as was required and nothing more. Java was the language of my choice. I haven't used C++ since than so the little amount of knowledge I had melted away. Only few vague ideas and emotions remained:
+
+- it's a low-level language, not as low-level as assembler, but still
+- pointers and references, stars and ampersands, confusion!,
+- no garbage collection, so there will be leaks everywhere,
+- you can overload operators, that's fun!, but it also leads to unintuitive interfaces made by developers who considered overloaded operators to be... well, fun!, yep I am talking about you, `iostream`!
+- it's overall annoying to work with
+
+If you have similar amount of experience with C++ as I do, you might have similar view. I you really know C++, you would probably consider it at best naive, funny, or maybe even stupid. 
+
+## But why C++? Isn't it dead or something?
+
+I recently got into [hobby electronics](https://josef-adamcik.cz/electronics/more-blinking-leds-kitt-insipred-gizmo-v1.html), playing with [Arduino and micro-controllers](https://josef-adamcik.cz/electronics/led-cube-4x4x4x-attiny84-74138.html). Arduino SDK uses C++ compiler. It attempts to hide this as sort of implementation detail, but there's still mix of C and C++ hidden in there. When I began, it didn't matter. I just found some example, copy pasted a snippet, modified it and made it work and was happy that it blinks a LED or something. And the [code](https://github.com/josefadamcik/ledcube_4x4_double74138) was [not nice](https://github.com/josefadamcik/bscar). But I am still a programmer and therefore an urge to refactor my code, to make it better organized and optimized, came. That was the first time I realized, that I should learn C++.
+
+The second impulse was professional. I am looking for a new professional opportunity, some interesting company that I would love to work for. [My current situation is a bit special](https://josef-adamcik.cz#quick), so it isn't as easy as it would be in normally. I am interested preferably in Android developer roles, and I have recently noticed that there is significant amount of job postings that required Android and C++ knowledge. Sometimes it's because of Android NDK, sometimes the team has sharing C++ code between Android and iOs, sometimes they just need somebody with overlap to embedded. I realized, that C++ is not dead and there's still need for it.
+
+
+I know there are other modern languages that are trying to replace C++ in many areas (for example [Rust](https://www.rust-lang.org/)). But C++ compiler exists for almost every platform, there are code bases written in C++ that have to be maintained. C++ is not dead and won't die soon. And everybody can learn a lot by writing code that's bit more low-level than modern languages. 
+
+## Thinking in C++
+
+So I bought a book.
+
+{% responsive_image path: images/cpp/cppbook.jpg alt: "Thinking in C++ by Bruce Eckel" figcaption: "Thinking in C++ by Bruce Eckel" %}
+
+I know it's a bit old, but I bought it because It was a cheap second hand buy on Amazon and I wanted to avoid decision paralysis. I mean spending several hours reading reviews, Quora answers, and Reddit posts about "What book about C++ should I buy".
+
+Of course, the book have its flaws.
+
+It's quite old and C++ is still evolving. I suppose that the book is based on the 1998/2003 Standard, but there are two more versions: C++11 and C++14. Modern C++ is different and many things in the book may be outdated now. I actually cannot say how big problem this is, because I have just finished the book and I still don't know anything about the new versions. 
+
+Another issue is, that it's written for developers who don't have any knowledge of OOP and therefore the book slowly introduces all the basic concepts which already I know.
+
+But the book helped me to clarify many things and I learned a lot about C++. Obviously mainly about syntax and ways how C++ handles different constructs.
+
+But there are several points I wont to emphasize:
+
+- It clarified distinction between C and C++.
+- I learned that the "low-levelness" isn't just about being closer to memory, hardware, and having to take care of more things, but also about being closer to the compiler. Many oddities in the language are there because the compiler needs help to figure something out. I suspect that this might have changed a lot in newer versions.
+- As a professional doing some kind of OOP for whole career, you are surrounded by SOLID, GRASP, patterns, architectures. There's a lot to think about when designing and developing object oriented program. But the book nicely illustrates how big improvement is just introduction of basic OOP concepts (classes, access control, inheritance etc.) over procedural code in C.
+- I see Java and some of its imperfections and specifics in a slightly different light. It's now easier to imagine problems that the original Java authors attempted to solve. 
+
+
+## Next steps
+
+I will continue to learn C++. There's Volume 2 of the book available freely online. There are those new thins introduced in C++11 a C++14. And I am going to write more C++ code, because without writing code you cannot learn a language.
+
