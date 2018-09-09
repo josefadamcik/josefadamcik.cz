@@ -115,7 +115,7 @@ markdown: kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data', 'no_intra_emphasis', 'footnotes', 'quote']
 permalink: /:categories/:title:output_ext
-paginate:     4
+paginate: 10
 paginate_path: "/notebook/page:num/"
 sitemap:
     filename: "/sitemap.xml"
