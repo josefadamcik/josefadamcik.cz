@@ -61,5 +61,14 @@ But the book helped me to clarify many things and I learned a lot about C++. Obv
 
 ## Next steps
 
-I will continue to learn C++. [There's Volume 2 of the book available freely online](https://archive.org/details/TICPP2ndEdVolTwo). There are those new things introduced in C++11 a C++14. And I am going to write more C++ code, because without writing code you cannot learn a language.
+I will continue to learn C++. [There's Volume 2 of the book available freely online](https://archive.org/details/TICPP2ndEdVolTwo). There are those new things introduced in C++11 and newer. And I am going to write more C++ code, because without writing code you cannot learn a language.
+
+## Update - feedback
+
+I've received some feedback in [comments on reddit](https://www.reddit.com/r/programming/comments/9e2a1f/how_and_why_i_decided_to_learn_c_after_12_years/) and through e-mail. I appreciate all advice and suggestions.
+
+Many people emphasized that I should definitely learn modern C++ and start at least with C++11. I am going to take this advice seriously and I will continue with modern C++. There was [a little dispute whether should I learn things in sequence as the time went or whether should I jump the newest version](https://www.reddit.com/r/programming/comments/9e2a1f/how_and_why_i_decided_to_learn_c_after_12_years/e5m3xln). But I think I will be able to find my way. The argument itself helps me to understand the world of C++ versions a little bit better.
+
+It was also suggested that I should look into RAII (https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization). That is a great tip. I haven't heard about that concept before, but as I was reading the book, it came to my mind, that it might be possible to manage memory using some similar approach. Related advice mentioned, that it's possible to write code completely without usage of new, delete and bare pointers. Instead, templates from the standard library like `std::array`, `std::unique_ptr`, `std::shared_ptr` may be used. 
+
 
