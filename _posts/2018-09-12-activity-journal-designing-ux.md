@@ -34,9 +34,9 @@ This is just simple draft of a navigation graph that crudely captures screens an
 
 Timeline is the most important screen in the application and user will spend most of his time there. It's also the hardest screen to design.
 
-{% responsive_image path: images/activityjournal/wf_timeline1_p.jpeg alt: "Timeline wireframe 1 " figcaption: "Timeline 1"  template: _includes/responsive-image-small.html %}
+{% responsive_image path: images/activityjournal/wf_timeline1_p.jpeg alt: "Timeline wireframe 1 " figcaption: "Timeline 1"   class:'imgmw600' %}
 
-{% responsive_image path: images/activityjournal/wf_timeline2_p.jpeg alt: "Timeline wireframe 2" figcaption: "Timeline 2"  template: _includes/responsive-image-small.html %}
+{% responsive_image path: images/activityjournal/wf_timeline2_p.jpeg alt: "Timeline wireframe 2" figcaption: "Timeline 2"   class:'imgmw600' %}
 
 
 ## Add activity flow
