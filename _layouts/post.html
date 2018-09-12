@@ -23,7 +23,9 @@ layout: default
 </div>
 
 <article class="post-content">
+  {%- include post_series.html position='top' -%}
   {{ content }}
+  {%- include post_series.html -%}
 </article>
 
 {% if site.show_sharing_icons %}

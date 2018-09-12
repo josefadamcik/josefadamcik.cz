@@ -4,6 +4,7 @@ title: Activity journal - mobile application idea and personal project kickoff
 categories: programming
 published: true
 image: /images/sideprojectsstrippng.png
+series: Activity Journal
 ---
 
 I have got an idea for an Android application during my vocation. In this article I am elaborating about the idea and my motivation to build it.
@@ -25,9 +26,10 @@ I tend to track some of my daily activities in different ways.
 
 I want still use the Sportractive application for the tracking of my runs, but It would be nice to have a place to keep track of all my activities in order to be able to analyze how I spend my time. It would be nice to have a mobile application for it, wouldn't it? 
 
-There are a lot of applications that try to solve similar use cases. I checked a few and none was exactly what I was looking for. I gave up quickly and stayed with my current solution. I believe I would be able to find something that's good enough to cover my needs, but I don't really want to. 
+> As an Android developer I can write the application myself. That's a great idea, isn't it? Well, it's a terrible idea. 
 
-As an Android developer I can write the application myself. That's a great idea, isn't it? Well, it's a terrible idea. If I wanted to enter the saturated market with the new application and attempted to make money, I would be naive. But... that's actually not my goal!
+There are a lot of applications that try to solve similar use cases. I checked a few and none was exactly what I was looking for. I gave up quickly and stayed with my current solution. I believe I would be able to find something that's good enough to cover my needs, but I don't really want to. As an Android developer I can write the application myself. That's a great idea, isn't it? Well, it's a terrible idea. If I wanted to enter the saturated market with the new application and attempted to make money, I would be naive. But... that's actually not my goal!
+
 
 ## Personal projects and why to write an app that's not likely to be released
 
