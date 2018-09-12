@@ -4,12 +4,14 @@ title: Activity journal - mobile application idea and personal project kickoff
 categories: programming
 published: true
 image: /images/sideprojectsstrippng.png
-series: Activity Journal
+series: "Activity Journal"
 ---
 
 I have got an idea for an Android application during my vocation. In this article I am elaborating about the idea and my motivation to build it.
 
 <!--more-->
+
+{%- include post_series.html -%}
 
 ## My use case
 
