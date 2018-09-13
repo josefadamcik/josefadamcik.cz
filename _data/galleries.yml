@@ -24,3 +24,47 @@
       description: "This is a mess. I know. Cablegore. I know."
     - path: IMG_20180605_225518.jpg
       description: "Complete! Please, ignore the Ohm symbol. I had kept my resistors in this box, before it became an enclosure for my first enclosured project."
+- name: activityjournal_wf_timeline
+  title: "Timeline"
+  path: images/activityjournal
+  images:
+    - path: wf_timeline1_p.jpeg
+      description: "The Timeline. The first activity is currently in progress and can be stopped from the timeline."
+    - path: wf_timeline2_p.jpeg
+      description: "The Timeline. There are some other variants of activities are presented."
+    - path: wf_timeline_empty_p.jpeg
+      description: "Empty timeline contains onboarding for the user"
+    - path: wf_navigatio_timeline_fastscroll_p.jpeg
+      description: "To ease a navigiation through time a fast scroll is used."
+- name: activityjournal_wf_add_activity
+  title: "Add an activity"
+  path: images/activityjournal
+  images:
+    - path: wf_add_activity_1_p.jpeg
+      description: "The first step - choose a category. There's also an possibility to add a new category. Check the section about categories for details."
+    - path: wf_add_activity_2_p.jpeg
+      description: "The second step - enter title. There is autocomplete based on previously used titles in selected category."
+    - path: wf_add_activity_3_p.jpeg
+      description: "The third and the last step.The user can start tracking right away. They can also modify a starting time, date  and enter duration. Both cases (start tracking and add in the past) are therefore covered."
+- name: activityjournal_wf_activity_detail
+  title: "Activity detail and edit"
+  path: images/activityjournal
+  images:
+    - path: wf_activity_detail_a_p.jpeg
+      description: "One variant of an activity detail screen."
+    - path: wf_activity_detail_b_p.jpeg
+      description: "Another variant of the activity detail screen."
+    - path: wf_edit_activity_a_p.jpeg
+      description: "An edit dialog for the activity."
+- name: activityjournal_wf_categories
+  title: "Categories"
+  path: images/activityjournal
+  images:
+    - path: wf_categories_p.jpeg
+      description: "List of categories wit a FAB for adding."
+    - path: wf_add_category_p.jpeg
+      description: "Add category screen."
+    - path: wf_edit_category_p.jpeg
+      description: "Edit caterogy screen, almost the same as the add category screen."
+    - path: wf_add_category_dialog_p.jpeg
+      description: "A modal dialog for a color/icon selection."

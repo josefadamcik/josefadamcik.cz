@@ -8,6 +8,7 @@
         alt: {{ image.description }}
         figcaption: {{ image.description }}
         ingallery: "1"
+        class: {{ include.imgclass }}
     {% endresponsive_image_block %}
 {%- endfor -%}
 </div>

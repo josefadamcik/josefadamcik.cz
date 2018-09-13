@@ -84,20 +84,21 @@ TDD is big reason for me, because I fell in love with TDD in the beginning of my
 
 1. User chooses an activity to track, starts tracking and when the activity ends, he stops tracking. The activity is added to his timeline. Activities have category. There can be multiple activities tracked simultaneously (e.g. commuting and listening to podcast).
 2. User adds an activity that happened in the past.
-3. User manages (edit/remove) activities on his timeline.
+3. User manages (edits/removes) activities on his timeline.
 4. User can add notes and sentiment (mood picked) to his activities at any time.
 5. User can explore daily, weekly and monthly statistics of his activities. He can filter activities by categories.
+6. User can export his data in some useful format (CSV, JSON).
 
 **More features**
 
+- Backup up / sync - data are backed up and / or synchronized via Gdrive or Dropbox
 - Activity templates: user can add templates for activities, that would allow to track them easier.
 - Activity fields: user can add a field with name and numerical value to every activity or template. There can be more of those in every activity. It's possible to display those values in graphs (trends). Those can be used for tracking of counts of particular exercises in workout.
-- Backup up / sync - data are backed up and / or synchronized via Gdrive or Dropbox
 - Auto activities - there might by automatically tracked activities based on various information sources. 
     - APPs and APIs, the application can fetch data from others applications and APIs, where possible and reasonable. It may, for example, get activity info from Google Fit.
     - geofencing -> e.g. the application detects that user is present in his office, it will add activity "in work"
     - observing notifications -> listening to podcasts
-- export: CSV, JSON, ...
+
 
 **Constraints**
 
