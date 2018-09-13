@@ -21,7 +21,7 @@ It this part I am going to dive into a short and crude design phase for the Acti
 
 ## Purpose of this phase
 
-My dear reader shall be reminded: this is a training application. This application may not be even released. I am working on it solely in order to train some skills and explore some technologies as I already explained [in the first part of this series]({% post_url 2018-08-27-activity-journal-app-idea %}). 
+My dear reader shall be reminded: this is a training application. This application may be never released. I am working on it solely in order to train some skills and explore some technologies as I already explained [in the first part of this series]({% post_url 2018-08-27-activity-journal-app-idea %}). 
 
 The purpose of this part is to explore some ideas about the application's user interface and create some initial notion of the product I am going to build. This design phase is not supposed to be thorough and the resulting design won't be final. I am going to practice iterative development[^1] and TDD and decisions will be made as the development progresses. 
 
@@ -65,7 +65,7 @@ Let's summarize the requirements:
 - We want to be able to track **multiple activities in parallel**.
 
 
-The last one is an important requirement. It complicates our situation and limits our design options. Is this requirement really needed? And do we need an unlimited number of parallel activities or would it be valid to limit the count somehow?
+The last one is an important requirement. It complicates our situation and limits our design options. Is this requirement really needed? And do we need an unlimited number of parallel activities or would it be valid to limit the amount somehow?
 
 Possible use cases for 2 parallel activities:
 
@@ -74,16 +74,15 @@ Possible use cases for 2 parallel activities:
 
 And what about 3 parallel activities? Honestly, I wasn't able to come out with a possible use case. So it seems we can limit the maximum number of parallel activities to 2.
 
-So how should be the timeline presented? And how parallel activities should be presented. Those are some of the options I was considering:
+So how should be the timeline presented? And how parallel activities should be presented? Those are some of the options I was considering:
 
-**Option 1:** Literally display a horizontal timeline and visually attach activities to it with lines. One point on a timeline may lead to several boxes representing several parallel activities. It's hard to imagine, how it actually should look. I attempted to sketch a few variants but nothing looked right.
+**Option 1:** Literally display a horizontal timeline and visually attach activities to it using lines. One point on a timeline may lead to several boxes representing several parallel activities. It's hard to imagine, how it actually should look. I attempted to sketch a few variants but nothing looked right.
 
-**Option 2:** Show a calendar-like schedule, imagine Google calendar switched to the "day" view. That means that a particular time amount is represented by fixed space on the display. Activities that are parallel are displayed next to each other and occupy less space than activities that are not overlapping with any other. That would mean a lot of white space and possibly horizontal scrolling. There might be some clever way hot to collapse free time and keep clarity. 
+**Option 2:** Show a calendar-like schedule, imagine Google calendar switched to the "day" view. That means that a particular amount of time is represented by a fixed space on the display. Activities that are parallel are displayed next to each other horizontally and occupy less width than activities that are not overlapping with any other. That would mean a lot of white space and possibly horizontal scrolling. There might be some clever way how to collapse free time and keep clarity though.
 
-**Option 3:** Use [cards from material design](https://material.io/design/components/cards.html) and display them one after each other. There might be subheaders which would help the user to orient in time. Since we know, that we should be able to limit the maximal amount of parallel activities to 2, we might be able to fit two cards next to each other in order to indicate parallel run. I sketched the idea but I didn't like how it looked when the activities were overlapping only partially.
+**Option 3:** Use [cards from material design](https://material.io/design/components/cards.html) and display them one after each other. There might be subheaders which would help the user to orient in time. Since we know, that it's possible to limit the maximal amount of parallel activities to 2, we might be able to fit two cards next to each other in order to indicate parallel run. I sketched the idea but I didn't like how it looked when the activities were overlapping partially.
 
-I spent some time thinking this one through and then I remembered: I am trying to find a simple, MVP-like solution, which can be built with basic components. That's why I chose the option 3 and decided to abandon the idea, that the timeline should somehow reflect that some activities overlap. So: activities will be represented by full-width cards. The activities, which are in progress, will be always at the beginning.
-
+I spent some time thinking this one through and then I remembered: I am trying to find a simple MVP-like solution, which can be built with basic components. That's why I chose the option 3 and decided to abandon the idea, that the timeline should somehow reflect that some activities overlap. So: activities will be represented by full-width cards. The activities, which are in progress, will be always at the beginning.
 
 {% include gallery.html galleryname="activityjournal_wf_timeline" imgclass='imgmw600' %}
 
@@ -91,29 +90,27 @@ I spent some time thinking this one through and then I remembered: I am trying t
 
 I decided to use simple wizard-like flow with a horizontal stepper. The user can return back and change values for each step. 
 
-
 {% include gallery.html galleryname="activityjournal_wf_add_activity" imgclass='imgmw600' %}
 
 
 ## Activity detail and edit
 
-TODO
+
+The big question in this part was if the detail screen should also act as an edit screen. In the end, I decided to separate those two. There will be a detail screen with an edit action and a specialized edit screen. I sketched two slightly different variants of the detail screen and I am not fully decided which one I prefer (I might end up with another variant that combines those two) so I have included both of them.
 
 {% include gallery.html galleryname="activityjournal_wf_activity_detail" imgclass='imgmw600' %}
 
 
-
-
 ## Navigation
 
-Navigation can be as simple as standard Navigation Drawer. I decided to join backup & sync to a single item. You may remember, they were separated [in the navigation flow](#navigation-flow). This is one of those details which are easy to change 
+Navigation can be as simple as standard Navigation Drawer. I decided to join backup & sync to a single item. You may remember that they were separated [in the navigation flow](#navigation-flow). This is one of those details which are easy to change 
 
 {% responsive_image path: images/activityjournal/wf_navigatio_drawer_p.jpeg alt: "Navitagion wireframe" figcaption: "Navigation Drawer" class:'imgmw600' %}
 
 
 ## Categories
 
-The user can manage (create, update, delete) categories. There is a simple list of categories accessible from the navigation drawer. Tap on a row displays screen with an editable detail for the category. The category edit screen is almost identical to the add category screen. Add category screen can be also accessed from the first screen of the [add category flow](#add-activity-flow).
+The user can manage (create, update, delete) categories. There is a simple list of categories accessible from the navigation drawer. Tap on a row displays screen with an editable detail for the category. The category edit screen is almost identical to the add category screen. The add category screen can be also accessed from the first screen of the [add activity flow](#add-activity-flow).
 
 Selection of colour and icon is done through simple modal dialogues. There will be a fixed palette of colours and a fixed set of icons.
 
@@ -122,11 +119,11 @@ Selection of colour and icon is done through simple modal dialogues. There will 
 
 ## Remaining screens: Backup, Sync, About
 
-I skipped those screen for the time being. I may draw some wireframes once I get to implementing them. But from my current perspective, those screens are marginal.
+I skipped those screens for the time being. I may draw some wireframes once I get to implementing them. But from my current perspective, those screens are marginal.
 
 ## What's next?
 
-TODO:
+I am going to create a repository with a skeleton for the project and write the first test. In the next article I want to cover used technologies, project's structure and some other starting stuff.
 
 ----
 ## Footnotes
