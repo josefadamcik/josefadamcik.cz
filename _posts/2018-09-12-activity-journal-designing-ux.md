@@ -2,8 +2,9 @@
 layout: post
 title: Activity journal - designing UX
 categories: programming
-published: false
+published: true
 series: "Activity Journal"
+image: /images/activityjournal/wf_timeline1_p.jpeg
 ---
 
 It this part I am going to dive into a short and crude UX design phase for the Activity Journal application.
