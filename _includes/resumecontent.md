@@ -10,7 +10,7 @@
 
 ### Profile {#profile}
 
- I perceive myself as a self-reliant problem solver, humble craftsman and permanent learner. I value gradual improvement over big restarts/rewrites. I believe that clean code, automated testing, code reviews, CI/CD and other good practices are crucial parts of high-quality software development, but the most important thing is to deliver value. <span class="supressed">And also I am a bit shy guy, so please, try not to scare me.
+ I perceive myself as a self-reliant problem solver, a humble craftsman and a permanent learner. I value gradual improvement over big restarts/rewrites. I believe that clean code, automated testing, code reviews, CI/CD and other good practices are crucial parts of high-quality software development, but the most important thing is to deliver value. <span class="supressed">And also I am a bit shy guy, so please, try not to scare me.
 
 ------
 
@@ -37,13 +37,13 @@ Freelance
 Smarcoms
 : *Software developer*
   __2006-2018__
-  I worked for Smarcoms for almost 12 years. I started as a student and continued my career in the company after I had finished my degree. The comapany changed a lot during all those years and I met a lot of developers, learned a lot of technologies a participated in many interesting projects. 
+  I worked for Smarcoms for almost 12 years. I started as a student and continued my career in the company after I had finished my degree. The company changed a lot during all those years and I met a lot of developers, learned a lot of technologies and participated in many interesting projects. 
   
   I started as a website developer (PHP, Symfony) but I soon moved to other projects. 
 
-  I was part of a team which developed a mid scale Java web application - booking system for sportcenters called [Bizzy](http://e-rezervace.cz). My role was a fullstack developer and I worked with technologies like Java, Spring, Hibernate, JSF, Richfaces, PostgreSQL, Tomcat.
+  I was part of a team which developed a mid-scale Java web application - booking system for sports centres called [Bizzy](http://e-rezervace.cz). My role was to do a full-stack development.  I worked with technologies like Java, Spring, Hibernate, JSF, Richfaces, PostgreSQL, Tomcat.
   
-  Next big project was mobile application [Shopin](https://play.google.com/store/apps/details?id=cz.smarcoms.nakupnicentra) - czech mall/retail guide. The application consisted of: backend with API, webapp for administering, several services for data gathering, and two mobile apps for Android and iOs. Mobile applications started as hybrid HTML5 apps supported by Cordova (formerly phonegap) and later evolved to into native applications. I participated as a lead backend developer and hybrid mobile app developer, later as native Android developer. Technologies were: PHP, Symfony, Java, JavaScript, Python, MySQL and others.
+  Next big project was a mobile application [Shopin](https://play.google.com/store/apps/details?id=cz.smarcoms.nakupnicentra) - Czech mall/retail guide. The application consisted of a backend with API, web app for administering, several services for data gathering, and two mobile apps for Android and iOs. Mobile applications started as hybrid HTML5 apps supported by Cordova (formerly PhoneGap) and later evolved to into native applications. I participated as a lead backend developer and hybrid mobile app developer, later as a native Android developer. Technologies were: PHP, Symfony, Java, JavaScript, Python, MySQL and others.
   
   There were many other smaller projects I worked on. I developed several Android applications for several clients, built backends for those applications (or helped to build them). I helped to support legacy projects of our clients and solved various problems our clients had trouble with. I grew into a "go to" person for most of my colleagues. 
 
@@ -84,7 +84,7 @@ English
 : proficient
 
 German
-: beginner (I am in the learning proccess and currently unable to offer cooperation in German language)
+: beginner (I am in the learning process and currently unable to offer cooperation in the German language)
 
 ------
 
