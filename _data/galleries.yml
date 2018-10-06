@@ -68,3 +68,13 @@
       description: "Edit category screen, almost the same as the add category screen."
     - path: wf_add_category_dialog_p.jpeg
       description: "A modal dialogue for a colour/icon selection."
+- name: activityjournal_screenshots_01
+  title: Screenshots
+  path: images/activityjournal/screenshots
+  images:
+    - path: timeline_01_p.jpeg
+      description: Timeline    
+    - path: add_activity_01_p.jpeg
+      description: Add activity
+    - path: add_activity_02_p.jpeg
+      description: Add activity
