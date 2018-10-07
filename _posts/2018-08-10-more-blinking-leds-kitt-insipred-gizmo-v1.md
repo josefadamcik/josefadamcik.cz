@@ -3,11 +3,15 @@ layout: post
 title: More blinking LEDs - KITT inspired gizmo, version 1
 categories: electronics
 published: true
-image: /images/kittblink1/kittblinkv1_thumb.jpg
+image: /images/kittblink1/kittblinkv1_thumb.jpg\
+series: "KITTBlink"
 ---
 What could I do with couple of ICs (mainly shift registers), LEDs and basic components, but without a micro-controller?
 
 <!--more-->
+
+
+{%- include post_series.html -%}
 
 ## Challenge is fun
 
