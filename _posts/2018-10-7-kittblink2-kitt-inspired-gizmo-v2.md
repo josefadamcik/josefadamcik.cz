@@ -25,7 +25,7 @@ A simple circuit shown in [the previous post]({{ site.baseurl }}{% post_url 2018
 
 ### Problem #1 - double flash
 
-The problem number 1 was easy to solve. I used 9 diodes instead of original 8. First and last diodes are connected directly to shift registers and only the 7 remaining (middle) LEDs are driven by OR gates. As the active bit travels through the shift registers, it activates diodes on edges only once.
+This one was easy to solve. I used 9 diodes instead of original 8. First and last diodes are connected directly to shift registers and only the 7 remaining (middle) LEDs are driven by OR gates. As the active bit travels through the shift registers, it activates diodes on edges only once.
 
 
 
@@ -43,7 +43,9 @@ It's not perfect, though. The length of a pulse which comes from mono-stable mus
 
 ![KITT from KnigthRider]({{ "/images/kittblink1/knighriderkitt.gif" | absolute_url }} "KITT from KnigthRider"){:width="320" .left .mr2 .mb2}
 
-I needed this disappearing trail effect that the original KITT had. That basically means finding a way how to add a capacitor, charge it quickly and discharge slowly. I ended up with the following circuit.
+I&nbsp;wanted&nbsp;badly this disappearing trail effect that the original KITT had. 
+
+That basically meant finding a way how to add a capacitor, charge it quickly and discharge slowly. I&nbsp;ended up with the following circuit.
 
 {% responsive_image path: images/kittblink2/schematic_ledfadeout.png alt: "LED fadeout schema" figcaption: "LED fadeout cirquit, controls one LED." class: "imgmw600" %}
 
@@ -64,13 +66,26 @@ And finally the driver. This time I used [74HCT4094][74HCT4094] shift registers.
 
 {% responsive_image path: images/kittblink2/schematic_leddriver.png alt: "Clock schema" figcaption: "LED driver" class: "imgmw600" %}
 
-It's a bit tricky to parse what is connected to what, but in the end it's easy. There are 2 shift registers in series (and in a loop). They use only one clock signal for both `CLK` and `STROBE` inputs. Starting signal comes to the loop through diode. Each shift register controls one diode directly and 7 in cooperation with the other one through `OR` gates.
+It's a bit tricky to parse what is connected to what, but in the end it's simple. There are 2 shift registers in series (and in a loop). They use only one clock signal for both `CLK` and `STROBE` inputs. Starting signal comes to the loop through diode. Each shift register controls one diode directly and 7 in cooperation with the other one through `OR` gates.
 
 
 
 You can find whole [schematic on EasyEDA][schematic].
 
 ## Prototype in action
+
+Here it is (and you can [watch it on youtube too](https://youtu.be/oIcBlUDYoiA)), isn't it cute? 
+
+//TODO: video
+
+
+The fade-out effect is less visible on the video than in real life.
+
+And finally one static image from the top.
+
+{% responsive_image path: images/kittblink2/topview.jpg alt: "Prototype from the top"%}
+
+
 
 ## What's next?
 
