@@ -23,6 +23,8 @@ A simple circuit shown in [the previous post]({{ site.baseurl }}{% post_url 2018
 2. It required a manual starting pulse. 
 3. LEDs were just blinking. There was no cool fading trail effect. 
 
+Keep in mind that I am not an electronics engineer. My solutions are based on my limited knowledge, the information I was able to find online, and a trial-error driven fiddling.
+
 ### Problem #1 - double flash
 
 This one was easy to solve. I used 9 diodes instead of the original 8. First and last diodes are connected directly to shift registers and only the 7 remaining (middle) LEDs are driven by OR gates. As the active bit travels through the shift registers, it activates diodes on edges only once.
