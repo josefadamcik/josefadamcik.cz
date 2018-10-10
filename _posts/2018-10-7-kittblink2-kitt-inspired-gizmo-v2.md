@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KITTBlink2 -  KITT inspired gizmo, version 2
+title: KITTBlink2 - KITT inspired gizmo AKA Larson scanner, version 2
 categories: electronics
 published: true
 image: /images/kittblink2/kittblink01.jpg
@@ -96,6 +96,11 @@ And finally one static image from the top.
 ## What's next?
 
 I am going to move this thing onto a perf-board and perhaps create some improvised enclosure for it. I'll post result once it's done.
+
+
+## Update
+
+I learned [on Reddit](https://www.reddit.com/r/electronics/comments/9mp0tv/i_made_second_version_of_a_thing_that_blinks_from/) that this effect actually has name - Larson scanner (after [Glen A. Larson](https://en.wikipedia.org/wiki/Glen_A._Larson) who produced the Knigth-Rider and the Battle Star Galactica series).
 
 
 
