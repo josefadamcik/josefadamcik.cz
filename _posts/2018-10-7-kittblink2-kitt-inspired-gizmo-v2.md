@@ -15,6 +15,10 @@ An improved version of my [previous creation]({{ site.baseurl }}{% post_url 2018
 
 {% responsive_image path: images/kittblink2/kittblink01.jpg alt: "KITTBLINK v2"  %}
 
+## Not a perfect desing
+
+I shall mention beforehand, that this is not the best solution to the problem: "Making a Larson scanner without micro-controller". Some people suggested using a counter and some logic gates (or diodes) - [one of the possible solutions is explained in this Reddit comment](https://www.reddit.com/r/electronics/comments/8jka9c/i_made_a_thing_that_blinks_from_left_to_right_and/dz0n27x). If a counter is used, the starting sub-circuit is not necessary, and therefore the resulting circuit is simpler and more reliable. I just decided to finish a design with the original idea (using shift registers) and to solve all the challenges. 
+
 ## Solving problems
 
 A simple circuit shown in [the previous post]({{ site.baseurl }}{% post_url 2018-08-10-more-blinking-leds-kitt-insipred-gizmo-v1 %}) had some problems I wanted to remove:
@@ -103,6 +107,37 @@ I am going to move this thing onto a perf-board and perhaps create some improvis
 I learned [on Reddit](https://www.reddit.com/r/electronics/comments/9mp0tv/i_made_second_version_of_a_thing_that_blinks_from/) that this effect actually has name - Larson scanner (after [Glen A. Larson](https://en.wikipedia.org/wiki/Glen_A._Larson) who produced the Knigth-Rider and the Battle Star Galactica series).
 
 
+## Bill of materials
+
+I was asked for a BOM, so here it is:
+
+|Designator| pcs | Part |
+|----:|----:|:-----------|
+|D1     |9  |FR107
+|R1,R4  |18 |Resistor 330
+|R2     |9  |Resistor 2k2
+|R3,R6,R8|11|Resistor 100k
+|Q1     |9  |NPN Transistor BC337
+|LED1   |9  |LED 5MM red
+|C1,C3  |10 |Electrolytic cap 10uF
+|R5     |1  |Resistor 1M
+|R7     |1  |Resistor 30k
+|C2     |1  |Electrolytic cap 0.47uF
+|Q2     |1  |NPN Transistor 2N3904
+|U1,U2  |2  |NE555P
+|C4,C6  |2  |Ceramic cap 0.01u
+|C5     |1  |Electrolytic cap 0.22uF
+|R9     |1  |Resistor 1k
+|R10    |1  |Resistor 2k
+|R11    |1  |Potentiometer 10k
+|U3,U4  |2  |74HCT4094N
+|U5,U6  |2  |74HCT32N
+|D2     |1  |1N4007
+
+A few notes to the BOM:
+
+- Most of the components (resistors, diodes, capacitors, transistors) are from cheap sets from Aliexpres. You can choose any general purpose diode and I suppose transistors can be replaced too.
+- Integrated circuits - I used `HCT` versions, but I think it should work with other variations too. It's also possible to use another shift registers (e.g. `sn74hc595`) and/or OR gates (but obviously they will have different pin-outs and so on)
 
 
 [schematic]: https://easyeda.com/josefadamcik/kitt-blink2 "Schematic on EasyEDA"
