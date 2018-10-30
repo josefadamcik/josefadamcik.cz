@@ -11,7 +11,7 @@ date_format: "%b %-d, %Y"
 header_pages:
  - index.html
  - notebook/index.html
- - resume.md
+ - about.md
 
 # Google services
 google_verification: "A2ERcMhxjYXHHVUfv4pntUO-36T3a1iNQXXJ5YgZIwI"
@@ -115,8 +115,12 @@ markdown: kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data', 'no_intra_emphasis', 'footnotes', 'quote']
 permalink: /:categories/:title:output_ext
-paginate: 10
-paginate_path: "/notebook/page:num/"
+pagination: 
+  enabled: true
+  per_page: 10
+  permalink: "/notebook/page:num/"
+  sort_field: 'date'
+  sort_reverse: true
 sitemap:
     filename: "/sitemap.xml"
     exclude:
@@ -144,7 +148,7 @@ responsive_image:
   strip: true
 excerpt_separator: <!--more-->
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-responsive-image # https://github.com/wildlyinaccurate/jekyll-responsive-image

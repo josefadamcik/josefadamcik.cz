@@ -18,7 +18,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-figure'  
   gem "jekyll-assets"
-  gem 'jekyll-paginate'
+  gem 'jekyll-paginate-v2'
   gem 'jekyll-sitemap'
 end
 
