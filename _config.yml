@@ -9,9 +9,9 @@ url: "https://josef-adamcik.cz" # the base hostname & protocol for your site, e.
 date_format: "%b %-d, %Y"
 
 header_pages:
- - index.html
- - notebook/index.html
- - about.md
+  - index.html
+  - notebook/index.html
+  - about.md
 
 # Google services
 google_verification: "A2ERcMhxjYXHHVUfv4pntUO-36T3a1iNQXXJ5YgZIwI"
