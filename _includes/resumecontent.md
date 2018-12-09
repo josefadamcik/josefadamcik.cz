@@ -29,10 +29,15 @@
 
 ### Experience {#experience}
 
+OLMeRo
+: *Senior Android developer*
+  __2018 Oct (current)__
+  I am part of a mobile team and we are working on the [OLMeRo android application](https://play.google.com/store/apps/details?id=ch.olmero.jo&hl=en).
+
 Freelance
 : *Android developer*
-  __2018-current__
-  I help companies with their software projects.
+  __2018 (Mar-Oct)__
+  I helped companies with their software projects.
 
 Smarcoms
 : *Software developer*

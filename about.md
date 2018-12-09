@@ -31,7 +31,6 @@ Please, keep in mind that it's just a toy project I have been working on in my s
 There are many smaller projects [on my github](https://github.com/josefadamcik)
 .
 
-There are, of course, projects that I had developed when I was working for my former employer. 
 
 
 ## Contact
