@@ -11,7 +11,6 @@ A story how I was reminded that impatience and impetuosity can backfire when dea
 <!--more-->
 
 
-
 TODO:
 
 - [ ] image

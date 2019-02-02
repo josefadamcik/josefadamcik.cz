@@ -3,22 +3,24 @@ layout: post
 title: Building a custom keyboard - Katana60
 categories: electronics
 published: false
-image: 
+image: /images/katana60/IMG_20190202_163514.jpg
 ---
 
 I learned recently that there's a huge community around making of custom mechanical keyboards. Even though building such keyboard is actually quite expensive I failed to resist the temptation and decided to build my first one.
 
 <!--more-->
 
-And here I am, captured by a new and quite expensive hobby which seems to stick with people. I think I somehow found a subreddit about mechanical keyboards and noticed that there is a big community of people who are disigning and building custom (mostly) mechanical keybards. You just order components you need and put them together. 
+{% responsive_image path: images/katana60/IMG_20190202_163514.jpg alt: "My Katana60" class: "imgmw600" %}
+
+And here I am, captured by a new and quite expensive hobby which seems to stick with people. I think I somehow found a [subreddit about mechanical keyboards][rmk] and noticed that there is a big community of people who are designing and building custom (mostly) mechanical keyboards. You just order components you need and put them together.
 
 ## Build from what?
 
-The main ingredient you need to build a mechanical keyboard are switches. There are many vendors for those even though the most famous are German made Cherry MX switches. There are various types of switches - clicky with sound effect, tactile with nice bump you can feel when you pres them or so called linear which are... just linear without any bumps or clicks. You can choose many other parameters and there's also a lot of people who are modifying switches in various ways in order to create they perfect switch.
+The main ingredient you need to build a mechanical keyboard are switches. There are many vendors for those even though the most famous are German made Cherry MX switches. There are various types of switches - clicky with sound effect, tactile with nice bump you can feel when you press them or so called linear which are... just linear without any bumps or clicks. You can choose many other parameters and there's also a lot of people who are modifying switches in various ways in order to create they perfect switch.
 
 Apart from switches you'll need to connect them together. You may choose to go full DIY and use just wires an diodes or you can order a PCB (or even design your own PCB).
 
-Next important part is micro-controller which will drive your board (yes, that's how they call keyboards in this community, since what other board could you possibly mean, you know?). There are open-source firmwares for such keyboards (for example QMK firmware (todo: link)) with huge community and many interesting functions. Your keyboard will be fully programmable, that's amazing, isn't it?
+Next important part is micro-controller which will drive your board (yes, that's how they call keyboards in this community, since what other board could you possibly mean, you know?). There are open-source firmwares for such keyboards (for example [QMK firmware](https://qmk.fm/)) with huge community and many interesting functions. Your keyboard will be fully programmable, that's amazing, isn't it?
 
 Of course, you may need or want more. Some kind of case, cables and so on. You can order an assembly-ready kit or source parts yourself. 
 
@@ -26,37 +28,35 @@ As you can see there are so many things you could do with those. Experiment with
 
 ## My first keyboard
 
-After I lurked at the r/mk for some time a strong urge to build keyboard grew in me. In the end I chose design called Katana60 for several reasons:
+After I lurked at the [r/mechanicalkeyboards][rmk] for some time a strong urge to build keyboard grew in me. In the end I chose design called Katana60 for several reasons:
 
-- It has nontraditional layout which aims to be a bit more ergonomic. It is more appealing to me to build keyboard with layout that I cannot easily buy.
-- There are PCB and plate available to order from European eshop (candykeys). The PCB has all components pre-soldered so it's a little bit less work. Not that much DIY, though. You need to solder only switches. 
+- It has non-traditional layout which aims to be a bit more ergonomic. It is more appealing to me to build keyboard with layout that I cannot easily buy.
+- There are PCB and plate available to order from [European eshop (candykeys)][katana60candy]. The PCB has all components pre-soldered so it's a little bit less work. Not that much DIY, though. You need to solder only switches. 
 - It's compatible with the most common cases for 60% keyboards therefore you can find really cheap ones.
 - It has a small gap in the middle where you can see a Japanese symbol for katana. That's cool.
 
-This keyboard is designed by RomainRonin, here is a thread on geekhack. (todo: link)
+This keyboard is designed by RominRonin, here [is a thread on geekhack][katana60].
 
 In the end I gathered the following parts:
 
 - PCB and Plate
 - 2 stabilizers - they are used to hold longer keys level when so you don't have to press them exactly in the middle. Katana60 has only two longer keys.
-- A super cheap plastic case from aliexpress
-- Gateron Silent Black switches again from aliexpress
-- Key caps, super cheap from aliexpress too.
+- A super cheap plastic case from Aliexpress
+- Gateron Silent Black switches again from Aliexpress
+- Key caps, super cheap from Aliexpress too.
+
+{% responsive_image path: images/katana60/IMG_20181201_135644.jpg alt: "Parts on a pile" figcaption: "Parts on a pile"  %}
 
 And that was it. Wait for parts to arrive, one evening of soldering and it's done.
 
 ## Layout
 
-There is official layout for Katana60 included in the QMK Firmware repository. There are actually three variants. You can also check latest version in RomanRomains (todo check nickname) fork. I played with the layout a lot and ended up with my variant which you can find here. (todo: links)
-
+There is official layout for Katana60 included in the QMK Firmware repository. There are actually three variants. You can also check latest version [in RominRonin's fork][layout_ronin]. I played with the layout a lot and ended up with my variant which you can [find here][layout_repository]. 
 Goals for my layout are:
 
 1) I use Mac for work and Ubuntu at home. So I would like to to stay compatible with both systems. The main problem here is with modifiers. Firstly they tend to be ordered differently on Mac keyboards. Secondly the main modifier on mac is command (eq. to win/super on other keyboards). The same role is played by Ctrl on Windows and Linux. Most of IDE's or editors (Android Studio, VS Code, SublimeText) follow this habit.  
 2) I use Colemak layout. But I would like to have ability to switch to qwerty. That would allow my girlfriend (or people in general) to use my keyboard to e.g. find music on spotify on my computer or something.
 3) I am heavy keyboard shortcut user, former Vim user. So I need layout to support my needs.
-
-
-TODO: my layout
 
 
 ## What's next
@@ -91,9 +91,12 @@ Extend layer is different, so keys for "previous/next word" and "copy", "paste",
 
 
 
-[layout]: http://www.keyboard-layout-editor.com/#/gists/14d62ee67d36621c37888783fa29b107 My layout
-[layout_image]:https://i.imgur.com/qQtYqPy.png Layout image
-[layout_repository]:https://github.com/josefadamcik/qmk_firmware/tree/katana60_josefs_custom/keyboards/katana60/keymaps/josef Layout on github (QMK)
-[qmkfirmware]:https://github.com/josefadamcik/qmk_firmware/tree/katana60_josefs_custom/keyboards/katana60/keymaps/josef QMK firmware fork with mmy repository
-[katana60]:https://candykeys.com/search/katana60 Katana60 on CandyKeys
-[katana60v2]:https://geekhack.org/index.php?topic=99136 Geekhack thread about Katana60 v2
+[layout]: http://www.keyboard-layout-editor.com/#/gists/14d62ee67d36621c37888783fa29b107 "My layout"
+[layout_image]:https://i.imgur.com/qQtYqPy.png "Layout image"
+[layout_repository]:https://github.com/josefadamcik/qmk_firmware/tree/katana60_josefs_custom/keyboards/katana60/keymaps/josef "Layout on github (QMK)""
+[layout_ronin]:https://github.com/rominronin/qmk_firmware/blob/katana60/keyboards/katana60/keymaps/rominronin/keymap.c "RominRonin's layout in his QMK fork"
+[qmkfirmware]:https://github.com/josefadamcik/qmk_firmware/tree/katana60_josefs_custom/keyboards/katana60/keymaps/josef "QMK firmware fork with mmy repository"
+[katana60]:https://geekhack.org/index.php?topic=88719.0 "Geekhack thread"
+[katana60candy]:https://candykeys.com/search/katana60 "Katana60 on CandyKeys"
+[katana60v2]:https://geekhack.org/index.php?topic=99136 "Geekhack thread about Katana60 v2"
+[rmk]:https://www.reddit.com/r/mechanicalkeyboards "r/mechanicalkeyboards"
