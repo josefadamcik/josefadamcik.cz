@@ -2,7 +2,7 @@
 layout: post
 title: Building a custom keyboard - Katana60
 categories: electronics
-published: false
+published: true
 image: /images/katana60/IMG_20190202_163514.jpg
 ---
 
