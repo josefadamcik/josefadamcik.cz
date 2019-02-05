@@ -16,11 +16,13 @@ And here I am, captured by a new and quite expensive hobby which seems to stick 
 
 ## Build from what?
 
-The main ingredient you need in order to to build a mechanical keyboard is a bunch of switches. There are many vendors of those. The most famous are German-made Cherry MX switches. There are various types of switches - clicky with a sound effect, tactile with a nice bump you can feel when you press them or so-called linear which are... just linear without any bumps or clicks. You can choose many other parameters and there's also a lot of people who are modifying switches in various ways in order to create their desired perfect switch.
+The main ingredient you need in order to to build a mechanical keyboard is a bunch of switches. There are many vendors of those[^1]. There are also various types of switches - clicky with a sound effect, tactile with a nice bump you can feel when you press them or so-called linear which are... just linear without any bumps or clicks. You can choose many other parameters and there's also a lot of people who are modifying switches in various ways in order to create their desired perfect switch.
 
 Apart from switches, you'll need to connect them together. You may choose to go full DIY and use just wires and diodes or you can order a PCB (or even design your own PCB).
 
-Next important part is micro-controller which will drive your board. Yes, board,  that's how they call keyboards in this community, since what other board could you possibly mean, you know?. There are open-source firmwares for such keyboards (for example [QMK firmware](https://qmk.fm/)) with a huge community and many interesting functions. Your keyboard will be fully programmable, that's amazing, isn't it?
+{% responsive_image path: images/katana60/IMG_20181201_201754.jpg alt: "Work in progress" figcaption: "Work i progress" class: "imgmw600"  %}
+
+Next important part is micro-controller which will drive your board[^2]. There are open-source firmwares for such keyboards (for example [QMK firmware](https://qmk.fm/)) with a huge community and many interesting functions. Your keyboard will be fully programmable, that's amazing, isn't it?
 
 Of course, you may need or want more. Some kind of case, cables and so on. You can order an assembly-ready kit or source parts yourself. 
 
@@ -30,17 +32,17 @@ As you can see there are so many things you could do with those. Experiment with
 
 After I lurked at the [r/mechanicalkeyboards][rmk] for some time a strong urge to build keyboard grew in me. In the end, I chose a design called Katana60 for several reasons:
 
-- It has a non-traditional layout which aims to be a bit more ergonomic. It is more appealing to me to build a keyboard with a layout I cannot easily buy.
-- There are PCB and plate available to order from [European eshop (Candykeys)][katana60candy]. The PCB has all components pre-soldered so it's a little bit less work. Not that much DIY, though. You need to solder on only the switches. 
+- It has a non-traditional layout which aims to be a bit more ergonomic. It is more appealing to me to build a keyboard with a layout one cannot buy on a mass produced keboard.
+- There are PCB and plate available to order from [European eshop (Candykeys)][katana60candy]. The PCB has all components pre-soldered so it's a little bit less work. Not that much DIY, though, you need to solder on only the switches. 
 - It's compatible with the most common cases for 60% keyboards, therefore you can find really cheap ones.
 - It has a small gap in the middle where you can see a Japanese symbol for katana. That's cool.
 
-This keyboard is designed by RominRonin, here [is a thread on Geekhack][katana60].
+This keyboard is designed by RominRonin[^3], here [is a thread on Geekhack][katana60].
 
 I gathered the following parts:
 
 - PCB and Plates
-- 2 stabilizers - they are used to hold longer keys level when you press them, therefore you don't have to press them exactly in the middle. Katana60 has only two longer keys, so only two quite short stabilizers are needed.
+- 2 stabilizers - they are used to hold longer keys level when you press them, therefore you don't have to press them exactly in the middle. Katana60 has only two longer keys, so only two stabilizers are needed.
 - A super cheap semi-transparent plastic case from Aliexpress
 - Gateron Silent Black switches again from Aliexpress. Those are linear, so no bumps or clicks.
 - Keycaps, super cheap from Aliexpress too.
@@ -61,31 +63,29 @@ But since it's easy to customize the layout I took the original only as a base a
 
 ### What do I actually want from my layout? 
 
-1. I use Mac for work and Ubuntu at home. So I would like to stay compatible with both systems. The main problem here is with modifiers. Firstly, they tend to be ordered differently on Mac keyboards. Secondly, the main modifier on mac is CMD (equivalent to win or super on other keyboards). The same role is played by CTRL on Windows and Linux. Most of IDE's or editors (Android Studio, VS Code, SublimeText) follow this habit.  
-2. I am an user of the [Colemak layout][colemak]. But I would like to have the ability to switch to qwerty. That would allow my girlfriend (or other people in general) to use my keyboard to e.g. find music on Spotify or something.
-3. I am a heavy keyboard shortcut user, former Vim user. So I need the layout to support my needs.
+1. I use Mac for work and Ubuntu at home. So I would like to stay compatible with both systems. The main problem are modifiers. Firstly, they tend to be ordered differently on Mac keyboards. Secondly, the main modifier on mac is CMD (equivalent to win or super on other keyboards). The same role is played by CTRL on Windows and Linux. Most of IDE's or editors (Android Studio, VS Code, SublimeText) follow this habit in their OS-specfic keymaps.  
+2. I am an user of the [Colemak layout][colemak]. But I would like to have the ability to switch to qwerty. That would allow my girlfriend (or other people in general) to use my keyboard to e.g. find music on Spotify or similar.
+3. I am a heavy user of keyboard shortcuts. So I need the layout to support my needs. Some keyboard layout has modifiers only on one side of the keyboard or they hide some of them (CMD) under a key combination. I tend to press the modifiers for a key shortcut with the opposite hand to the one which presses the letter.
 
 ### Base layer and modifiers
 
 There are arrows mapped to the right side of the bottom row on Katana6O. I kept this mapping but modified it a bit - when you press and hold any of the first three arrow keys it acts as a modifier (CMD, OPT, CTRL). If you just tap it, it acts as an arrow.
 
-I also added two variants for the basic layer. Both variants are the same except the order of modifiers is different. Mac variant has CMD in the middle, than ALT (OPT) and finally CTRL on the outside. Linux version has CTRL in the middle, ALT (OPT) on the same position and finally CMD on the outside.
+I added two variants for the basic layer. Both variants are the same except the order of modifiers is different. Mac variant has CMD in the middle, than ALT (OPT) and finally CTRL on the outside. Linux version has CTRL in the middle, ALT (OPT) on the same position and finally CMD on the outside.
 
 {% responsive_image path: images/katana60/katana60-baselayer.png alt: "Base layer - Mac colemak version" figcaption: "Base layer - Mac colemak version" class: "imgmw600"  %}
 
-I also added a secondary function to the left "spacebar" - which is actually a backspace. When you press and hold it activates acts as FN and activates the symbol layer. I barely use it as backspace, though.
+The spacebar on the right (which is actually space) had a secondary function on the original layout. When pressed it acted as FN and therefore activated the symbol layer. But when I was typing it commonly happened that space was not registered. It might have been possible to fine tune the timing to fix that problem but I chose the faster option: I moved the behavior to the left "spacebar" which is actually a backspace. I barely use it as backspace, though. 
 
-Also, on the original katana layout, the space on the right (which is actually space) activates another layer when pressed. I had to deactivate this because when I was typing it often happened that space was not registered and that really bothered me.
+### More base layers!
 
-### Moar base layers!
+I also wanted to have a base layer with Colemak layout and an alternative with QWERTY layout. That means in the end 4 base layouts since I also want the aforementioned portability. 
 
-I also wanted to have a base layer with Colemak layout and alternative with QWERTY layout. That means in the end 4 base layouts since I also want the aforementioned portability. 
-
-Switching of the base layer is mapped to four keys on the extend layer (more about that later). Selected layer is stored in EEPROM so it survives powering off.
+Switching of the base layer is mapped to four keys on the extend layer (more about that later). Selected layer is stored in EEPROM so it stays selected when I disconnect the keyboard.
 
 ### Extend layer
 
-It's almost the same as the default katana's base layer. The most important are arrow keys mapped under the home position on the right. Nice are also shortcuts for previous and next word. Those are actually simulating two pressed keys (arrow and modifier). The problem of those that the modifier is also platform dependent here. 
+It's almost the same as the default Katana's base layer. The most important are arrow keys mapped under the home position on the right. Nice are also shortcuts for previous and next word. Those are actually simulating two pressed keys (arrow and modifier). The problem of those that the modifier is also platform dependent here. 
 
 {% responsive_image path: images/katana60/katana60-extendlayer.png
  alt: "Katana60 extend layer" figcaption: "Katana60 extend layer" class: "imgmw600"  %}
@@ -101,7 +101,7 @@ There's also the aforementioned symbol layer. It allows me to easily reach symbo
 
 ### More details about layout
 
-You can check the layout here:
+You can find more about the layout here:
 - [repository on github][layout_repository]
 - [keyboard layout editor][layout]
 - [image with full layout][layout_image]
@@ -110,12 +110,17 @@ You can check the layout here:
 
 I really like my new keyboard. It's cool, it's nice to type on. I like those layers. I got used to it quite quickly and (unfortunately) became incompatible with any other keyboard.
 
-I still working on improvements for the keyboard. I already bought new case with a lid, both from bamboo. I build a first custom made cable ( and I am going to make more once some components arrive). I also ordered some nicer keycaps with legends.
+I still work on improvements for the keyboard. I already bought new case with a lid made from bamboo. I build a first custom made cable ( nd I am going to make more once some components arrive). I also ordered some nicer keycaps with legends.
 
 {% responsive_image path: images/katana60/IMG_20190202_163459.jpg
  alt: "New case and cable" figcaption: "New case and cable" class: "imgmw600"  %}
 
 But I already know I am going to build another one. RominRonin is [designing an improved version of Katana60][katana60v2] but there are also other designs. I am particularly interested in split keyboards. But we'll see, nothing is decided yet.
+
+## Footnotes
+[^1]: The most famous are German-made Cherry MX switches. 
+[^2]: Yes, board,  that's how they call keyboards in this community, since what other board could you possibly mean, you know?
+[^3]: At least that's his nick on Geekhack.
 
 [layout]: http://www.keyboard-layout-editor.com/#/gists/14d62ee67d36621c37888783fa29b107 "My layout"
 [layout_image]:https://i.imgur.com/qQtYqPy.png "Layout image"
