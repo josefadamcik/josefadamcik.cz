@@ -78,3 +78,19 @@
       description: Add activity
     - path: add_activity_02_p.jpeg
       description: Add activity
+- name: katana60
+  title: "katana60"
+  path: images/katana60
+  images:
+    - path: IMG_20181201_220010.jpg
+      description: "Katana60 under construction."
+    - path: IMG_20181201_222215.jpg
+      description: "Another angle of the original version with cheap components."
+    - path: IMG_20190123_101117.jpg
+      description: "First upgrade was the case."
+    - path: IMG_20190127_131057.jpg
+      description: "And another DIY USB cable."
+    - path: IMG_20190202_163514.jpg
+      description: "It fits nicely."
+    - path: IMG_20190206_130318.jpg
+      description: "And the final version so far."

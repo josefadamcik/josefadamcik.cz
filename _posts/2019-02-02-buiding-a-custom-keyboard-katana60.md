@@ -3,14 +3,12 @@ layout: post
 title: Building a custom keyboard - Katana60
 categories: electronics
 published: true
-image: /images/katana60/IMG_20190202_163514.jpg
+image: /images/katana60/IMG_20190206_130302.jpg
 ---
 
 I learned recently that there's a huge community around making of custom mechanical keyboards. Even though building such keyboard is actually quite expensive I failed to resist the temptation and decided to build my first one.
 
 <!--more-->
-
-{% responsive_image path: images/katana60/IMG_20190202_163514.jpg alt: "My Katana60" class: "imgmw600" %}
 
 And here I am, captured by a new and quite expensive hobby which seems to stick with people. I think it began when I somehow found [a subreddit about mechanical keyboards][rmk] and noticed that there is a big community of people who are designing and building custom (mostly) mechanical keyboards. You just order components you and put them together. 
 
@@ -51,7 +49,7 @@ I gathered the following parts:
 
 And that was it. Wait for parts to arrive, one evening of soldering and it's done. Behold.
 
-{% responsive_image path: images/katana60/IMG_20181201_222155.jpg alt: "Katana60 in a cheap plastic case" figcaption: "Katana60"  %}
+{% responsive_image path: images/katana60/IMG_20181201_222155.jpg alt: "Katana60 in a cheap plastic case" figcaption: "Katana60 how I built it originaly - cheap plastic case and cheap blank keycaps"  %}
 
 ## Layout
 
@@ -110,12 +108,18 @@ You can find more about the layout here:
 
 I really like my new keyboard. It's cool, it's nice to type on. I like those layers. I got used to it quite quickly and (unfortunately) became incompatible with any other keyboard.
 
-I still work on improvements for the keyboard. I already bought new case with a lid made from bamboo. I build a first custom made cable ( nd I am going to make more once some components arrive). I also ordered some nicer keycaps with legends.
+I still work on improvements for the keyboard. I already bought new case with a lid made from bamboo. I build a first custom made cable ( nd I am going to make more once some components arrive). I also ordered some nicer keycaps with legends which fits the Japanese theme.
 
-{% responsive_image path: images/katana60/IMG_20190202_163459.jpg
- alt: "New case and cable" figcaption: "New case and cable" class: "imgmw600"  %}
+{% responsive_image path: images/katana60/IMG_20190206_130302.jpg
+ alt: "New case, cable and keycaps" figcaption: "New case, cable and keycaps" class: "imgmw600"  %}
 
 But I already know I am going to build another one. RominRonin is [designing an improved version of Katana60][katana60v2] but there are also other designs. I am particularly interested in split keyboards. But we'll see, nothing is decided yet.
+
+## More images
+
+And finally a small gallery.
+
+{% include gallery.html galleryname="katana60" %}
 
 ## Footnotes
 [^1]: The most famous are German-made Cherry MX switches. 
