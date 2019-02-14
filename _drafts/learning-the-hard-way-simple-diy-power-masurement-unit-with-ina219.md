@@ -12,7 +12,10 @@ A story how I was reminded that impatience and impetuosity can backfire when dea
 
 When I play with electronics and those home made gizmos without purpose new ideas projects tend to popup everywhere. TODO: better formulation.
 
-For example when I was working on the LED CUBE (TODO: link) I decided to use Attiny45 microcontroller to drive it. So I had to build a simple arduino shield to help with its programming. TODO: image.
+For example when I was working on the LED CUBE (TODO: link) I decided to use Attiny85 microcontroller to drive it. So I had to build a simple arduino shield to help with its programming. 
+
+
+{% responsive_image path: images/ina219/IMG_20190120_162237.jpg alt: "Attiny85 programming shield for Arduino UNO" figcaption: "Attiny85 programming shield for Arduino UNO"  %}
 
 When I was building a 8-bit comupeter (following the disign from Martin Maly) - TODO links. I needed to program EEPROM. I did it few times using bredboard and jumper wires but than I decided to build a simple EEPROM programmer shield for Adruino Mega.
 
@@ -26,7 +29,7 @@ I do not have any tools that would help me with it. But a simple device which wo
 
 ### Building blocks
 
-I found a neat breakout with INA219. INA219 is an IC which supports such measurement and can communicate via I2C bus. The breakout module also contains other componnents you need in order to make the IC work. Great!
+I found a neat [breakout with INA219][inabreakout]. [INA219 (datasheet)][inadatasheet] is an IC which supports such measurement and can communicate via I2C bus. The breakout module also contains other componnents you need in order to make the IC work. Great!
 
 Now I need just to connect some microcontroller and maybe display and a few buttons and write some firmware. And a neat little side project was born.
 
@@ -38,7 +41,12 @@ I protopyted the solution quickly with Arduino, started working on the firmware.
 
 I was impatient and started sketching the final cirquit which was supposed to be build using propotyping board. I decidid I would like to use Attiny85 for it. I need 2 pins for buttons and 2 for I2C and I had a good experience with Attiny84 which I used for my LCD cube (the only difference between those two is that Attiny84 has more pins).
 
+{% responsive_image path: images/ina219/Schematic_INA219-Measurement-Unit-master---josefadamcik_Sheet-1_20190130214711.png alt: "INA219+Attiny85 measurement unit schematic" figcaption: "Schematic" class: "imgmw600"  %}
+
 Again, I was impatient. So I actually soldered the things together without building a prototype with Attiny85. And that was a mistake.
+
+
+{% responsive_image path: images/ina219/IMG_20190130_194112.jpg alt: "INA219+Attiny85 measurement unit" figcaption: "Final device" class: "imgmw600"  %}
 
 ### Problem number 1) - program memory
 
@@ -78,13 +86,13 @@ In the end I found out that the behaviour I observed might be caused by TODO: pr
 
 So I did the extra work and moved as much data as I could into PERMGEN. That helped and I was able to finish my menu.
 
+Final amount of data:
+DATA:    [======    ]  55.5% (used 284 bytes from 512 bytes)
+PROGRAM: [========= ]  94.9% (used 7776 bytes from 8192 bytes)
 
 ### Happy end 
 
 Even though it was a bit frustrating in the end it was a great lesson for me. I should not be so impatient and I should be more carefull when working with hardwer. It' far more difficult to change things than when I do software develpoment.
-
-TODO: pictures
-TODO: schematic somewher.
 
 TODO: images
 
@@ -95,21 +103,19 @@ TODO:
 
 - [X] image _@done (2019-02-05 09:01)_
 - [X] short video _@done (2019-02-05 09:01)_
-- [ ] purpose, parts
+- [X] purpose, parts _@done (2019-02-14 19:49)_
 - [X] schematic _@done (2019-02-05 09:01)_
 - [ ] troubles
-    - [ ] havent finished firmware and started soldering
-    - [ ] havent tested on attiny and started soldering
-    - [ ] pin interrupts
-    - [ ] i2c
-    - [ ] 
+    - [X] havent finished firmware and started soldering _@done (2019-02-14 19:49)_
+    - [X] havent tested on attiny and started soldering _@done (2019-02-14 19:49)_
+    - [X] pin interrupts _@done (2019-02-14 19:49)_
+    - [X] i2c _@done (2019-02-14 19:49)_
 - [ ] firmware
 - [ ] bom
-- [ ] 
 
 LINKS:
 
-[ina datasheet]:http://www.ti.com/lit/ds/symlink/ina219.pdf INA219 datasheet
-[breakout]:https://www.adafruit.com/product/904 INA219 breakout
+[inadatasheet]:http://www.ti.com/lit/ds/symlink/ina219.pdf INA219 datasheet
+[inabreakout]:https://www.adafruit.com/product/904 INA219 breakout
 [source]:https://github.com/josefadamcik/INA219PowerMeasurementUnit Source code
 [easyeda]:https://easyeda.com/josefadamcik/ina219measurementunit EeasyEDA project
