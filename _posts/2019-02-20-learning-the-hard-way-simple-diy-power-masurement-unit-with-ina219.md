@@ -2,8 +2,8 @@
 layout: post
 title: Learning the hard way - simple DIY power measurement unit with INA219 and ATtiny85
 categories: electronics
-published: false
-image: 
+published: true
+image: /images/ina219/IMG_20190130_194112.jpg
 ---
 
 A story how I was reminded that impatience and impetuosity can backfire when dealing with hardware.
@@ -18,8 +18,6 @@ For example when I was working on the [LED cube]({{ site.baseurl }}{% post_url 2
 When I was building a 8-bit computer with 8085 CPU [Omen Alpha (designed by Martin Maly)](https://www.hackster.io/adent/omen-alpha-77f86b), I needed to program EEPROM. I made a rough programmer using a breadboard and jumper wires but that was annoying to use so I decided to build a simple [EEPROM programmer shield for Arduino Mega (based on a design by oddbloke)](http://danceswithferrets.org/geekblog/?page_id=903).
 
 {% responsive_image path: images/ina219/IMG_20190218_070429.jpg alt: "EEPROM programming shield for Arduino Mega" figcaption: "EEPROM programming shield for Arduino Mega"  class: "imgmw600" %}
-
-
 
 ### Idea and motivation - the Room monitor project
 
