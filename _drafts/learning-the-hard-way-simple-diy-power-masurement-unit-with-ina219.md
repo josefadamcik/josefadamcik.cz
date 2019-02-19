@@ -9,19 +9,21 @@ image:
 A story how I was reminded that impatience and impetuosity can backfire when dealing with hardware.
 
 <!--more-->
+When I play with electronics and those [home made devices without purpose]({{ site.baseurl }}{% post_url 2018-10-7-kittblink2-kitt-inspired-gizmo-v2 %}), new ideas for projects tend to emerge from one another. 
 
-When I play with electronics and those home made gizmos without purpose new ideas projects tend to popup everywhere. TODO: better formulation.
+For example when I was working on the [LED cube]({{ site.baseurl }}{% post_url 2018-07-23-led-cube-4x4x4x-attiny84-74138 %}) I decided to use [Attiny84](https://www.microchip.com/wwwproducts/en/ATtiny84) micro-controller to drive it. And because of that, I got an idea to build a simple Arduino shield to help with programming of Attiny84 and Attiny85 micro-controllers. 
 
-For example when I was working on the LED CUBE (TODO: link) I decided to use Attiny85 microcontroller to drive it. So I had to build a simple arduino shield to help with its programming. 
+{% responsive_image path: images/ina219/IMG_20190120_162237.jpg alt: "Attiny85 programming shield for Arduino UNO" figcaption: "Attiny85 programming shield for Arduino UNO"  class: "imgmw600"  %}
+
+When I was building a 8-bit computer with 8085 CPU [Omen Alpha (designed by Martin Maly)](https://www.hackster.io/adent/omen-alpha-77f86b), I needed to program EEPROM. I made a rough programmer using a breadboard and jumper wires but that was annoying to use so I decided to build a simple [EEPROM programmer shield for Arduino Mega (based on a design by oddbloke)](http://danceswithferrets.org/geekblog/?page_id=903).
+
+{% responsive_image path: images/ina219/IMG_20190218_070429.jpg alt: "EEPROM programming shield for Arduino Mega" figcaption: "EEPROM programming shield for Arduino Mega"  class: "imgmw600" %}
 
 
-{% responsive_image path: images/ina219/IMG_20190120_162237.jpg alt: "Attiny85 programming shield for Arduino UNO" figcaption: "Attiny85 programming shield for Arduino UNO"  %}
-
-When I was building a 8-bit comupeter (following the disign from Martin Maly) - TODO links. I needed to program EEPROM. I did it few times using bredboard and jumper wires but than I decided to build a simple EEPROM programmer shield for Adruino Mega.
 
 ### Idea and motivation - Room monitor
 
-One of my ongoing prejects is a simple device which combines a few sensors (temperature, light, humidity) and an ESP8266 microcontroller (whith wifi capability) in order to measure indoor conditions and sent them to an internet dashboard. It's kind of preparation/trial for some outdoor meteo-station. It is battery powered (li-on) and part of the project is trying to make it run as long as long as possible without recharging. 
+One of my ongoing projects is a simple device which combines a few sensors (temperature, light, humidity) and an ESP8266 micro-controller (which has wifi capability) in order to measure indoor conditions and sent them to an internet dashboard. It's kind of preparation/trial for some outdoor meteo-station. It is battery powered (li-on) and part of the project is trying to make it run as long as long as possible without recharging. 
 
 The microcontroller has several sleepmodes and other functions that are supposed to help with energy consumption. But there many possible combinations and some quirks so a lof of experimentation is required. But how to test this? How to compare different setups and solutions in order to choose the best one? Well, you cannot just compare momentary current consumption since it changes a lot when the device activates after sleep, when it communicates via WIFI etc.
 
@@ -41,7 +43,7 @@ I protopyted the solution quickly with Arduino, started working on the firmware.
 
 I was impatient and started sketching the final cirquit which was supposed to be build using propotyping board. I decidid I would like to use Attiny85 for it. I need 2 pins for buttons and 2 for I2C and I had a good experience with Attiny84 which I used for my LCD cube (the only difference between those two is that Attiny84 has more pins).
 
-{% responsive_image path: images/ina219/Schematic_INA219-Measurement-Unit-master---josefadamcik_Sheet-1_20190130214711.png alt: "INA219+Attiny85 measurement unit schematic" figcaption: "Schematic" class: "imgmw600"  %}
+{% responsive_image path: images/ina219/schematic.png alt: "INA219+Attiny85 measurement unit schematic" figcaption: "Schematic" class: "imgmw600"  %}
 
 Again, I was impatient. So I actually soldered the things together without building a prototype with Attiny85. And that was a mistake.
 
@@ -94,7 +96,10 @@ PROGRAM: [========= ]  94.9% (used 7776 bytes from 8192 bytes)
 
 Even though it was a bit frustrating in the end it was a great lesson for me. I should not be so impatient and I should be more carefull when working with hardwer. It' far more difficult to change things than when I do software develpoment.
 
-TODO: images
+<figure >
+    {% video /images/ina219/ina219unit2.mp4 /images/ina219/ina219unit2 s.jpg %}
+    <figcaption>Completed device (video).</figcaption>
+</figure>
 
 
 
