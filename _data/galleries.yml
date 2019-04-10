@@ -94,3 +94,25 @@
       description: "It fits nicely."
     - path: IMG_20190206_130318.jpg
       description: "And the final version so far."
+- name: bug1
+  title: "bug1"
+  path: images/bug1
+  images:
+    - path: IMG_20190407_173136.jpg
+      description: "Breadboard prototype. I started with blue LEDs but they have too high voltage drop and the effect wasn't that nice."
+    - path: IMG_20190407_173156.jpg
+      description: "All the parts needed, only brass rod is missing."
+    - path: IMG_20190407_190237.jpg
+      description: "Almost all functional connecetions are done. Only the curren limiting resistor for LEDs and LEDs themselves are missing. Notice how the positive leg of the capacitor connects pin 6 to the base of the transistor." 
+    - path: IMG_20190407_190219.jpg
+      description: "Bottom view. Pin 8 (VCC) is connected directly to the pin 4 which is connected to the collector of the transistor - that's our power line. Negative leg from the capacitor goes directly to the pin 1 and will be connected to the GND on the USB breakout later. You can also see that the pin 2 is connected directly to the transistor's base and pin 3 is connected using a resistor."
+    - path: IMG_20190407_202457.jpg
+      description: "Putting together a body from 0.8 mm brass rods."
+    - path: IMG_20190407_202730.jpg
+      description: "It's super simple."
+    - path: IMG_20190407_203648.jpg
+      description: "Connected to ground and VCC. Only LEDs are missing."
+    - path: IMG_20190407_210028.jpg
+      description: "Final build connected to USB."
+    - path: IMG_20190407_210103.jpg
+      description: "And another shot - this time disconnected."
