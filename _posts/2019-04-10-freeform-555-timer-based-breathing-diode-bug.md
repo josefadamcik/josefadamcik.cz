@@ -18,14 +18,14 @@ But skills can be trained and learned. So I finally ordered a few brass rods and
 
 ## Circuit
 
-The circuit is based on [this one](http://www.555-timer-circuits.com/up-down-fading-led.html) (it's possible to find this schematic all over the internet). My version is powered by 5v, uses only 100&#8486; current limiting resistor for two yellow LEDs. Also the R1 resistor is 20K&#8486; in my case. I used transistor BC337.
+The circuit is based on [this one](http://www.555-timer-circuits.com/up-down-fading-led.html) (it's possible to find this schematic all over the internet). My version is powered by 5v, uses only a 100&#8486; current limiting resistor for two yellow LEDs. Also, the R1 resistor is 20K&#8486; in my case. I used transistor BC337.
 
 ## Build log
 
 {% include gallery.html galleryname="bug1" imgclass='imgmw600' %}
 
-Do you like it? You can [upvote or comment on reddit](https://www.reddit.com/r/electronics/comments/bare66/my_first_freeform_circuit_creation_simple/) or [share on twiter](https://twitter.com/josefadamcik/status/1115173648283983872).
+Do you like it? You can [comment on Reddit](https://www.reddit.com/r/electronics/comments/bare66/my_first_freeform_circuit_creation_simple/) or [share on Twitter](https://twitter.com/josefadamcik/status/1115173648283983872).
 
 ## Next plans
 
-I want to build few more small things in order to get better at this. Once I improve my skills and learn some tricks, I would like to build [my shift register-based larson scanner]({{ site.baseurl }}{% post_url 2018-10-7-kittblink2-kitt-inspired-gizmo-v2 %}) in this style.
+I want to build a few more small things in order to get better at this. Once I improve my skills and learn some tricks, I would like to build [my shift register-based Larson scanner]({{ site.baseurl }}{% post_url 2018-10-7-kittblink2-kitt-inspired-gizmo-v2 %}) in this style.
