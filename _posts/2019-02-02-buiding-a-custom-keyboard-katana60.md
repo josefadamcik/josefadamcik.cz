@@ -108,7 +108,7 @@ You can find more about the layout here:
 
 I really like my new keyboard. It's cool, it's nice to type on. I like those layers. I got used to it quite quickly and (unfortunately) became incompatible with any other keyboard.
 
-I still work on improvements for the keyboard. I already bought new case with a lid made from bamboo. I build a first custom made cable ( nd I am going to make more once some components arrive). I also ordered some nicer keycaps with legends which fits the Japanese theme.
+I still work on improvements for the keyboard. I already bought new case with a lid made from bamboo. I built a first custom made cable (and I am going to make more once some components arrive). I also ordered some nicer keycaps with legends which fits the Japanese theme.
 
 {% responsive_image path: images/katana60/IMG_20190206_130302.jpg
  alt: "New case, cable and keycaps" figcaption: "New case, cable and keycaps" class: "imgmw600"  %}
