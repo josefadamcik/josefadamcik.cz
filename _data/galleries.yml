@@ -116,3 +116,39 @@
       description: "Final build connected to USB."
     - path: IMG_20190407_210103.jpg
       description: "And another shot - this time disconnected."
+- name: cyborgduck
+  title: "cyborgduck"
+  path: images/cyborgduck
+  images:
+    - path: IMG_20190428_191042.jpg
+      description: "An obligatory breadboard prototype."
+    - path: IMG_20190428_104121.jpg
+      description: "All components."
+    - path: IMG_20190428_114840.jpg
+      description: "Starting with the eye - LED, transistor and a couple of resistors."
+    - path: IMG_20190428_115319.jpg
+      description: "The hardest thing is to figure out how to hold everything in place for soldering."
+    - path: IMG_20190428_122123.jpg
+      description: "Putting together astable circuit - resistors."
+    - path: IMG_20190428_123231.jpg
+      description: "You can see a VCC rail which connects pins 4 and 8."
+    - path: IMG_20190428_124342.jpg
+      description: "A capacitor on pins 2 and 1. There's also a pin 6 connected to pin 2 using a leg of a resistor. You can see part of it behind the capacitor."
+    - path: IMG_20190428_144639.jpg
+      description: "Putting both components together. Pin 3 is our astable output, therefore it goes to the transistor's base. And transistor's emitter is connected to the negative leg of the capacitor and therefore to ground."
+    - path: IMG_20190428_145440.jpg
+      description: "A different angle. You can see an optional 0.1uF capacitor between pin 5 and ground."
+    - path: IMG_20190428_152807.jpg
+      description: "How to fix the circuit inside of the duck? I used a piece of cardboard with holes for VCC and GND pins."
+    - path: IMG_20190428_152814.jpg
+      description: "And fixed it from the bottom with adhesive putty."
+    - path: IMG_20190428_153628.jpg
+      description: "Soldering wires to pins."
+    - path: IMG_20190428_155801.jpg
+      description: "All finished with a battery holder. The battery holder can be easily stuffed into duck's body."
+    - path: IMG_20190428_191525.jpg
+      description: "Brain!"
+    - path: IMG_20190428_191528.jpg
+      description: ""
+    - path: IMG_20190428_191534.jpg
+      description: ""
