@@ -8,6 +8,8 @@ image: /images/katana60/IMG_20190206_130302.jpg
 
 I learned recently that there's a huge community around making of custom mechanical keyboards. Even though building such keyboard is actually quite expensive I failed to resist the temptation and decided to build my first one.
 
+{% responsive_image path: images/katana60/IMG_20181201_222155.jpg alt: "Katana60 in a cheap plastic case" %}
+
 <!--more-->
 
 And here I am, captured by a new and quite expensive hobby which seems to stick with people. I think it began when I somehow found [a subreddit about mechanical keyboards][rmk] and noticed that there is a big community of people who are designing and building custom (mostly) mechanical keyboards. You just order components you and put them together. 

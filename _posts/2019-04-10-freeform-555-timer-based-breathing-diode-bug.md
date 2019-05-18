@@ -10,11 +10,11 @@ I have been watching those amazing freeform creations by people like [@MohitBhoi
 
 But skills can be trained and learned. So I finally ordered a few brass rods and tried my first freeform sculpture. Here's the result.
 
-<!--more-->
-
 <figure >
     {% video /images/bug1/Bug1.mp4 /images/bug1/Bug1.png %}
 </figure>
+
+<!--more-->
 
 ## Circuit
 

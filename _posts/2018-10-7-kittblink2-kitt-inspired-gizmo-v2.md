@@ -9,11 +9,12 @@ series: "KITTBlink"
 
 An improved version of my [previous creation]({{ site.baseurl }}{% post_url 2018-08-10-more-blinking-leds-kitt-insipred-gizmo-v1 %}). Better and hackier!
 
+
+{% responsive_image path: images/kittblink2/kittblink01.jpg alt: "KITTBLINK v2"  %}
+
 <!--more-->
 
 {%- include post_series.html -%}
-
-{% responsive_image path: images/kittblink2/kittblink01.jpg alt: "KITTBLINK v2"  %}
 
 ## Not a perfect desing
 

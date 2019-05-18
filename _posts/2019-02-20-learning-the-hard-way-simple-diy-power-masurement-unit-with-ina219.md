@@ -8,6 +8,8 @@ image: /images/ina219/IMG_20190130_194112.jpg
 
 A story about how I was reminded that impatience and impetuosity can backfire when dealing with hardware.
 
+{% responsive_image path: images/ina219/IMG_20190130_194112.jpg alt: "INA219+Attiny85 measurement unit"  class: "imgmw600"  %}
+
 <!--more-->
 When I dabble with electronics and those [homemade devices without purpose]({{ site.baseurl }}{% post_url 2018-10-7-kittblink2-kitt-inspired-gizmo-v2 %}), new ideas for projects tend to emerge from one another. 
 

@@ -8,11 +8,11 @@ image: /images/cyborgduck/IMG_20190428_191525.jpg
 
 Behold, our cyborgduck overlords are coming!
 
-<!--more-->
-
 <figure >
     {% video /images/cyborgduck/Cyborgduck.mp4 /images/cyborgduck/Cyborgduck.png %}
 </figure>
+
+<!--more-->
 
 ## Circuit
 
