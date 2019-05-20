@@ -152,3 +152,19 @@
       description: ""
     - path: IMG_20190428_191534.jpg
       description: ""
+- name: roommonitorclient
+  title: "ESP8266 OLED MQTT client"
+  path: images/rmc
+  images:
+    - path: IMG_20190512_113511.jpg
+      description: "Template for the first layer and first steps - the frame is already soldered."
+    - path: IMG_20190512_133947.jpg
+      description: "Firs stef finished. The frame will act as ground, diodes are used only for structural purposes - they help to hold the VCC rail in place."
+    - path: IMG_20190512_140233.jpg
+      description: "Cardboard proved to be very helpful."
+    - path: IMG_20190512_141542.jpg
+      description: "Soldering the connector for a FTDI in order to allow programming. I also used a bit of superglue to attach the plastic side of the connector to the brass rod. It will be used for the first fimware upload and for emergencies. An over the air update will be used for regular updates."
+    - path: IMG_20190512_144942.jpg
+      description: Another way how to utilise cardboard...
+    - path: IMG_20190512_144920.jpg
+      description: Here to ensure a nice clerance for a resistor crossing a few other wires.
