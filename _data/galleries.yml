@@ -157,37 +157,37 @@
   path: images/rmc
   images:
     - path: IMG_20190512_113511.jpg
-      description: "Template for the first layer and first steps - the frame is already soldered."
+      description: "A template for the first layer, already soldered frame and working on the ESP8266."
     - path: IMG_20190512_133947.jpg
-      description: "Firs stef finished. The frame will act as ground, diodes are used only for structural purposes - they help to hold the VCC rail in place."
+      description: "The first step finished. The frame will act as ground, diodes are used only for structural purposes - they help to hold the VCC rail in place."
     - path: IMG_20190512_140233.jpg
       description: "Cardboard proved to be very helpful."
     - path: IMG_20190512_141542.jpg
-      description: "Soldering the connector for a FTDI in order to allow programming. I also used a bit of superglue to attach the plastic side of the connector to the brass rod. It will be used for the first fimware upload and for emergencies. An over the air update will be used for regular updates."
+      description: "Soldering the connector for an FTDI in order to allow programming. I also used a bit of superglue to attach the plastic side of the connector to the brass rod. It will be used for the first firmware upload and for emergencies. An over the air update will be used for regular updates."
     - path: IMG_20190512_144942.jpg
-      description: Another way how to utilise cardboard...
+      description: Another way how to utilize cardboard...
     - path: IMG_20190512_144920.jpg
-      description: Here to ensure a nice clerance for a resistor crossing a few other wires.
+      description: Here to ensure a nice clearance for a resistor crossing a few other wires.
     - path: IMG_20190512_152536.jpg
       description: And the result. This is actually enough to connect and program the ESP8266.
     - path: IMG_20190512_151759.jpg
       description: Power & programming test, it worked!
     - path: IMG_20190512_181900.jpg
-      description: Working on the bottom layer - the power source. Yes, I am not brawe enough to freeform a SO8 package of the LT1763 LDO regulator, so I used a breakout.
+      description: Working on the bottom layer - the power source. Yes, I am not brave enough to attempt to freeform an SO8 package of the LT1763 LDO regulator, so I used a breakout.
     - path: IMG_20190512_195506.jpg
-      description: Fliped around, added USB connector - breakout version again..
+      description: Flipped around, added an USB connector - breakout version again.
     - path: IMG_20190512_200742.jpg
       description: And capacitors, of course. Exactly how it's suggested in the datasheet. 
     - path: IMG_20190518_164613.jpg
-      description: (Sorry for very ugly photo.) I almosts forgot to add buttons for reset and flash. Maybe not necessary, but I chose to include them. 
+      description: (Sorry for a very ugly photo.) I almost forgot to add buttons for reset and flash. Maybe not necessary, but I chose to include them. 
     - path: IMG_20190518_170049.jpg
       description: Prepared wires for legs and I2C lines.
     - path: IMG_20190518_174800.jpg
-      description: Trying to figure out how to solder I2C lines. Cardobard helps, again.
+      description: Trying to figure out how to solder I2C lines. Cardboard helps, again.
     - path: IMG_20190518_175343.jpg
-      description: Template for the front side with OLED display and LED. Top layer is already connected. 
+      description: Template for the front side with an OLED display and a LED. The top layer is already connected. 
     - path: IMG_20190518_175501.jpg
-      description: Added the back side...
+      description: Added the backside...
     - path: IMG_20190518_175844.jpg
       description: ...and the bottom layer. Now let's solder all together. This was the most difficult part. 
     - path: IMG_20190519_161300.jpg
