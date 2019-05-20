@@ -16,6 +16,10 @@ My second [freeform creation]({{ site.baseurl }}{% post_url 2019-04-10-freeform-
 
 TODO: short info, link to firmware, link to svg
 
+https://github.com/josefadamcik/RoomMonitorClient
+
+https://github.com/josefadamcik/RoomMonitorClient/blob/master/freeform/RoomMonitorClientFreeform.svg
+
 And a schematic - available [also on EasyEDA](https://easyeda.com/josefadamcik/roommonitorclient).
 
 {% responsive_image path: images/rmc/schematic.png alt: "" figcaption: ""  class: "imgmw600"  %}
