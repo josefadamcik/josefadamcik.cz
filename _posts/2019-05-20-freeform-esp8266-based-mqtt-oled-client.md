@@ -45,6 +45,14 @@ I quickly prototyped everything on a breadboard and [drafted a (still not finish
 
 Once I figured out the layout I created [templates in Inkscape](https://github.com/josefadamcik/RoomMonitorClient/blob/master/freeform/RoomMonitorClientFreeform.svg) and started building.
 
+## Material
+
+The main material for construction are 0.8 mm (1/32) brass rods. I bought mine from [Modulor.de (a German e-shop)](https://modulor.de). But you should be able to get them from your local hobby&model shop. Sometimes they are available on [Amazon too](https://www.amazon.com/PRECISION-METALS-8160-5PK-Rod/dp/B001APJ0OG).
+
+Those are used by other people (mainly [Jiří Praus](http://jiripraus.cz/) and [Mohit Bhoite](https://www.bhoite.com/)) so we could consider them to be the 'state of the art.' 
+
+They can be a bit harder to solder, so add some flux and use a decent soldering iron. Check out this very nice [guide guide to soldering brass](https://davidneat.wordpress.com/2015/05/03/a-quick-guide-to-soldering-brass/).
+
 ## Build log
 
 {% include gallery.html galleryname="roommonitorclient" imgclass='imgmw600' %}
