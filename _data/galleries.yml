@@ -201,46 +201,46 @@
   path: images/usbcable
   images:
     - path: IMG_20190620_105914.jpg
-      description: "Cable an paracord. First thing is to maesure and cut pices of both in desired lengts. I wanted a coil, therefore I coiled a piece of cable on my wooden rod in order to measure how much I need for the coil I like."
+      description: "Cable, a paracord. The first thing is to measure and cut pieces of both in desired lengths. I wanted a coil, therefore I coiled a piece of cable on my wooden rod in order to measure how much I need for the coil I like."
     - path: IMG_20190620_105926.jpg
-      description: "Once the paracord is cut, take out the white threads from inside and burn ends of the paracord with ligther."
+      description: "Once the paracord is cut, take out the white threads from inside and burn ends of the paracord with a lighter."
     - path: IMG_20190615_163535.jpg
-      description: "A shorter piece of cable (between the USB-mini and the aviatic connector) already sleeved together with pices of connectors and heat-shrinks. Sleving is easy, just push the cable through. I have fixed it at ends with a drop of super glue."
+      description: "A shorter piece of cable (between the USB-mini and the aviation connector) already sleeved together with pieces of connectors and heat-shrinks. Sleeving is easy, just push the cable through the paracord. I have fixed it at ends with a drop of super glue."
     - path: IMG_20190615_163630.jpg
       description: "The longer piece of cable and its connectors. It's a bit harder to sleeve a longer piece of cable. Just take your time."
     - path: IMG_20190615_164535.jpg
       description: "Tinning the wires."
     - path: IMG_20190615_170102.jpg
-      description: "The first part of aviatic connector solder and covered with heat-shrink."
+      description: "The first part of aviation connector solder and covered with heat-shrink."
     - path: IMG_20190615_170151.jpg
       description: "And covered by its shell."
     - path: IMG_20190615_170911.jpg
-      description: "Soldering USB-mini connector. Since this is the second connector on the piece of cable, make sure you have your heat-shrink already on the cable befor you start with this step."
+      description: "Soldering USB-mini connector. Since this is the second connector on the piece of cable, make sure you have your heat-shrink already on the cable before you start with this step."
     - path: IMG_20190615_172004.jpg
       description: "Soldered. I was a bit afraid that one of the wires might touch another when strained. So I implanted a piece of tape and later ended up adding a dip of hot glue."
     - path: IMG_20190615_172939.jpg
-      description: "Small heatshring applied and connector completed."
+      description: "Small heat-shrink applied and connector completed."
     - path: IMG_20190615_173641.jpg
-      description: "The second heatshring covering the connector added and therefore the first piece of cable comopleted."
+      description: "The second heat-shrink covering the connector added and therefore the first piece of cable completed."
     - path: IMG_20190615_175126.jpg
       description: "Let's start with another part."
     - path: IMG_20190615_175340.jpg
-      description: "Have notes with information which wire connects to which pad of connector always in sight. Pads on aviatic connectors are numbered, pads on USB connectors are described in datasheet or on the internet. Wires in the cable have color-coding. Double check everything. I was very carefull and yet I messed things up at least once (but noticed it soon)."
+      description: "Have notes with information which wire connects to which pad of connector always in sight. Pads on aviation connectors are numbered, pads on USB connectors are described in the datasheet or on the internet. Wires in the cable have color-coding. Double check everything. I was very careful and yet I messed things up at least once (but noticed it soon)."
     - path: IMG_20190615_175434.jpg
-      description: "That's second half of aviatic connector done."
+      description: "That's the second half of the aviation connector done."
     - path: IMG_20190615_184918.jpg
       description: "USB-A, again, don't forget to put the inner heat-shrink on the cable."
     - path: IMG_20190615_185143.jpg
       description: "Soldered with the heat-shrink."
     - path: IMG_20190616_100408.jpg
-      description: "USB-A is enclosed and covered in another heat-shrink. The cable is complete and should work. For me it din't the first time, I most likely messed something up when screwing the aviatic connector. When I started to take it apart I messed up again and accidentally started unscrewing wrong part of the connector and twisted off my wires. I ended up redoing both halves of aviatic connectors. This is photo is actually after I fixed everything. I was too annoyed and didn't document my failure."
+      description: "USB-A is enclosed and covered in another heat-shrink. The cable is complete and should work. For me it didn't the first time, I most likely messed something up when screwing in the aviation connector. When I started to take it apart I messed up again and accidentally started unscrewing a wrong part of the connector and twisted off my wires. I ended up redoing both halves of aviation connectors. This is photo is actually after I fixed everything. I was too annoyed and didn't document my failure."
     - path: IMG_20190616_101655.jpg
-      description: "So, cable works, let's coil it. I made a nice thight coil around my rod. I utilised masking tape to hold it in place. Keep in mind that heat is not good for tapes and the adhesive used on them. But you want' your coil to be as tight as possible once you heat it up. "
+      description: "So, cable works, let's coil it. I made a nice tight coil around my rod. I utilized masking tape to hold it in place. Keep in mind that heat is not good for tapes and the adhesive used on them. But you want' your coil to be as tight as possible once you heat it up. "
     - path: IMG_20190616_152725.jpg
-      description: "I used my heat gun to heat the coil up - let's say 5-10 minutes cerfully applying heat to the coil making sure every place is hot. The I let it cool down and repeated 3 or 4 times. If the tape loosens wait for it to cool down and take it apart and tighten the coil again. The result is quite nice, but not perfect."
+      description: "I used my heat gun to heat the coil up - let's say 5-10 minutes carefully applying heat to the coil making sure every place is hot. Then I let it cool down and repeated 3 or 4 times. If the tape loosens wait for it to cool down and take it apart and tighten the coil again. The result is quite nice, but not perfect."
     - path: IMG_20190616_152807.jpg
-      description: ""
+      description: "And final shot of the whole cable."
     - path: IMG_20190616_161307.jpg
-      description: ""
+      description: "With Katana60"
     - path: IMG_20190616_161416.jpg
-      description: ""
+      description: "They are a good match, aren't they?"
