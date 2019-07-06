@@ -55,7 +55,7 @@ And that was it. Wait for parts to arrive, one evening of soldering and it's don
 
 ## Layout
 
-There is an official layout for Katana60 included in the QMK Firmware repository. There are actually three variants. You can also check the latest version [in RominRonin's fork][layout_ronin]. I played with the layout a lot and ended up with my variant which you can [find here][layout_repository]. 
+There is an official layout for Katana60 included in the QMK Firmware repository. There are actually three variants. You can also check the latest version [in RominRonin's fork][layout_ronin]. I played with the layout a lot and ended up with my variant which you can [find in the QMK project's repository][layout_repository]. 
 
 The interesting part is that there are additional layers. You can press FN to activate layer gives access to function keys and better access to numbers an symbols. There's also another layer, activated by pressing the key that is usually caps-lock, which contains keys for better movement in text and selection. More about those later.
 
@@ -102,7 +102,7 @@ There's also the aforementioned symbol layer. It allows me to easily reach symbo
 ### More details about layout
 
 You can find more about the layout here:
-- [repository on github][layout_repository]
+- [QMK repository on github][layout_repository]
 - [keyboard layout editor][layout]
 - [image with full layout][layout_image]
 
@@ -130,7 +130,7 @@ And finally a small gallery.
 
 [layout]: http://www.keyboard-layout-editor.com/#/gists/14d62ee67d36621c37888783fa29b107 "My layout"
 [layout_image]:https://i.imgur.com/qQtYqPy.png "Layout image"
-[layout_repository]:https://github.com/josefadamcik/qmk_firmware/tree/katana60_josefs_custom/keyboards/katana60/keymaps/josef "Layout on github (QMK)""
+[layout_repository]:https://github.com/qmk/qmk_firmware/tree/master/keyboards/katana60/keymaps/josefadamcik "Layout on github (QMK)""
 [layout_ronin]:https://github.com/rominronin/qmk_firmware/blob/katana60/keyboards/katana60/keymaps/rominronin/keymap.c "RominRonin's layout in his QMK fork"
 [qmkfirmware]:https://github.com/josefadamcik/qmk_firmware/tree/katana60_josefs_custom/keyboards/katana60/keymaps/josef "QMK firmware fork with mmy repository"
 [katana60]:https://geekhack.org/index.php?topic=88719.0 "Geekhack thread"

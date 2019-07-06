@@ -11,7 +11,7 @@ I am an experienced software developer. I am <strong>NOT</strong> open to new pr
 <h1>Recent posts from notebook</h1>
 
 <div class="posts">
-  {% for post in paginator.posts limit:5%}
+  {% for post in paginator.posts limit: 10 %}
     <div class="post py3">
       <p class="post-meta">{{ post.date | date: site.date_format }}</p>
       <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
