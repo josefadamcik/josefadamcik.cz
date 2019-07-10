@@ -244,3 +244,50 @@
       description: "With Katana60"
     - path: IMG_20190616_161416.jpg
       description: "They are a good match, aren't they?"
+- name: crkbd
+  title: "Corne keyboard"
+  path: images/crkbd
+  images:
+    - path: IMG_20190614_195434.jpg
+      description: "PCBs"
+    - path: IMG_20190622_183625.jpg
+      description: "Soldering THT diodes."
+    - path: IMG_20190622_184711.jpg
+      description: "Adding pin headers."
+    - path: IMG_20190622_184718.jpg
+      description: ""
+    - path: IMG_20190622_191631.jpg
+      description: "Diodes, Pro Micro, TRRS jack and OLED in place. Firmware uploaded and testing. Display shows which key is activated."
+    - path: IMG_20190622_191903.jpg
+      description: "Both halves connected together and working."
+    - path: IMG_20190622_200319.jpg
+      description: "The top side, before soldering switches."
+    - path: IMG_20190622_200339.jpg
+      description: "Bottom side."
+    - path: IMG_20190622_200515.jpg
+      description: "Putting switches into a top plate."
+    - path: IMG_20190622_200959.jpg
+      description: "Not soldered yet."
+    - path: IMG_20190622_203543.jpg
+      description: "Soldering finished."
+    - path: IMG_20190622_211745.jpg
+      description: "Both halves."
+    - path: IMG_20190622_212209.jpg
+      description: "Cleaning time. I must admit this didn't go well. I was hoping to be able to keep IPA only on the bottom side, but of course it got everywhere. It was a mess. It's also very difficult to clean those matte-black PCBs."
+    - path: IMG_20190623_105251.jpg
+      description: "Post cleaning."
+    - path: IMG_20190623_105440.jpg
+      description: "And the bottom. It's far from perfect but the flux is gone and it's not sticky as when you don't clean the flux properly."
+    - path: IMG_20190623_110926.jpg
+      description: "Spacers, screws and the bottom plates in place."
+    - path: IMG_20190623_110947.jpg
+      description: "Nice!"
+    - path: IMG_20190623_111006.jpg
+      description: "Neat!"
+    - path: IMG_20190623_111959.jpg
+      description: "And finally keycaps. This is just 25$ set from Aliexpress."
+    - path: IMG_20190623_114216.jpg
+      description: "It's a DSA profile, therefore I can have my Colemak layout there."
+    - path: IMG_20190623_114216.jpg
+      description: "And that's it. Still needs rubber feet, they are on their way. "
+      
