@@ -2,7 +2,7 @@
 layout: post
 title: Corne keyboard
 categories: electronics
-published: false
+published: true
 image: /images/crkbd/IMG_20190623_110940.jpg
 ---
 
