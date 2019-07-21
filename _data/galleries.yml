@@ -295,13 +295,13 @@
   path: images/squid
   images:
     - path: IMG_20190707_151508.jpg
-      description: "First components soldered on. Notice the LEDs are upside down, even thougn those are normal SMD LEDs which are not supposed to be soldered on like this. It's a little bit trickier to solder, but not hard."
+      description: "First components soldered on. Notice the LEDs are upside down, even though those are normal SMD LEDs which are not supposed to be soldered on like this. It's a little bit trickier to solder, but not hard."
     - path: IMG_20190707_152248.jpg
-      description: "Soldering FLEDs ant 0.8mm brass rods together. Cardboard and masking tape come to the rescue as usual. Additional flux helps too."
+      description: "Soldering FLEDs ant 0.8mm brass rods together. Cardboard and masking tape came to the rescue as usual. Additional flux helps too."
     - path: IMG_20190707_160424.jpg
-      description: "Heat-shrinks added and tentacles soldered on the board. This is again a bit tricky, because brass rods are a bit harder to solder than copper."
+      description: "Heat-shrinks added and tentacles soldered on the board. This is again a bit tricky because brass rods are a bit harder to solder than copper."
     - path: IMG_20190707_161035.jpg
-      description: "Brooch pins. There are 3 pads so I can decide which ones to use. I have decided to add two just to have some backup if one of them opens. Soldering them on is again a bit tricky. A fer tricks to make it easier. 1) tin the bottom of the nail a bit, 2) melt a generous amount of copper on the pad, 3) use pliers to hold the nail, it'll get hot."
+      description: "Brooch pins. There are 3 pads so I can decide which ones to use. I have decided to add two just to have some backup if one of them opens. Soldering them on is again a bit tricky. A few tricks to make it easier. 1) tin the bottom of the nail a bit, 2) melt a generous amount of copper on the pad, 3) use pliers to hold the nail, it'll get hot."
     - path: IMG_20190707_164816.jpg
       description: "And here they are, finished."
     - path: IMG_20190707_164835.jpg
