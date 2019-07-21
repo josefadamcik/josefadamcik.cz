@@ -79,14 +79,45 @@ The whole KiCad project including libraries with custom footprints is available 
 
 ### Manufacturing and final boards
 
+The next steps are straightforward:
 
+- double check everything
+- export Gerber files and zip them
+- upload the Gerber files to the service ([JLCPCB][jlcpcb] in my case)
+- check everything in their web-based Gerber viewer app
+- select colour in the order form (I left the rest of the fields default)
+- finish the order and wait
+
+I was careful to keep the board size under 10x10 cm in order to have the cheapest price. I ordered 5 (the minimal amount) of boards for 1.78€ (2$) plus basic shipping (5.19€ to Germany). Crazy cheap.
+
+And time-wise? 
+
+- 14.6. - placed the order
+- 15.6. - boards were manufactured
+- 16.6. - they were packed and waiting for pick-up
+- 18.6. - delivery started
+- 27.6. - delivered
+
+That makes 13 days from placing the order to delivery. That's fast enough for me. 
+
+{% responsive_image path: images/squid/IMG_20190627_201407.jpg alt: "Manufactured PCBs"  figcaption: "Manufactured PCBs"%}
 
 
 ## Building the Squid
 
 ### Bill of materials
 
+For each squid the following is needed (links are just for the articles I ordered, they are not affiliate links):
 
+- a PCB
+- CR2032/2020 THT cell holder ([Aliexpress][aliexpresscell])
+- SMD switch ([Aliexpress][aliexpressswitch])
+- 2x THT FLED ([Aliexpress][aliexpressfled])
+- 2x SMD LED 1206 ([Aliexpress][alixepressled])
+- 4x piece of 0.8mm brass rod, lenught 4cm or some stiffer wire 
+- 4x piece of heat-shrink
+- 1-3x Brooch pin ([Aliexpress][aliexpresspin])
+- CR2032 coin cell 
 
 ### Build log
 
@@ -118,4 +149,20 @@ The whole KiCad project including libraries with custom footprints is available 
 [kicad-custom-footprint]: https://www.gabetaubman.com/blog/posts/kicad-custom-footprint/ "Creating Custom Footprints For KiCad by Gabe" 
 {:target="_blank"}
 
-[aliexpresspin]: https://www.aliexpress.com/item/33005352412.html?spm=a2g0s.9042311.0.0.7b234c4dEwgSki "Brooch Pins"
+[aliexpresspin]: https://www.aliexpress.com/item/33005352412.html?spm=a2g0s.9042311.0.0.7b234c4dEwgSki "Brooch Pins on Aliexpress"
+{:target="_blank"}
+
+[aliexpressfled]: https://www.aliexpress.com/item/32815520016.html?spm=a2g0s.9042311.0.0.24504c4diqmNnp "FLEDs on Aliexpress"
+{:target="_blank"}
+
+[aliexpressswitch]: https://www.aliexpress.com/item/32928171024.html?spm=a2g0s.9042311.0.0.24504c4diqmNnp "Switch on Aliexpress"
+{:target="_blank"}
+
+[aliexpresscell]: https://www.aliexpress.com/item/32739802992.html?spm=a2g0s.9042311.0.0.27424c4dahgwJj "CR2032 cell holder"
+{:target="_blank"}
+
+[alixepressled]: https://www.aliexpress.com/item/32320988149.html?spm=a2g0s.9042311.0.0.27424c4dZlE3id "SMD LED"
+{:target="_blank"}
+
+[jlcpcb]: https://jlcpcb.com/ "JPCPCB" 
+{:target="_blank"}
