@@ -290,4 +290,20 @@
       description: "It's a DSA profile where has all the rows have the same profile, therefore I can have my Colemak layout. The only disadvantage is I cannot use keys with homing (they are 'f' and 'j' but I would need 't' and 'n'). Luckily the set contains non-homing variants for 'f' and 'j' "
     - path: IMG_20190623_114216.jpg
       description: "And that's it. Still needs rubber feet, they are on their way. "
-      
+- name: squid
+  title: "Squid PCB badge"
+  path: images/squid
+  images:
+    - path: IMG_20190707_151508.jpg
+      description: "First components soldered on. Notice the LEDs are upside down, even thougn those are normal SMD LEDs which are not supposed to be soldered on like this. It's a little bit trickier to solder, but not hard."
+    - path: IMG_20190707_152248.jpg
+      description: "Soldering FLEDs ant 0.8mm brass rods together. Cardboard and masking tape come to the rescue as usual. Additional flux helps too."
+    - path: IMG_20190707_160424.jpg
+      description: "Heat-shrinks added and tentacles soldered on the board. This is again a bit tricky, because brass rods are a bit harder to solder than copper."
+    - path: IMG_20190707_161035.jpg
+      description: "Brooch pins. There are 3 pads so I can decide which ones to use. I have decided to add two just to have some backup if one of them opens. Soldering them on is again a bit tricky. A fer tricks to make it easier. 1) tin the bottom of the nail a bit, 2) melt a generous amount of copper on the pad, 3) use pliers to hold the nail, it'll get hot."
+    - path: IMG_20190707_164816.jpg
+      description: "And here they are, finished."
+    - path: IMG_20190707_164835.jpg
+      description: "The heat-shrinks are shrunk with a heat gun and everything flux residual is cleaned with IPA."
+

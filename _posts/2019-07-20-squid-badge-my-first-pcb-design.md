@@ -107,7 +107,7 @@ That makes 13 days from placing the order to delivery. That's fast enough for me
 
 ### Bill of materials
 
-For each squid the following is needed (links are just for the articles I ordered, they are not affiliate links):
+For each squid the following is needed (the links below are just for the components I ordered and used, they are not affiliate links):
 
 - a PCB
 - CR2032/2020 THT cell holder ([Aliexpress][aliexpresscell])
@@ -120,6 +120,31 @@ For each squid the following is needed (links are just for the articles I ordere
 - CR2032 coin cell 
 
 ### Build log
+
+{% include gallery.html galleryname="squid" imgclass='imgmw600' %}
+
+## The final result
+
+{% responsive_image path: images/squid/shinginsquids.jpg alt: "Snining squids in dark"  figcaption: "See how they shine! The color's are not reproduced properly. The right one has white LEDs and FLEDs."%}
+
+{% responsive_image path: images/squid/IMG_20190720_101004.jpg alt: "Squid on my backpack."  figcaption: "Squid on my backpack." class: "imgmw600" %}
+
+<figure >
+    {% video /images/squid/squid.mp4 /images/squid/squidvideothumb.png %}
+</figure>
+
+
+## Next plans
+
+There might be a second revision of this badge which would solve some issues and improve the design a bit. 
+
+But more importantly, I really enjoyed designing and building this small silly thing and I really want to make more designs soon - more complicated and more interesting ones. My girlfriend seems also interested and she is already sketching some new ideas. I am really looking forward to the next one.
+
+If you are interested in our next creation too, you can always follow me on [Twitter](https://twitter.com/josefadamcik) or use [an old-school RSS feed and subscribe to updates on this blog](https://josef-adamcik.cz/feed.xml).
+
+
+<!-- links -->
+
 
 [pcbtutorial]: http://alternatezone.com/electronics/files/PCBDesignTutorialRevA.pdf "PCB design tutorial by Davil L. Jones (EEVBlog)" 
 {:target="_blank"}
