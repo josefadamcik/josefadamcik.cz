@@ -301,9 +301,9 @@
     - path: IMG_20190707_160424.jpg
       description: "Heat-shrinks added and tentacles soldered on the board. This is again a bit tricky because brass rods are a bit harder to solder than copper."
     - path: IMG_20190707_161035.jpg
-      description: "Brooch pins. There are 3 pads so I can decide which ones to use. I have decided to add two just to have some backup if one of them opens. Soldering them on is again a bit tricky. A few tricks to make it easier. 1) tin the bottom of the nail a bit, 2) melt a generous amount of copper on the pad, 3) use pliers to hold the nail, it'll get hot."
+      description: "Brooch pins. There are 3 pads so I can decide which ones to use. I have decided to add two just to have some backup if one of them fails. Soldering them on is again a bit tricky. A few tricks to make it easier. 1) tin the bottom of the nail a bit, 2) melt a generous amount of solder on the pad, 3) use pliers to hold the nail, it'll get hot."
     - path: IMG_20190707_164816.jpg
       description: "And here they are, finished."
     - path: IMG_20190707_164835.jpg
-      description: "The heat-shrinks are shrunk with a heat gun and everything flux residual is cleaned with IPA."
+      description: "The heat-shrinks are shrunk with a heat gun and flux residual is cleaned with IPA."
 

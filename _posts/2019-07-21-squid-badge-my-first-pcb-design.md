@@ -16,7 +16,7 @@ I designed my first PCB. It's not useful at all and very primitive electrically.
 
 All my projects are on a breadboard and some of them are later transferred to a prototyping board (perfboard). Recently I realized I might give them some more interesting and [fancy look in the form of a free-form sculpture or whatever you want to call those][freeform]. I had no experience with PCBs and I had considered them to be a bit overkill for my projects.
 
-As I was ordering a fabrication of PCBs for my [Corne Keyboard][crkbd] I realized how cheap manufacturing of a small set of boards is nowadays. I was also working on a third prototype for my room-conditions-monitor project (no blog post for this one yet, but there will be one soon) around that time and spent a few hours connecting components on a perfboard.  I realized it would make much more sense to quickly design a simple PCB and order it from China. The shipping time is not that bad - between 2-3 weeks for me. That might be a
+As I was ordering a fabrication of PCBs for my [Corne Keyboard][crkbd] I realized how cheap manufacturing of a small set of boards is nowadays. I was also working on a third prototype for my room-conditions-monitor project (no blog post for this one yet, but there will be one soon) around that time and spent a few hours connecting components on a perfboard.  I realized it would make much more sense to quickly design a simple PCB and order it from China. The shipping time is not that bad - around 2 weeks for me. That might be a
 a problem for someone but given the low amount of time I can invest into my projects and also the fact that I often order components on Aliexpress and I have to wait for those, the longer shipping times are not so big problem for me.
 
 So I decided to learn how to make PCBs. My experience with KiCad was: open a project made by someone else, play with layer visibility and pretend I am trying to understand what's going on, give up, export Gerber files and order PCBs and hope everything is correct. Therefore, I wanted something simple. Maybe I could make a simple funny shaped PCB badge with a coin cell and some LEDs. Nothing original, but originality is overrated.
@@ -75,6 +75,7 @@ The whole KiCad project including libraries with custom footprints is available 
 
 - The copper pour for ground zone: both sides have unused areas filled with copper acting as ground. This is done by selecting a zone which should be filled in and the rest is calculated by KiCad. In my case, it was a bit more complicated, because I needed to keep squid's eyes copper-free on both sides. I have solved this differently for every side. The top one has (as a part of the squid footprint) small copper rings around eyes. When KiCad fills the zone it avoids any copper from footprints with some clearance. On the bottom side, a more straightforward approach is used - I just defined two keep out areas which forbid the auto-fill around eyes.
 - I made a mistake when placing the coin-cell holder. It's rotated to fit the head of the octopus nicely, but if it was soldered properly the opening for a battery to slide in would be at the left-bottom side. There would be other things soldered on (switch, pins) and it wouldn't be possible to insert the battery. I didn't realize this until I had manufactured PCBs in my hands. But the fix is easy - the battery holder just needs to be rotated 180 degrees so the battery could be inserted from the top-right side.
+- You may notice that the round pads for brooch pins are not connected to the ground plane. I left them disconnected to make soldering a bit easier (heat cannot escape to the GND plane).
 
 {% responsive_image path: images/squid/squidkicad3d.png alt: "3D render of the PCB provided by KiCad"  figcaption: "3D render of the PCB provided by KiCad."%}
 
@@ -110,7 +111,7 @@ That makes 13 days from placing the order to delivery. That's fast enough for me
 
 For each squid, the following is needed (the links below are just for the components I ordered and used, they are not affiliate links):
 
-- a PCB
+- a PCB [Github repository with the whole KiCad project][github]
 - CR2032/2020 THT cell holder ([Aliexpress][aliexpresscell])
 - SMD switch ([Aliexpress][aliexpressswitch])
 - 2x THT FLED ([Aliexpress][aliexpressfled])
