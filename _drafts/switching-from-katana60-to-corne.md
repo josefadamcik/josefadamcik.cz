@@ -2,7 +2,7 @@
 layout: post
 title: In search for the best custom keyboard layout
 categories: electronics
-tags: [keyboards]
+tags: [keyboards, electronics]
 published: false
 image: /images/crkbd/IMG_20190623_110940.jpg
 ---

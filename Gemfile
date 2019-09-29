@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-assets"
   gem 'jekyll-paginate-v2'
   gem 'jekyll-sitemap'
+  gem 'jekyll-tagging'
 end
 
 

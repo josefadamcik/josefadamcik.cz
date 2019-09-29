@@ -10,6 +10,8 @@ I am an experienced software developer. I am <strong>NOT</strong> open to new pr
 
 <h1>Recent posts from notebook</h1>
 
+{% include tagcloud.html %}
+
 <div class="posts">
   {% for post in paginator.posts limit: 10 %}
     <div class="post py3">

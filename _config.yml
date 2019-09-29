@@ -13,6 +13,10 @@ header_pages:
   - notebook/index.html
   - about.md
 
+tag_page_layout: tag_page
+tag_page_dir: tag
+ignored_tags: [cpp,android]
+
 # Google services
 google_verification: "A2ERcMhxjYXHHVUfv4pntUO-36T3a1iNQXXJ5YgZIwI"
 # Bing services
