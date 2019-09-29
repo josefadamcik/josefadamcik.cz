@@ -2,6 +2,7 @@
 layout: post
 title: Need a USB cable? Build one!
 categories: electronics
+tags: [buildlog,keyboards, electronics]
 published: true
 image: /images/usbcable/IMG_20190616_152807.jpg
 ---

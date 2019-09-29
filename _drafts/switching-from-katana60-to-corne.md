@@ -1,10 +1,14 @@
 ---
 layout: post
-title: Switching from Katana60 to Corne - layout and strategy
+title: In search for the best custom keyboard layout
 categories: electronics
+tags: [keyboards]
 published: false
 image: /images/crkbd/IMG_20190623_110940.jpg
 ---
+
+I have [build my first custom kebyoard (katana60)]({{ site.baseurl }}{% post_url  2019-02-02-buiding-a-custom-keyboard-katana60 %}) back at the beggining of this year and [the second one (corne)]({{ site.baseurl }}{% post_url  2019-07-10-corne-keyboard-build-log %}) recently. 
+
 
 ## Layout - Work in progress
 

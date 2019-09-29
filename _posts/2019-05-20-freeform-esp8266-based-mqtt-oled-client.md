@@ -2,6 +2,7 @@
 layout: post
 title: Freeform ESP8266 OLED MQTT client
 categories: electronics
+tags: [buildlog,freeform, electronics]
 published: true
 image: /images/rmc/esp8266oledmqttclient.jpg
 ---

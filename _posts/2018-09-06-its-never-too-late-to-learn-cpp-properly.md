@@ -2,6 +2,7 @@
 layout: post
 title: It's never too late to learn C++ properly.
 categories: programming
+tag: [cpp, programming]
 published: true
 image: /images/cpp/cpp_logo.png
 ---

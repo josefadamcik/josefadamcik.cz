@@ -2,6 +2,7 @@
 layout: post
 title: Learning the hard way - DIY power measurement unit with INA219 and ATtiny85
 categories: electronics
+tags: [buildlog, electronics]
 published: true
 image: /images/ina219/IMG_20190130_194112.jpg
 ---

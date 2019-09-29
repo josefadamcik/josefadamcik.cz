@@ -2,6 +2,7 @@
 layout: post
 title: KITTBlink2 - KITT inspired gizmo AKA Larson scanner, version 2
 categories: electronics
+tags: [buildlog, breadboard, electronics]
 published: true
 image: /images/kittblink2/kittblink01.jpg
 series: "KITTBlink"

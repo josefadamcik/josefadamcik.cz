@@ -2,6 +2,7 @@
 layout: post
 title: Activity journal - progress update
 categories: programming
+tag: [android,programming]
 published: true
 series: "Activity Journal"
 image: /images/activityjournal/wf_timeline1_p.jpeg

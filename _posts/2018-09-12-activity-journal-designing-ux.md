@@ -2,6 +2,7 @@
 layout: post
 title: Activity journal - designing UX
 categories: programming
+tag: [android,programming]
 published: true
 series: "Activity Journal"
 image: /images/activityjournal/wf_timeline1_p.jpeg

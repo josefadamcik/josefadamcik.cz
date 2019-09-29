@@ -2,6 +2,7 @@
 layout: post
 title: Squid badge - my first PCB design
 categories: electronics
+tags: [buildlog,pcb, electronics]
 published: true
 image: /images/squid/squidfinal.jpg
 ---

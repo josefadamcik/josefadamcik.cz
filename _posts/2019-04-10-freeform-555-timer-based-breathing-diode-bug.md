@@ -2,6 +2,7 @@
 layout: post
 title: Freeform 555-timer-based breathing diode bug
 categories: electronics
+tags: [buildlog,freeform, electronics]
 published: true
 image: /images/bug1/IMG_20190407_210103.jpg
 ---

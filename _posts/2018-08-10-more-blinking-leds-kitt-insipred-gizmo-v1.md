@@ -3,6 +3,7 @@ layout: post
 title: More blinking LEDs - KITT inspired gizmo, version 1
 categories: electronics
 published: true
+tags: [buildlog, breadboard, electronics]
 image: /images/kittblink1/kittblinkv1_thumb.jpg
 series: "KITTBlink"
 ---

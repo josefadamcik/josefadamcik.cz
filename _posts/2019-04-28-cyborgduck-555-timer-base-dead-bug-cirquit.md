@@ -2,6 +2,7 @@
 layout: post
 title: Cyborgduck - a 555-timer-based dead bug cirquit
 categories: electronics
+tags: [buildlog,freeform, electronics]
 published: true
 image: /images/cyborgduck/IMG_20190428_191525.jpg
 ---

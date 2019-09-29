@@ -2,6 +2,7 @@
 layout: post
 title: Activity journal - a mobile application idea and a personal project kickoff
 categories: programming
+tag: [android, programming]
 published: true
 image: /images/sideprojectsstrippng.png
 series: "Activity Journal"

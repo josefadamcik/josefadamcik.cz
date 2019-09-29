@@ -2,6 +2,7 @@
 layout: post
 title: Building a custom keyboard - Katana60
 categories: electronics
+tags: [buildlog, keyboards, electronics]
 published: true
 image: /images/katana60/IMG_20190206_130302.jpg
 ---
