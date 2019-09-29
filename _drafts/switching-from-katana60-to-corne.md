@@ -46,6 +46,8 @@ Let's sum up my requirements (or expectations) from my keyboard setup.
 
 # Katana
 
+<img src="{{site.baseurl}}/images/keyblayout/katanalayout_animation.gif">
+
 # Moving to split keyboard
 
 # Sofle 
