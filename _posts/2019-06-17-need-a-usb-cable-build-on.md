@@ -35,6 +35,17 @@ I have included links to Aliexpress. Most of them are the items I actually bough
 - A wood rod for coiling (mine has diameter 10 mm)
 - A heat gun ( I have only a cheap DIY-craft one), some people use a hair dryer instead.
 
+## Update: Quality and USB specification
+
+Since the article was featured on [hackaday.com](https://hackaday.com/2019/09/04/the-ultimate-guide-to-artisan-usb-cables/) and posted to [hackernews](https://news.ycombinator.com/item?id=20867276) I feel a need to clarify some things.
+
+This cable is not a high quality USB cable. It is, as many people pointed out in comments on both hackaday.com and hackernews, quite bad USB cable.
+
+- The cable is not shielded.
+- The Aviation connector has no function and shouldn't be on the cable. It will affect quality and can cause several kinds of problems. 
+
+I wouldn't try to use such cable for high-speed USB communication nor for high-current charging of other devices. I use it for my [USB 2 (Atmega32u4 based) keyboard]({{ site.baseurl }}{% post_url  2019-02-02-buiding-a-custom-keyboard-katana60 %}) on daily basis and it works well. If you really want a high quality cable, go buy one, don't build it or at least not like I did - use shielded cable, skip Aviation connector and [read the spec](https://www.usb.org/sites/default/files/CabConn20.pdf). You can also go and read discussions under the articles above, some people actually share some information and not just the snarky "I-am-the-only-one-smart-here-and-you-all-are-stupid" kind of remarks.
+
 ## Build log
 
 {% include gallery.html galleryname="usbcable" imgclass='imgmw600' %}
