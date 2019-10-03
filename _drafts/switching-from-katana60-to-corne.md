@@ -57,9 +57,9 @@ I have already [described my layout for my Katana60 keyboard][katana60layout]. B
 
 Katana60 have 4 layers and my configuration is very close to the default one.
 
-- **the default layer** - contains all the basic keys you know. Arrow keys in the bottom row. The first three arrows act as modifiers when held so my need to have modifiers mirrored on both sides is fulfilled. 
-- **Symbol/FN layer** - activated by holding one of FN keys in both bottom corners or by holding backspace in the middle. This layer is green on the animation below and the keys which activate it are filled with blue color. I have never used the FN keys in corner, only the middle one (which acts as backspace when taped but activates the layer when held). This layer is the only way how to access F1-F12 keys. It also moves numbers and symbols closer to the home position and adds an easy access to other symbols. Very useful when programming.
-- **Extend layer** - activated by holding a dedicated key which replaces caps-lock. This is very important layer for movement and text editing. Blue one on the animation. I have quickly become addicted to this layer.
+- **the default layer** - contains all the basic keys you know. There are also arrow keys in the bottom row. The first three arrows act as modifiers when held so my need to have modifiers mirrored on both sides is fulfilled. Notice that there are no F1-F12 keys because there's not enough rows for them. 
+- **Symbol/FN layer** - activated by holding one of FN keys in both bottom corners or by holding backspace in the middle. This layer is green on the animation below. I have never used the FN keys in corners, only the middle one (which acts as backspace when taped but activates the layer when held). This layer is the only way how to access F1-F12 keys. It also moves numbers and symbols closer to the home position and adds an easy access to other symbols. Very useful when programming.
+- **Extend layer** - activated by holding a dedicated key which replaces caps-lock. This is very important layer for movement and text editing. Blue one on the animation. I have quickly become addicted to this layer and cannot imagine not having it available.
 - **Num-lock layer** - this one contains mainly numpad and is toggled by pressing a dedicated num-lock key. Red on the animation. The important detail here is that it is activated permanently when you press the key and deactivated when you press it again. I rarely used this one. The red one on the animation.
 
 <figure>
@@ -70,6 +70,14 @@ Katana60 have 4 layers and my configuration is very close to the default one.
 [The whole layout without any animation can be viewed in kebyoard layou editor][katana60layouteditor].
 
 # Moving to split
+
+I wanted to build a split keyboard from the beginning. I chose Katana60 as first build because it was kind of step in that direction and seemed to be a good place to start with custom keyboards.
+
+Recently I build a [CRKBD (Corne keyboard)][crkbd]. I admit the decision to build the keyboard was a little bit impulsive. I love how it looks and as soon as I learned I could have PCBs and case manufactured very cheaply I just went for it. But once I built it and started using it I quickly realised it is too minimalistic for me.
+
+Let's look at the default layout.
+
+<img src="{{site.baseurl}}/images/keyblayout/crkbd_default.png"/>
 
 # Sofle 
 
