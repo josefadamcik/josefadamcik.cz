@@ -11,13 +11,13 @@ I [built my first custom keyboard (katana60)][katana60] back at the beginning of
 
 <!--more--> 
 
-# Motivation
+## Motivation
 
 I work as software developer so typing is very important part of my daily work. But not just typing. There are plenty of other tasks I need to do quickly - navigating trough the source code, editing, using various tools available in editor or IDE. The most effective way how to do such task is to use keyboard shortcuts.
 
 A long time before I started building [custom keyboards][keyboardstag], I was already trying to find ways how to be more effective when working with my computer and more specifically with keyboard. I have been using [Colemak layout][colemak] for quite some time. I invested the time necessary to learn and practice touch-typing. And I had been a long time Vim addict and I had to use Vim plug-in in every editor I had been using. That's no longer true, but it did affect how I use a keyboard.
 
-# Vim
+## Vim
 
 I am not going to dive into reasons why I no longer use Vim, but I am going to mention what I like about vim.
 
@@ -27,13 +27,13 @@ You can just keep your hands on the keyboard and most of the time even in the ba
 
 In other editors you need to either move your hand to a special key (arrows, home/end etc.) or use some shortcut which involves one or more modifiers (shift, alt, ctrl or cmd).
 
-# Size of keyboard
+## Keyboard size
 
 The above has one important consequence - you don't need a full feature keyboard. It's a waste of time to move your hand away from the basic position. So you stop using num-pad, home/end/page cluster and arrows. So it makes sense to have a smaller keyboard, doesn't it? 
 
 In the world of keyboards [a per-cent notation is used to classify keyboards][keyboardsize] according to they keyboard. A 100% keyboard is the old good big one with everything. The [katana60 I use right now][katana60] is 60% keyboard. [Corne, my second keyboard][crkbd], is only 40% which is really minimalistic.
 
-# What are my expectations?
+## What are my expectations?
 
 Let's sum up my requirements from my keyboard setup.
 
@@ -42,7 +42,7 @@ Let's sum up my requirements from my keyboard setup.
 - Have easy access to special characters - all the brackets, semicolons, dollar signs and others are important when programming.
 - Easy and effective way how to use shortcuts. I need to be able to combine letters with one or two modifiers and other keys (symbols, F-keys) with one modifier. There is one important detail in this regard: I need modifiers to be mirrored on both sides of the keyboard, because I hold them with the opposite hand to the one which presses the main key. For example, if for shortcut "CTRL+SHIFT+a"  I would press CTRL and SHIFT with right hand because A is on the left side of the keyboard.
 
-# Layers
+## Layers
 
 What is a layer when we talk about keyboard layouts? It's alternative mapping for keys on the keyboard which can be activated either temporarily, while you hold some key, or toggled permanently, when you press some key. Imagine how FN key works on laptops: when you hold the key some other keys have different function. Another example is the num-lock key on a keyboard which toggles meaning of keys in the numpad cluster.
 
@@ -51,7 +51,7 @@ Usage of layers is very common in the custom keyboard community and [firmwares l
 There's one [very detailed and very important post about layers on the Colemak forum][extendlayerdreymar]. This post is written by DreymarR and he explains there his concept of extend layer. The post [influenced the original layout of the Katana60 keyboard][katana60extend] quite bit and since my personal layout is heavily based on the default one it affected mine too.
 
 
-# Katana60
+## Katana60
 
 I have already [described my layout for my Katana60 keyboard][katana60layout]. But I am going to revisit the important details here too.
 
@@ -69,7 +69,7 @@ Katana60 have 4 layers and my configuration is very close to the default one.
 
 [The whole layout without any animation can be viewed in kebyoard layou editor][katana60layouteditor].
 
-# Moving to split
+## Moving to split
 
 I wanted to build a split keyboard from the beginning. I chose Katana60 as first build because it was kind of step in that direction and seemed to be a good place to start with custom keyboards.
 
@@ -77,9 +77,72 @@ Recently I build a [CRKBD (Corne keyboard)][crkbd]. I admit the decision to buil
 
 Let's look at the default layout.
 
-<img src="{{site.baseurl}}/images/keyblayout/crkbd_default.png"/>
+<figure>
+<img src="{{site.baseurl}}/images/keyblayout/crkbd_animation.gif"/>
+<figcaption>
+    The default layout for Corne keyboard.
+</figcaption>
+</figure>
 
-# Sofle 
+The default layout is not that much interesting. Let's focus attention on keys which we have available.
+
+We have sacrificed the number row (the top one) on this keyboard. We have also only 3 keys in outer columns and 3 keys in the bottom row. There are also some additional keys in the middle cluster on Katan60, but since I was barely using them I'll ignore them. 
+
+And we need to fit somewhere:
+
+- Ctrl, Alt, Cmd,
+- Shift
+- Tab
+- Enter
+- Space
+- Backspace
+- Esc
+- 2 keys for switching to other layers
+
+That is 11 keys so it is possible cover to fit them into both outer columns and bottom rows (12 keys in total).
+
+But such solution creates problems:
+
+- I cannot have modifiers on both sides in a symmetric way - this would require 4 more keys. 
+- I would also like to keep shift keys in normal position and the remaining modifiers in the bottom row. But I would also like to have space and enter under my thumbs in the bottom row. That is at least 4 keys in the bottom row on each side. If we add layer switching keys we would need 5.
+
+What would be possible workarounds?
+
+1) Join layer switching keys with space/enter - each key would act as normal key when tapped or select another layer when held. [QMK firmware supports that][qmklayers]. I have tried that, but it has it's own problems. Mainly it creates a lag when typing. It is just a few hundreds of milliseconds, but it is noticeable and very annoying. I was also having problems with errors where I wanted modifier but got the character. Those we most likely caused by my mistakes, but they were still too common and annoying. And as the last and the biggest issue: this gives me only 2 more keys, that's still not enough.
+
+2) Use keys in the bottom letter row as multifunctional. For example "Z" - Ctrl, "X" - Alt, "C" - CMD and the same for ",", "." and "/" on the other side. Using the same trick when tapping the key sends a character and holding the key sends the modifier. This has similar problems as above, only worse.
+
+I have also found it is difficult to fit all the keys I wanted in the remaining layers. I had to use the 4th layer (activated by holding both layer switching keys) for Fn keys. But such arrangement didn't work because I need to have the ability to press one modifier with any F key and that is very difficult when the layer you press two keys in the bottom row already.
+
+After some time I gave up. I just need a less minimalistic keyboard. 
+
+## Lily58
+
+[Lily58 is another design ][lily58] very similar to (and partly based on) Crkbd.
+
+<figure>
+<img src="{{site.baseurl}}/images/keyblayout/lily58.png"/>
+<figcaption>
+    Lily58
+</figcaption>
+</figure>
+
+It is almost perfect:
+
+- There's one additional row at the top so I get back the number row and a place for Esc. Fn keys could be placed there on another layer too in the same way I have them on Katana60. 
+- We have one additional key in the bottom row on each side. That's almost perfect but having 2 would have been better. 
+
+Lily58 would work nicely for me but I would have to either:
+
+- Use workaround 1) from above. I actually change my Katana60 layout and tried to use this for few weeks hoping I could get used to it. But it was not getting better.
+- Move layer switching to outer columns. But I like the idea having those under my thumbs. I switch layers often and that might put too much strain on my pinkies. 
+
+
+# So let's design a keyboard, why not?
+
+Lily58 is almost perfect and also opensource with KiCad files available. So I decided to modify it and add desired keys. I chose the Lily58 Pro version as basis for my changes. The Pro version uses hotswap sockets for keyboard switches  
+
+It use  Originally I created just a fork of the repository and wanted to name the keyboard Lily60. But then I got carried away and started doing more 
 
 
 ----
@@ -104,4 +167,8 @@ Let's look at the default layout.
 [plancklayers]: https://github.com/qmk/qmk_firmware/releases/download/planck-4.0/planck-keymap-v4.pdf "Planck layers (pdf)"
 {:target="_blank"} 
 [katana60layouteditor]: http://www.keyboard-layout-editor.com/#/gists/14d62ee67d36621c37888783fa29b107 "My layout for Katana60 in keyboard-layout-editor"
+{:target="_blank"} 
+[lily58] https://github.com/kata0510/Lily58 "Lily58 - a split keyboard design on github"
+{:target="_blank"} 
+[lily58pro] https://github.com/kata0510/Lily58/blob/master/Pro/ "Lily58 Pro"
 {:target="_blank"} 
