@@ -193,9 +193,9 @@ Extend layer is also almost the same as on Katana60 since it is already in my mu
 
 ## Testing the layout and building the keyboard
 
-I have finished the first revision of the keyboard PCB but it will still take some time until I polish the design, order the manufacture and build the keyboard. 
+I am finishing the first revision of the keyboard PCB ([KiCad files on github][soflegithub]) but it will still take some time until I polish the design, order the manufacture and build the keyboard. 
 
-But I am already testing the new layout. I have modified my Katana60 layout[^4] and added two more configurations (one for Mac and one for Linux) with the layout I described above and I have been already using it for a few weeks. It works quite well and I am getting used to the changes. Of course, it's work in progress and will be for some time.
+But I am already testing the new layout. I have modified my Katana60 layout[^4] and added two more configurations (one for Mac and one for Linux) with the layout I described above and I have been using it for a few weeks. It works quite well and I am getting used to the changes. Of course, it's work in progress.
 
 I am going to share more about the design of the keyboard in the next article, so if you are interested you can follow me on [Twitter](https://twitter.com/josefadamcik) or use [an old-school RSS feed and subscribe to updates on this blog](https://josef-adamcik.cz/feed.xml).
 
@@ -235,3 +235,4 @@ I am going to share more about the design of the keyboard in the next article, s
 [soflelayout]: www.keyboard-layout-editor.com/#/gists/76efb423a46cbbea75465cb468eef7ff33 "Sofle Keyboard layout at keyboard-layout-editor.com"
 {:target="_blank"} 
 [katana60githubsplit]: https://github.com/josefadamcik/qmk_firmware/tree/split_training/keyboards/katana60/keymaps/josefadamcik "QMK firmware for Katana60 with added configurations for future layout."
+[soflegithub]: https://github.com/josefadamcik/SofleKeyboard "SofleKeyboard - KiCad project on Github.com"
