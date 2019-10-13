@@ -3,13 +3,13 @@ layout: post
 title: In search of the best custom keyboard layout
 categories: electronics
 tags: [keyboards, electronics]
-published: false
-image: 
+published: true
+image: images/keyblayout/IMG_20191013_110724.jpg
 ---
 
 I [built my first custom keyboard (Katana60)][katana60] back at the beginning of this year and [the second one (Corne)][crkbd] a few months ago, but I am already designing another one. Apart from the fun I have as I build and customize those keyboards, it is about looking for a more effective keyboard layout for my daily work. This article sums up my journey which leads to the decision to design own keyboard.
 
-{% responsive_image path: images/keyblayout/IMG_20191013_110724.jpg alt: "" %}
+{% responsive_image path: images/keyblayout/IMG_20191013_110724.jpg alt: "Katana60 and The Corne keyboard next to each other." %}
 
 <!--more--> 
 
