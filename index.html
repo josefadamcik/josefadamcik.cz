@@ -24,7 +24,7 @@ I am an experienced software developer. I am <strong>NOT</strong> open to new pr
           {{ post.excerpt }}
         {% endif %}
       </span>
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">&#8658; continue</a>
+      {% include morelink.html %}
     </div>
   {% endfor %}
 </div>

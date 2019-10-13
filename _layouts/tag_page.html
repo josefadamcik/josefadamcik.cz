@@ -19,7 +19,7 @@ pagination:
               {{ post.excerpt }}
             {% endif %}
           </span>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">&#8658; continue</a>
+          {% include morelink.html %}
         </div>
       {% endfor %}
     </div>
