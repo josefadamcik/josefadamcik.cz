@@ -149,20 +149,65 @@ Lily58 would work nicely for me but I would have to either:
 
 Lily58 is almost perfect and also opensource with KiCad files available. So I decided to modify them and add the desired keys. I chose the [Lily58 Pro][lily58pro] version[^2] as basis for my changes. 
 
-Originally I just forked the repository and wanted to add only the 2 keys, name the keyboard Lily60 or something like that and send the manufacture order for PCBS. But I got a bit carried away[^3] but I am going to describe that in another article. This one is about layouts, so let's see how it would look.
+Originally I just forked the repository and wanted to add only the 2 keys, name the keyboard Lily60 or something like that and send the manufacture order for PCBS. But I got a bit carried away[^3] but I am going to describe that in another article. This one is about layouts, so let's see how it would look ([the whole layout can be also viewed at keyboard-layout-editor.com][soflelayout])
 
 <figure>
-<img src="{{site.baseurl}}/images/keyblayout/soflekeyboard.png"/>
+<img src="{{site.baseurl}}/images/keyblayout/sofle_baselayer.png"/>
 <figcaption>
-    Desired layout - the basic layer.
+    Desired layout - Default layer.
 </figcaption>
 </figure>
+
+Default layer contains no surprises:
+
+- `Cmd`, `Ctrl`, `Alt` are in the bottom layer on both sides.
+- Layer switching, `Space` and `Enter` are in thumb cluster.
+- `Shift` keys are placed in a traditional way.
+- `Tab` and `Esc` are moved one row down so they are easier to access.
+
+<figure>
+<img src="{{site.baseurl}}/images/keyblayout/sofle_symbol.png"/>
+<figcaption>
+    Desired layout - Symbol layer.
+</figcaption>
+</figure>
+
+Symbol layer is very similar to Katana60 and that's intentional - it would be easier to get used to.
+
+- All `F1`-`F11` buttons are in the top row and they are aligned to number keys (`F1` is where `1` is)
+- Only `F12` is moved down. But that's actually convenient since I use it to activate terminal and it's nice to have it closer to my pinkie.
+
+<figure>
+<img src="{{site.baseurl}}/images/keyblayout/sofle_extend.png"/>
+<figcaption>
+    Desired layout - Extend layer.
+</figcaption>
+</figure>
+
+Extend layer is also almost the same as on Katana60 since it is already in my muscle memory.
+
+- The right side contains arrows, jumping to the start/end of the line, next and previous word, `page up` and `page down`. `Delete` is also included.
+- The left side contains modifiers for easier access when the layer is active (so I can combine them with movement keys).
+- Also `Caps Lock` is here since it is sometimes handy. Not enough to be on the default layer, though.
+- And few shortcuts for `Undo`, `Copy`, `Paste`, `Cut`. Again their purpose is to allow for easier editing of text without a need to leave the layer.
+- And keys I don't use so often `Ins`, `Print Screen` and `Menu` (which I believe does nothing on Mac).
+- `RST` is an utility key to restart the micro-controller. 
+
+## Testing the layout and building the keyboard
+
+I have finished first design of the keyboard PCB but it will still take some time until I polish the design, order the manufacture and build the keyboard. 
+
+But I am already testing the new layout. I have modified my Katana60 layout[^4] and added two more configurations (one for Mac and one for Linux) with the layout I described above and I have been already using it for a few weeks. It works quite well and I am getting used to the changes. Of course, it's work in progress and will be for some time.
+
+I am going to share more about the design of the keyboard in the next article, so if you are interested you can follow me on [Twitter](https://twitter.com/josefadamcik) or use [an old-school RSS feed and subscribe to updates on this blog](https://josef-adamcik.cz/feed.xml).
 
 ----
 ## Footnotes
 [^1]: Examples below show traditional QWERTY layout so the dear reader is not confused by COLEMAK.
 [^2]: The Pro version uses hot-swap sockets ([on aliexpress][hotswapali]) for keyboard switches. That would allow me to use nice (and expensive) switches and If I don't like the board I would be able to use them on another one. Socket's are much cheaper than switches. 
 [^3]: I moved some keys in the bottom row and rotated them a bit. I also realized I don't need the middle keys above the thumb keys but maybe I could add a rotary encoder which is also supported by QMK firmware and can be used to... well, to emit any keystrokes I would desire. And finally I started moving things around the micro-controller. The resulting design is still very close to the Lily58 and most of the routing for keys is the same. But If I like where the board is going I am planning to do further improvements. One of them would be to integrate micro-controller directly on the board which would be a bit nicer than using Pro Micro boards. I would also like to use USB-C connector and maybe figure out a better way how to connect the halves than audio cable. But that's all for the future.
+[^4]: The current layout can be found in [my fork of QMK Firmware on Github, branch `split_training`][katana60githubsplit]. The `keymap.c` file contains all the layouts I have in my keyboard - there are more of them and I can switch between theme as I want. A bit more detials why I did it like that can be found [in the original Katana60 article][katana60layout]. 
+
 
 [colemak]: https://colemak.com/ "Colmak Layout"
 {:target="_blank"} 
@@ -189,4 +234,6 @@ Originally I just forked the repository and wanted to add only the 2 keys, name 
 {:target="_blank"} 
 [hotswapali]: https://www.aliexpress.com/item/32951252318.html "Kailh hot-swap sockets for MX switch"
 {:target="_blank"} 
-
+[soflelayout]: www.keyboard-layout-editor.com/#/gists/76efb423a46cbbea75465cb468eef7ff33 "Sofle Keyboard layout at keyboard-layout-editor.com"
+{:target="_blank"} 
+[katana60githubsplit]: https://github.com/josefadamcik/qmk_firmware/tree/split_training/keyboards/katana60/keymaps/josefadamcik "QMK firmware for Katana60 with added configurations for future layout."
