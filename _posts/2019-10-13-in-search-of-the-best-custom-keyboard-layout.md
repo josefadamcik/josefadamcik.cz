@@ -232,7 +232,7 @@ I am going to share more about the design of the keyboard in the next article, s
 {:target="_blank"} 
 [hotswapali]: https://www.aliexpress.com/item/32951252318.html "Kailh hot-swap sockets for MX switch"
 {:target="_blank"} 
-[soflelayout]: www.keyboard-layout-editor.com/#/gists/76efb423a46cbbea75465cb468eef7ff33 "Sofle Keyboard layout at keyboard-layout-editor.com"
+[soflelayout]: http://www.keyboard-layout-editor.com/#/gists/76efb423a46cbbea75465cb468eef7ff "Sofle Keyboard layout at keyboard-layout-editor.com"
 {:target="_blank"} 
 [katana60githubsplit]: https://github.com/josefadamcik/qmk_firmware/tree/split_training/keyboards/katana60/keymaps/josefadamcik "QMK firmware for Katana60 with added configurations for future layout."
 [soflegithub]: https://github.com/josefadamcik/SofleKeyboard "SofleKeyboard - KiCad project on Github.com"
