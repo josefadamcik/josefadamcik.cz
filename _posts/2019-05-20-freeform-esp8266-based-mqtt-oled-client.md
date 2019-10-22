@@ -4,6 +4,7 @@ title: Freeform ESP8266 OLED MQTT client
 categories: electronics
 tags: [buildlog,freeform, electronics]
 published: true
+series: "Room Monitor"
 image: /images/rmc/esp8266oledmqttclient.jpg
 ---
 
