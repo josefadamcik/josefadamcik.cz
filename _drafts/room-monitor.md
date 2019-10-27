@@ -10,7 +10,7 @@ image:
 
 When I built my [Freeform ESP8266 OLED MQTT client][roommonitorclient] and wrote about it I mentioned I have one long-running project which captures the data I wanted to display on the device. I call it Room Monitor and it is nothing special - a bunch of sensors connected to ESP8266 and powered with battery. I am going to briefly sum-up its hardware and software development in following two articles. This one is going to cover prototyping and the next one the current (and semi-finished) PCB version.
 
-TODO: picture of 3 prototypes
+{% responsive_image path: images/roommonitor/IMG_20191027_142443.jpg alt: "RoomMonitor - prototypes and the PCB version " %}
 
 <!--more-->
 
@@ -38,7 +38,7 @@ Both sensors are connected through I2C and powered by 5V (no battery yet). Data 
 
 ## The second prototype - battery powered
 
-TODO: picture
+{% responsive_image path: images/roommonitor/IMG_20191027_142323.jpg alt: "RoomMonitor - the second prototype" %}
 
 The second one was build on a piece of perfboard. The most of the components were connected to PIN headers. There was still the good old Wemos  D1 MINI. The photo resistor was replaced by a breakout with [BH1750 - a light intensity sensor][BH1750]. The display was discarded in order to save battery life.
 
@@ -59,7 +59,7 @@ TODO:
 
 ## The third prototype - improve battery life through hardware
 
-TODO: picture
+{% responsive_image path: images/roommonitor/IMG_20191027_142133.jpg alt: "RoomMonitor - the third prototype" %}
 
 TODO:
 
@@ -92,4 +92,16 @@ The next part will cover the current version which is a custom PCB build.
 {:target="_blank"}
 [BH1750]: https://www.google.com/search?q=BH1750 "Google search for BH1750"
 [ioadafruit]: https://io.adafruit.com "IO app from Adafruit"
+{:target="_blank"}
+[iotcontainer]: https://tinker.yeoman.com.au/2016/07/24/iot-container/ "
+IoT Container makes shopping easier at tinker.yeoman.com.au"
+{:target="_blank"}
+[esp8266lowpower]: https://tinker.yeoman.com.au/2016/05/29/running-nodemcu-on-a-battery-esp8266-low-power-consumption-revisited/ "
+Running NodeMCU on a battery: ESP8266 low power consumption revisited at tinker.yeoman.com.au"
+{:target="_blank"}
+[bakke1]: https://www.bakke.online/index.php/2017/05/21/reducing-wifi-power-consumption-on-esp8266-part-1/ "Reducing WiFi power consumption on ESP8266, part 1"
+{:target="_blank"}
+[bakke2]: https://www.bakke.online/index.php/2017/05/21/reducing-wifi-power-consumption-on-esp8266-part-2/ "Reducing WiFi power consumption on ESP8266, part 2"
+{:target="_blank"}
+[bakke3]: https://www.bakke.online/index.php/2017/05/22/reducing-wifi-power-consumption-on-esp8266-part-3/ "Reducing WiFi power consumption on ESP8266, part 3"
 {:target="_blank"}
