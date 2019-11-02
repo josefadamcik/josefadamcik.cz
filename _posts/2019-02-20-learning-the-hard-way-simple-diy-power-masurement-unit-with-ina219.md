@@ -24,7 +24,7 @@ When I was building an 8-bit computer with 8085 CPU [Omen Alpha (designed by Mar
 
 ### Idea and motivation - the Room monitor project
 
-One of my ongoing projects is a simple device which combines a few sensors (temperature, light, humidity) and an ESP8266 micro-controller ([datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf)) (which has wifi capability). The device measures indoor conditions and sends data to an online dashboard. It's meant to be learning project which may one day evolve into an outdoor meteorological station. It is battery powered (li-on) and part of the fun is trying to make it run as long as possible without recharging. 
+One of my ongoing projects is a simple device which combines a few sensors (temperature, light, humidity) and an ESP8266 micro-controller ([datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf)) (which has wifi capability). The device measures indoor conditions and sends data to an online dashboard. It's meant to be learning project which may one day evolve into an outdoor meteorological station. It is battery powered (li-on) and part of the fun is trying to make it run as long as possible without recharging. Update: [I have written an article about this project]({{ site.baseurl }}{% post_url 2019-11-02-esp8266-based-room-conditions-monitor-part-1 %})
 
 {% responsive_image path: images/ina219/IMG_20190220_125917.jpg alt: "A prototype of the Room monitor" figcaption: "A prototype of the Room monitor"  class: "imgmw600"  %}
 
