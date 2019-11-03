@@ -69,7 +69,7 @@ One can learn a lot of tricks from following articles:
 - Use `ESP.deepSleepInstant()` instead of `ESP.deepSleep()` and use `WAKE_RF_DISABLED` flag to keep WiFi disabled when waking up.
 - Disable network persistence `WiFi.persistent( false )` ([explained here][bakke3])
 
-Just by applying those I was able to get **37 days** of battery life with 5 minutes between wake ups with this prototype. That is nice, but could be better. The original, naive, implementation was worse but unfortunately I don't remember how long it was. 
+Just by applying those I was able to get **37 days** of battery life with 5 minutes between wake ups with this prototype. That is nice, but could be better. The original, naive, implementation was worse but unfortunately I don't remember how long it was. You can check out [the current firmware at Github][firmware].
 
 ## The third prototype - improve battery life through hardware
 
@@ -77,9 +77,9 @@ The power consumption is not only about firmware. It's not only about ESP8266 ei
 
 Mainly:
 
-- USB to serial converter, which is powered all the time and affects. Some people just disable theirs on the DEV board.
+- USB to serial converter, which is powered all the time and affects. Some people just disable theirs on the DEV board, for example by de-soldering.
 - Voltage regulator (5V->3.3V) which also uses some power when used.
-- Sometimes some LEDs or other components on the board.
+- Depending on the board, some LEDs or other components on the board.
 
 The next step was to use ESP8266 without a DEV board to have better control over power consumption. I found cute [breakout boards for ESP8266 (link to Aliexpress, not an affiliate link)][espadapter] which allowed me to do some prototyping.
 
@@ -87,21 +87,46 @@ The next step was to use ESP8266 without a DEV board to have better control over
 
 This requires to use external FTDI board for programming and communication through serial (for example reading of messages used for debugging). ESP8226 has support for Over-The-Air updates so normally you would need to use FTDI only for the first flash and all the next ones can be done through OTA. You can see a PIN header with labels for FTDI on the image above.
 
-## Powering properly
+## Powering properly - picking a voltage regulator
 
-Another change for this prototype was an introduction of LDE to convert voltage from a battery to a stable voltage for ESP8226 and other components.
+Another change for this prototype was an introduction of a voltage regulator to convert variable voltage from a Li-On cell to a stable voltage for ESP8226 and other components.
 
-TODO:
+There are several criteria we need to pay attention to when picking the regulator:
 
-- voltage drop on a regulator and what does it mean.
-- picking the regulator
-- going for 3V insetead of 3.3V
+### Power drain
 
-The final battery life jumped to **57 days** - 20 days (54%) more than the previous prototype. That is significant improvement.
+They also consume power and they will drain some power even when the ESP8226 sleeps. This is called "Quiescent Current" in a datasheet.
+
+### Output current 
+
+How big output current the regulator can provide. ESP8226 can take around 140 mA on average when working, but it is able to drain up to 350 mA when communicating[^4].
+
+### Dropout voltage
+
+Dropout voltage is the minimal difference between output voltage and input voltage. For example, if I want output voltage 3.3V and the regulator has a dropout voltage 1V I would have to supply least 4.3V otherwise the regulator will fail to provide the voltage I would like. This is very important when we run on battery which has voltage range from 4.2 to, let's say, ~3.0V [^5]. If we had a regulator with a dropout voltage like the 1V from example above, it is not going to be able to supply 3.3V at all with one cell. We would have to use at least 2 cells in series.
+
+So an LDO (Low-Dropout) regulator with as small voltage drop as possible. Keep in mind this also changes with the current we drain and the dropout tends to be bigger with bigger current. The smaller dropout we have, the more power we would be able to squeeze from the cell.
+
+### Output voltage
+
+Every LDO has either fixed or variable output voltage. The straightforward pick would be 3.3V for ESP8226. But it is rated to work in a range from 3V to 3.6V. So we could also use 3V and have more room for the dropout voltage of our regulator.
+
+### Choosing the voltage regulator
+
+In the end I picked [LT1763 from Linear Technology (datasheet)][lt1763datasheet] in the variable output voltage variant.
+
+- I can use it as 3V regulator
+- I has 0.3V dropout voltage[^6], so the device can work until the cell discharges to 3.3V. That's great, because it doesn't really make sense to go lower.
+- It can supply up to 500mA
+- It has low Quiescent Current - 30μA
+
+### But, is it really better?
+
+The final battery life jumped to **57 days**. That is 20 days (54%) more than the previous prototype. That is a significant improvement. 
 
 ## Next time
 
-The next part will cover the current version which is a custom PCB build. 
+The third prototype was very successful and I decided to give it some nicer form. The next article will cover design a build of custom PCB with some unusual shape. 
 
 ----
 ## Footnotes
@@ -109,12 +134,15 @@ The next part will cover the current version which is a custom PCB build.
 [^1]: Protected (and charged) through a TP4056-based module with over-discharge and over-current protection. Never use those cells without a proper protection circuit!
 [^2]: ESP8226 has several sleep modes but the internet is full of articles about them so I am not going to explain them all.
 [^3]: Wemos D1 Mini, in my case.
+[^4]: You can find various information and speculation about maximal power consumption of an ESP8226 module. The values I used are from [measurements done by Thorsten von Eicken in his article][voneicken1].
+[^5]: The protection circuit will turn it off at 2.5V. But you should stop draining the power sooner. The sooner you stop the longer life is your cell going to have. It's also important to realize that the voltage drops very quickly at the end of the voltage range. I don't have any nice graph to embed in the article, but you can look for example [here for a graph from discharge testing of the cell][dischargetest]. The curve starts to descend very quickly when 3.2V is reached. Of course, the real shape of the curve depends on the cell and on the current being drained and so on.
+[^6]: 300mV for 500mA. It's even smaller for smaller currents.
 
 <!-- Links  -->
 
 [roommonitorclient]: {{ site.baseurl }}{% post_url 2019-05-20-freeform-esp8266-based-mqtt-oled-client %}
-[cpp]: {{ site.baseurl }}{% post_url 2018-09-06-its-never-too-late-to-learn-cpp-properly %}
-[fimware]: https://github.com/josefadamcik/RoomMonitor "RoomMonitor firmware on github"
+[cpp]: {{ site.baseurl }}{% post_url 2018-09-06-its-never-too-late-to-learn-cpp-properlfy %}
+[firmware]: https://github.com/josefadamcik/RoomMonitor "RoomMonitor firmware on github"
 {:target="_blank"}
 [wemosd1]: https://wiki.wemos.cc/products:retired:d1_mini_v2.2.0 "Wemos wiki for D1 Mini"
 {:target="_blank"}
@@ -141,5 +169,12 @@ The next part will cover the current version which is a custom PCB build.
 {:target="_blank"}
 [voneicken]: https://blog.voneicken.com/projects/low-power-wifi-intro/ "Low Power Wifi series by Thorsten von Eicken"
 {:target="_blank"}
+[voneicken1]: https://blog.voneicken.com/2018/lp-wifi-esp8266-1/ "Low Power Wifi - ESP8226, part 1 by Thorsten von Eicken"
+{:target="_blank"}
 [ina219]: {{ site.baseurl }}{% post_url 2019-02-20-learning-the-hard-way-simple-diy-power-masurement-unit-with-ina219 %}
 [espadapter]: https://www.aliexpress.com/item/32649040259.html?spm=a2g0s.9042311.0.0.1ec64c4d5Yqfd7 "ESP8226 module adapter on Aliexpress"
+{:target="_blank"}
+[lt1763datasheet]: https://www.analog.com/media/en/technical-documentation/data-sheets/1763fh.pdf "LT1763 Datasheet"
+{:target="_blank"}
+[dischargetest]: http://www.dampfakkus.de/akkutest.php?id=106 "Sony US18650V3 discharge test"
+{:target="_blank"}
