@@ -14,6 +14,8 @@ My second [freeform creation]({{ site.baseurl }}{% post_url 2019-04-10-freeform-
 
 <!--more-->
 
+{%- include post_series.html -%}
+
 ## Circuit
 
 When I was thinking what to build as a next, simple free-form circuit, my eyes fell on my [RoomMonitor project (link is to a GitHub repository with its firmware)](https://github.com/josefadamcik/RoomMonitor). That's one of my long-running projects. Basically, a bunch of sensors connected to ESP8266, battery powered, measures conditions in a room and sends data to some online service via MQTT. Nothing that much interesting. The challenge here is to make it last as long as possible on a battery. It might evolve into a weather station in the future. Right now, I am running the second prototype and planning the third one. Then, maybe, I might think about making some final form for that.

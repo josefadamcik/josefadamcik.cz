@@ -8,7 +8,7 @@ series: "Room Monitor"
 image: /images/roommonitor/IMG_20191027_142443.jpg
 ---
 
-When I built my [Freeform ESP8266 OLED MQTT client][roommonitorclient] and wrote about it I mentioned I have one long-running project which captures the data I wanted to display on the device. I call it Room Monitor and it is nothing special - a bunch of sensors connected to ESP8266 and powered with battery. I am going to briefly sum-up its hardware and software development in following two articles. This one is going to cover prototyping and the next one the current (and semi-finished) PCB version.
+When I built my [Freeform ESP8266 OLED MQTT client][roommonitorclient] and wrote about it I mentioned I have one long-running project which captures the data I wanted to display on the device. I call it Room Monitor and it is nothing special - a bunch of sensors connected to ESP8266 and powered with battery. I am going to briefly sum&#8209;up its hardware and software development in following two articles. This one is going to cover prototyping and the next one the current (and semi-finished) PCB version.
 
 {% responsive_image path: images/roommonitor/IMG_20191027_142443.jpg alt: "RoomMonitor - prototypes and the PCB version " %}
 
@@ -18,9 +18,9 @@ When I built my [Freeform ESP8266 OLED MQTT client][roommonitorclient] and wrote
 
 ## Just because I can
 
-When I started with all this tinkering with electronics and micro-controllers it was very similar to what many people do nowadays. I have got some Arduinos, bunch of basic THT components, a breadboard, jumper wires and a few sensors. Obviously I spent some time playing with all those things, connecting them to Arduino and together in a way anyone could imagine.
+When I started with all this tinkering with electronics and micro-controllers it was very similar to what many people do. I have got some Arduinos, bunch of basic THT components, a breadboard, jumper wires and a few sensors. Obviously I spent some time playing with all those things, connecting them together in ways anyone could imagine.
 
-When I had a bunch of sensors like temperature and humidity connected to a micro-controller I started thinking I could make a weather station one day. But you know, those have to be outside, protected from the environment yet still be able to capture correct values (access of air to sensors) which makes them a bit more difficult to put together. But there also needs to be a way how to power them and how to send the measured data (and where).
+When I had a bunch of sensors like temperature and humidity connected to a micro-controller I started thinking I could make a weather station one day. But you know, those have to be outside, protected from the environment yet still be able to capture correct values (access of air to sensors) which makes them a bit more difficult to put together. There also has to be a way how to power them and how to send the measured data (and where).
 
 As with every complex project, I had to choose the battles I would like to fight first: powering and communication. So my weather station could stay in my room and measure values I don't really need to know. But as I like to say: This is a hobby. Hobbies are not supposed to be practical.
 
@@ -34,7 +34,7 @@ The first prototype was obviously on a breadboard and was build from things I ha
 - a photo resistor as a light sensor
 - and a I2C LCD display which was showing the measured values. 
 
-Both sensors were connected through I2C and powered by 5V (no battery yet). Data were sent using Adafruit MQTT library to [io.adafruit.com][ioadafruit] because it was easy to setup. This made the task one - communication - pretty sorted out. I spent some time writing the firmware and because [I learned a bit of C++][cpp] back then I hugely over-engineered the code. 
+Both sensors were connected through I2C and powered by 5V (no battery yet). Data were sent using Adafruit MQTT library to [io.adafruit.com][ioadafruit] because it was easy to setup. This made the task one - communication - pretty sorted out. I spent some time writing the firmware and because [I learned a bit of C++][cpp] back then I hugely over&#8209;engineered the code. 
 
 ## The second prototype - battery powered
 
@@ -42,21 +42,21 @@ The second one was build on a piece of perfboard. The most of the components wer
 
 {% responsive_image path: images/roommonitor/IMG_20191027_142323.jpg alt: "RoomMonitor - the second prototype" figcaption: "The second prototype" class: "imgmw600"%}
 
-But the most important change was the power. I used one Li-On cell (18650) to power the device[^1]. The voltage on such cell ranges from 4.2V (fully charged) to 2.5V when the over-discharge protection circuit shuts off. ESP8226 itself is powered by 3.3V. There is a voltage regulator on the Wemos D1 Mini board to drop 5V (e.g. from USB) to 3.3V. But you can also power the board directly by 3.3V and bypass the regulator.
+But the most important change was the power. I used one Li-On cell (18650) to power the device[^1]. The voltage on such cell ranges from 4.2V (fully charged) to 2.5V when the over&#8209;discharge protection circuit shuts off. ESP8226 itself is powered by 3.3V. There is a voltage regulator on the Wemos D1 Mini board to drop 5V (e.g. from USB) to 3.3V. But you can also power the board directly by 3.3V and bypass the regulator.
 
 I had only the raw voltage from the cell which is too low for the voltage regulator. It's also too high for the ESP8226, at least when charged (the supported range for ESP8226 is from 3V to 3.6V). This prototype didn't solve this issue properly. Some voltage was dropped by a diode and other than that it was just keeping fingers crossed that ESP8266 survives working out of specification. 
 
-It worked without bigger problems for a few months and then ESP8226 died. I am not really sure why. It might have been over-voltage but also under-voltage when the battery was too discharged, or something completely different.
+It worked without bigger problems for a few months and then ESP8226 died. I am not really sure why. It might have been over&#8209;voltage but also under&#8209;voltage when the battery was drained too much, or something completely different.
 
 ## Optimizing for battery life in firmware
 
 Nevertheless, I was able to experiment with the battery life and how it could be affected by firmware. I even made [a small device to help me with that][ina219].
 
-The best way how to make ESP8226 last long time on battery is to use deep-sleep[^2] mode. In this mode only small part of the chip is running and the rest is completely turned off, even the content of RAM is lost during deep-sleep. For my case this was perfect - measure and send away the data, sleep for 5 minutes and wake up again. 
+The best way how to make ESP8226 last long time on battery is to use deep&#8209;sleep[^2] mode. In this mode only small part of the chip is running and the rest is completely turned off, even the content of RAM is lost during deep&#8209;sleep. For my case this was perfect - measure and send away the data, sleep for 5 minutes and wake up again. 
 
 All that sounds easy enough, but there are is some complexity in the real world. The firmware for ESP8266 has some specific behaviour and some bugs which affect it's power consumption. Some people already did experiments and measurements and reported what they have found. 
 
-Following articles are must read for anyone who wants to optimize deep-sleep mode for ESP8226:
+Following articles are must read for anyone who wants to optimize deep&#8209;sleep mode for ESP8226:
 
 - [Reducing WiFi power consumption on ESP8266, part 1][bakke1], [part2][bakke2], and [part3][bakke3] by Erik H. Bakke.
 - series of articles about [Low Power Wifi by Thorsten von Eicken][voneicken] which covers not only ESP8226 but even ESP32, and RTL8710. It's very detailed and very well done.
@@ -69,7 +69,9 @@ One can learn a lot of tricks from following articles:
 - Use `ESP.deepSleepInstant()` instead of `ESP.deepSleep()` and use `WAKE_RF_DISABLED` flag to keep WiFi disabled when waking up.
 - Disable network persistence `WiFi.persistent( false )` ([explained here][bakke3])
 
-Just by applying those I was able to get **37 days** of battery life with 5 minutes between wake ups with this prototype. That is nice, but could be better. The original, naive, implementation was worse but unfortunately I don't remember how long it was. You can check out [the current firmware at Github][firmware].
+You can check out [the current firmware at Github][firmware] for details or the articles linked above for examples.
+
+Just by applying the suggestions, I was able to get **37 days** of battery life while having 5 minutes of deep&8209;sleep between wake ups with this prototype. That is nice, but could be better. The original, naive, implementation was worse but unfortunately I don't remember how long it lasted. 
 
 ## The third prototype - improve battery life through hardware
 
@@ -103,7 +105,7 @@ How big output current the regulator can provide. ESP8226 can take around 140 mA
 
 ### Dropout voltage
 
-Dropout voltage is the minimal difference between output voltage and input voltage. For example, if I want output voltage 3.3V and the regulator has a dropout voltage 1V I would have to supply least 4.3V otherwise the regulator will fail to provide the voltage I would like. This is very important when we run on battery which has voltage range from 4.2 to, let's say, ~3.0V [^5]. If we had a regulator with a dropout voltage like the 1V from example above, it is not going to be able to supply 3.3V at all with one cell. We would have to use at least 2 cells in series.
+Dropout voltage is the minimal difference between the output voltage and the input voltage. For example, if I want output voltage 3.3V and the regulator has a dropout voltage 1V I would have to supply least 4.3V otherwise the regulator will fail to provide the voltage I would like. This is very important when we run on battery which has voltage range from 4.2 to, let's say, ~3.0V [^5]. If we had a regulator with a dropout voltage like the 1V from example above, it is not going to be able to supply 3.3V at all with one cell. We would have to use at least 2 cells in series.
 
 So an LDO (Low-Dropout) regulator with as small voltage drop as possible. Keep in mind this also changes with the current we drain and the dropout tends to be bigger with bigger current. The smaller dropout we have, the more power we would be able to squeeze from the cell.
 
@@ -141,7 +143,7 @@ The third prototype was very successful and I decided to give it some nicer form
 <!-- Links  -->
 
 [roommonitorclient]: {{ site.baseurl }}{% post_url 2019-05-20-freeform-esp8266-based-mqtt-oled-client %}
-[cpp]: {{ site.baseurl }}{% post_url 2018-09-06-its-never-too-late-to-learn-cpp-properlfy %}
+[cpp]: {{ site.baseurl }}{% post_url 2018-09-06-its-never-too-late-to-learn-cpp-properly %}
 [firmware]: https://github.com/josefadamcik/RoomMonitor "RoomMonitor firmware on github"
 {:target="_blank"}
 [wemosd1]: https://wiki.wemos.cc/products:retired:d1_mini_v2.2.0 "Wemos wiki for D1 Mini"
