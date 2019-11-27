@@ -16,7 +16,7 @@ This time I chose the [Corne Keyboard - or ckrbd](https://github.com/foostan/crk
 
 <!--more-->
 
-It's a split keyboard, with a staggered layout and 3 rows and 6 columns only. It uses Arduino Pro Micros, has OLED displays and even RGB LED backlight and underglow. I am not really into backlit keyboards, but the support is there.
+It's a split keyboard, with a staggered layout and 3 rows and 6 columns only. It uses Arduino Pro Micros, has OLED displays and even RGB LED back-light and under-glow. I am not really into backlit keyboards, but the support is there.
 
 It's possible to buy PCBs or kits on the internet and there are also some [very fancy cases](https://imkulio.com/) for the keyboard. But I was not happy to pay the crazy postage fees I have seen on some websites and I was also interested in getting some experience with manufacturing of PCBs and so on. The keyboard is open-source and there are [KiCad files available for PCB](https://github.com/foostan/crkbd) (there are even several variants). There are 
 also some source files for a laser-cut acrylic case.
@@ -31,9 +31,18 @@ There's also a minimalistic case build from PCB - a top plate and bottom plate.
 
 {% responsive_image path: images/crkbd/crkbdpcbtop.png alt: "The top plate." figcaption: "The top plate."%}
 
-This helps a lot with manufacturing. There are many vendors which offer cheap PCB prototypes starting at 5 pieces. For example, [JLCPCB](https://jlcpcb.com/) offers 5 PCBs up to 10x10 cm for 2$ plus shipping. Crkbd is a bit bigger than 10 cm but the PCBs cost still less than 8€. The whole order - 5 PCBs, 5 top plates and 5 bottom plates - was 31€ including slow shipping to Germany. Manufacturing was very quick and the shipping took 2 weeks. This is insanely cheap and I have enough parts for 2.5 keyboards.
+This helps a lot with manufacturing. There are many vendors which offer cheap PCB prototypes starting at 5 pieces. For example, [JLCPCB](https://jlcpcb.com/)
+(Please, read the update below regarding changes JLCPCB made recently) offers 5 PCBs up to 10x10 cm for 2$ plus shipping. Crkbd is a bit bigger than 10 cm but the PCBs cost still less than 8€. The whole order - 5 PCBs, 5 top plates and 5 bottom plates - was 31€ including slow shipping to Germany. Manufacturing was very quick and the shipping took 2 weeks. This is insanely cheap and I have enough parts for 2.5 keyboards.
 
 {% responsive_image path: images/crkbd/IMG_20190614_195434.jpg alt: "PCBs as they arrived." figcaption: "PCBs as they arrived." %}
+
+### Manufacturing at JLCPCB - update 27.11.2019
+
+Apparently JLCPCB recently changed their design acceptance rules and they no longer accept PCB designs having less than 3 mm between a cut-out and the edge. 
+
+Unfortunately, this is a problem for the top plate for corne because cutouts for switches are 2 mm from edge of the board at many places. [There's a little bit more information about the issue on reddit](https://www.reddit.com/r/MechanicalKeyboards/comments/e1sltu/corne_top_plate_kicad/). 
+
+The main PCB and the bottom plate should be still accepted. Se keep this in mind. You could either try another manufacturer or go for a top plate from laser-cut acrylic (which has its own problems, but I don't have any personal experience so I am not going to elaborate).
 
 ## Other components
 
@@ -63,12 +72,14 @@ I was wrong. What I've got is [WS2812B-mini or some clone](http://www.normandled
 
 Another thing to note is that many people report that those are hard to solder and are easily damaged by heat. WS2812B-mini are supposed to be actually better in this regard. So maybe I'll try to change Corne's PCB design to utilize WS2812B-mini.
 
-## Plans
+## Build log
+
+{% include gallery.html galleryname="crkbd" imgclass='imgmw600' %}
+
+## Future plans
 
 I need to figure out and learn the new layout. I will most likely write another post about that soon.
 
 If the keyboard becomes my daily driver and I really like it, I am going to build a second one. I'll (most likely) go for [an acrylic case with tilting support](https://github.com/foostan/crkbd/tree/master/corne-classic/acrylic_plate). I think it'll bee a good opportunity to gather some experience with laser cutting services.
 
-## Build log
-
-{% include gallery.html galleryname="crkbd" imgclass='imgmw600' %}
+Update: [I have moved from corne since it is too minimalistic for me. Right now I am working on my own design.]({{ site.baseurl }}{% post_url 2019-10-13-in-search-of-the-best-custom-keyboard-layout %})
