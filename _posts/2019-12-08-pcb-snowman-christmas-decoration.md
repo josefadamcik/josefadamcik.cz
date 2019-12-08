@@ -61,7 +61,6 @@ The fix was easy. I just had to define small keep-out areas for copper on the bo
 
 {% responsive_image path: images/snowman/pcbzonesback.png alt: "Keep-out areas under LEDs."  figcaption: "Keep-out areas under LEDs."%}
 
-
 The whole [KiCad project is available on Github under MIT licence][githubkicad].
 
 ## PCB Manufacturing at Seed Studio
@@ -76,7 +75,8 @@ A set of 5 or 10 boards with basic parameters (up to 100 x 100 mm, HASL finish w
 
 I wanted lead-free HASL finish and 15 boards. Which raised the price a bit to **$33.67** plus **$12** for basic shipping to Germany. Still very nice price for bunch of boards.
 
-The order process itself works pretty well: upload Gerbers, pick the parameters in a web form according to requirements and finish the order. They inspected my design and confirmed it is OK for manufacture.
+The order process itself works pretty well: upload Gerber files, pick the parameters in a web form according to requirements and finish the order. I have added a note to my order kindly asking the operators to put their internal order number on the bottom of the PCB[^3].
+They inspected my design and confirmed it is OK for manufacture. 
 
 ### How long did it take?
 
@@ -92,7 +92,7 @@ So from order to shipping it was **9 days** that's not the quickest turn-over I 
 
 I would expect that most of the orders would be still using HASL with lead (because that's the cheapest option) and if you choose that option you might get much shorter times. For me it wasn't an issue at all. It was around 3 weeks including shipping and that matches my expectations and needs. 
 
-## PCB
+## Fabricated PCBs
 
 {% responsive_image path: images/snowman/IMG_20191114_201105.jpg alt: "Snowman PCBs"  figcaption: "Snowman PCBs"%}
 
@@ -110,7 +110,7 @@ Annoying mistake, yes, but not a reason to throw the boards away. I experimented
 
 {% responsive_image path: images/snowman/IMG_20191123_163714.jpg alt: "Drill saved the day."  figcaption: "Drill saved the day."%}
 
-The another mistake was also quite embarrassing. I used a wrong footprint for the coin cell holder. The one I wanted to use was for CR2025 or CR2035 cells which are 20 mm in diameter. But I accidentally used a footprint for a 25 mm cell[^3]. 
+The another mistake was also quite embarrassing. I used a wrong footprint for the coin cell holder. The one I wanted to use was for CR2025 or CR2035 cells which are 20 mm in diameter. But I accidentally used a footprint for a 25 mm cell[^4]. 
 
 I could have ordered the right coin cell holders. But I was hoping the ones I already had in my stock and also didn't want to wait. So I just stretched them to be a bit wider. The price for that is that I can no longer use thicker cells (CR2035) but only the thinner ones (CR2025).
 
@@ -118,7 +118,7 @@ I could have ordered the right coin cell holders. But I was hoping the ones I al
 
 ### Bill of materials
 
-- 4&times; **1206 LED** Any color but use only one color on one PCB[^4]
+- 4&times; **1206 LED** Any color but use only one color on one PCB[^5]
 - 1&times; **Coin cell holder** I used THT coin cell holders for 20 mm cells from [Aliexpress][cellholderali]. But the correct one for the footprint would be [Keystone 3009 for CR2450][cellholder2450]
 - 1&times; **surface mount slide switch** PCM12SMTR ([Alixepress][switchali])
 - 1&times; **THT Flash LED 5 mm** Candle yellow ([AliExpress][ledali])
@@ -149,8 +149,11 @@ I am quite pleased with the result. Mistakes were made, lessens learned. But ove
 
 [^1]: Lead free, of course. They are going to be gifts for people.
 [^2]: I am sure it is possible to draw and export the shape from Illustrator properly. But I have no access to Illustrator in order to figure out how to fix that or how to instruct my girlfriend how could she achieve what I need. In the end, it was easy enough to draw shapes on my own using tools in Inkscape.
-[^3]: How did it happen? I wanted to use the same coin cell holder I used for [Squid PCB badge][squidarticle] so I copied the footprint from its [KiCad project][squidkicad]. The footprint's name was `BatteryHolder_THT_CR2032` so I had no doubt that it was the right one. But it was just a mess from the time when I was working on the PCB for squid. I was trying to find correct footprint for cell holder I already had and I didn't found any. So I copied a similar one (but for bigger cells) from KiCad footprint library and tried to scale it down. But I didn't find a way how to do it so the only change I did was renaming the footprint. I ended up using a different one I, in the end, managed to find somewhere. But this one, wrongly named stayed in place just so it can bite me in the ass later. 
-[^4]: Every LED color has a different forward voltages. If you mixed them it may cause problems. You can try more colors with similar forward voltages. But for example white (3V) and yellow (around 2V) didn't work together and only yellow lit up.
+[^3]: PCB manufacturers need to put several orders on one panel. In order to keep track which PCB is which they need to put their internal order number somewhere into your design's silkscreen. It's just a tiny number, but when you care about aesthetics it's better to ask them to put it somewhere where you don't mind it.
+[^4]: How did it happen? I wanted to use the same coin cell holder I used for [Squid PCB badge][squidarticle] so I copied the footprint from its [KiCad project][squidkicad]. The footprint's name was `BatteryHolder_THT_CR2032` so I had no doubt that it was the right one. But it was just a mess from the time when I was working on the PCB for squid. I was trying to find correct footprint for cell holder I already had and I didn't found any. So I copied a similar one (but for bigger cells) from KiCad footprint library and tried to scale it down. But I didn't find a way how to do it so the only change I did was renaming the footprint. I ended up using a different one I, in the end, managed to find somewhere. But this one, wrongly named stayed in place just so it can bite me in the ass later. 
+[^5]: Every LED color has a different forward voltages. If you mixed them it may cause problems. You can try more colors with similar forward voltages. But for example white (3V) and yellow (around 2V) didn't work together and only yellow lit up.
+
+## Links
 
 <!-- links --> 
 
