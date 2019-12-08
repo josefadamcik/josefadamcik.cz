@@ -4,6 +4,7 @@ title: In search of the best custom keyboard layout
 categories: electronics
 tags: [keyboards, electronics]
 published: true
+series: "SofleKeyboard"
 image: /images/keyblayout/IMG_20191013_110724.jpg
 ---
 
@@ -12,6 +13,8 @@ I [built my first custom keyboard (Katana60)][katana60] back at the beginning of
 {% responsive_image path: images/keyblayout/IMG_20191013_110724.jpg alt: "Katana60 and The Corne keyboard next to each other." %}
 
 <!--more--> 
+
+{%- include post_series.html -%}
 
 ## Motivation
 
@@ -207,7 +210,7 @@ I am going to share more about the design of the keyboard in the next article, s
 [^4]: The current layout can be found in [my fork of QMK Firmware on Github, branch `split_training`][katana60githubsplit]. The `keymap.c` file contains all the layouts I have in my keyboard - there are more of them and I can switch between theme as I want. A bit more details about why I did it like that can be found [in the original Katana60 article][katana60layout]. 
 
 
-[colemak]: https://colemak.com/ "Colmak Layout"
+[colemak]: https://colemak.com/ "Colemak Layout"
 {:target="_blank"} 
 [katana60]: {{ site.baseurl }}{% post_url 2019-02-02-buiding-a-custom-keyboard-katana60 %} "My build of Katana60"
 [katana60layout]: {{ site.baseurl }}{% post_url 2019-02-02-buiding-a-custom-keyboard-katana60 %}#layout "My build of Katana60 - details about layout"
