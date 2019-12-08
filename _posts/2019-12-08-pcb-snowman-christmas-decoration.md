@@ -118,16 +118,32 @@ I could have ordered the right coin cell holders. But I was hoping the ones I al
 
 ### Bill of materials
 
-- 4x 1206 LED any color but use only one color on one PCB[^4]
-- 1x Coin cell holder - I used THT coin cell holders for 20 mm cells from [Aliexpress][cellholderali]. But the correct one for the footprint would be [Keystone 3009 for CR2450][cellholder2450]
-- 1x surface mount slide switch PCM12SMTR ([Alixepress][switchali])
-- THT Flash LED 5mm candle yellow ([AliExpress][ledali])
+- 4&times; **1206 LED** Any color but use only one color on one PCB[^4]
+- 1&times; **Coin cell holder** I used THT coin cell holders for 20 mm cells from [Aliexpress][cellholderali]. But the correct one for the footprint would be [Keystone 3009 for CR2450][cellholder2450]
+- 1&times; **surface mount slide switch** PCM12SMTR ([Alixepress][switchali])
+- 1&times; **THT Flash LED 5 mm** Candle yellow ([AliExpress][ledali])
 
 ### Soldering
 
+I started with SMD components. LEDs are quite tricky since they have to be soldered the other way around in order to shine through the PCB. I do it by making a big blob of solder on one pad and placing the LED using tweezers to connect to the (molten) blob. Soldering the second pad is much easier since the LED is fixed in place. If needed, I can resolder the first connection as the last step.
+
+{% responsive_image path: images/snowman/IMG_20191127_161014.jpg alt: "SMD components soldered."  figcaption: "SMD components soldered."%}
+
+There's nothing special about soldering the coin-cell holder. For the THT LED I bended legs at their ends to create a small lamp hanging from snowman's hand.
+
+{% responsive_image path: images/snowman/IMG_20191127_161709.jpg alt: "Almost finished."  figcaption: "Almost finished." %}
+
+{% responsive_image path: images/snowman/IMG_20191201_123632.jpg alt: "IPA bath to clean flux residual"  figcaption: "IPA bath to clean flux residual"%}
+
+{% responsive_image path: images/snowman/IMG_20191208_124030.jpg alt: "Finished snowman."  figcaption: "Finished snowman."%}
+
 ## See them shine
 
+<figure >
+    {% video /images/snowman/snowmanvideo.mp4 /images/snowman/snowmanvideo.png %}
+</figure>
 
+I am quite pleased with the result. Mistakes were made, lessens learned. But overall I like them and  looking forward to gifting them to people.
 
 ## Notes
 
@@ -140,7 +156,7 @@ I could have ordered the right coin cell holders. But I was hoping the ones I al
 
 [githubkicad]: https://github.com/josefadamcik/SnowmanPCB "Repository with KiCad files (Github)"
 {:target="_blank"}
-[squidarticle]: {{ site.baseurl }}{% post_url _posts/2019-07-21-squid-badge-my-first-pcb-design %} "Squid PCB badge"
+[squidarticle]: {{ site.baseurl }}{% post_url 2019-07-21-squid-badge-my-first-pcb-design %} "Squid PCB badge"
 [squidkicad]: https://github.com/josefadamcik/squid_badge_pcb "KiCad project for Squid PCB badge on Github"
 {:target="_blank"}
 [seedstudio]: https://www.seeedstudio.com/fusion.html "Seed Studio Fusion PCB services"
