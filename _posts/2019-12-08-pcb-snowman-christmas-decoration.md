@@ -7,10 +7,9 @@ published: false
 image: /images/snowman/IMG_20191208_124030.jpg
 ---
 
-I have enjoyed designing and making [a Squid PCB badge][squidarticle] some time ago and I have some plans for more complex PCB badges and creations. But Christmas are coming and I realized it might be fun to create some simple gift for friends and family. I was also a good opportunity to try another PCB manufacturer - Seed Studio. 
+I have enjoyed designing and making [a Squid PCB badge][squidarticle] some time ago and I have some plans for more complex PCB badges and creations. But Christmas are coming and I realized it might be fun to create some simple gift for friends and family. It was also a good opportunity to try another PCB manufacturer - [Seed Studio][seedstudio]. 
 
 {% responsive_image path: images/snowman/IMG_20191208_124030.jpg alt: "Snowman Christmas decoration"%}
-
 
 <!--more--> 
 
@@ -117,6 +116,15 @@ I could have ordered the right coin cell holders. But I was hoping the ones I al
 
 ## Construction
 
+### Bill of materials
+
+- 4x 1206 LED any color but use only one color on one PCB[^4]
+- 1x Coin cell holder - I used THT coin cell holders for 20 mm cells from [Aliexpress][cellholderali]. But the correct one for the footprint would be [Keystone 3009 for CR2450][cellholder2450]
+- 1x surface mount slide switch PCM12SMTR ([Alixepress][switchali])
+- THT Flash LED 5mm candle yellow ([AliExpress][ledali])
+
+### Soldering
+
 ## See them shine
 
 
@@ -126,6 +134,7 @@ I could have ordered the right coin cell holders. But I was hoping the ones I al
 [^1]: Lead free, of course. They are going to be gifts for people.
 [^2]: I am sure it is possible to draw and export the shape from Illustrator properly. But I have no access to Illustrator in order to figure out how to fix that or how to instruct my girlfriend how could she achieve what I need. In the end, it was easy enough to draw shapes on my own using tools in Inkscape.
 [^3]: How did it happen? I wanted to use the same coin cell holder I used for [Squid PCB badge][squidarticle] so I copied the footprint from its [KiCad project][squidkicad]. The footprint's name was `BatteryHolder_THT_CR2032` so I had no doubt that it was the right one. But it was just a mess from the time when I was working on the PCB for squid. I was trying to find correct footprint for cell holder I already had and I didn't found any. So I copied a similar one (but for bigger cells) from KiCad footprint library and tried to scale it down. But I didn't find a way how to do it so the only change I did was renaming the footprint. I ended up using a different one I, in the end, managed to find somewhere. But this one, wrongly named stayed in place just so it can bite me in the ass later. 
+[^4]: Every LED color has a different forward voltages. If you mixed them it may cause problems. You can try more colors with similar forward voltages. But for example white (3V) and yellow (around 2V) didn't work together and only yellow lit up.
 
 <!-- links --> 
 
@@ -140,3 +149,8 @@ I could have ordered the right coin cell holders. But I was hoping the ones I al
 {:target="_blank"}
 [githubsvg]: https://github.com/josefadamcik/SnowmanPCB/blob/master/Design/snowman_pcb.svg "SVG file with PCB design for Svg2Shenzen"
 {:target="_blank"}
+[cellholder2450]: http://www.keyelco.com/product-pdf.cfm?p=787 "Keystone 3009 datasheet"
+{:target="_blank"}
+[cellholderali]: https://www.aliexpress.com/item/32739802992.html?spm=a2g0s.9042311.0.0.27424c4dYeOrWk "Cell holder for CR2025 (AliExpress)"
+[switchali]: https://www.aliexpress.com/item/32928171024.html?spm=a2g0s.9042311.0.0.27424c4dPWVO1i "Switch (Aliexpress)"
+[ledali]: https://www.aliexpress.com/item/32815520016.html?spm=a2g0s.9042311.0.0.27424c4dxeZDPu "LED 5MM Flash candle yellow (AliExpress)"
