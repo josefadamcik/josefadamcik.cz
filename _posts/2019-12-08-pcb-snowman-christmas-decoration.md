@@ -3,7 +3,7 @@ layout: post
 title: PCB Snowman Christmas decoration
 categories: electronics
 tags: [buildlog,pcb, electronics]
-published: false
+published: true
 image: /images/snowman/IMG_20191208_124030.jpg
 ---
 
