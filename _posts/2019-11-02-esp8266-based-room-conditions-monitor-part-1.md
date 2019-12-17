@@ -107,7 +107,7 @@ How big output current the regulator can provide. ESP8226 can take around 140 mA
 
 Dropout voltage is the minimal difference between the output voltage and the input voltage. For example, if I want output voltage 3.3V and the regulator has a dropout voltage 1V I would have to supply least 4.3V otherwise the regulator will fail to provide the desired voltage. This is very important when we run on battery which has a voltage range from 4.2 to, let's say, ~3.0V [^5]. If we had a regulator with a dropout voltage like the 1V from the example above, it wouldn't be able to supply 3.3V when powered with one Li-On cell. We would have to use at least 2 cells in series.
 
-So an LDO (Low-Dropout) regulator with a small dropout voltage. Keep in mind this also changes with the current we drain and the dropout tends to be bigger with the bigger current. The smaller dropout we have, the more power we would be able to squeeze from the cell.
+So I need an LDO (Low-Dropout) regulator with very small dropout. Keep in mind this also changes with the current we drain and the dropout tends to be bigger with the bigger current. The smaller dropout we have, the more power we would be able to squeeze from the cell.
 
 ### Output voltage
 
@@ -128,7 +128,7 @@ The final battery life jumped to **57 days**. That is 20 days (54%) more than th
 
 ## Next time
 
-The third prototype was very successful and I decided to give it some nicer form. The next article will cover design a build of custom PCB with some unusual shape. 
+The third prototype was very successful and I decided to give it some nicer form. The next article will cover a design and a build of a custom PCB with some unusual shape. 
 
 ----
 ## Footnotes
