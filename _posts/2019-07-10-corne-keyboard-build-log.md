@@ -38,9 +38,9 @@ This helps a lot with manufacturing. There are many vendors which offer cheap PC
 
 ### Manufacturing at JLCPCB - update 27.11.2019
 
-Apparently JLCPCB recently changed their design acceptance rules and they no longer accept PCB designs having less than 3 mm between a cut-out and the edge. 
+Apparently JLCPCB recently changed their design acceptance rules and they ~~no longer accept~~ may reject PCB designs having less than 3 mm between a cut-out and the edge.
 
-Unfortunately, this is a problem for the top plate for corne because cutouts for switches are 2 mm from edge of the board at many places. [There's a little bit more information about the issue on reddit](https://www.reddit.com/r/MechanicalKeyboards/comments/e1sltu/corne_top_plate_kicad/). 
+Unfortunately, this is a problem for the top plate for corne because cutouts for switches are 2 mm from edge of the board at many places. [There's a little bit more information about the issue on reddit](https://www.reddit.com/r/MechanicalKeyboards/comments/e1sltu/corne_top_plate_kicad/) and also a report by another user who had no problems with the default design (It got accepted and manufactured). I assume it depends on the person who does the review and you might be lucky and get through.
 
 The main PCB and the bottom plate should be still accepted. Se keep this in mind. You could either try another manufacturer or go for a top plate from laser-cut acrylic (which has its own problems, but I don't have any personal experience so I am not going to elaborate).
 
