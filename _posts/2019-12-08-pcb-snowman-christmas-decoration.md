@@ -7,7 +7,7 @@ published: true
 image: /images/snowman/IMG_20191208_124030.jpg
 ---
 
-I have enjoyed designing and making [a Squid PCB badge][squidarticle] some time ago and I have some plans for more complex PCB badges and creations. But Christmas is coming and I realized it might be fun to create some simple gift for friends and family. It was also a good opportunity to try another PCB manufacturer - [Seed Studio][seedstudio]. 
+I have enjoyed designing and making [a Squid PCB badge][squidarticle] some time ago and I have some plans for more complex PCB badges and creations. But Christmas is coming and I realized it might be fun to create some simple gift for friends and family. It was also a good opportunity to try another PCB manufacturer. 
 
 {% responsive_image path: images/snowman/IMG_20191208_124030.jpg alt: "Snowman Christmas decoration"%}
 
@@ -17,7 +17,12 @@ I have enjoyed designing and making [a Squid PCB badge][squidarticle] some time 
 
 ### Schematic and functionality
 
-The schematic is similar to [the Squid badge][squidarticle]. No logic, no microcontroller. Just a few LEDs, a coin-cell and a switch. There are no resistors since the internal resistance of the battery is enough to limit the current drawn by LEDs.
+The schematic is similar to [the Squid badge][squidarticle]. No logic, no microcontroller. Just a few LEDs, a coin-cell and a switch. 
+
+There are no current limiting resistors which is theoretically incorrect. But I went with such simplification because based on my experience (and now only mine: [check out jewellery by Jiri Praus for example][prausjewe]) it's not an issue. It's mainly because:
+
+- White LEDs drop around 3V which is the same as voltage of the battery. Value for the resistor would be theoretically 0 (but I could use some low value).
+- I also used yellow LEDs which drop only 2.2V but the coin cell battery wont' provide enough current to hurt them. Things like internal resistance and other imperfections in the battery intervene. But this is kind of moving on the edge, you can have problems with some better batteries when only one LED is connected. It's safer to solder all LEDs before connecting.
 
 {% responsive_image path: images/snowman/schematic.png alt: "Schematic"  figcaption: "Schematic"%}
 
@@ -70,8 +75,6 @@ The whole [KiCad project is available on Github under MIT license][githubkicad].
 ## PCB Manufacturing at Seed Studio
 
 [Seed Studio][seedstudio] reached to me and offered me to sponsor a small PCB project if I try their [Fusion PCB service][seedstudio] and write about my experience. I was happy to try another PCB  manufacturer. 
-
-Sadly, it didn't make sense for me to also try their assembly service since this PCB doesn't contain that many components. Also the LEDs are normal SMD ones mounted in reverse. That would not be possible with a pick-n-place machine (even though LEDs made for reverse mount should exist and maybe it would have been possible to try those).
 
 ### Price and order
 
@@ -178,3 +181,5 @@ If you like them, you can make your own. Just open [the project in KiCad][github
 [cellholderali]: https://www.aliexpress.com/item/32739802992.html?spm=a2g0s.9042311.0.0.27424c4dYeOrWk "Cell holder for CR2025 (AliExpress)"
 [switchali]: https://www.aliexpress.com/item/32928171024.html?spm=a2g0s.9042311.0.0.27424c4dPWVO1i "Switch (Aliexpress)"
 [ledali]: https://www.aliexpress.com/item/32815520016.html?spm=a2g0s.9042311.0.0.27424c4dxeZDPu "LED 5MM Flash candle yellow (AliExpress)"
+[prausjewe]: <https://www.hackster.io/jiripraus/led-jewelry-82430a> "LED Jewelry"
+{:target="_blank"}
