@@ -3,9 +3,9 @@ layout: post
 title: "ESP8266 based room-conditions monitor, part&nbsp;2: PCB"
 categories: electronics
 tags: [buildlog, electronics]
-published: false
+published: true
 series: "Room Monitor"
-image: images/roommonitor/IMG_20191006_103723.jpg
+image: /images/roommonitor/IMG_20191006_103723.jpg
 ---
 
 In [the previous post in this series,][roommonitor1] I wrote about several prototyping steps for this project. In this article, I am going to describe the final version.
@@ -23,12 +23,6 @@ I wanted to move from prototypes to something nicer and more final. But I still 
 Free-forming and building something similar to [the client device][roommonitorclient] would be also an option and I might still do it in the future. But I also wanted to have the ability to build more copies of the device. Since [I recently began to learn how to make PCBs][squidarticle], I thought this might be another opportunity to gather some experience. But I didn't like the idea of having just one plain and boring PCB. So I tried to come up with something a little bit more interesting. The final design has 3 small boards soldered together to create a shell around a battery holder. 
 
 The circuit is basically the same as for the last prototype, only the components are going to be distributed across the three PCB panels. 
-
-The bottom panel acts as a base and contains the TP4056-based charging breakout and a switch. 
-
-The middle panel creates a wall and contains a battery holder and a power connection to the top panel.
-
-The top panel contains ESP8266 with supporting components, power source, programming header, buttons and also headers for sensors.
 
 ## Schematic
 
