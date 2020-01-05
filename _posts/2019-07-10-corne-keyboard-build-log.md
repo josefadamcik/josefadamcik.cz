@@ -50,15 +50,19 @@ The complete list of components is available in [the build guide](https://github
 
 But to sum it up:
 
-- A bunch of diodes, one for every switch. The PCB supports both through-hole and SMD. 
-- Switches, of course. Either traditional cherry-like or there's also an option to use [low profile switches from Kailh](http://www.kailh.com/en/Products/Ks/CS/). I have used [Aliaz silent tactile switches](https://kbdfans.com/products/pre-orderaliaz-silent-switch-tactile) this time. I think I like their tactility much more than the boring linearity of Gateron Silent Blacks which I have on my Katana60.
-- RGB LEDs if you want some lighting. See below for my failure regarding those.
-- 2x Arduino Pro Micro or a clone. I think such Arduino (really made by Arduino) actually doesn't exist and the original is actually [made by Sparkfun and is called just Pro Micro](https://www.sparkfun.com/products/12640). Make sure you have 5V variant and if you shop for clones, make sure you are not buying something different. You need ATmega32U4 and a build in USB connector.
-- 2x ssd1306 128x32 OLED display module, i2c variant. Check the pictures, but this is the most common you'll find.
-- Some M2 spacers and screws.
-- Rubber feet. Those are very important, I am still waiting for mine and the keyboard is hard to use without them. I use a piece of cloth under the keyboard in order to hot-fix tilting on the screw-heads in the bottom when I press a key in the top row.
-- The rest: TRRS connectors, TRRS cable, some pin headers, some pin sockets if you want to, tactile buttons, keycaps.
-
+- A bunch of **diodes**, one for every switch. The PCB supports both through-hole and SMD. I have used IN4148 through hole diodes. 
+- **Switches**, of course. Either traditional cherry-like or there's also an option to use [low profile switches from Kailh](http://www.kailh.com/en/Products/Ks/CS/). I have used [Aliaz silent tactile switches](https://kbdfans.com/products/pre-orderaliaz-silent-switch-tactile) this time. I think I like their tactility much more than the boring linearity of Gateron Silent Blacks which I have on my Katana60.
+- **RGB LEDs** if you want some lighting. See below for my failure regarding those.
+- **2x Arduino Pro Micro** or a clone. I think such Arduino (really made by Arduino) doesn't exist and the original board is actually [made by Sparkfun and is called just Pro Micro](https://www.sparkfun.com/products/12640). Make sure you have 5V variant and if you shop for clones, make sure you are not buying something different. You need ATmega32U4 and a build in USB connector. I bought [those on AliExpress][promicro].
+- **2x ssd1306 128x32 OLED display module**, i2c variant. Check the pictures, but this is the most common you'll find ([AliExpress][oled]).
+- Some **M2 spacers** and **screws** ([brass spacers on AliExpress][spacers]). Check the lengths in the official build guide.
+- **Rubber feet**. Those are very important, I am still waiting for mine and the keyboard is hard to use without them. I use a piece of cloth under the keyboard in order to hot-fix tilting on the screw-heads in the bottom when I press a key in the top row. ([AliExpress][rubberfeet])
+- **2xTRRS audio connector** ([connectors on AliExpress][trrs])
+- **TRRS audio cable** to connect both halves. Try to buy TRRS (has 4 wires) but you should be OK with TRS (3 wires). Corne can use either serial communication (needs 3 wires) or I2C (needs 4) to communicate between halves. The default variant is serial and there was no information how to make I2C work in the documentation for Corne so you are most likely not going to go there.
+- Some **pin headers**, some **pin sockets** if you want to. It's actually quite difficult to get nice sockets which would work for Corne. I ended up using normal pin headers and soldered Pro Micros and displays to the PCB without pin sockets.
+- **2x tactile button** ([on AliExpress][buttons])
+- **keycaps**
+- If you want to have a complete build you would need **2 laser-cut acrylic covers for OLED displays**. I build mine without them.
 
 ## RGB LEDs
 
@@ -83,3 +87,22 @@ I need to figure out and learn the new layout. I will most likely write another 
 If the keyboard becomes my daily driver and I really like it, I am going to build a second one. I'll (most likely) go for [an acrylic case with tilting support](https://github.com/foostan/crkbd/tree/master/corne-classic/acrylic_plate). I think it'll bee a good opportunity to gather some experience with laser cutting services.
 
 Update: [I have moved from corne since it is too minimalistic for me. Right now I am working on my own design.]({{ site.baseurl }}{% post_url 2019-10-13-in-search-of-the-best-custom-keyboard-layout %})
+
+
+[trrs]: <https://www.aliexpress.com/item/32869968774.html> "TRRS conectors on Aliexpress"
+{:target="_blank"}
+[buttons]: <https://www.aliexpress.com/item/32981768203.html> "Buttons on Aliexpress"
+{:target="_blank"}
+[spacers]: <https://www.aliexpress.com/item/32974970926.html> "Brass spacers on AliExpress"
+{:target="_blank"}
+[rubberfeet]: <https://www.aliexpress.com/item/32839661456.html> "Rubber feet on Aliexpress"
+{:target="_blank"}
+[oled]: <https://www.aliexpress.com/item/32712441521.html> "OLED on AliExpress"
+{:target="_blank"}
+[promicro]: <https://www.aliexpress.com/item/32849563958.html> "ProMicro clone on AliExpress"
+{:target="_blank"}
+
+
+
+
+
