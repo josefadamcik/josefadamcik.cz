@@ -16,31 +16,31 @@ In [the previous post in this series][roommonitor1] I wrote about several protot
 
 {%- include post_series.html -%}
 
-## Idea
+## Idea for the final form
 
-I wanted to move from prototypes to something nicer and more final. But I still wanted to utilise those small PCB breakouts with sensors and the charging module. I have already owned them (and the sensors are very small and would be difficult to solder).
+I wanted to move from prototypes to something nicer and more final. But I still wanted to utilise those small sensor breakouts and the charging module. I already owned them (and the sensors are very small and would be difficult to solder).
 
-Free-forming would be one option. It would bee possible to build something similar to [the client devices][roommonitorclient] and I might do it in the future. But I also wanted to have the ability to build more of those. Thefore I chose PCB. But I didn't like the idea of having just one plain and boring PCB. So I came up with idea to have 3 small boards soldered together to create a shell around a battery holder. 
+Free-forming and building something similar to [the client device][roommonitorclient] would be also an option and I might still do it in the future. But I also wanted to have the ability to build more copies of the device. Since [I recently begun to learn how to make PCBs][squidarticle], I thought this might be another opportunity to gather some experience. But I didn't like the idea of having just one plain and boring PCB. So I tried to come up with something a little bit more interestig. The final design has 3 small boards soldered together to create a shell around a battery holder. 
 
-The circuit is basically the same as for the last prototype, only the components are going to be distributed across three PCB panels. 
+The circuit is basically the same as for the last prototype, only the components are going to be distributed across the three PCB panels. 
 
-The bottom panel acts as a base and contains the TP4056-based charging breakout and on-off switch. 
+The bottom panel acts as a base and contains the TP4056-based charging breakout and a switch. 
 
-The middle panel creates a wall and contains only the battery holder, and power connection to the top panel.
+The middle panel creates a wall and contains battery holder, and power connection to the top panel.
 
 The top panel contains ESP8266 with supporting components, power source, programming header, buttons and also headers for sensors.
 
 ## Schematic
 
-You can find [schematic for all three panels in KiCad projects on Github][githubkicad] (there are 3 projects). I have also combined all of them on the following image.
+You can find [schematic for all three panels in KiCad projects on Github][githubkicad] (there are 3 KiCad projects). I have also combined all of them on the following image.
 
 {% responsive_image path: images/roommonitor/full_schematic.png alt:"Schematic for all 3 parts"  figcaption:"Schematic for all 3 parts"%}
 
-The first block (top left) is the power source with [LT1763 LDO][lt1763datasheet] almost exactly as in the datasheet. Resistors `R3` and `R4` form a voltage divider for ADC in ESP8266 so that it can measure voltage on the battery.
+The first block (top left) is the power source with [LT1763 LDO][lt1763datasheet] almost exactly as in the datasheet. Resistors `R3` and `R4` form a voltage divider for ADC in ESP8266 so that a voltage on the battery can be maesured.
 
-On the top right, the connection for the charging breakout is shown. It is possible to notice that I decided to put the on-off switch between the module and the rest of the cirquit. This allows me to turn the main circuit off during charging. But it also means that the TP4056 charging module is powered all the time.
+On the top right, the connection for the charging breakout is depicted. I decided to put the on-off switch between the module and the rest of the cirquit. This allows me to turn the main circuit off during charging. But it also means that the TP4056 charging module is connected to the battery all the time.
 
-The biggest part shows connection for ESP8266. This is heavily inspired by [a schematic in the documentation for Arduion core for ESP8266][esp8266serial]. Let me go through the important bits:
+The middle part shows connection for ESP8266. This is heavily inspired by [a schematic in the documentation for Arduion core for ESP8266][esp8266serial]. Let me go through the important bits:
 
 - `GPIO15` is pulled down all the time, `EN` is pulled up.
 - `RST` is pulled up by `R6`, it is also connected to a RST pin on the FTDI header. `SW1` allows me to restart the ESP8266 manually. And finally, the jumper `J2` can be used to connect `RST` to `GIPIO16` which is required for deep sleep to work.
@@ -64,7 +64,7 @@ I split the shapes into separate files and extracted them to DXF so they can be 
 - Save as DXF file 
 - In KiCad, choose `Import Graphics` and select the DXF file. Make sure the Edge.Cuts layer is selected as "Graphics layer"
 
-Or you could use [the SVG2Shenzen plugin][svg2shenzen] Inkscape plugin.
+Or you could use [the SVG2Shenzen Inkscape plugin][svg2shenzen].
 
 ## PCB 
 
@@ -84,7 +84,7 @@ In order to make sure I put everythin on the correct side and didn't use wrong f
 
 {% responsive_image path: images/roommonitor/IMG_20190908_155302.jpg alt:"Rough cardboard prototype."  figcaption:"Rough cardboard prototype."%}
 
-After triple-checking everything I finally ordered prototypes. It would be possible to join all three boards into one design using mouse-bites but since the prices for prototypes up to 100 x 100 mm are crazy low, I have just ordered them as 3 designs. It took 2 or three weeks and they arrived.
+After triple checking everything I finally ordered prototypes. It would be possible to join all three boards into one design using mouse-bites but since the prices for prototypes up to 100 x 100 mm are crazy low, I have just ordered PCBs as 3 designs. It took 2 or three weeks and they arrived.
 
 {% responsive_image path: images/roommonitor/IMG_20191003_120528.jpg alt:"Shiny new PCBs."  figcaption:"Shiny new PCBs."%}
 
@@ -154,5 +154,5 @@ Right now I don't have any further plans for this project. But it is possible I 
 [switchali]: https://www.aliexpress.com/item/32928171024.html?spm=a2g0s.9042311.0.0.27424c4dPWVO1i "Switch (Aliexpress)"
 {:target="_blank"}
 [buttonali]: <https://www.aliexpress.com/item/32802382507.html?spm=a2g0s.9042311.0.0.27424c4dEmj3hq> "Button (Aliexpress)"
-
+[squidarticle]: {{ site.baseurl }}{% post_url 2019-07-21-squid-badge-my-first-pcb-design %} "Squid PCB badge"
 
