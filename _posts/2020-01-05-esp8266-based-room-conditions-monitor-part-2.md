@@ -5,12 +5,12 @@ categories: electronics
 tags: [buildlog, electronics]
 published: true
 series: "Room Monitor"
-image: /images/roommonitor/IMG_20191006_103723.jpg
+image: /images/roommonitor/IMG_20200106_202658.jpg
 ---
 
 In [the previous post in this series,][roommonitor1] I wrote about several prototyping steps for this project. In this article, I am going to describe the final version.
 
-{% responsive_image path: images/roommonitor/IMG_20191006_103723.jpg alt:"RoomMotnitor"%}
+{% responsive_image path: images/roommonitor/IMG_20200106_202658.jpg alt:"RoomMotnitor"%}
 
 <!--more-->
 
@@ -114,6 +114,8 @@ In general, the following is needed:
 {% responsive_image path: images/roommonitor/IMG_20191006_103430.jpg alt:"Another angle."  figcaption:"Another angle."%}
 
 {% responsive_image path: images/roommonitor/IMG_20191006_103723.jpg alt:"Including the sensors."  figcaption:"Including the sensors."%}
+
+{% responsive_image path: images/roommonitor/IMG_20200106_202617.jpg %}
 
 ## Firmware and infrastructure.
 
