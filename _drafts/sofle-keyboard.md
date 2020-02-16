@@ -60,6 +60,12 @@ I was worried I might have made some mistake so I did a cardboard prototype.
 
 {% responsive_image path: images/sofle/cardobardproto.jpg alt:"Cardboard prototype of SofleKeyboard"  figcaption:"Cardboard prototype of SofleKeyboard" %}
 
+And everything looked good. My girlfriend was so kind and drew a logo for the keyboard. Also the name was chosen at the time (my GF likes to call herself Sofie. Therefore Sofle is a little play with the name and the keyboard is named after her). This is how 3D renders in KiCad looked.
+
+{% responsive_image path: images/sofle/render_pcb.png alt:"3D render of the PCB"  figcaption:"3D render of the PCB" %}
+{% responsive_image path: images/sofle/SofleKeyboardTopPlate.png alt:"3D render of the top plate"  figcaption:"3D render of the top plate" %}
+{% responsive_image path: images/sofle/SofleKeyboardBottomPlate.png alt:"3D render of the bottom plate"  figcaption:"3D render of the bottom" %}
+
 
 [^1]: I used [Zilents V2][zilentsv2], silent tactile switches by ZealPC (and made by Gateron) which are very expensive. 
 [^2]: Serial is the default behaviour. If serial is used, you don't need TRRS cable (4 contacts, used for headphones with microphone) but just TRS (stereo audio jack). 
