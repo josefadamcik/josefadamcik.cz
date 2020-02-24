@@ -80,20 +80,21 @@ The result was perfect. No manufacturing problems, no mistakes on my side, every
 
 Originally I wanted to have a detailed build log here in this section. But it ended up being quite long. I also wanted the build log to act as a build guide (since there's no build guide for SofleKeyboard on Github yet). Therefore, I have published it as a separate article: [SofleKeyboard build log/guide][buildlogarticle].
 
-### Firmware and programming
-
-TODO:
-
 ## Cleaning the firmware
 
-TODO:
+I started by coping the `kebyoards/lily58` directory in the QMK firmware and modified the necessary parts to have it compiled by running `make:sofle`. Than I had to add support for rotary encoders and new keys in the layout. It wasn't difficult but while doing that I noticed there's a lot of code in the directory. Files like: `matrix.c`, `serial.c`, `ssd1306.c` etc. I was curious why the files are there since they seemed to be reimplementing things which should be already part of the QMK. But the first task was to make the keyboard work.
+
+I managed to make almost everything work. The only problem I had was with the rotary encoder. It was working on the master half but not on the slave half. When digging around I verified it should be supported on split keyboards without problems (I have found a closed bug report and the code that was supposed to handle it). So what's the problem? We'll, the problem was that Lily58 was not using the build in support for split keyboards in QMK but rather overriding most of the default behaviour by it's own implementation. This Lily58's implementation appeared to be an older version of the code in QMK core and didn't handle rotary encoders properly.
+
+I believe (but it's mostly a guess) reasons for this are historical. The code for Lily58 was apparently copied from Corne. And Corne seems to be copied from Helix. I think the code from Helix was copied from Let's Split which was one of the first (if not the first) split keyboards using QMK firmware. Back in that time someone copied the source and used it. The support for split keyboards was later added to the QMK firmware and it's no longer necessary to drag this pile of code around in order to support a split keyboard. But people either don't know it or maybe are afraid they may break something or just don't understand the code enough to realize something is odd. So the outdated copy-pasted code is still being used by those popular boards.
+
+For me it was easy: I have to fix a problem with the board so the mess must be cleaned. And it also felt very good to throw away all then unnecessary code and make the custom part of the firmware for SofleKeyboard much cleaner and easier to understand.
 
 ## Links
 
-TODO:
-
-- Github with KiCad projects
-- Github with a fork QMK firmware for SofleKeyboard (not yet in the upstream)
+- [Github with KiCad projects][soflegithub]
+- [Github with a fork QMK firmware for SofleKeyboard][sofleqmk] (not yet in the upstream) (make sure you checkout `soflekeyboard` branch)
+- [Layout in KeyboardLayout editor][soflelayout]
 
 ## Future plans
 
@@ -109,13 +110,17 @@ TODO:
 
 ### Long term
 
-- Maybe another version with improved layout. So far I am not sure what I would like to change, so this is not going to happen soon. Maybe I could move the bottom row a tiny bit more into the center.
-- Some future version could have microcontroller directly on the PCB (I see Pro Micros as a temporary solution).
-- I might even use some other microcontroller. Maybe STM32F303xC which is used by [QMK Proton-C][qmkprotonc] and supported by QMK firmware.
+- Another version with improved layout.  I could move the bottom row a tiny bit more into the center. That would allow me to lower the two outer columns a have more aggressive stagger. I feel it might be more suited to my pinkie.
+- Some future version could have microcontroller directly on the PCB (I view Pro Micros as a temporary solution).
+- I might even use some other microcontroller. Maybe STM32F303xC which is used by [QMK Proton-C][qmkprotonc] and supported by QMK firmware (even though split support is not in there yet, I believe).
 
+## Feedback welcome
+
+I would be thrilled to hear when anyone actually decides to build the keyboard and I am also happy to help with any problems you may encounter. I would also welcome any feedback regarding the layout and so on. What do you think? What could be changed? Feel free to contact me through any channel: icons for email, twitter etc. are in both header and footer of this website.
+
+Just keep in mind, please, that this is just a hobby and SofleKeyboard is only an opensource project rather than a commercial product. Therefore, I am not providing anything like a commercial customer support.
 
 ## Footnotes
-
 
 [^1]: I used [Zilents V2][zilentsv2], silent tactile switches by ZealPC (and made by Gateron) which are very expensive. 
 [^2]: Serial is the default behaviour. If serial is used, you don't need TRRS cable (4 contacts, used for headphones with microphone) but just TRS (stereo audio jack). 
