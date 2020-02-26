@@ -18,24 +18,24 @@ This article is partly a build log and partly a build guide for [SofleKeyboard (
 
 ## Bill of materials
 
-Apart from PCBs and plates the following is needed to build the keyboard. For most of the components there are links to the AliExpress (just click on the small number which will lead you to the corresponding footnote).
+Apart from PCBs and plates, the following is needed to build the keyboard. For most of the components there are links to the AliExpress (just click on the small number which will lead you to the corresponding footnote).
 
-- **2 PCBs**, **2 top plates**, **2 bottom plates**. You can get source [KiCad projects on Github][soflegithub]. Open them in KiCad, plot Gerber files (and drill files), compress them into a zip file. You should have 3 zip files which you need to upload / send to your manufacturer and have them made. There should be nothing special about the parameters you pick for manufacturing: 2-sided PCB, thickness 1.6 mm. Surface finish and solder-mask according to you taste. All the others could stay in defualts. [Some vendors can have problems with the top plate][manufacturingproblems] but I had no issues yet.
+- **2 PCBs**, **2 top plates**, **2 bottom plates**. You can get source [KiCad projects on Github][soflegithub]. Open them in KiCad, plot Gerber files (and drill files), compress them into a zip file. You should have 3 zip files which you need to upload/send to your manufacturer and have them made. There should be nothing special about the parameters you pick for manufacturing: 2-sided PCB, thickness 1.6 mm. Surface finish and solder-mask according to your taste. All the others could stay in defaults. [Some vendors can have problems with the top plate][manufacturingproblems] but I had no issues yet.
 - **58 keyboard switch sockets by Kailh**. The PCB supports either sockets for traditional MX switches[^3] or sockets for Kailh Choc switches[^4] (low profile mechanical switches). They are available on Aliexpress, KBDFans and others.
 - **58 keyboard switches** of your preference[^1], either MX or [Kailh Choc][choc]. Just make sure you have matching sockets for them.
 - **58 keycaps**. You can use either all in `1u` size but it looks nicer with two `1.5u` for thumb keys.
 - **58 diodes  1N4148W**[^5]. They are surface mount diodes in SOD123 package.
-- **2 TRRS connectors**. The same are used for Corne, Lily58 etc. Technically even TRS should work[^2] if you stick to (default) serial communication. [^6]
+- **2 TRRS connectors**. The same type which is used for Corne, Lily58 etc. Technically even TRS should work[^2] if you stick to (default) serial communication. [^6]
 - **1 TRRS cable**. TRS should work[^2] if you stick with Serial. 
 - **10 (+4) M2 spacers**[^7]. 10 are going to hold bottom and top together. Their height depends on which switches you use. A build guide Lily58 Pro suggests `4mm` for Choc and `7mm` for MX. I was not able to get `7mm`, but `6mm` worked well for me with MX switches. I used brass ones but you can also buy nicer from anodised aluminium. Another 4 would be needed to hold transparent OLED cover but even though there are mounting holes in the PCB there is no OLED cover designed yet.
-- **20 (+8) M2 screws**. 20 are going to hold the boards together (via spacers). I used some I had in my stock so I am not going to tell you exact length. But they need to be long enough to fix a `1.6mm` thick PCB to the spacer and short enough so two of them are able to fit in one spacer (might be trickier with 4mm spacers for Choc switches)
+- **20 (+8) M2 screws**. 20 are going to hold the boards together (via spacers). I used some I had in my stock so I am not going to tell you exact length. But they need to be long enough to fix a `1.6mm` thick PCB to the spacer and short enough so two of them can fit in one spacer (might be trickier with 4mm spacers for Choc switches)
 - **8 - 10 adhesive rubber feet** They are really important, trust me. .[^8]
 - **2 ssd1306 128x32 OLED display module** Very common everywhere. [^9]
 - **2 Rotary encoders EC11**[^10] optional. So far I have used only 1 but 2 are supported too.  A matching knob[^11] for each encoder. 
-- **2 Pro Micro** or clone[^12]. With 2x12 pins and ATmega32U4 microcontroller. Just make sure you **don't** buy something like Arduino Micro (a different pinout) or Arduino Mini (different microcontroller). You could also use Elite-C which bascially Pro Micro with USB-C or QMK Proton C(32-bit Cortex-M4 processor and USB-C). 
-- **4x12 pin header (and optionally socket)** for Pro Micros. There are several ways how to mount Pro Micros to the board. Either the male PIN headers you most likely got with the board from supplier could be used to solder it directly to the board. Build guides for Helix, Corne and Lily58 suggest [those spring pin headers][springpinheader] which are very compact and give you non-permanent connection (you can remove or replace Pro Micros). But the link goes to a Japanese e-shop which is not shipping to Europe. I haven't found any other place where those are available. All I can find is Japanese datasheet and this e-shop. I ended up using low-profile round pin headers which take a bit more height but also allow me to remove Pro Micros and use them elsewhere. But for Corne I just soldered them permanently. Another possible approach [is described at splitkb.com][promicrosocketing].
-- **2x4 pin header (and optionally socket)** for OLEDs. I have used the most common 1x4 female pin sockets which are quite tall but they also fit the height of ProMicro with the sockets I have used. Unfortunately the pin headers on my OLED modules (again those very common square male headers you would get with the modules) are loose in the sockets. It works but it's fiddly. I'll have to find better solution.
-- **Micro USB Cable** to connect the keyboard to computer.
+- **2 Pro Micro** or clone[^12]. With 2x12 pins and ATmega32U4 microcontroller. Just make sure you **don't** buy something like Arduino Micro (a different pinout) or Arduino Mini (different microcontroller). You could also use Elite-C which basically Pro Micro with USB-C or QMK Proton C(32-bit Cortex-M4 processor and USB-C). 
+- **4x12 pin header (and optionally socket)** for Pro Micros. There are several ways how to mount Pro Micros to the board. Either the male PIN headers you most likely got with the board from the supplier could be used to solder it directly to the board. Build guides for Helix, Corne and Lily58 suggest [those spring pin headers][springpinheader] which are very compact and give you non-permanent connection (you can remove or replace Pro Micros). But the link goes to a Japanese e-shop which is not shipping to Europe. I haven't found any other place where those are available. All I can find is Japanese datasheet and this e-shop. I ended up using low-profile round pin headers which take a bit more height but also allow me to remove Pro Micros and use them elsewhere. But for Corne, I just soldered them permanently. Another possible approach [is described at splitkb.com][promicrosocketing].
+- **2x4 pin header (and optionally socket)** for OLEDs. I have used the most common 1x4 female pin sockets which are quite tall but they also fit the height of ProMicro with the sockets I have used. Unfortunately, the pin headers on my OLED modules (again those very common square male headers you would get with the modules) are loose in the sockets. It works but it's fiddly. I'll have to find a better solution.
+- **Micro USB Cable** to connect the keyboard to a computer.
 
 That's it. There are no RGB LEDs on the board. But if you really need underglow it should be possible to connect RGB LED strip since there are 3 pads (VCC, GND and data) on the board. You would need to figure out the particular code in firmware on your own.
 
@@ -43,7 +43,7 @@ That's it. There are no RGB LEDs on the board. But if you really need underglow 
 
 {% responsive_image path: images/sofle/IMG_20191106_185738.jpg alt:"Step 1"  figcaption:"Both sides of the keyboard ready. The front sides marked by pieces of tape in order to remember which side is which. " %}
 
-{% responsive_image path: images/sofle/IMG_20191106_193937.jpg alt:""  figcaption:"Starting with the diodes. They belong the the back side of the PCB. Make sure you have orientation right - they are all oriented to the same side. The end with thin line is Cathode (-) and it should go in the direction of the "arrow" symbol on the PCB." %}
+{% responsive_image path: images/sofle/IMG_20191106_193937.jpg alt:""  figcaption:"Starting with the diodes. They belong to the backside of the PCB. Make sure you have orientation right - they are all oriented to the same side. The end with the thin line is Cathode (-) and it should go in the direction of the "arrow" symbol on the PCB." %}
 
 {% responsive_image path: images/sofle/IMG_20191106_203953.jpg alt:""  figcaption:"Sockets for switches belong again on the back side, the same side as diodes. Make sure they are flush with PCB." %}
 
@@ -53,17 +53,17 @@ That's it. There are no RGB LEDs on the board. But if you really need underglow 
 
 {% responsive_image path: images/sofle/IMG_20191106_205330.jpg alt:""  figcaption:"Bridge 4 jumper pads on the top side. You can skip this step if you are sure you don't want to use OLED displays." %}
 
-{% responsive_image path: images/sofle/promicro.jpg alt:""  figcaption:"Prepre the Pro Micro. There are several ways how to do it. I have used rounded pin headers." %}
+{% responsive_image path: images/sofle/promicro.jpg alt:""  figcaption:"Prepare the Pro Micro. There are several ways how to do it. I have used rounded pin headers." %}
 
-{% responsive_image path: images/sofle/IMG_20191106_210048.jpg alt:""  figcaption:"And corresponding sockets on the front side of the board. Make sure you insert them into holes which are marked by rectangle." %}
+{% responsive_image path: images/sofle/IMG_20191106_210048.jpg alt:""  figcaption:"And corresponding sockets on the front side of the board. Make sure you insert them into the holes which are marked by the rectangles." %}
 
 {% responsive_image path: images/sofle/IMG_20191106_211040.jpg alt:""  figcaption:"Another socket for OLED display." %}
 
-{% responsive_image path: images/sofle/IMG_20191106_211048.jpg alt:""  figcaption:"A look on the back side." %}
+{% responsive_image path: images/sofle/IMG_20191106_211048.jpg alt:""  figcaption:"A look on the backside." %}
 
 {% responsive_image path: images/sofle/IMG_20191106_212042.jpg alt:""  figcaption:"Now it is already possible to connect the ProMicro and OLED display to the board, flash the firmware and check if all keys work using a piece of wire or tweezers." %}
 
-{% responsive_image path: images/sofle/IMG_20191109_153340.jpg alt:""  figcaption:"Both halves assembled, a rotary encoder can be added on both, one or none. I have also cleaned flux residue from the back side using some isopropylalcohol, cotton buds and paper towels." %}
+{% responsive_image path: images/sofle/IMG_20191109_153340.jpg alt:""  figcaption:"Both halves assembled, a rotary encoder can be added on both, one or none. I have also cleaned flux residue from the back side using some isopropyl alcohol, cotton buds and paper towels." %}
 
 {% responsive_image path: images/sofle/IMG_20191109_154009.jpg alt:""  figcaption:"Snap first switches into corners." %}
 
@@ -73,13 +73,13 @@ That's it. There are no RGB LEDs on the board. But if you really need underglow 
 
 {% responsive_image path: images/sofle/IMG_20191109_160802.jpg alt:""  figcaption:"Until they are all in place." %}
 
-{% responsive_image path: images/sofle/IMG_20191109_160811.jpg alt:""  figcaption:"Double check the bottom. You should see all the contacts in sockets. "%}
+{% responsive_image path: images/sofle/IMG_20191109_160811.jpg alt:""  figcaption:"Double-check the bottom. You should see all the contacts in sockets. "%}
 
 {% responsive_image path: images/sofle/IMG_20191109_161014.jpg alt:""  figcaption:"And mount the bottom plate. "%}
 
 {% responsive_image path: images/sofle/IMG_20191109_161224.jpg alt:""  figcaption:"Finished half of the keyboard waiting for keycaps." %}
 
-{% responsive_image path: images/sofle/IMG_20191109_163910.jpg alt:""  figcaption:"Put at least 4 adhesive rubber feet in corner so the keyboard is not moving when you type. "%}
+{% responsive_image path: images/sofle/IMG_20191109_163910.jpg alt:""  figcaption:"Put at least 4 adhesive rubber feet in the corners so the keyboard is not moving when you type. "%}
 
 {% responsive_image path: images/sofle/IMG_20191201_184929_1.jpg alt:""  figcaption:"The first set of keycaps I used was this cheap DSA set. I didn't like them much but they are affordable. The set on the photo at the beginning of the article is GMK.Oblivion and that's very nice but also very expensive." %}
 
@@ -87,7 +87,7 @@ That's it. There are no RGB LEDs on the board. But if you really need underglow 
 
 - Don't connect or disconnect the TRRS cable when the keyboard is powered. It may short out. Always disconnect the USB cable first.
 - Be gentle with micro USB ports on your microcontrollers. They are easy to break.
-- Keep in mind that this is a protype of DIY keyboard. It's not a polished product.
+- Keep in mind that this is a prototype of a DIY keyboard. It's not a polished product.
 
 ## Firmware and programming
 
@@ -95,21 +95,21 @@ So far the firmware is not part of the QMK Firmware repository. There's also no 
 
 You should be familiar with QMK and be able to make it work on your local environment. If not, please [follow the instructions in the documentation][qmkintro].
 
-- Checkout my [fork of QMK repository][sofleqmkroot]: `git clone git@github.com:josefadamcik/qmk_firmware.git`
+- Check out my [fork of QMK repository][sofleqmkroot]: `git clone git@github.com:josefadamcik/qmk_firmware.git`
 - Switch to branch `soflekeyboard`: `git checkout soflekeyboard`
 - Make sure your QMK environment [is setup][qmkintro].
-- Make sure halves are not connected togethre with TRRS cable.
-- Connect one half to USB, flash the firmware: `make sofle:default:avrdude` (you may need to use `sudo` depending on your setup). Use reset button to reset the keyboard when you are asked to in console.
+- Make sure halves are not connected together with TRRS cable.
+- Connect one half to USB, flash the firmware: `make sofle:default:avrdude` (you may need to use `sudo` depending on your setup). Use the reset button to reset the keyboard when you are asked to in console.
 - Connect the second half and flash it in the same way as the previous one.
 - Disconnect the USB cable. Connect both halves together with TRRS cable.
-- Connect usb cable to the **left** side[^13]. 
+- Connect USB cable to the **left** side[^13]. 
 - Enjoy SofleKeyboard!
 
 ## Feedback welcome
-
+6
 I would be thrilled to hear when anyone actually decides to build the keyboard and I am also happy to help with any problems you may encounter. I would also welcome any feedback regarding the layout. What do you think? What could be changed? Feel free to contact me through any channel: icons for email, twitter etc. are in both header and footer of this website.
 
-Just keep in mind, please, that this is just a hobby and SofleKeyboard is only an opensource project rather than a commercial product. Therefore, I am not providing anything like a commercial customer support.
+Just keep in mind, please, that this is just a hobby and SofleKeyboard is only an opensource project rather than a commercial product. Therefore, I am not providing anything like commercial customer support.
 
 ## Footnotes and links to components 
 
@@ -127,7 +127,7 @@ Most of the links are to AliExpress and usually are the same I have ordered and 
 [^10]: [EC11 rotary encoder (AliExpress)][encoder]
 [^11]: [Encoder knob (AliExpress)][encoderknob]
 [^12]: [Original Pro Micro by SparkFun][promicroorig]. [Clone from AliExpress][promicro]
-[^13]: This can be changed, look for ["setting handedness" in QMK documentation][qmkhandednes]
+[^13]: This can be changed, look for [setting handednesss][qmkhandednes] in QMK documentation
 
 [layoutarticle]: {{ site.baseurl }}{% post_url 2019-10-13-in-search-of-the-best-custom-keyboard-layout %} "In search of the best custom keyboard layout"
 [introductionarticle]: {{ site.baseurl }}{% post_url 2020-02-25-let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58 %} "Let me introduce you SofleKeyboard - a split keyboard based on Lily58 and Crkbd"
