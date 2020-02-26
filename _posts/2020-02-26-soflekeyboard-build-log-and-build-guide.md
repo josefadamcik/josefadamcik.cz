@@ -18,26 +18,27 @@ This article is partly a build log and partly a build guide for [SofleKeyboard (
 
 ## Bill of materials
 
-Apart from PCBs and plates, the following is needed to build the keyboard. For most of the components there are links to the AliExpress (just click on the small number which will lead you to the corresponding footnote).
+The following is needed to build the keyboard. For most of the components there are links to the AliExpress (just click on the small number which will lead you to the corresponding footnote).
 
-- **2 PCBs**, **2 top plates**, **2 bottom plates**. You can get source [KiCad projects on Github][soflegithub]. Open them in KiCad, plot Gerber files (and drill files), compress them into a zip file. You should have 3 zip files which you need to upload/send to your manufacturer and have them made. There should be nothing special about the parameters you pick for manufacturing: 2-sided PCB, thickness 1.6 mm. Surface finish and solder-mask according to your taste. All the others could stay in defaults. [Some vendors can have problems with the top plate][manufacturingproblems] but I had no issues yet.
+- **2 PCBs**, **2 top plates**, **2 bottom plates**. You can get source [KiCad projects on Github][soflegithub]. Open them in KiCad, plot Gerber files (and drill files), compress them into a zip file. You should have 3 zip files which you need to upload/send to your manufacturer and have them made. There should be nothing special about the parameters you pick for manufacturing: 2-sided PCB, thickness 1.6 mm. Surface finish and solder-mask according to your taste. Another parameters could stay in their default values. [Some vendors can have problems with the top plate][manufacturingproblems] but I had no issues yet.
 - **58 keyboard switch sockets by Kailh**. The PCB supports either sockets for traditional MX switches[^3] or sockets for Kailh Choc switches[^4] (low profile mechanical switches). They are available on Aliexpress, KBDFans and others.
 - **58 keyboard switches** of your preference[^1], either MX or [Kailh Choc][choc]. Just make sure you have matching sockets for them.
-- **58 keycaps**. You can use either all in `1u` size but it looks nicer with two `1.5u` for thumb keys.
+- **58 keycaps**. You can use either all in `1u` size but it looks nicer with two `1.5u` for the thumb keys.
 - **58 diodes  1N4148W**[^5]. They are surface mount diodes in SOD123 package.
-- **2 TRRS connectors**. The same type which is used for Corne, Lily58 etc. Technically even TRS should work[^2] if you stick to (default) serial communication. [^6]
+- **2 TRRS connectors**. The same type which is used for Corne, Lily58 etc. Technically even TRS should work[^2] if you stick to (default) serial communication[^6]. 
 - **1 TRRS cable**. TRS should work[^2] if you stick with Serial. 
-- **10 (+4) M2 spacers**[^7]. 10 are going to hold bottom and top together. Their height depends on which switches you use. A build guide Lily58 Pro suggests `4mm` for Choc and `7mm` for MX. I was not able to get `7mm`, but `6mm` worked well for me with MX switches. I used brass ones but you can also buy nicer from anodised aluminium. Another 4 would be needed to hold transparent OLED cover but even though there are mounting holes in the PCB there is no OLED cover designed yet.
+- **10 (+4) M2 spacers**[^7]. 10 are going to hold the bottom and the top together. Their height depends on which switches you use. A build guide Lily58 Pro suggests `4mm` for Choc and `7mm` for MX. I was not able to get `7mm`, but `6mm` worked well for me with MX switches. I used brass ones but you can also buy nicer from anodised aluminium. Another 4 would be needed to hold transparent OLED cover but even though there are mounting holes in the PCB there is no OLED cover designed yet.
 - **20 (+8) M2 screws**. 20 are going to hold the boards together (via spacers). I used some I had in my stock so I am not going to tell you exact length. But they need to be long enough to fix a `1.6mm` thick PCB to the spacer and short enough so two of them can fit in one spacer (might be trickier with 4mm spacers for Choc switches)
-- **8 - 10 adhesive rubber feet** They are really important, trust me. .[^8]
-- **2 ssd1306 128x32 OLED display module** Very common everywhere. [^9]
-- **2 Rotary encoders EC11**[^10] optional. So far I have used only 1 but 2 are supported too.  A matching knob[^11] for each encoder. 
-- **2 Pro Micro** or clone[^12]. With 2x12 pins and ATmega32U4 microcontroller. Just make sure you **don't** buy something like Arduino Micro (a different pinout) or Arduino Mini (different microcontroller). You could also use Elite-C which basically Pro Micro with USB-C or QMK Proton C(32-bit Cortex-M4 processor and USB-C). 
+- **8 - 10 adhesive rubber feet**[^8]. They are really important, trust me.
+- **2 ssd1306 128x32 OLED display module**[^9]. Very common everywhere. 
+- **2 Rotary encoders EC11**[^10], optional. So far I have used only one but 2 are supported.  
+- **A matching knob**[^11] for each encoder. 
+- **2 Pro Micro**board or clone[^12]. With 2x12 pins and ATmega32U4 microcontroller. Just make sure you **don't** buy something like Arduino Micro (a different pinout) or Arduino Mini (different microcontroller). You could also use Elite-C which basically Pro Micro with USB-C.
 - **4x12 pin header (and optionally socket)** for Pro Micros. There are several ways how to mount Pro Micros to the board. Either the male PIN headers you most likely got with the board from the supplier could be used to solder it directly to the board. Build guides for Helix, Corne and Lily58 suggest [those spring pin headers][springpinheader] which are very compact and give you non-permanent connection (you can remove or replace Pro Micros). But the link goes to a Japanese e-shop which is not shipping to Europe. I haven't found any other place where those are available. All I can find is Japanese datasheet and this e-shop. I ended up using low-profile round pin headers which take a bit more height but also allow me to remove Pro Micros and use them elsewhere. But for Corne, I just soldered them permanently. Another possible approach [is described at splitkb.com][promicrosocketing].
 - **2x4 pin header (and optionally socket)** for OLEDs. I have used the most common 1x4 female pin sockets which are quite tall but they also fit the height of ProMicro with the sockets I have used. Unfortunately, the pin headers on my OLED modules (again those very common square male headers you would get with the modules) are loose in the sockets. It works but it's fiddly. I'll have to find a better solution.
 - **Micro USB Cable** to connect the keyboard to a computer.
 
-That's it. There are no RGB LEDs on the board. But if you really need underglow it should be possible to connect RGB LED strip since there are 3 pads (VCC, GND and data) on the board. You would need to figure out the particular code in firmware on your own.
+That's it. There are no RGB LEDs on the board. But if you really need underglow it should be possible to connect RGB LED strip since there are 3 pads (VCC, GND and data) on the board. You would need to figure out support in the firmware on your own.
 
 ## Steps
 
@@ -77,13 +78,13 @@ That's it. There are no RGB LEDs on the board. But if you really need underglow 
 
 {% responsive_image path: images/sofle/IMG_20191109_161014.jpg alt:""  figcaption:"And mount the bottom plate. "%}
 
-{% responsive_image path: images/sofle/IMG_20191109_161224.jpg alt:""  figcaption:"Finished half of the keyboard waiting for keycaps." %}
+{% responsive_image path: images/sofle/IMG_20191109_161224.jpg alt:""  figcaption:"Completed half of the keyboard waiting for keycaps." %}
 
 {% responsive_image path: images/sofle/IMG_20191109_163910.jpg alt:""  figcaption:"Put at least 4 adhesive rubber feet in the corners so the keyboard is not moving when you type. "%}
 
 {% responsive_image path: images/sofle/IMG_20191201_184929_1.jpg alt:""  figcaption:"The first set of keycaps I used was this cheap DSA set. I didn't like them much but they are affordable. The set on the photo at the beginning of the article is GMK.Oblivion and that's very nice but also very expensive." %}
 
-## Few warnings
+## Warnings and disclaimers
 
 - Don't connect or disconnect the TRRS cable when the keyboard is powered. It may short out. Always disconnect the USB cable first.
 - Be gentle with micro USB ports on your microcontrollers. They are easy to break.
@@ -106,28 +107,34 @@ You should be familiar with QMK and be able to make it work on your local enviro
 - Enjoy SofleKeyboard!
 
 ## Feedback welcome
-6
-I would be thrilled to hear when anyone actually decides to build the keyboard and I am also happy to help with any problems you may encounter. I would also welcome any feedback regarding the layout. What do you think? What could be changed? Feel free to contact me through any channel: icons for email, twitter etc. are in both header and footer of this website.
+
+I would be thrilled to hear when anyone actually decides to build the keyboard and I am also happy to help with any problems you may encounter. I would also welcome any feedback regarding the layout and so on. What do you think? What could be changed? Feel free to contact me through any channel: icons for email, twitter etc. are in both header and footer of this website.
 
 Just keep in mind, please, that this is just a hobby and SofleKeyboard is only an opensource project rather than a commercial product. Therefore, I am not providing anything like commercial customer support.
 
+## Links
+
+- [Github with KiCad projects][soflegithub]
+- [Github with a fork QMK firmware for SofleKeyboard][sofleqmk] (not yet in the upstream) (make sure you checkout `soflekeyboard` branch)
+- [Layout in KeyboardLayout editor][soflelayout]
+
 ## Footnotes and links to components 
 
-Most of the links are to AliExpress and usually are the same I have ordered and used. They are meant for illustration. They are not affiliate links.
+Most of the links are to AliExpress and usually are the same I have ordered and used. They are meant for illustration. They are not affiliate links. It seems AliExpress is going to require you to be registered and logged in to see the detail of the product. I discovered that when putting this together and I am sorry for that but it's out of my control.
 
 [^1]: I used [Zilents V2][zilentsv2], silent tactile switches by ZealPC (and made by Gateron) which are very expensive. 
-[^2]: Serial is the default behaviour. If serial is used, you don't need TRRS cable (4 contacts, used for headphones with microphone) but just TRS (stereo audio jack). 
+[^2]: Serial is the default behaviour. If serial is used, you don't need TRRS cable (4 contacts, used for headphones with a microphone) but just TRS (stereo audio jack). 
 [^3]: [Kailh MX Socket (AliExpress)][kailhsocketmx]
 [^4]: [Kailh Choc Socket (AliExpress)][kailhsocketchoc]
 [^5]: [1N4148W Diodes in SOD123 package (AliExpress)][diodes]
 [^6]: [TRRS connectors (AliExpress)][trrs]
 [^7]: [M2 brass spacers kit (AliExpress)][spacers] 
-[^8]: [Adhesive rubberfeet (AliExpress)][rubberfeet]
+[^8]: [Adhesive rubber feet (AliExpress)][rubberfeet]
 [^9]: [OLED display breakout (AliExpress)][oled]
 [^10]: [EC11 rotary encoder (AliExpress)][encoder]
 [^11]: [Encoder knob (AliExpress)][encoderknob]
 [^12]: [Original Pro Micro by SparkFun][promicroorig]. [Clone from AliExpress][promicro]
-[^13]: This can be changed, look for [setting handednesss][qmkhandednes] in QMK documentation
+[^13]: This can be changed, look for [setting handednesss][qmkhandedness] in QMK documentation
 
 [layoutarticle]: {{ site.baseurl }}{% post_url 2019-10-13-in-search-of-the-best-custom-keyboard-layout %} "In search of the best custom keyboard layout"
 [introductionarticle]: {{ site.baseurl }}{% post_url 2020-02-25-let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58 %} "Let me introduce you SofleKeyboard - a split keyboard based on Lily58 and Crkbd"
