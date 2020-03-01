@@ -16,11 +16,23 @@ This article is partly a build log and partly a build guide for [SofleKeyboard (
 
 {%- include post_series.html -%}
 
+## Getting the PCBs
+
+I currently don't have any spare PCBs left. I also do not plan to organize a group by or to sell the boards. There might be others who would do that in the future. Some were already in touch with me.
+
+If you decide that you wish to go through the PCB manufacturing process, you can. I think it's easy even for people who don't know much about PCB manufacturing process. But keep in mind, nobody can guarantee that there are not going to be some problems and if you have no idea what are you doing it might be more difficult for you to deal with them. 
+
+You can get source [KiCad projects on Github][soflegithub]. Open them in KiCad, plot Gerber files and drill files, compress them into a zip file. The instructions how the extract Gerber files from KiCad are everywhere and you can find them e.g. at the website of your chosen manufacturer. If you don't want to install KiCad, you can find the Gerber files exported as I used them to order the first build here: [Gerber files for SofleKeyboard][soflegerber].
+
+You should have 3 zip files which you need to upload/send to your manufacturer and have them made. There should be nothing special about the parameters you pick for manufacturing: 2-sided PCB, thickness 1.6 mm. Surface finish (keep in mind that the cheapest HASL contains lead. Lead is toxic.) and solder-mask color according to your taste. Other parameters could stay in their default values. You are going to need at least 2 pieces of PCB made from each zip file. Most likely the minimal quantity is going to be either 5 or 10 boards.
+
+Also, keep in mind that [Some vendors can have problems with the top plate][manufacturingproblems]. I had no issues yet, but I can't guarantee that you will not.
+
 ## Bill of materials
 
 The following is needed to build the keyboard. For most of the components there are links to the AliExpress (just click on the small number which will lead you to the corresponding footnote).
 
-- **2 PCBs**, **2 top plates**, **2 bottom plates**. You can get source [KiCad projects on Github][soflegithub]. Open them in KiCad, plot Gerber files (and drill files), compress them into a zip file. You should have 3 zip files which you need to upload/send to your manufacturer and have them made. There should be nothing special about the parameters you pick for manufacturing: 2-sided PCB, thickness 1.6 mm. Surface finish and solder-mask according to your taste. Another parameters could stay in their default values. [Some vendors can have problems with the top plate][manufacturingproblems] but I had no issues yet.
+- **2 PCBs**, **2 top plates**, **2 bottom plates** see above.
 - **58 keyboard switch sockets by Kailh**. The PCB supports either sockets for traditional MX switches[^3] or sockets for Kailh Choc switches[^4] (low profile mechanical switches). They are available on Aliexpress, KBDFans and others.
 - **58 keyboard switches** of your preference[^1], either MX or [Kailh Choc][choc]. Just make sure you have matching sockets for them.
 - **58 keycaps**. You can use either all in `1u` size but it looks nicer with two `1.5u` for the thumb keys.
@@ -141,6 +153,7 @@ Most of the links are to AliExpress and usually are the same I have ordered and 
 [soflelayout]: http://www.keyboard-layout-editor.com/#/gists/76efb423a46cbbea75465cb468eef7ff "Sofle Keyboard layout at keyboard-layout-editor.com"
 [sofleqmk]: https://github.com/josefadamcik/qmk_firmware/tree/soflekeyboard/keyboards/sofle
 [soflegithub]: https://github.com/josefadamcik/SofleKeyboard "SofleKeyboard - KiCad project on Github.com"
+[soflegerber]: https://github.com/josefadamcik/SofleKeyboard/tree/master/Gerbers "SofleKeyboard - gerber files"
 [sofleqmkroot]: https://github.com/josefadamcik/qmk_firmware/ "QMK fork root"
 [qmk_firmware]: https://github.com/qmk/qmk_firmware/ "QMK firmware"
 {:target="_blank"}
