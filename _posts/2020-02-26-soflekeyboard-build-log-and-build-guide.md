@@ -33,8 +33,8 @@ Also, keep in mind that [Some vendors can have problems with the top plate][manu
 The following is needed to build the keyboard. For most of the components there are links to the AliExpress (just click on the small number which will lead you to the corresponding footnote).
 
 - **2 PCBs**, **2 top plates**, **2 bottom plates** see above.
-- **58 keyboard switch sockets by Kailh**. The PCB supports either sockets for traditional MX switches[^3] or sockets for Kailh Choc switches[^4] (low profile mechanical switches). They are available on Aliexpress, KBDFans and others.
-- **58 keyboard switches** of your preference[^1], either MX or [Kailh Choc][choc]. Just make sure you have matching sockets for them.
+- **58 keyboard switch sockets by Kailh**. The PCB supports either sockets for traditional MX switches[^3] or sockets for Kailh Choc switches[^4] (low profile mechanical switches). They are available on Aliexpress, KBDFans and others. **Update: Please see a disclaimer for Kailh Choc switches**[^14]
+- **58 keyboard switches** of your preference[^1], either MX or [Kailh Choc][choc]. Just make sure you have matching sockets for them. **Update: Please see a disclaimer for Kailh Choc switches**[^14]
 - **58 keycaps**. You can use either all in `1u` size but it looks nicer with two `1.5u` for the thumb keys.
 - **58 diodes  1N4148W**[^5]. They are surface mount diodes in SOD123 package.
 - **2 TRRS connectors**. The same type which is used for Corne, Lily58 etc. Technically even TRS should work[^2] if you stick to (default) serial communication[^6]. 
@@ -77,6 +77,10 @@ That's it. There are no RGB LEDs on the board. But if you really need underglow 
 {% responsive_image path: images/sofle/IMG_20191106_212042.jpg alt:""  figcaption:"Now it is already possible to connect the ProMicro and OLED display to the board, flash the firmware and check if all keys work using a piece of wire or tweezers." %}
 
 {% responsive_image path: images/sofle/IMG_20191109_153340.jpg alt:""  figcaption:"Both halves assembled, a rotary encoder can be added on both, one or none. I have also cleaned flux residue from the back side using some isopropyl alcohol, cotton buds and paper towels." %}
+
+Note: If you are building version witch Kailh Choc switches and want to use encoders, you have to fix the top plate by filing off cutouts for encoder legs[^14].
+
+{% responsive_image path: images/sofle/sofle-kailh-encoder.jpg alt:""  figcaption:"For Kailh Chock switches the top plate sits on the PCB without any gap. But the cutout for encoder in the top plate is not big enough for its legs. This needs to be fixed by filling off some material." %}
 
 {% responsive_image path: images/sofle/IMG_20191109_154009.jpg alt:""  figcaption:"Snap first switches into corners." %}
 
@@ -146,7 +150,8 @@ Most of the links are to AliExpress and usually are the same I have ordered and 
 [^10]: [EC11 rotary encoder (AliExpress)][encoder]
 [^11]: [Encoder knob (AliExpress)][encoderknob]
 [^12]: [Original Pro Micro by SparkFun][promicroorig]. [Clone from AliExpress][promicro]
-[^13]: This can be changed, look for [setting handednesss][qmkhandedness] in QMK documentation
+[^13]: This can be changed, look for [setting handednesss][qmkhandedness] in QMK documentation.
+[^14]: There is a design issue where the cutout for the encoder is big enough only for the encoders base but not for its legs. That is perfectly ok when you build the board with MX switches since the plate sits above the legs. But for low profile Kailh Choc switches there's no longer any gap. If you have unfixed plate and wan't to use the encoder, you'll need to file off a bit of PCB material to get the legs of encdor through (see the guide above).
 
 [layoutarticle]: {{ site.baseurl }}{% post_url 2019-10-13-in-search-of-the-best-custom-keyboard-layout %} "In search of the best custom keyboard layout"
 [introductionarticle]: {{ site.baseurl }}{% post_url 2020-02-25-let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58 %} "Let me introduce you SofleKeyboard - a split keyboard based on Lily58 and Crkbd"
