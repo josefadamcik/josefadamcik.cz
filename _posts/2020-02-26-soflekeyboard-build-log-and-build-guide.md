@@ -80,7 +80,7 @@ That's it. There are no RGB LEDs on the board. But if you really need underglow 
 
 Note: If you are building version witch Kailh Choc switches and want to use encoders, you have to fix the top plate by filing off cutouts for encoder legs[^14].
 
-{% responsive_image path: images/sofle/sofle-kailh-encoder.jpg alt:""  figcaption:"For Kailh Chock switches the top plate sits on the PCB without any gap. But the cutout for encoder in the top plate is not big enough for its legs. This needs to be fixed by filling off some material." %}
+{% responsive_image path: images/sofle/sofle-kailh-encoder.jpg alt:""  figcaption:"For Kailh Choc switches the top plate sits on the PCB without any gap. But the cutout for encoder in the top plate is not big enough for its legs. This needs to be fixed by filling off some material." %}
 
 {% responsive_image path: images/sofle/IMG_20191109_154009.jpg alt:""  figcaption:"Snap first switches into corners." %}
 
