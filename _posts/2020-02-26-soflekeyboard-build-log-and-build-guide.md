@@ -43,7 +43,7 @@ The following is needed to build the keyboard. For most of the components there 
 - **20 (+8) M2 screws**. 20 are going to hold the boards together (via spacers). I used some I had in my stock so I am not going to tell you exact length. But they need to be long enough to fix a `1.6mm` thick PCB to the spacer and short enough so two of them can fit in one spacer (might be trickier with 4mm spacers for Choc switches)
 - **8 - 10 adhesive rubber feet**[^8]. They are really important, trust me.
 - **2 ssd1306 128x32 OLED display module**[^9]. Very common everywhere. 
-- **2 Rotary encoders EC11**[^10], optional. So far I have used only one but 2 are supported.  
+- **2 Rotary encoders EC11**[^10], optional. So far I have used only one but 2 are supported. If you are not sure take EC11E. Some other variants (EC11K) may have some additional plastic pins for and require mounting holes for them (which are not included on the PCB).
 - **A matching knob**[^11] for each encoder. 
 - **2 Pro Micro**board or clone[^12]. With 2x12 pins and ATmega32U4 microcontroller. Just make sure you **don't** buy something like Arduino Micro (a different pinout) or Arduino Mini (different microcontroller). You could also use Elite-C which basically Pro Micro with USB-C.
 - **4x12 pin header (and optionally socket)** for Pro Micros. There are several ways how to mount Pro Micros to the board. Either the male PIN headers you most likely got with the board from the supplier could be used to solder it directly to the board. Build guides for Helix, Corne and Lily58 suggest [those spring pin headers][springpinheader] which are very compact and give you non-permanent connection (you can remove or replace Pro Micros). But the link goes to a Japanese e-shop which is not shipping to Europe. I haven't found any other place where those are available. All I can find is Japanese datasheet and this e-shop. I ended up using low-profile round pin headers which take a bit more height but also allow me to remove Pro Micros and use them elsewhere. But for Corne, I just soldered them permanently. Another possible approach [is described at splitkb.com][promicrosocketing].
@@ -78,7 +78,7 @@ That's it. There are no RGB LEDs on the board. But if you really need underglow 
 
 {% responsive_image path: images/sofle/IMG_20191109_153340.jpg alt:""  figcaption:"Both halves assembled, a rotary encoder can be added on both, one or none. I have also cleaned flux residue from the back side using some isopropyl alcohol, cotton buds and paper towels." %}
 
-Note: If you are building version witch Kailh Choc switches and want to use encoders, you have to fix the top plate by filing off cutouts for encoder legs[^14].
+Note: If you are building version witch Kailh Choc switches and want to use encoders and have the first version of the top plate, you have to fix the top plate by filing off cutouts for encoder legs[^14]. This was fixed in the version 1.1.
 
 {% responsive_image path: images/sofle/sofle-kailh-encoder.jpg alt:""  figcaption:"For Kailh Choc switches the top plate sits on the PCB without any gap. But the cutout for encoder in the top plate is not big enough for its legs. This needs to be fixed by filling off some material." %}
 
@@ -113,7 +113,7 @@ So far the firmware is not part of the QMK Firmware repository. There's also no 
 You should be familiar with QMK and be able to make it work on your local environment. If not, please [follow the instructions in the documentation][qmkintro].
 
 - Check out my [fork of QMK repository][sofleqmkroot]: `git clone git@github.com:josefadamcik/qmk_firmware.git`
-- Switch to branch `soflekeyboard`: `git checkout soflekeyboard`
+- Switch to branch `sofle2`: `git checkout sofle2`
 - Make sure your QMK environment [is setup][qmkintro].
 - Make sure halves are not connected together with TRRS cable.
 - Connect one half to USB, flash the firmware: `make sofle:default:avrdude` (you may need to use `sudo` depending on your setup). Use the reset button to reset the keyboard when you are asked to in console.
@@ -121,6 +121,22 @@ You should be familiar with QMK and be able to make it work on your local enviro
 - Disconnect the USB cable. Connect both halves together with TRRS cable.
 - Connect USB cable to the **left** side[^13]. 
 - Enjoy SofleKeyboard!
+
+## Troubleshooting
+
+### Elite-C v3.0
+
+Elite-C v3.0 had problems when used with split bords (on both halves). Those are fixed in version 3.1. For v3.0 add `#define SPLIT_USB_DETECT` to `config.h` file. I don't have Elite-C so this is untested, but should work.
+
+### Typing lag when used without OLED 
+
+If you chose to not use OLED for both halves you should disable support for oled (set `OLED_DRIVER_ENABLE` to `no` in `keymaps/defualt/rules.mk`).
+
+If you don't use OLED only on one half you are need to do **one** of the following to fix the lag:
+
+- Solder pull-up resistors (4k7) to the PCB (R1, R2) without OLED.
+- Use a workaround explained [in this issue][nooledlag].
+- Stop using OLED completely and turn it off as described above.
 
 ## Feedback welcome
 
@@ -131,7 +147,7 @@ Just keep in mind, please, that this is just a hobby and SofleKeyboard is only a
 ## Links
 
 - [Github with KiCad projects][soflegithub]
-- [Github with a fork QMK firmware for SofleKeyboard][sofleqmk] (not yet in the upstream) (make sure you checkout `soflekeyboard` branch)
+- [Github with a fork QMK firmware for SofleKeyboard][sofleqmk] (not yet in the upstream) (make sure you checkout `sofle2` branch)
 - [Layout in KeyboardLayout editor][soflelayout]
 
 ## Footnotes and links to components 
@@ -151,14 +167,14 @@ Most of the links are to AliExpress and usually are the same I have ordered and 
 [^11]: [Encoder knob (AliExpress)][encoderknob]
 [^12]: [Original Pro Micro by SparkFun][promicroorig]. [Clone from AliExpress][promicro]
 [^13]: This can be changed, look for [setting handednesss][qmkhandedness] in QMK documentation.
-[^14]: There is a design issue where the cutout for the encoder is big enough only for the encoders base but not for its legs. That is perfectly ok when you build the board with MX switches since the plate sits above the legs. But for low profile Kailh Choc switches there's no longer any gap. If you have unfixed plate and wan't to use the encoder, you'll need to file off a bit of PCB material to get the legs of encdor through (see the guide above).
+[^14]: There was a design issue where the cutout for the encoder is big enough only for the base of the encoder but not for its legs. That is perfectly ok when you build the board with MX switches since the plate sits above the legs. But for low profile Kailh Choc switches there's no longer any gap between plates. If you have unfixed plate (the problem was fixed in v1.1.) and wish to use an encoder, you'll need to file off a bit of PCB material to get the legs of encdor through (see the guide above).
 
 [layoutarticle]: {{ site.baseurl }}{% post_url 2019-10-13-in-search-of-the-best-custom-keyboard-layout %} "In search of the best custom keyboard layout"
 [introductionarticle]: {{ site.baseurl }}{% post_url 2020-02-25-let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58 %} "Let me introduce you SofleKeyboard - a split keyboard based on Lily58 and Crkbd"
 [soflelayout]: http://www.keyboard-layout-editor.com/#/gists/76efb423a46cbbea75465cb468eef7ff "Sofle Keyboard layout at keyboard-layout-editor.com"
-[sofleqmk]: https://github.com/josefadamcik/qmk_firmware/tree/soflekeyboard/keyboards/sofle
+[sofleqmk]: https://github.com/josefadamcik/qmk_firmware/tree/sofle2/keyboards/sofle
 [soflegithub]: https://github.com/josefadamcik/SofleKeyboard "SofleKeyboard - KiCad project on Github.com"
-[soflegerber]: https://github.com/josefadamcik/SofleKeyboard/tree/master/Gerbers "SofleKeyboard - gerber files"
+[soflegerber]: https://github.com/josefadamcik/SofleKeyboard/releases "SofleKeyboard - gerber files"
 [sofleqmkroot]: https://github.com/josefadamcik/qmk_firmware/ "QMK fork root"
 [qmk_firmware]: https://github.com/qmk/qmk_firmware/ "QMK firmware"
 {:target="_blank"}
@@ -201,4 +217,5 @@ Most of the links are to AliExpress and usually are the same I have ordered and 
 [qmkhandedness]: <https://beta.docs.qmk.fm/features/feature_split_keyboard#setting-handedness> "QMK firmware - setting handedness"
 {:target="_blank"}
 [manufacturingproblems]: https://josef-adamcik.cz/electronics/corne-keyboard-build-log.html#manufacturing-at-jlcpcb---update-27112019 "Possible problems when manufacturing top plate for Corne"
+[nooledlag]: https://github.com/qmk/qmk_firmware/issues/7522 "No OLED lag bug"
 
