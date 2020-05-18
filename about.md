@@ -11,6 +11,12 @@ I am an experienced software developer. I am **NOT** open to new professional op
 
 ## My projects
 
+### SofleKeyboard
+
+Sofle is 6×4+5 keys column-staggered split keyboard. Based on Lily58, Corne and Helix keyboards.
+
+More details about the keyboard on my blog: [Let me introduce you SofleKeyboard - a split keyboard based on Lily58 and Crkbd](https://josef-adamcik.cz/electronics/let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58.html)
+
 ### ActivityJournal
 
 Work in progress training project (android application). For more [information check this series of blogposts]({{ site.baseurl }}{% post_url 2018-08-27-activity-journal-app-idea %}).
