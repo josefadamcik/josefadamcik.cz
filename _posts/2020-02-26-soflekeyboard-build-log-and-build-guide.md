@@ -110,7 +110,7 @@ Note: If you are building version witch Kailh Choc switches and want to use enco
 
 ~~So far the firmware is not part of the QMK Firmware repository. There's also no support for QMK Configurator. Keep also in mind that the layout is tailored to my needs (e.g. default layout is Colemak even though QWERTY is supported) and you'll most likely need to adjust it.~~
 
-Sofle keyboard use [QMK Firmware][qmk_firmware] and support for the board is part of the main QMK repository. It's no longer needed to checkout my fork. Also the default layout is improved to be more accessible to average user. There's also a basic support in [QMK Configurator][qmk_configurator] but there's no default layout yet and encoders are not supported.
+Sofle keyboard uses [QMK Firmware][qmk_firmware] and support for the board is part of the main QMK repository. It's no longer needed to checkout my fork. Also the default layout is improved to be more accessible to average user. There's also a basic support in [QMK Configurator][qmk_configurator] but there's no default layout yet and encoders are not supported.
 
 Suggested approach is to build the firmware yourself. You should be familiar with QMK and be able to make it work on your local environment. If not, please [follow the instructions in the documentation][qmkintro].
 
