@@ -119,7 +119,6 @@ Just keep in mind, please, that this is just a hobby and SofleKeyboard is only a
 ## Links
 
 - [Github with KiCad projects][soflegithub]
-- [Github with a fork QMK firmware for SofleKeyboard][sofleqmk] (not yet in the upstream) (make sure you checkout `soflekeyboard` branch)
 - [Layout in KeyboardLayout editor][soflelayout]
 
 ## Footnotes
@@ -139,7 +138,6 @@ Just keep in mind, please, that this is just a hobby and SofleKeyboard is only a
 {:target="_blank"} 
 [soflegithub]: https://github.com/josefadamcik/SofleKeyboard "SofleKeyboard - KiCad project on Github.com"
 [soflelayout]: http://www.keyboard-layout-editor.com/#/gists/76efb423a46cbbea75465cb468eef7ff "Sofle Keyboard layout at keyboard-layout-editor.com"
-[sofleqmk]: https://github.com/josefadamcik/qmk_firmware/tree/sofle2/keyboards/sofle
 [qmk_firmware]: https://github.com/qmk/qmk_firmware/ "QMK firmware"
 {:target="_blank"}
 [squidarticle]: {{ site.baseurl }}{% post_url 2019-07-21-squid-badge-my-first-pcb-design %} "Squid PCB badge"

@@ -108,12 +108,12 @@ Note: If you are building version witch Kailh Choc switches and want to use enco
 
 ## Firmware and programming
 
-So far the firmware is not part of the QMK Firmware repository. There's also no support for QMK Configurator. Keep also in mind that the layout is tailored to my needs (e.g. default layout is Colemak even though QWERTY is supported) and you'll most likely need to adjust it.
+~~So far the firmware is not part of the QMK Firmware repository. There's also no support for QMK Configurator. Keep also in mind that the layout is tailored to my needs (e.g. default layout is Colemak even though QWERTY is supported) and you'll most likely need to adjust it.~~
 
-You should be familiar with QMK and be able to make it work on your local environment. If not, please [follow the instructions in the documentation][qmkintro].
+Sofle keyboard use [QMK Firmware][qmk_firmware] and support for the board is part of the main QMK repository. It's no longer needed to checkout my fork. Also the default layout is improved to be more accessible to average user. There's also a basic support in [QMK Configurator][qmk_configurator] but there's no default layout yet and encoders are not supported.
 
-- Check out my [fork of QMK repository][sofleqmkroot]: `git clone git@github.com:josefadamcik/qmk_firmware.git`
-- Switch to branch `sofle2`: `git checkout sofle2`
+Suggested approach is to build the firmware yourself. You should be familiar with QMK and be able to make it work on your local environment. If not, please [follow the instructions in the documentation][qmkintro].
+
 - Make sure your QMK environment [is setup][qmkintro].
 - Make sure halves are not connected together with TRRS cable.
 - Connect one half to USB, flash the firmware: `make sofle:default:avrdude` (you may need to use `sudo` depending on your setup). Use the reset button to reset the keyboard when you are asked to in console.
@@ -147,8 +147,9 @@ Just keep in mind, please, that this is just a hobby and SofleKeyboard is only a
 ## Links
 
 - [Github with KiCad projects][soflegithub]
-- [Github with a fork QMK firmware for SofleKeyboard][sofleqmk] (not yet in the upstream) (make sure you checkout `sofle2` branch)
 - [Layout in KeyboardLayout editor][soflelayout]
+- [QMK Firmware][qmk_firmware]
+- [QMK Configurator][qmk_configurator]
 
 ## Footnotes and links to components 
 
@@ -172,11 +173,10 @@ Most of the links are to AliExpress and usually are the same I have ordered and 
 [layoutarticle]: {{ site.baseurl }}{% post_url 2019-10-13-in-search-of-the-best-custom-keyboard-layout %} "In search of the best custom keyboard layout"
 [introductionarticle]: {{ site.baseurl }}{% post_url 2020-02-25-let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58 %} "Let me introduce you SofleKeyboard - a split keyboard based on Lily58 and Crkbd"
 [soflelayout]: http://www.keyboard-layout-editor.com/#/gists/76efb423a46cbbea75465cb468eef7ff "Sofle Keyboard layout at keyboard-layout-editor.com"
-[sofleqmk]: https://github.com/josefadamcik/qmk_firmware/tree/sofle2/keyboards/sofle
-[soflegithub]: https://github.com/josefadamcik/SofleKeyboard "SofleKeyboard - KiCad project on Github.com"
 [soflegerber]: https://github.com/josefadamcik/SofleKeyboard/releases "SofleKeyboard - gerber files"
-[sofleqmkroot]: https://github.com/josefadamcik/qmk_firmware/ "QMK fork root"
 [qmk_firmware]: https://github.com/qmk/qmk_firmware/ "QMK firmware"
+{:target="_blank"}
+[qmk_configurator]: https://config.qmk.fm/#/sofle/rev1/LAYOUT "QMK configurator"
 {:target="_blank"}
 [zilentsv2]: https://zealpc.net/products/zilents "Zilent V2 silent taktile switches by ZealPC"
 {:target="_blank"}
@@ -218,4 +218,4 @@ Most of the links are to AliExpress and usually are the same I have ordered and 
 {:target="_blank"}
 [manufacturingproblems]: https://josef-adamcik.cz/electronics/corne-keyboard-build-log.html#manufacturing-at-jlcpcb---update-27112019 "Possible problems when manufacturing top plate for Corne"
 [nooledlag]: https://github.com/qmk/qmk_firmware/issues/7522 "No OLED lag bug"
-
+[soflegithub]: https://github.com/josefadamcik/SofleKeyboard "SofleKeyboard - KiCad project on Github.com"
