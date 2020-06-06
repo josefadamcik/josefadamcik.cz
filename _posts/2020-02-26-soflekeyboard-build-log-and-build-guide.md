@@ -38,6 +38,7 @@ The following is needed to build the keyboard. For most of the components there 
 - **58 keycaps**. You can use either all in `1u` size but it looks nicer with two `1.5u` for the thumb keys.
 - **58 diodes  1N4148W**[^5]. They are surface mount diodes in SOD123 package.
 - **2 TRRS connectors**. The same type which is used for Corne, Lily58 etc. Technically even TRS should work[^2] if you stick to (default) serial communication[^6]. 
+- **2 tactile buttons** through-hole, 2 pins.[^15]. Technically optional: you can use metal tweezers whenever you need to reset the microcontroller. There's also a reset key on default layout so as long as you have firmware flashed and working you shouldn't need reset button on the board. 
 - **1 TRRS cable**. TRS should work[^2] if you stick with Serial. 
 - **10 (+4) M2 spacers**[^7]. 10 are going to hold the bottom and the top together. Their height depends on which switches you use. A build guide Lily58 Pro suggests `4mm` for Choc and `7mm` for MX. I was not able to get `7mm`, but `6mm` worked well for me with MX switches. I used brass ones but you can also buy nicer from anodised aluminium. Another 4 would be needed to hold transparent OLED cover but even though there are mounting holes in the PCB there is no OLED cover designed yet.
 - **20 (+8) M2 screws**. 20 are going to hold the boards together (via spacers). I used some I had in my stock so I am not going to tell you exact length. But they need to be long enough to fix a `1.6mm` thick PCB to the spacer and short enough so two of them can fit in one spacer (might be trickier with 4mm spacers for Choc switches)
@@ -169,6 +170,7 @@ Most of the links are to AliExpress and usually are the same I have ordered and 
 [^12]: [Original Pro Micro by SparkFun][promicroorig]. [Clone from AliExpress][promicro]
 [^13]: This can be changed, look for [setting handednesss][qmkhandedness] in QMK documentation.
 [^14]: There was a design issue where the cutout for the encoder is big enough only for the base of the encoder but not for its legs. That is perfectly ok when you build the board with MX switches since the plate sits above the legs. But for low profile Kailh Choc switches there's no longer any gap between plates. If you have unfixed plate (the problem was fixed in v1.1.) and wish to use an encoder, you'll need to file off a bit of PCB material to get the legs of encdor through (see the guide above).
+[^15]: [Tactile button THT 2 pins][thtbuttons]
 
 [layoutarticle]: {{ site.baseurl }}{% post_url 2019-10-13-in-search-of-the-best-custom-keyboard-layout %} "In search of the best custom keyboard layout"
 [introductionarticle]: {{ site.baseurl }}{% post_url 2020-02-25-let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58 %} "Let me introduce you SofleKeyboard - a split keyboard based on Lily58 and Crkbd"
@@ -211,6 +213,8 @@ Most of the links are to AliExpress and usually are the same I have ordered and 
 [encoder]: <https://www.aliexpress.com/item/32382989585.html> "Encoder"
 {:target="_blank"}
 [encoderknob]: <https://www.aliexpress.com/item/32222859399.html> "Encoder Knob"
+{:target="_blank"}
+[thtbuttons]: <https://www.aliexpress.com/item/32981768203.html> "Tactile button"
 {:target="_blank"}
 [qmkintro]: <https://beta.docs.qmk.fm/newbs/newbs_getting_started> "QMK getting started"
 {:target="_blank"}
