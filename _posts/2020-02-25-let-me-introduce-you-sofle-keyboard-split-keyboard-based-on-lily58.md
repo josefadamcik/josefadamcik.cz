@@ -78,7 +78,7 @@ The result was perfect. No manufacturing problems, no mistakes on my side, every
 
 ## Building the first SofleKeyboard
 
-Originally I wanted to have a detailed build log in this section. But it ended up being quite long. I also wanted the build log to act as a build guide (since there's no build guide for SofleKeyboard on Github yet). Therefore, I have published it as a separate article: [SofleKeyboard build log/guide][buildlogarticle].
+Originally I wanted to have a detailed build log in this section. But it ended up being quite long. ~~I also wanted the build log to act as a build guide (since there's no build guide for SofleKeyboard on Github yet).~~ Therefore, I have published it as a separate article: [SofleKeyboard build log/guide][buildlogarticle]. **Update: please, for an up-to-date and improved build guide go to the [SofleKeyboard's website](https://josefadamcik.github.io/SofleKeyboard/).**
 
 ## Cleaning the firmware
 
