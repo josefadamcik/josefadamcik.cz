@@ -1,8 +1,5 @@
 source 'https://rubygems.org'
-gem "jekyll", "~> 3.8.4"
-gem "sprockets", "~> 4.0.beta", {
-   require: false
-}
+gem "jekyll", "~> 4.1.0"
 
 gem "uglifier"
 gem "image_optim"
@@ -13,15 +10,14 @@ gem "autoprefixer-rails"
 gem "redcarpet"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed"
   gem "jekyll-responsive-image" 
   gem 'jekyll-seo-tag'
   gem 'jekyll-figure'  
-  gem "jekyll-assets"
+  gem "jekyll-assets", git: "https://github.com/envygeeks/jekyll-assets"
   gem 'jekyll-paginate-v2'
   gem 'jekyll-sitemap'
   gem 'jekyll-tagging'
 end
-
 
 
