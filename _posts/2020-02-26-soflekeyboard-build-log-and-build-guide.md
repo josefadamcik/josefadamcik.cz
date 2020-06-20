@@ -8,7 +8,7 @@ series: "SofleKeyboard"
 image: /images/sofle/IMG_20191109_161224.jpg
 ---
 
-**Update: please, for an up-to-date and improved build guide go to the [SofleKeyboard's website](https://josefadamcik.github.io/SofleKeyboard/).**
+**Update: for an up-to-date and improved build guide go to the [SofleKeyboard's website](https://josefadamcik.github.io/SofleKeyboard/).**
 
 This article is partly a build log and partly a build guide for [SofleKeyboard (introduced in the previous article)][introductionarticle] ~~since there's no build guide for the keyboard yet and there are already people who would like to build it. ~~
 

@@ -27,10 +27,10 @@ jobs:
           DEPLOY_DIR: ${{ secrets.DEPLOY_DIR }}
         with:
           entrypoint: /publish.sh
-      - name: Send Notification
-        uses: Clivern/pushover-actions@0.0.6
-        if: success() || failure()
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
-          PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
+      - name: Push Build Status Notifications
+        if: ${{ always() }}
+        uses: desiderati/github-action-pushover@v1
+        with:
+          job-status: ${{ job.status }}
+          pushover-api-token: ${{ secrets.PUSHOVER_TOKEN }}
+          pushover-user-key: ${{ secrets.PUSHOVER_USER }}
