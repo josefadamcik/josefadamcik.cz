@@ -124,10 +124,3 @@ But let me take a break from the hardware side. In the next article, I’ll focu
 {:target="_blank"}
 
 
-[^1]: With all the respect to authors of Arduino IDE and its purpose, I am not able to work with editor so basic when I am used to work with professional IDEs.
-[^2]: To be honest, I am not sure if it's an actual HW-level support. It might be just a clever abstraction in the ESP-IDF framework utilizing some 
-
-
-
-
-
