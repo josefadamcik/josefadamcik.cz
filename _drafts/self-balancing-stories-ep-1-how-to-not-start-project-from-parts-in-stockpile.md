@@ -62,14 +62,36 @@ But still, there are several questions:
 
 - Which voltage? they are made in 3V, 5V, 6V but 12V versions. 
 - Which Gear ratio?
-- Which speed (without any load) in RPM would be the best?
+- Which speed RPM would be the best?
 - Which stall torque is enough? And what "stall torque" actually is?
 
 As you may guess those things are connected. 
 
 Higher voltage would usually mean more powerful motor. And more powerful means either higher speed and/or higher torque. Gear ratio allows you to exchange speed for torque. Apart from rated voltage the power of motor is also affected by it's construction - for example [Pololu offers][pololumotors] for every voltage rating several types: LP (low power), MP (medium power) and HP(high power). The more powerful a motor is the more current it's going to consume.
+speed is going to be lower.
 
-The motor needs enough torque to move robot's body into upright position so the amount of torque required is depends on the construction but also on the starting angle. Balancing in the position would require much less than getting the robot to stand up when it is lying on the ground. You could actually compute the torque needed if you knew parameters of the body that's going to be moved. Stall torque is a torque the motor has when its speed reaches zero. It's kind of maximal torque it can produce. Each motor has also "stall current" which is the current consumed in the stall 
+The motor needs enough torque to move robot's body into upright position so the amount of torque required is depends on the construction but also on the starting angle. Balancing in the position would require much less than getting the robot to stand up when it is lying on the ground. You could actually compute the torque needed if you knew parameters of the body that's going to be moved. 
+
+The speed you see in the datasheet (or in the table above) is a speed the motor runs without any load. The more load it needs to carry (that's our torque, actually!) the slower it moves. Stall torque is the torque the motor reaches when its speed reaches zero. We could say it's the maximal torque the motor can handle. Each motor has also "stall current" which is the current consumed in the stall state and you need keep it in mind when picking your motor driver and setting up the power (step up, protection circuit and battery).
+
+I did plenty of research but in the end I still picked motors mostly by guessing and I am still not sure if I made a good decision or not. In the end I chose a [6V HP variant, 150:1 Gear ratio][pololumymotor]. This one is rated for 210 RPM when not under load (consuming 70 mA) and stall torque 2.4 kg⋅cm (consuming 1.6 A in stall state).
+
+Since I already knew that it might be handy to measure the real speed of the motor I chose version with extended motor shaft which would allow me to connect magnetic encoders and I also [ordered few of them][pololuencoders].
+
+{% responsive_image path: images/selfbalancin/IMG_20200429_084520.jpg alt:"Motors and encoders"  figcaption:"Motors and encoders" %}
+
+
+## Next steps
+
+This started as an small project made from parts I had at home. But I quickly ended up buying quite a lot new components. Only the MPU6050 breakout, ESP32 controller board, battery and holder and of course, jumper wires and cables and similar are from my storage. I think I spent 80-90 Euro for the rest (all shipped from Germany). 
+
+Thankfully, the motors seem to be powerful enough to balance the robot but I run into power issues. My ESP32 was restarting due to brownout quite often and it was impossible to actually balance the robot.
+
+But let me take a break from the hardware side.In the next article I'll focus on firmware and after that I'll return back to HW.
+
+
+
+
 
 
 [poloplumotordriver]: <https://www.pololu.com/product/2130> "DRV8833 dual h-bridge"
@@ -92,6 +114,9 @@ The motor needs enough torque to move robot's body into upright position so the 
 
 [pololumymotor]: <https://www.pololu.com/product/2386> "150:1 Micro Metal Gearmotor HP 6V with Extended Motor Shaft"
 {:target="_blank"}
+
+[pololuencoders]: <https://www.pololu.com/product/4760> "Magnetic encoders"
+
 
 [esp32datasheet]: <https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf> "ESP32-WROOM-32D datasheet"
 {:target="_blank"}
