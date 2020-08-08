@@ -48,7 +48,7 @@ The top one has a holder for one LiOn cell. This one cell powers directly (throu
 
 This is how the first version looked with the smaller couple of wheels (40 mm). I bought also 80 mm ones which I ended up using and you can see them on the title image.
 
-{% responsive_image path: images/selfbalancing/IMG_20200426_195609.jpg alt:"First version" %}
+{% responsive_image path: images/selfbalancing/IMG_20200426_195609.jpg alt:"First version" class: "imgmw600" %}
 
 You can see it's lying on its back, partly because no firmware was written at the time the picture was taken and partly... Well, let's leave that for later.
 
@@ -78,8 +78,7 @@ I did plenty of research but in the end I still picked motors mostly by guessing
 
 Since I already knew that it might be handy to measure the real speed of the motor I chose version with extended motor shaft which would allow me to connect magnetic encoders and I also [ordered few of them][pololuencoders].
 
-{% responsive_image path: images/selfbalancin/IMG_20200429_084520.jpg alt:"Motors and encoders"  figcaption:"Motors and encoders" %}
-
+{% responsive_image path: images/selfbalancing/IMG_20200429_084520.jpg alt:"Motors and encoders"  figcaption:"Motors and encoders" %}
 
 ## Next steps
 
@@ -88,10 +87,6 @@ This started as an small project made from parts I had at home. But I quickly en
 Thankfully, the motors seem to be powerful enough to balance the robot but I run into power issues. My ESP32 was restarting due to brownout quite often and it was impossible to actually balance the robot.
 
 But let me take a break from the hardware side.In the next article I'll focus on firmware and after that I'll return back to HW.
-
-
-
-
 
 
 [poloplumotordriver]: <https://www.pololu.com/product/2130> "DRV8833 dual h-bridge"
@@ -116,7 +111,7 @@ But let me take a break from the hardware side.In the next article I'll focus on
 {:target="_blank"}
 
 [pololuencoders]: <https://www.pololu.com/product/4760> "Magnetic encoders"
-
+{:target="_blank"}
 
 [esp32datasheet]: <https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf> "ESP32-WROOM-32D datasheet"
 {:target="_blank"}
@@ -128,7 +123,7 @@ But let me take a break from the hardware side.In the next article I'll focus on
 {:target="_blank"}
 
 [selfbalancingalex]: <http://axelsdiy.brinkeby.se/?page_id=1447> "Mini balancing robot on Axel's DIY"
-
+{:target="_blank"}
 
 
 [^1]: With all the respect to authors of Arduino IDE and its purpose, I am not able to work with editor so basic when I am used to work with professional IDEs.
