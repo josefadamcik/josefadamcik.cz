@@ -36,7 +36,6 @@ All this made me quite sad and disappointed at first. Until I gave up my "use ju
 
 Now I could finally start constructing my robot!
 
-
 {% responsive_image path: images/selfbalancing/construction.jpg alt:"Construction." %}
 
 You can see overall it's quite simple. One board contains motors attached using brackets at the bottom and [DRV8833 dual h-bridge motor driver][poloplumotordriver]
@@ -53,84 +52,25 @@ This is how the first version looked with the smaller couple of wheels (40 mm). 
 
 You can see it's lying on its back, partly because no firmware was written at the time the picture was taken and partly... Well, let's leave that for later.
 
-## Firmware
+## Problems and another order
 
-This was my first project with ESP32, so far I have only had an experience with ESP8266. I still decided to use Arduino Core for ESP32 even though I was tempted to use the [ESP-IDF SDK from Espressif directly][espidf] (AFAIK Arduino Core for ESP32 just wraps around it). I started writing firmware in VS Code + Platform IO. I cannot use the original Arduino editor since it is.. well, painful for me to use[^1].
+I did spend some time writing firmware since there's quite a lot to do there. But I'll leave the details for the next article. Once I had some basic version ready and started testing the robot I very quickly realized that my motors are too weak. Like crazy weak. So I had to buy new ones. 
 
-In general, the minimal firmware has to:
+The thing is it's not really easy to pick a motor for such robot. I wanted to stay with this size/format of the motor which is usually called "micro gear motor". 
 
-1. be able to get data from IMU (Inertial measurement unit) and compute the lean angle of the robot,
-2. control the motor (or more precisely the motor driver).
-3. use that value to compute desired motor speed which would help to stabilise the robot,
+But still, there are several questions:
 
-But there is more it could do:
+- Which voltage? they are made in 3V, 5V, 6V but 12V versions. 
+- Which Gear ratio?
+- Which speed (without any load) in RPM would be the best?
+- Which stall torque is enough? And what "stall torque" actually is?
 
-- WiFi support and OTA (over the air) updates of firmware
-- Bluetooth support and some ability to control and debug the robot remotely 
-- Use waffle iron and bake waffles.
+As you may guess those things are connected. 
 
-### 1) IMU - MPU6050
+Higher voltage would usually mean more powerful motor. And more powerful means either higher speed and/or higher torque. Gear ratio allows you to exchange speed for torque. Apart from rated voltage the power of motor is also affected by it's construction - for example [Pololu offers][pololumotors] for every voltage rating several types: LP (low power), MP (medium power) and HP(high power). The more powerful a motor is the more current it's going to consume.
 
-I have used very common IMU breakout module with MPU6050 which is so called "six-axis" IMU which contains gyroscope and accelerometer. It uses I2C for communication. 
+The motor needs enough torque to move robot's body into upright position so the amount of torque required is depends on the construction but also on the starting angle. Balancing in the position would require much less than getting the robot to stand up when it is lying on the ground. You could actually compute the torque needed if you knew parameters of the body that's going to be moved. Stall torque is a torque the motor has when its speed reaches zero. It's kind of maximal torque it can produce. Each motor has also "stall current" which is the current consumed in the stall 
 
-MPU6050 contains 3-axis gyroscope and 3-axis accelerometer. If you check [some articles][selfbalancinginstructable] explaining how to use it, they usually use a combination of values (using complementary filter) from both sensors in order to get nice and stable estimation of inclination of the robot.
-
-But there's a better way, since MPU6050 contains DMP - Digital Motion Processor which can do such computation for you and provide already filtered values. Sadly it's not something that would be easy to use. My knowledge of details of limited but it seems like some undocumented feature and requires you to upload some kind of firmware to DMP.
-
-Thankfully there's an amazing [I2C Device Library][i2cdevlib] which contains Arduino support many I2C devices including MPU6050 and DMP.
-
-TODO: problems on ESP32, PR with fix.
-
-### 2) Control the motor
-
-In order to control a DC motor, or more precisely the H-Bridge motor driver, we need to apply PWM signal to one of 2 inputs for each motor. One of the inputs is for forward movement the second for reverse. When duty cycle of PWM is adjusted the power given to the motor changes proportionally.
-
-Nice hidden Gem of ESP32 is that there's a [HW-level support for control of motors through PWM][mcmpw][^2] which helps you to generate and control the PWM signals for motors but has also support for failure detection and sensing.
-
-Using MPCWM was quite trivial but I had to dive into the documentation for ESP-IDF. This is one of the things that made me thing I could consider getting rid of Arduino core and try to use it directly.
-
-I am not going to explain details. You can check the [current implementation in my Github][firmware] (look for `motor.cpp`) and [documentation][mcmpw].
-
-### 3) Drive the motor based on angle
-
-Even though there are other options, the most common approach is to use PID (proportional–integral–derivative) controller. There's a lot one could learn  about PID controllers and about system control theory in general. As many hobbyists I chose the naive "let's try it like other and hope it works" approach. I might learn a bit more about the math behind it in the future.
-
-As usually, I don't want dive into explanation of details about PID controllers. There are plenty of resource around the internet, for example in [this tutorial][selfbalancinginstructablepid].
-
-Let me just say that it's a system which takes an error in some value as an input and spits another value for you. Error, in my case is the difference between the desired angle of inclination and the measured value. The output value is "speed" for the motor - the duty cycle for PWM signal in the simplest case. The PID controller has 3 parameters which correspond to the 3 letters (proportional, integral, derivative) and they are often called gains. 
-Each of them controls how much one of aspects considered by PID controller affects the output.
-
-- The proportional part just uses the error value and ignores time or history. - The integral part integrates error over time.
-- The derivative part takes into account size of change in error from the last measurement in proportion to time (ehm, the derivative they call it in math, remember?)
-
-Those 3 parameters have to be found experimentally. Of course, system control theory actually explores how to compute them. But let's be a proper tinkerer and just wing it.
-
-
-[mcmpw]: <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/mcpwm.html> "ESP32 MCPWM documentation"
-{:target="_blank"}
-
-[firmware]: <https://github.com/josefadamcik/ESP32SelfBalancingRobot> "Self-balancing robot firmware at Github"
-{:target="_blank"}
-
-[espidf]: <https://github.com/espressif/esp-idf> "ESP-IDF by Espressif"
-{:target="_blank"}
-
-[espidfdoc]: <https://docs.espressif.com/projects/esp-idf/en/stable/> "ESP-IDF documentation"
-{:target="_blank"}
-
-[i2cdevlib]: <http://www.i2cdevlib.com/> "I2C devlib website"
-
-[i2cdevlibgithub]: <https://github.com/jrowberg/i2cdevlib> "I2C devlib Github"
-{:target="_blank"}
-
-[i2cdevlibmpu6050]: <https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050> "i2cdevlib's Arduino support MPU6050"
-{:target="_blank"}
-
-[mpu6050]: <https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/> "MPU6050"
-
-
-[i2cdevlibpr]: <https://github.com/jrowberg/i2cdevlib/pull/530> "Pull request to allow compilation on ESP32"
-{:target="_blank"}
 
 [poloplumotordriver]: <https://www.pololu.com/product/2130> "DRV8833 dual h-bridge"
 {:target="_blank"}
@@ -147,6 +87,12 @@ Those 3 parameters have to be found experimentally. Of course, system control th
 [polomultihubwheel]: <https://www.pololu.com/product/3691> "80mm mult-ihub wheel"
 {:target="_blank"}
 
+[pololumotors]: <https://www.pololu.com/category/60/micro-metal-gearmotors> "Sortiment of micro-gear-motors from Pololu"
+{:target="_blank"}
+
+[pololumymotor]: <https://www.pololu.com/product/2386> "150:1 Micro Metal Gearmotor HP 6V with Extended Motor Shaft"
+{:target="_blank"}
+
 [esp32datasheet]: <https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf> "ESP32-WROOM-32D datasheet"
 {:target="_blank"}
 
@@ -156,6 +102,7 @@ Those 3 parameters have to be found experimentally. Of course, system control th
 [selfbalancinginstructablepid]: <https://www.instructables.com/id/Arduino-Self-Balancing-Robot-1/#step6> "Arduino-Self-Balancing-Robot-1 PID"
 {:target="_blank"}
 
+[selfbalancingalex]: <http://axelsdiy.brinkeby.se/?page_id=1447> "Mini balancing robot on Axel's DIY"
 
 
 
