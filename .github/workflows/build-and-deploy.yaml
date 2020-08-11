@@ -27,6 +27,7 @@ jobs:
           DEPLOY_DIR: ${{ secrets.DEPLOY_DIR }}
         with:
           entrypoint: /publish.sh
+
       - name: Push Build Status Notifications
         if: ${{ always() }}
         uses: desiderati/github-action-pushover@v1
