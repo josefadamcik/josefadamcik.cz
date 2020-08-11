@@ -100,10 +100,6 @@ TODO: some links and info about how to change the partition table
 TODO: mention support in MCPWM, mention the pulse counter in ESP32.
 
 
-
-
-
-
 [mcmpw]: <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/mcpwm.html> "ESP32 MCPWM documentation"
 {:target="_blank"}
 
@@ -117,6 +113,7 @@ TODO: mention support in MCPWM, mention the pulse counter in ESP32.
 {:target="_blank"}
 
 [i2cdevlib]: <http://www.i2cdevlib.com/> "I2C devlib website"
+{:target="_blank"}
 
 [i2cdevlibgithub]: <https://github.com/jrowberg/i2cdevlib> "I2C devlib Github"
 {:target="_blank"}
@@ -125,6 +122,7 @@ TODO: mention support in MCPWM, mention the pulse counter in ESP32.
 {:target="_blank"}
 
 [mpu6050]: <https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/> "MPU6050"
+{:target="_blank"}
 
 [i2cdevlibpr]: <https://github.com/jrowberg/i2cdevlib/pull/530> "Pull request to allow compilation on ESP32"
 {:target="_blank"}
@@ -139,8 +137,10 @@ TODO: mention support in MCPWM, mention the pulse counter in ESP32.
 {:target="_blank"}
 
 [selfbalancingalex]: <http://axelsdiy.brinkeby.se/?page_id=1447> "Mini balancing robot on Axel's DIY"
+{:target="_blank"}
 
 [remotexy]: <https://remotexy.com/> "Remote XY"
+{:target="_blank"}
 
 [^1]: With all the respect to authors of Arduino IDE and its purpose, I am not able to work with editor so basic when I am used to work with professional IDEs.
 [^2]: To be honest, I am not sure if it's an actual HW-level support. It might be just a clever abstraction in the ESP-IDF framework utilizing some 
