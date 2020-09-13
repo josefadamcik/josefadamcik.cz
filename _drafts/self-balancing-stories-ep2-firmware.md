@@ -142,8 +142,8 @@ TODO: mention support in MCPWM, mention the pulse counter in ESP32.
 [remotexy]: <https://remotexy.com/> "Remote XY"
 {:target="_blank"}
 
-[^1]: With all the respect to authors of Arduino IDE and its purpose, I am not able to work with editor so basic when I am used to work with professional IDEs.
-[^2]: To be honest, I am not sure if it's an actual HW-level support. It might be just a clever abstraction in the ESP-IDF framework utilizing some 
+[^1]: With all the respect to authors of Arduino IDE and its purpose, I am not able to work with an editor so basic since I am used to work with a professional IDE.
+[^2]: To be honest, I am not sure if it's an actual HW-level support. It might be just a clever abstraction in the ESP-IDF framework utilising the HW.
 
 
 
