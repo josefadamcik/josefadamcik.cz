@@ -51,19 +51,19 @@ Another slight change was that the Pro-Micro has only one socket and needs to be
 
 So far I haven't started working on another iteration. There isn't anything I would feel a strong urge to change right now. Also, I wasn't in the mood to work on the project lately.
 
-I do think that the current revision of Sofle v2 is a highly unfinished and unpolished prototype. It's still opensource, though. So it's technically possible to switch to the branch named "develop" in the git repository and try it out. If you don't know how to switch a branch in a git repository and generate your own Gerber files, or need a build guide to build the keyboard then build rather the first version (or a [different keyboard][awesomesplit]), please.
+I do think that the current revision of Sofle v2 is a highly unfinished and unpolished prototype. It's still opensource, though. So it's technically possible to switch to the branch named "develop" in the git repository and try it out. If you don't know how to switch a branch in a git repository, or how to generate your own Gerber files, or need a build guide to build the keyboard, then build rather the first version (or a [different keyboard][awesomesplit]), please.
 
 I still plan to work on the project in the future but I have no idea when I am going to be in the mood to make further improvements. It can be in a month but also in a year[^3].
 
 ## Suggestions welcome, but...
 
-Some people reached out to me and suggested some improvements. That's of course great, I am always interested in learning how people use their keyboards and it is indeed a great source of inspiration. 
+Some people reached out to me and suggested some improvements. That's of course amazing, I am always interested in learning how people use their keyboards and it is indeed a great source of inspiration. 
 
 However, Sofle was always primarily a keyboard for me, designed to suit my needs. It's opensource because it is heavily based on opensource and I assumed other people might appreciate the opportunity to see how it's made and make their own designs based on this one (in the same way as I used Lilly58, Corne and Helix keyboards). The blog posts I have written are not some marketing support for a product, but stories which might encourage others to dive into the world of DIY keyboards and make their own modifications and designs. Based on what some of you have written to me, it worked.
 
 Nevertheless, SofleKeyboard was never supposed to be a product for others full-filling their needs and wishes. Even though, it makes me quite happy when people like the design and when it suits their needs, it's just a happy coincidence. Not the main reason why I invest my free time to work on the design.
 
-There are designers who a lot of time and money to design great boards as products. They will always do a much better job than I could ever do in my free time. So if you want something well made with users in mind, go and support such designers - one of them is [Thomas Baart from splitkb.com, maker of Kyria][splitkb]. 
+There are designers who invest a lot of effort, time and money to design and produce great boards as products. They will always do a much better job than I could ever do in my free time. So if you want something well made with users in mind, go and support such designers - one of them is [Thomas Baart from splitkb.com, maker of Kyria][splitkb].
 
 If you are ready to get your hands dirty, be my guest. But don't expect me to do the tweaks you dream about for you. 
 
