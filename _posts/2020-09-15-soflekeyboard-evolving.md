@@ -18,7 +18,7 @@ It's been half a year since I published my articles telling a story why and how 
 
 ## Sofle v1 in the world
 
-SofleKeyboard got a bit of attention. There were few group buys organized (none of them by myself[^2]). MysticMechs even [designed 3D printed and acrylic cases][mysticsofle]. And [few][soflereddit1] [builds][soflereddit2] [popped][soflereddit3] out on Reddit already. Some people sent me their builds directly or even their modifications and ideas - which is all appreciated.
+SofleKeyboard got a bit of attention. There were few group buys organized (none of them by myself[^2]). People were designing [3d printed cases][soflething]. And [many][soflereddit1] [builds][soflereddit2] [popped][soflereddit3] out on Reddit already. Some people sent me their builds directly or even their modifications and ideas - which is all appreciated.
 
 ## Layout changes
 
@@ -79,7 +79,7 @@ If you are ready to get your hands dirty, be my guest. But don't expect me to do
 {:target="_blank"}
 [awesomesplit]: <https://github.com/diimdeep/awesome-split-keyboards> "awesome split keyboards"
 {:target="_blank"}
-[mysticsofle]: <https://mysticmechs.com/collections/sofle> "MysticMechs sofle"
+[soflething]: <https://www.thingiverse.com/search?q=sofle&type=things&sort=relevant> "Thingiverse Sofle"
 {:target="_blank"}
 [soflereddit1]: <https://www.reddit.com/r/MechanicalKeyboards/comments/ir6gx7/wip_sofle_cyberpunk_build_im_so_stoked_i_got_the/> "Sofle on reddit "
 {:target="_blank"}
