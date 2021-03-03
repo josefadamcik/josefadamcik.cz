@@ -2,8 +2,9 @@ name: deploy
 
 on:
   push:
-    branches:
-      - master
+    # branches:
+      # - master
+    
 
 jobs:
   run-deploy:
@@ -12,26 +13,47 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
+      - name: Checkout markdown resume
+        uses: actions/checkout@master
+        repository: josefadamcik/markdown-resume
+        path: markdown-resume
+
+      - name: Install wkhtmltopdf
+        run: sudo apt install wkhtmltopdf
+
+      - name: Build resume
+        run:  ./build_resume.sh
+
       - name: Build Site
         uses: josefadamcik/actions/publisher@master
         with:
           entrypoint: /build.sh
 
-      - name: Publish Site
-        uses: josefadamcik/actions/publisher@master
-        env:
-          JEKYLL_DEPLOY_KEY: ${{ secrets.JEKYLL_DEPLOY_KEY }}
-          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
-          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
-          DEPLOY_DIR: ${{ secrets.DEPLOY_DIR }}
+      - uses: actions/upload-artifact@v2
         with:
-          entrypoint: /publish.sh
+          name: resume.pdf
+          path: resume.pdf
 
-      - name: Push Build Status Notifications
-        if: ${{ always() }}
-        uses: desiderati/github-action-pushover@v1
+      - uses: actions/upload-artifact@v2
         with:
-          job-status: ${{ job.status }}
-          pushover-api-token: ${{ secrets.PUSHOVER_TOKEN }}
-          pushover-user-key: ${{ secrets.PUSHOVER_USER }}
+          name: resume.html
+          path: resume.html
+          
+      # - name: Publish Site
+      #   uses: josefadamcik/actions/publisher@master
+      #   env:
+      #     JEKYLL_DEPLOY_KEY: ${{ secrets.JEKYLL_DEPLOY_KEY }}
+      #     DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+      #     DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+      #     DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+      #     DEPLOY_DIR: ${{ secrets.DEPLOY_DIR }}
+      #   with:
+      #     entrypoint: /publish.sh
+
+      # - name: Push Build Status Notifications
+      #   if: ${{ always() }}
+      #   uses: desiderati/github-action-pushover@v1
+      #   with:
+      #     job-status: ${{ job.status }}
+      #     pushover-api-token: ${{ secrets.PUSHOVER_TOKEN }}
+      #     pushover-user-key: ${{ secrets.PUSHOVER_USER }}
