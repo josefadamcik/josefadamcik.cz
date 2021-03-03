@@ -5,7 +5,7 @@ title: About
 
 ## Who am I?
 
-I am an experienced software developer. I am **NOT** open to new professional opportunities at the moment. 
+I am an experienced software developer. **I am open to new professional opportunities at the moment.**
 
 [My resume.](resume.html)
 

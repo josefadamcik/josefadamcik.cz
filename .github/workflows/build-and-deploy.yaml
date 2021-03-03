@@ -4,19 +4,55 @@ on:
   push:
     branches:
       - master
+    
 
 jobs:
   run-deploy:
-    runs-on: ubuntu-latest
+    runs-on:  ubuntu-18.04
     steps:
       - name: Checkout
         uses: actions/checkout@master
+
+      - name: Checkout markdown resume
+        uses: actions/checkout@master
+        with: 
+          repository: josefadamcik/markdown-resume
+          path: markdown-resume
+          ref: mytemplate-rebased
+
+      - name: Install wkhtmltopdf
+        run: |
+          sudo apt install wkhtmltopdf
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+
+      - name: Install markdown-resume dependencies
+        working-directory: markdown-resume
+        run: |
+          php --version
+          composer install --no-interaction
+
+      - name: Build resume
+        run:  ./build_resume.sh
 
       - name: Build Site
         uses: josefadamcik/actions/publisher@master
         with:
           entrypoint: /build.sh
 
+      - uses: actions/upload-artifact@v2
+        with:
+          name: resume.pdf
+          path: resume.pdf
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: resume.html
+          path: resume.html
+          
       - name: Publish Site
         uses: josefadamcik/actions/publisher@master
         env:

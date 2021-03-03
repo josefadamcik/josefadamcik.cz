@@ -10,29 +10,29 @@
 
 ### Profile {#profile}
 
-  I perceive myself as a self-reliant problem solver, a humble craftsman and a permanent learner. I value gradual improvement over big restarts/rewrites. I believe that clean code, automated testing, code reviews, CI/CD and other good practices are crucial parts of high-quality software development, but the most important thing is to deliver value.
+  I perceive myself as a self-reliant problem solver, a humble craftsman and a permanent learner. I value gradual improvement over big rewrites. I believe that clean code, automated testing, code reviews, CI/CD and other good practices are crucial parts of high-quality software development, but the most important thing is to deliver value.
 
 ------
 
 ### Skills {#skills}
 
 * Android development
-  : I am a skilled Android developer with deep knowledge of Java and Android platform. I keep eye on new trends and technologies (e.g. Kotlin, Flutter, React Native).
+  : I am a skilled Android developer with deep knowledge of Kotlin, Java and Android platform. I keep eye on new trends and technologies.
 
 * Back-end development
-  : I have experience in API design and back-end development in PHP (Symfony) and Java (Spring, Hibernate, JSF). Due to my focus on Android development, some of my skills in this area might require a slight refresh.
+  : I have experience in API design and back-end development in PHP (Symfony) and Java (Spring, Hibernate, JSF). Due to my focus on Android development, some of my skills in this area might require refresh. I have also dipped my toe into server-less world (Firebase Firestore, Cloud Functions) and Node.js recently.
 
 * Web front-end development
-  : Although my skills in this area are a bit outdated, I had had a strong knowledge of JavaScript and related technologies in the times before React changed everything.
+  : Although my skills in this area are a bit outdated, I used to have very solid knowledge of JavaScript and related technologies in the times before React changed everything.
 
 -------
 
 ### Experience {#experience}
 
-OLMeRo
+Olmero
 : *Senior Android developer*
-  __2018 Oct (current)__
-  I am part of a mobile team and we are working on the [OLMeRo android application](https://play.google.com/store/apps/details?id=ch.olmero.jo&hl=en).
+  __2018 Oct - 2021__
+  Olmero is a Swiss company which aims to connect the construction industry. I was part of a mobile team which had been working on the [OLMeRo android application](https://play.google.com/store/apps/details?id=ch.olmero.jo&hl=en). The app itself allowed companies to manage the construction process and collaboration among contractors right at the construction site (plans, defect and task management, logging). The development of the app was discontinued after the company was sold to a new owner who decided to focus on another portion of business. This eventually led to a disassembly of mobile teams.
 
 Freelance
 : *Android developer*
@@ -92,10 +92,9 @@ English
 : proficient
 
 German
-: beginner (I am in the learning process and currently unable to offer cooperation in the German language)
+: beginner (I am unable to offer cooperation in the German language)
 
 ------
-
 
 
 ### Education {#education}
