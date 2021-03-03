@@ -2,8 +2,8 @@ name: deploy
 
 on:
   push:
-    # branches:
-      # - master
+    branches:
+      - master
     
 
 jobs:
@@ -53,21 +53,21 @@ jobs:
           name: resume.html
           path: resume.html
           
-      # - name: Publish Site
-      #   uses: josefadamcik/actions/publisher@master
-      #   env:
-      #     JEKYLL_DEPLOY_KEY: ${{ secrets.JEKYLL_DEPLOY_KEY }}
-      #     DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-      #     DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
-      #     DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
-      #     DEPLOY_DIR: ${{ secrets.DEPLOY_DIR }}
-      #   with:
-      #     entrypoint: /publish.sh
+      - name: Publish Site
+        uses: josefadamcik/actions/publisher@master
+        env:
+          JEKYLL_DEPLOY_KEY: ${{ secrets.JEKYLL_DEPLOY_KEY }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+          DEPLOY_DIR: ${{ secrets.DEPLOY_DIR }}
+        with:
+          entrypoint: /publish.sh
 
-      # - name: Push Build Status Notifications
-      #   if: ${{ always() }}
-      #   uses: desiderati/github-action-pushover@v1
-      #   with:
-      #     job-status: ${{ job.status }}
-      #     pushover-api-token: ${{ secrets.PUSHOVER_TOKEN }}
-      #     pushover-user-key: ${{ secrets.PUSHOVER_USER }}
+      - name: Push Build Status Notifications
+        if: ${{ always() }}
+        uses: desiderati/github-action-pushover@v1
+        with:
+          job-status: ${{ job.status }}
+          pushover-api-token: ${{ secrets.PUSHOVER_TOKEN }}
+          pushover-user-key: ${{ secrets.PUSHOVER_USER }}
