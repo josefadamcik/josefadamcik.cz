@@ -66,11 +66,57 @@ Learning was quite rough. The low-quality equipment combined with lack of skills
 
 Another interesting detail I have learned the hard way is that white paints tend to have now coverage properties. That's certainly the case for Revell Aqua colors. 
 
-Eventually a managed to do a basic white coat. You can see on the picture that it is quite rough and matt. Still not sure if it is just how the given paint works or if it's fault of process of tools.
+Eventually a managed to do a basic white coat in Silk White. You can see on the picture that it is quite rough and matt. Still not sure if it is just how the given paint works or if it's fault of process of tools.
 
 {% responsive_image path: images/modelshuttle/PXL_20210404_114431356.jpg alt:""  figcaption:"Airbrushed flat white coat. This picture also shows that my attempt to fix the cockpit window ended up quite nicely." %}
 
+The next were grey strips on wings. Those required masking, another first!
 
-# Waterslide decals
+{% responsive_image path: images/modelshuttle/PXL_20210405_131309937.jpg alt:""  %}
 
-# Conclusion
+And second since right after that I airbrushed part of the wind in white color (doesn't really look like white, but it is Revell white). There were several designs in the paint guide depending on which Shuttle and which time period one would choose. I am not that invested into accuracy and to be honest I don't really trust Revell in providing the correct information. So I improvised based on the options in the guide.
+
+{% responsive_image path: images/modelshuttle/PXL_20210405_135340353.jpg alt:""  figcaption:"Grey strips and some white pattern on wings." %}
+
+The last airbrush job was anthracite color on the bottom and some black around nose cone and in the back. The tricky part was to mask everything well. There were no embossed lines to help with the nose-cone and accurate masking was required since some water-slide decals should be applied to those places later. I spent some time transferring the decals on pieces of parchment paper and trying to figure out where exactly should the lines be.
+
+{% responsive_image path: images/modelshuttle/PXL_20210410_113855688.jpg alt:""  figcaption:"Masking the boundary." %}
+
+{% responsive_image path: images/modelshuttle/PXL_20210410_145614118.jpg alt:""  figcaption:"Painting in progress."%}
+
+My masking wasn't perfect at all in any step. 
+
+{% responsive_image path: images/modelshuttle/PXL_20210410_150819286.jpg alt:""  figcaption:"The result. Sadly some paint at the tip of the tail chipped away when removing masking tape." %}
+
+{% responsive_image path: images/modelshuttle/PXL_20210410_151033238.jpg alt:""  figcaption:"The bottom. " %}
+
+{% responsive_image path: images/modelshuttle/PXL_20210410_151047286.jpg alt:""  figcaption:"The nose-cone. The grey part gave me quite some trouble. I dint' really manage to mask it nicely and I peeled base coat and primer when removing the masking tape."%}
+
+{% responsive_image path: images/modelshuttle/PXL_20210411_141458044.jpg alt:""  figcaption:"The rear already assembled with engines. I painted those by hand and glued after airbrushing." %}
+
+{% responsive_image path: images/modelshuttle/PXL_20210411_153607050.jpg alt:""  figcaption:"With payload bay doors installed. The door had huge fiting problems a well and were quite warped. I didn't really try to do anything with them since my plan was to have them opened. "%}
+
+# The payload - ESA Spacelab
+
+Part of the kit was ESA Spacelab module and some instruments. I have tried to find which actually mission it should depict. Revell doesn't provide such information and I didn't manage to find any photo of exactly this configuration. There is only an illustration on Wikipedia which looks like possible source of inspiration.
+
+Nevertheless, I built it and hand painted it according to Revell's instructions. There was an error in the paint guide which contained reference to a color which was not defined anywhere.
+
+{% responsive_image path: images/modelshuttle/PXL_20210405_094836455.jpg alt:""  figcaption:"" %}
+
+# Water-slide decals
+
+The kit hat quite a lot of decals. Several big ones were supposed to make paint job easier by providing thin lining and often hiding imperfect boundaries between colors. 
+
+I have applied a clear coat because I was sure it's suggested step before applying decals and it's supposed to make the application easier. What I didn't know was that it is important to use gloss coat. I have used flat clear coat and made my life much harder. Eventually I managed to apply most of them without destroying them. But this step is by far my least favourite one.
+
+{% responsive_image path: images/modelshuttle/PXL_20210417_141157749.jpg alt:""  figcaption:""%}
+
+
+{% responsive_image path: images/modelshuttle/PXL_20210417_141207143.MP.jpg alt:""  figcaption:""%}
+
+# Finished and not finished
+
+TODO
+
+{% responsive_image path: images/modelshuttle/PXL_20210421_065442993.jpg alt:""  figcaption:""%}
