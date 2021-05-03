@@ -3,8 +3,8 @@ layout: post
 title: "Revisiting an old hobby - building a plastic model kit: Space Shuttle Atlantis"
 categories: scalemodeling
 tags: [buildlog, model]
-published: false
-image: 
+published: true
+image: images/modelshuttle/PXL_20210421_065442993.jpg
 ---
 Somehow, I have got an idea to revisit one of the former hobbies of mine. 
 
