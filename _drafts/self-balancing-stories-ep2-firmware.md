@@ -3,12 +3,14 @@ layout: post
 title: "Self-balancing stories, EP 2: Developing first firmware"
 categories: electronics
 tags: [buildlog, electronics, robot, pid]
-published: false
+published: true
 series: "Self-balancing-stories"
 image: /images/selfbalancing2/title.jpg
 ---
 
-TODO: introduction : like someting about learning a lot of things about ESP32 
+Would you believe this was my first project with ESP32? So far I had experience only with ESP8266. I must admit I really fell in love with ESP32 and I am never going back. 
+
+Note: I had this article in my draft folder for several months and forgot about it. So I am giving it just a quick polish and publishing it now. 
 
 {% responsive_image path: images/selfbalancing2/title.jpg alt:"Self-balancing robot - version 1" class: "imgmw600" %}
 
@@ -43,7 +45,9 @@ But there's a better way, since MPU6050 contains DMP (Digital Motion Processor) 
 
 Thankfully there's an amazing [I2C Device Library][i2cdevlib] which contains Arduino support for many I2C devices including MPU6050 and this support does include DMP. Again, people usually use the library without DMP just to read the raw values. But there's example how to use DMP and the support is there.
 
-TODO: problems on ESP32, PR with fix.
+The only problem is that ESP32 actually is not Arduino. I was using Arduino core for ESP32 which mimics Arduino APIs and to a certain level allows usage of Arduino libraries. But they libraries must be eithe platform independent enough to compile and work on ESP32 or support ESP32 in the critical parts.
+
+`i2cdevlib[[` ]]doesn't support ESF32 out of the box (certainly not for MPU6050 with DMP). But it was surprisingly easy to make it work. I even created [a pull request to the original project](https://github.com/jrowberg/i2cdevlib/pull/530) but the project doesn't seem to be actively maintained. There was some communication with a contributor, but it didn't lead to merging. Nevertheless, I was able to use the library.
 
 ### 2) Control the motor
 
@@ -57,48 +61,58 @@ I am not going to explain details. You can check the [current implementation in 
 
 ### 3) Drive the motor based on angle
 
-Even though there are other options, the most common approach is to use PID (proportional–integral–derivative) controller. There's a lot one could learn  about PID controllers and about system control theory in general. As many hobbyists I chose the naive "let's try it like other and hope it works" approach. I might learn a bit more about the math behind it in the future.
+Even though there are other options, the most common approach is to use PID (proportional–integral–derivative) controller. There's a lot one could learn  about PID controllers and about system control theory in general. As many hobbyists I chose the naive "let's try it like others and hope it works" approach. I might learn a bit more about the math behind it in the future.
 
 As usually, I don't want dive into explanation of details about PID controllers. There are plenty of resource around the internet, for example in [this tutorial][selfbalancinginstructablepid].
 
-Let me just say that it's a system which takes an error in some value as an input and spits another value for you. Error, in my case is the difference between the desired angle of inclination and the measured value. The output value is "speed" for the motor - the duty cycle for PWM signal in the simplest case. The PID controller has 3 parameters which correspond to the 3 letters (proportional, integral, derivative) and they are often called gains. 
+Let me just say that it's a system which takes an error in some value as an input and spits another value for you. Error, in my case is the difference between the desired angle of inclination and the measured value. The output value is "speed" for the motor - the duty cycle for PWM signal in the simplest case. The PID controller has 3 parameters which correspond to the 3 letters of PID (proportional, integral, derivative) and they are often called "gains". 
 Each of them controls how much one of aspects considered by PID controller affects the output.
 
 - The proportional part just uses the error value and ignores time or history. - The integral part integrates error over time.
-- The derivative part takes into account size of change in error from the last measurement in proportion to time (ehm, the derivative they call it in math, remember?)
+- The derivative part takes into account size of change in error from the last measurement in proportion to time 
+{% responsive_image path: images/selfbalancing2/PID_en.svg.png alt:""  figcaption:"By Arturo Urquizo, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=17633925" %}
 
-TODO: the formula or some block diagram
+Some more detailed information and nice diagrams and formulas can be found all over the internet.
 
 Those 3 parameters have to be found experimentally. Of course, system control theory actually explores how to compute them. But let's be a proper tinkerer and just wing it.
 
-TODO: mention there are libraries with PID but I ended up implementing my own to have more controll and understangin.
-
 ### 4) Bluetooth controll
 
-The ESP32 used on my controller board supports both Wi-Fi and bluetooth. WiFi is cool for having an option to update firmware without the need to connect the robot to computer physsically. And bluetooth is perfect for some remote-controll implementation.
+The ESP32 used on my controller board supports both Wi-Fi and Bluetooth. WiFi is cool for having an option to update firmware without the need to connect the robot to computer physically. And Bluetooth is perfect for some remote-control implementation.
 
-Eventully, I would like to have a possibility to drive the robot remototely. But for start It would be very handy to have an ability to fine-tune parameters for PID controller and display some debugging information.
+Eventually, I would like to have a possibility to drive the robot remotely. But for start It would be very handy to have an ability to fine-tune parameters for PID controller and display some debugging information.
 
-It would be possible to make a custom Android app (in the end, I develeop Android apps for living) and some simple commmunication over bluetooth. And I might eventually do that. But for starters, I wanted to save time and allow myself focus on hardware and firmware, rather than doing things I know well - UI for some mobile app, for example. 
+It would be possible to make a custom Android app (in the end, I develop Android apps for living) and some simple communication over Bluetooth. And I might eventually do that. But for starters, I wanted to save time and allow myself focus on hardware and firmware, rather than doing things I know well - UI for some mobile app, for example. 
 
-Thankfully, I have found a neat project called [RemoteXY][remotexy]. The website has simple but capable WYSIWYG editor wher you can create an UI for your app. You can pick several UI elements, some act as iputs, some as outputs and some utility ones, like labels or pages.
+Thankfully, I have found a neat project called [RemoteXY][remotexy]. The website has simple but capable WYSIWYG editor where you can create an UI for your app. You can pick several UI elements, some act as inputs, some as outputs and some utility ones, like labels or pages.
 
-{% responsive_image path: images/selfbalancing2/remoteui1.png alt:"UI desingned in RemoteXY"  figcaption:"UI desingned in RemoteXY" %}
+{% responsive_image path: images/selfbalancing2/remoteui1.png alt:"UI designed in RemoteXY"  figcaption:"UI designed in RemoteXY" %}
 
-When you are happy with your design the website generates bunch of code with data for UI configuration and struct which encapsulates all the input and outupt values. The next steps are to include this file together with RemoteXY library in your project, install Android APP and go. It's very nice experince. The free version of the app is somehow limited but I was so happy with the product I bought the paid version quite quickly (it's one time payment and under 10 Eur, so no brainer for me).
+When you are happy with your design the website generates bunch of code with data for UI configuration and a structure which encapsulates all the input and output values. The next steps are to include this file together with RemoteXY library in your project, install Android APP and go. It's very nice experince. The free version of the app is somehow limited but I was so happy with the product I bought the paid version quite quickly. It's one time payment and under 10 Euro - very affordable.
 
 ### ESP32, Bluetooth and firmware size.
 
-I did run into an interesting issue here and I think it's worth mentioning. As soon as I started to use Bluetooth in my project the size of my firwmare grew signicficantly. In fact, when I had boht Bluetooth and WiFi enabled the SDK failed to upload the firmware to my device since it was too big.
+I did run into an interesting issue here and I think it's worth mentioning. As soon as I started to use Bluetooth in my project the size of my firmware grew significantly. In fact, when I had both Bluetooth and WiFi enabled the SDK failed to upload the firmware to my device since it was too big.
 
-ESP32 (at least the model I have) has 4MB of flash memory. Not all of that is used for your firmware. This memory is actually partitiond into several section which can play various roles. There's room for you firmware, room for "EEPROM", partitoin you can use to safe files (using SPIFFS file system). If you wish to use over-the-air updates you need 2 partision for the firmware - one is "active" and the other one is used for the new version of the fiwrmare. Once the new version is downloade, the chip can reboot and start switch the active partition.
+ESP32 (at least the model I have) has 4MB of flash memory. Not all of that is used for your firmware. This memory is actually partitioned into several section which can play various roles. There's room for you firmware, room for "EEPROM", partition you can use to safe files (using SPIFFS file system). If you wish to use over-the-air updates you need 2 partitions for the firmware - one is "active" and the other one is used for the new version of the firmware. Once the new version is downloaded, the chip can reboot and start switch the active partition.
 
-TODO: some links and info about how to change the partition table
+What I had to do was to change the allocated sizes to different partitions so both Bluetooth and WiFi support could fit.
 
 ### 5) Reading the speed from encoders
 
-TODO: mention support in MCPWM, mention the pulse counter in ESP32.
+The last but not least I wanted to be able to read the real speed from encoders attached to the motors.
 
+There is even a support for this in the ESP32 MPCWM modules so I experimented with that a bit.
+
+Another option is to use the [pulse counter peripheral in ESP32][pulsecounter] which is very easy to use but sadly doesn't allow to determine direction of the motor. I was using this approach quite some time since at the beginning I wasn't trying to incorporate the speed in the PID loop and used it just for reporting.
+
+### But does it work?
+
+Firmware is boring isn't it? No pictures or videos. The next part should be more fun. There might be even a video! 
+
+
+[pulsecounter]: <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/pcnt.html> "ESP32 pulse counter"
+{:target="_blank"}
 
 [mcmpw]: <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/mcpwm.html> "ESP32 MCPWM documentation"
 {:target="_blank"}
