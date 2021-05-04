@@ -30,8 +30,13 @@
 ### Experience {#experience}
 
 Olmero
+: *Senior Sotware Engineer*
+  __2021 Apr - current__
+  After the disassembly of the mobile team I was offered another role in Olmero. This involves mix of full-stack development in various technologies and devops. My responsibility is to help modernize software and infrastructure in the company.
+
+Olmero
 : *Senior Android developer*
-  __2018 Oct - 2021__
+  __2018 Oct - 2021 Apr__
   Olmero is a Swiss company which aims to connect the construction industry. I was part of a mobile team which had been working on the [OLMeRo android application](https://play.google.com/store/apps/details?id=ch.olmero.jo&hl=en). The app itself allowed companies to manage the construction process and collaboration among contractors right at the construction site (plans, defect and task management, logging). The development of the app was discontinued after the company was sold to a new owner who decided to focus on another portion of business. This eventually led to a disassembly of mobile teams.
 
 Freelance

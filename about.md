@@ -5,7 +5,7 @@ title: About
 
 ## Who am I?
 
-I am an experienced software developer. **I am open to new professional opportunities at the moment.**
+I am an experienced software developer. In my free time I like to make things.
 
 [My resume.](resume.html)
 
@@ -19,12 +19,12 @@ More details about the keyboard on my blog: [Let me introduce you SofleKeyboard 
 
 ### ActivityJournal
 
-Work in progress training project (android application). For more [information check this series of blogposts]({{ site.baseurl }}{% post_url 2018-08-27-activity-journal-app-idea %}).
+~Work in progress~ abandoned training project (android application). For more [information check this series of blogposts]({{ site.baseurl }}{% post_url 2018-08-27-activity-journal-app-idea %}).
 
 
 ### TrackOnTrakt
 
-Older showcase/training project.
+Older showcase/training project (abandoned)
 
 Please, keep in mind that it's just a toy project I have been working on in my spare time. So it's not perfect, it has only limited functionality etc.
 
@@ -34,8 +34,7 @@ Please, keep in mind that it's just a toy project I have been working on in my s
 
 ### Other
 
-There are many smaller projects [on my github](https://github.com/josefadamcik)
-.
+There are many smaller projects [on my github](https://github.com/josefadamcik).
 
 ## Contact
 
