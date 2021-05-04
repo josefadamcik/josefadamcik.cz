@@ -22,6 +22,7 @@ jobs:
 
       - name: Install wkhtmltopdf
         run: |
+          sudo apt update
           sudo apt install wkhtmltopdf
 
       - name: Setup PHP
