@@ -20,3 +20,7 @@ The easiest solution is to grow them! In the garden. Or on the window. But I do 
 
 {%- include post_series.html -%}
 
+# Step 1 - shopping time!
+
+Apart from seeds which are quite obvious necessity one 
+
