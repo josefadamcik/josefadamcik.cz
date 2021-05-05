@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Self-balancing stories, EP 2: Developing first firmware"
+title: "Self-balancing stories, EP 3: It balances! Kind of..."
 categories: electronics
 tags: [buildlog, electronics, robot, pid]
 published: false
