@@ -132,7 +132,11 @@ The kit included a stand from clear plastic which I found pretty awful. Easy to 
 
 {% responsive_image path: images/modelshuttle/PXL_20210504_165940446.MP.jpg alt:""  figcaption:"Nearly completed orbiter on the stand" %}
 
-Once I sort out the radiators I'll update this post with the final photo. I'll also post the photo on my [Twitter](https://twitter.com/josefadamcik).
+And here is a video of the final build.
+
+<figure >
+    {% video /images/modelshuttle/PXL_20210525_170838475.mp4 /images/modelshuttle/video.png %}
+</figure>
 
 ## So, what's the answer?
 
