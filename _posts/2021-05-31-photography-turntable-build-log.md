@@ -35,7 +35,7 @@ The only important question regarding the design that needs an answer is how to 
 
 My first design was an attempt to use a similar fake bearing to support the table and smooth the rotation.
 
-{% responsive_image path: images/turntable/first_desing.png alt:""  figcaption:'The first prototype using a "fake bearing".' %}
+{% responsive_image path: images/turntable/Ezz_qBqXMAEPelx.jpeg alt:""  figcaption:'The first prototype using a "fake bearing".' %}
 
 <figure >
     {% video /images/turntable/firs_iteration.mp4 /images/tur
@@ -50,8 +50,7 @@ Brian Brocken who designed the original design I took the inspiration from also 
 This was much harder than I anticipated. I had huge trouble with tolerances. Even though I started with a smaller bearing to speed up prints and figure things out I still had to iterate multiple times over the whole big bearing. I must admit that this design was stupid from the beginning. The worst part is that the performance was even worse than with the first design.
 
 <figure >
-    {% video /images/turntable/second_iteration.mp4 /images/tur
-    /second_iteration.png %}
+    {% video /images/turntable/second_iteration.mp4 /images/turntable/second_iteration.png %}
     <figcaption>The second prototype in action and a few of the test prints</figcaption>
 </figure>
 
@@ -65,8 +64,7 @@ There is one very nice and sophisticated design for this kind of rotary table by
 And this leads to the final iteration. 3 caster rollers are used to support the rotating table.
 
 <figure >
-    {% video /images/turntable/third_iteration.mp4 /images/tur
-    /third_iteration.png %}
+    {% video /images/turntable/third_iteration.mp4 /images/turntable/third_iteration.png %}
     <figcaption>The third prototype</figcaption>
 </figure>
 
@@ -90,8 +88,7 @@ Originally, I wanted to have some clever way how to mount everything in place. T
 And here's the final build in action.
 
 <figure >
-    {% video /images/turntable/final_build.mp4 /images/tur
-    final_build.png %}
+    {% video /images/turntable/final_build.mp4 /images/turntable/final_build.png %}
 </figure>
 
 I don't think the design is interesting enough to be published. I would suggest using or adjusting [the design by Valer Perinski][autoturntable] directly rather than using mine. 
@@ -105,7 +102,7 @@ The Fusion 360 design file is a mess so I am not going to publish it. It would b
 
 And the [firmware (for Arduino/Attiny85 using Arduino Stepper library) is available here on Github][firmware], even though the code is super primitive.
 
-Even though the project required much more effort than I anticipated and I got a bit annoyed by the end, seeing the result is as always very satisfying. I spent quite some time taking videos of rotating things. But here is the model that started this.
+Even though the project required much more effort than I anticipated and I got a bit annoyed by the end, seeing the result is as always very satisfying. I spent quite some time taking videos of rotating things. Here is one of the model that started this.
 
 <figure >
     {% video /images/modelshuttle/PXL_20210525_170838475.mp4 /images/modelshuttle/video.png %}
