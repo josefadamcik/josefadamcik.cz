@@ -124,13 +124,14 @@ Even though the project required much more effort than I anticipated and I got a
 [nyloncaster]: <https://www.aliexpress.com/item/32835603470.html?spm=a2g0s.9042311.0.0.46614c4dcq4bR0> "Nylon caster roller"
 {:target="_blank"}
 
-[stlbase]: <./images/turntable/TurntableEnclosure.stl> "TurntableEnclosure.stl"
+[stlbase]: <{{ site.baseurl }}/images/turntable/TurntableEnclosure.stl> "TurntableEnclosure.stl"
 {:target="_blank"}
 
-[stltop]: <./images/turntable/TurntableTop.stl.stl> "TurntableTop.stl"
+[stltop]: <{{ site.baseurl }}/images/turntable/TurntableTop.stl.stl> "TurntableTop.stl"
 {:target="_blank"}
 
 [firmware]: <https://github.com/josefadamcik/PhotographyTurntable> "Attiny85 firmware for photography turntable"
+{:target="_blank"}
 
 
 
