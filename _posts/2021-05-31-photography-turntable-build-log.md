@@ -127,7 +127,7 @@ Even though the project required much more effort than I anticipated and I got a
 [stlbase]: <{{ site.baseurl }}/images/turntable/TurntableEnclosure.stl> "TurntableEnclosure.stl"
 {:target="_blank"}
 
-[stltop]: <{{ site.baseurl }}/images/turntable/TurntableTop.stl.stl> "TurntableTop.stl"
+[stltop]: <{{ site.baseurl }}/images/turntable/TurntableTop.stl> "TurntableTop.stl"
 {:target="_blank"}
 
 [firmware]: <https://github.com/josefadamcik/PhotographyTurntable> "Attiny85 firmware for photography turntable"
