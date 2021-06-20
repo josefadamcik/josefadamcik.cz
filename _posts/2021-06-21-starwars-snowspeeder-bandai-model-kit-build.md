@@ -1,30 +1,30 @@
 ---
 layout: post
-title: "StarWars snowspeeder 1:48 model build log"
+title: "Star Wars snowspeeder 1:48 model build log"
 categories: scalemodeling
 tags: [buildlog, model]
 published: true
-image: /images/showspeeder/
+image: /images/showspeeder/PXL_20210617_202257631.jpg
 ---
 
-Because [I enjoyed my last scale model build a lot][shuttle] I have quickly started working on another one. This time I picked a StarWars snowspeeder kit by Bandai. I always liked the aesthetics of StarWars and I am more interested in building sci-fi and space related models rather than historic planes and tanks. 
-a
-Bandai kits have a great reputation and since I was hugely disappointed with the quality of the shuttle model made by Revell as [I wrote in the build log][shuttle], i wanted to try a kit with very good reputation to have some comparison.
+Because [I enjoyed my last scale model build a lot][shuttle] I have quickly started working on another one. This time I picked a Star Wars snowspeeder kit by Bandai. I always liked the aesthetics of Star Wars and I am more interested in building sci-fi and space-related models rather than historic planes and tanks. 
 
-And just to make to context clear: this is my second scale model I am building  after I got back to the hobby after more than 20 years long break. It's the 3rd plastic model I am going to paint in my whole life. And it is the first one I'll attempt to weather. 
+Bandai kits have a great reputation and since I was hugely disappointed with the quality of the shuttle model made by Revell as [I wrote in the build log][shuttle], I wanted to try a kit with a very good reputation to have some comparison.
+
+And just to make to context clear: this is the second scale model I am building  after I got back to the hobby after more than 20 years long break. It's the 3rd plastic model I am going to paint ever. And it is the first one I'll attempt to weather. 
 
 
-{% responsive_image path: images/snowspeeder/kitbox.jpg alt:"StarWars snowspeeder model kit 1:48 by Bandai box" %}
+{% responsive_image path: images/snowspeeder/kitbox.jpg alt:"Star Wars snowspeeder model kit 1:48 by Bandai box" %}
 
 <!--more--> 
 
 ## The kit
 
-The kit is Snowspeeder by Bandai in 1:48 scale. I have got it quite cheaply (under 20 euro) from a local distributor. Internet is full of reviews of this kit and it is very popular. 
+The kit is Snowspeeder by Bandai in the 1:48 scale. I have got it quite cheaply (under 20 euro) from a local distributor. Internet is full of reviews of this kit and it is very popular. 
 
-There are the usual things everybody repeats about the kit: very fine and crisp details, very good fit. It can be build without glue just by snapping parts together and it works surprisingly well. There's a sheet of water slide decals and a sheet of stickers for people who just want a simpler building experience without painting and complicated fiddling.
+There are the usual things everybody repeats about the kit: very fine and crisp details, very good fit. It can be built without glue just by snapping parts together and it works surprisingly well. There's a sheet of water slide decals and a sheet of stickers for people who just want a simpler building experience without painting and complicated fiddling.
 
-I must admire the engineering that went into designing the kit. The parts are carefully designed to snap in only into the right place and in the right orientation and that helps to avoid many mistakes. The seams are often a natural part of the model (the act as a panel line and similar) and even mould lines are almost not present or in a place where they are hard to spot. Therefore only minimal amount of sanding is require and I didn't have to fill in anything with putty. I could imagine using some putty here and there if I was going for perfection, though.
+I must admire the engineering that went into designing the kit. The parts are carefully designed to snap in only into the right place and in the right orientation and that helps to avoid many mistakes. The seams are often a natural part of the model (they act as a panel line and similar) and even mould lines are almost not present or in a place where they are hard to spot. Therefore only a minimal amount of sanding is require and I didn't have to fill in anything with putty. I could imagine using some putty here and there if I was going for perfection, though.
 
 Most of the time I spent with the model was about painting and weathering. It can be put together very quickly. 
 
@@ -38,24 +38,24 @@ My aim was to explore some weathering techniques with this model. I wanted to st
 - acrylic wash for panel-lines
 - Tamiya Weathering Master pigments for final weathering.
 
-Eventually I have added some weathering with oils and oil wash, more about that later.
+Eventually, I have added some weathering with oils and oil wash, more about that later.
 
-There'll be time to try other techniques with next models. I would also like to make small dioramas for the models in the future but that would be too much for the second model I picked.
+There'll be time to try other techniques with the next models. I would also like to make small dioramas for the models in the future but that would be too much for the second model I picked.
 
 ## The sources of inspiration
 
-I have spent some time going through photos and videos of other people who build the model. I got a lot of inspiration from them. I did some research about how the on screen models for the movies looked as well but I didn't really try to be accurate in that regard. 
+I have spent some time going through photos and videos of other people who build the model. I got a lot of inspiration from them. I did some research about how the on-screen models for the movies looked as well but I didn't really try to be accurate in that regard. 
 
 I must mention two sources since I kept returning to them through the build:
 
-- build by Andy Moore. It's amazing build of the model with a nice hangar scenery. [Forum thread with the process here][andymoore] and [his Flickr album here][andymoore2].
+- build by Andy Moore. It's an amazing build of the model with nice hangar scenery. [Forum thread with the process here][andymoore] and [his Flickr album here][andymoore2].
 - and 2 builds by John Bius who [wrote about his first build on his website][biusweb] and made [videos about the second one][biusyoutube].
 
 ## Build log
 
 ### Cockpit and crew
 
-Inspired by other I started by painting the cockpit. I didn't expect much from myself. I believed that my shaky hands would prevent me from painting any detail and lack of experience wouldn't help as well. 
+Inspired by others I started by painting the cockpit. I didn't expect much from myself. I believed that my shaky hands would prevent me from painting any detail and lack of experience wouldn't help as well. 
 
 {% responsive_image path: images/snowspeeder/primed_cockpit.jpg alt:"Primed cockpit parts" figcaption: "Primed cockpit parts" %}
 
@@ -68,7 +68,7 @@ All the parts (including pilots) were primed by airbrush with gloss black primer
 
 The kit has a lot of details for the cockpit but I didn't use them. I did use decals for the pilot helmets. I struggled with the ones for the visors and I broke one later when moving the pilot around. 
 
-I was very surprised what I was able to do with the cockpit and very happy with the result. It's certainly not perfect, but I wouldn't hope for more. 
+I was very surprised by what I was able to do with the cockpit and very happy with the result. It's certainly not perfect, but I wouldn't hope for more. 
 
 {% responsive_image path: images/snowspeeder/PXL_20210511_183342671.jpg alt:"   Assembled cockpit"  %}
 
@@ -84,7 +84,7 @@ Very straightforward process:
 
 - airbrushed black gloss primer
 - the main back part airbrushed with the same dark grey as the cockpit
-- dry brushed with gun metal acrylic by Tamiya
+- dry brushed with gunmetal acrylic by Tamiya
 - hand painted some details
 - acrylic wash by Vallejo
 
@@ -93,7 +93,7 @@ Very straightforward process:
 
 ### Basic paint job for the fuselage
 
-The colour of primer is already quite nice grey. To add some variety, I have masked some panels and sprayed over with Vallejo light grey. 
+The colour of the primer is already quite a nice grey. To add some variety, I have masked some panels and sprayed them over with Vallejo light grey. 
 
 {% responsive_image path: images/snowspeeder/PXL_20210514_092602705.jpg alt:"Masked panels."  figcaption:"Masked panels."%}
 
@@ -101,17 +101,17 @@ Once I removed the masking tape I realised the light grey is too dark and the co
 
 {% responsive_image path: images/snowspeeder/PXL_20210514_121401146.jpg alt:"First coat with Vallejo light grey"  figcaption:"First coat with Vallejo light grey"%}
 
-Mixing much lighter shade of grey (Vallejo light grey and a lot of white) and airbrushing over was an easy fix and the variance in color of panels was preserved. 
+Mixing a much lighter shade of grey (Vallejo light grey and a lot of white) and airbrushing over was an easy fix and the variance in the colour of panels was preserved. 
 
 {% responsive_image path: images/snowspeeder/PXL_20210514_140657386.jpg alt:"Fixed with lighter over-coat."  figcaption:"Fixed with lighter over-coat."%}
 
-The kit contains decals for the stripes on the fuselage. They are dark grey and the same is the box art. I wanted to have something more visible so I mixed a red colour. I don't remember how, the basic colour was Vallejo red and I added a bit of others I had until I was happy.
+The kit contains decals for the stripes on the fuselage. They are dark grey and the same is the box art. I wanted to have something more visible so I mixed a red colour. I don't remember how exactly. The basic colour was Vallejo red and I added bits of others I had until I was happy.
 
-Given how the model is designed I was able to paint some small pieces without masking and assembling them later. They are already from a plastic of a different colour (for the low effort variant of the build when someone doesn't want to paint it all). 
+Given how the model is designed I was able to paint some small pieces without masking and assembling them later. They are already from plastic of a different colour (for the low effort variant of the build when someone doesn't want to paint it all). 
 
 {% responsive_image path: images/snowspeeder/PXL_20210515_144851847.jpg alt:"Painting the red stripes."  figcaption:"Painting the red stripes."%}
 
-Some masking was necessary for the rest but nothing difficult. Again a nice practice for me. I did manage to mess one detail up. You may notice already on the picture, but I haven't until I assembled the model.
+Some masking was necessary for the rest but nothing difficult. Again a nice practice for me. I did manage to mess up one detail. You may notice already on the picture, but I haven't until I assembled the model.
 
 {% responsive_image path: images/snowspeeder/PXL_20210515_170027171.jpg alt:"Painted red stripes."  figcaption:"Painted red stripes."%}
 
@@ -121,7 +121,7 @@ Some masking was necessary for the rest but nothing difficult. Again a nice prac
 
 I brush painted a few panels with different shades of grey to add a bit more variance. I didn't mask anything and I am terrible at painting details and precise lines. Thankfully mistakes in this step were easy to fix later. 
 
-Very exciting step was the paint-chipping effect. I know there are many approaches hot to create the effect on models. For this one, I decided to stick with one the most basic ways. A bit of paint and a piece of sponge. I have used the coarse part of the dishwashing sponge. I did try the technique a little bit on 2 scratch build bots I have made recently so it wasn't my first try. 
+A very exciting step was the paint-chipping effect. I know there are many approaches hot to create the effect on models. For this one, I decided to stick with one of the most basic ways. A bit of paint and a piece of sponge. I have used the coarse part of the dishwashing sponge. I did try the technique a little bit on 2 scratch build bots I have made recently so it wasn't my first try. 
 
 The first pass was using the same colour mix I used to paint the main fuselage and create chips for the red paint. The second pass was with the Vallejo grey (or light grey? I don't remember honestly) to create chips for the rest of the snowspeeder.
 
@@ -135,25 +135,25 @@ Overall I am pleased with the result even though there are certainly some places
 
 ### Weathering and finish
 
-At this state the model got a coat of Vallejo Acrylic-Polyurethane gloss varnish. I was still learning how to airbrush it since it's quite thick and I have to thin it a lot (at least 1:1) to make it work. I was using 0.4 mm nozzle/needle in my airbrush. Since I struggled I think I didn't coat some parts of the model well.
+At this stage, the model got a coat of Vallejo Acrylic-Polyurethane gloss varnish. I was still learning how to airbrush it since it's quite thick and I have to thin it a lot (at least 1:1) to make it work. I was using a 0.4 mm nozzle/needle in my airbrush. Since I struggled I think I didn't coat some parts of the model well.
 
-The next step was to use Vallejo acrylic wash (dark grey for grey and dark vehicles). Mainly to enhance the panel-lines but I was also playing around a bit toning the color of the wholes surface. 
+The next step was to use Vallejo acrylic wash (dark grey for grey and dark vehicles). Mainly to enhance the panel lines but I was also playing around a bit toning the colour of the wholes surface. 
 
 {% responsive_image path: images/snowspeeder/PXL_20210604_093241196.jpg alt:"Wash applied on the left and not yet applied on the right."  figcaption:"Wash applied on the left and not yet applied on the right."%}
 
-This was my first time using wash to enhance panel-lines and I had some trouble to get it right. It was also more difficult for some parts of the model than for the other and my theory is that it was caused by the imperfect coat of varnish I mentioned above. I had the most trouble with clearing the wash from places where I didn't want to have it without removing it from the panel lines as well. At one moment I panicked and tried to use a cotton bud soaked in IPA to clear a bit and I managed to strip the clear coat and at least one coat of paint. You can see the mistake at the next image.
+This was my first time using a wash to enhance panel lines and I had some trouble getting it right. It was also more difficult for some parts of the model than for the other and my theory is that it was caused by the imperfect coat of varnish I mentioned above. I had the most trouble with clearing the wash from places where I didn't want to have it without removing it from the panel lines as well. At one moment I panicked and tried to use a cotton bud soaked in IPA to clear a bit and I managed to strip the clear coat and at least one coat of paint. You can see the mistake in the next image.
 
 {% responsive_image path: images/snowspeeder/PXL_20210606_142707505.jpg alt:""  figcaption:"After applying the acrylic wash and water-slide decals."%}
 
-You can also some some decals applied in the image above. I did them after I applied the wash. I did only a few from the sheet. Most of the decals are to create the stripes and some other variation in panel tones and I painted. There are few markings and labels left.
+You can also see some decals applied in the image above. I did them after I applied the wash. I did only a few from the sheet. Most of the decals are to create the stripes and some other variation in panel tones and I painted. There are a few markings and labels left.
 
-Maybe it would make more sense to apply them before so the wash and panel-lines are on them and not under them. I was afraid I would damage the decals while applying the wash and was impatient and didn't want to do another clear coat between steps. I was ready to fix the issues once I applied the coat after decals to seal both steps in.
+Maybe it would make more sense to apply them before so the wash and panel lines are on them and not under them. I was afraid I would damage the decals while applying the wash and was impatient and didn't want to do another clear coat between steps. I was ready to fix the issues once I applied the coat after decals to seal both steps in.
 
-Original plan involved using Tamiya weathering master pigments to make the model a bit dirty and rusty. But because I wasn't really happy with the results I got from application of the acrylic wash and accidentally I just received my first oil paints for model weathering (Abteilung 502 Starship filth and 2 shades of rust) I decided to give them a go. 
+The original plan involved using Tamiya weathering master pigments to make the model a bit dirty and rusty. But because I wasn't really happy with the results I got from the application of the acrylic wash and accidentally I just received my first oil paints for model weathering (Abteilung 502 Starship filth and 2 shades of rust) I decided to give them a go. 
 
-First, I made a bit of oil wash from Starship filth and thinner and tried to improve the panel-lines. It was certainly very different experience than with the acrylic wash and it felt better and easier to work with. 
+First, I made a bit of oil wash from Starship filth and thinner and tried to improve the panel lines. It was certainly a very different experience than with the acrylic wash and it felt better and easier to work with. 
 
-As next I used all three shades without thinning from the tube to dirty the model, let it dry a bit and later blended them using combination of brush, cotton buds and paper towels. It was really about experimentation and learning how oils work. I am not sure which kind of clear coat would be the best for them, I am quite sure they would behave a bit differently when applied over a satin or flat varnish.
+Next, I used all three shades without thinning from the tube to dirty the model, let it dry a bit and later blended them using a combination of brush, cotton buds and paper towels. It was really about experimentation and learning how oils work. I am not sure which kind of clear coat would be the best for them, I am quite sure they would behave a bit differently when applied over satin or flat varnish.
 
 {% responsive_image path: images/snowspeeder/PXL_20210607_200237023.jpg alt:"Applied oil paints before blending and cleaning."  figcaption:"Applied oil paints before blending and cleaning."%}
 
@@ -165,13 +165,13 @@ Overall, I was pleased with the result. I am sure there's is a huge room for imp
 
 {% responsive_image path: images/snowspeeder/PXL_20210607_202210363.jpg alt:"After weathering with oils."%}
 
-I knew that oils are going to be drying a long time. What surprised me that they felt manipulable and "wipeable" even after few days. I ended up waiting for a week before I sealed them with another clear coat (gloss again). Maybe that's just how they behave when applied over gloss coat, I don't know.
+I knew that oils are going to be drying for a long time. What surprised me that they felt manipulable and "wipeable" even after few days. I ended up waiting for a week before I sealed them with another clear coat (gloss again). Maybe that's just how they behave when applied over gloss coat, I don't know.
 
-At this point I assembled the model to it's full state (minus the gun at the back). 
+At this point, I assembled the model to its full state (minus the gun at the back). 
 
-Now it was the time for Tamiya weathering master pigment. Another first experience with a material and technique for me. I struggled a lot. It felt very hard to actually get some of the pigment on the applicator and then on the model. I also struggled when trying to blend it. I am not sure what I was doing wrong. In this case I am quite sure that a satin coat would be better than the gloss one. I must try it on the next model.
+Now it was the time for Tamiya weathering master pigment. Another first experience with a material and technique for me. I struggled a lot. It felt very hard to actually get some of the pigment on the applicator and then on the model. I also struggled when trying to blend it. I am not sure what I was doing wrong. In this case, I am quite sure that a satin coat would be better than the gloss one. I must try it on the next model.
 
-Despite the trouble I still like the result.
+Despite the trouble, I still like the result.
 
 {% responsive_image path: images/snowspeeder/PXL_20210616_181848713.jpg alt:"Tamiya weathering master applied." %}
 
@@ -179,15 +179,19 @@ Despite the trouble I still like the result.
 
 There was still one last step left: the last clear coat. This time a flat one (Vallejo premium acrylic-polyurethane matt varnish). I must say that the Premium line seems to be easier to work with. The varnish was thinner and I didn't have trouble airbrushing it straight from the bottle.
 
-### Final pictures
+### Final pictures and video!
 
-And a little homework for the dear reader. Do you remember how I mentioned a mistake during masking I didn't realize until the end? Can you find it?
+And a little homework for the dear reader. Do you remember how I mentioned a mistake during masking I didn't notice until the end? Can you find it?
 
+<figure >
+    {% video /images/snowspeeder/video.mp4 /images/snowspeeder/video.png %}
+</figure>
 
+{% include gallery.html galleryname="snowspeeder" %}
 
 ## Lessons learned
 
-1) It's important to learn how to resolve mistakes and don't be upset about them. They'll happen. Weathering steps are able to hide a lot of problems. Panel-lines also help to hide some sub-optimal hand painting.
+1) It's important to learn how to resolve mistakes and don't be upset about them. They'll happen. Weathering steps can hide a lot of problems. Panel lines also help to hide some sub-optimal hand painting.
 
 2) Details which look terrible from up close can be perfectly fine from a normal distance the model is going to be seen. 
 
@@ -203,9 +207,9 @@ I do feel the model is a bit over-weathered. I intentionally didn't hold myself 
 
 As expected I do enjoy the weathering part of the process the most. It is very satisfying and you can do a lot of interestingly looking things without being able to paint very fine details by brush.
 
-What's next? I have 2 more Bandai kits waiting to be built. Both of them Star Wars. I don't have exact plans for them yet but I am thinking about going one step further and create some diorama. It could be even crashed X-Wing or destroyed AT-AT lying on ground. I like the idea of having a small post-battle scenery. 
+What's next? I have 2 more Bandai kits waiting to be built. Both of them Star Wars. I don't have exact plans for them yet but I am thinking about going one step further and create some diorama. It could be even crashed X-Wing or destroyed AT-AT lying on the ground. I like the idea of having a small post-battle scenery. 
 
-I am also becoming very interested in scratch-building, mainly from easily accessible materials and trash. I blame some Youtubers for this, mainly [Bill and his Bill Making stuff channel][bill]. His videos and builds are awesome and as a bonus you get some valuable safety advice here and there.
+I am also becoming very interested in scratch-building, mainly from easily accessible materials and trash. I blame some Youtubers for this, mainly [Bill and his Bill Making Stuff channel][bill]. His videos and builds are awesome and as a bonus you get some valuable safety advice here and there.
 
 [shuttle]: <{{ site.baseurl }}{% post_url 2021-05-04-revisiting-old-hobby-shuttle-model-kit %}> "Revisiting an old hobby - building a plastic model kit: Space Shuttle Atlantis"
 
