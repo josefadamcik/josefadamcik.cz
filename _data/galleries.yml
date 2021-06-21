@@ -306,4 +306,23 @@
       description: "And here they are, finished."
     - path: IMG_20190707_164835.jpg
       description: "The heat-shrinks are shrunk with a heat gun and flux residual is cleaned with IPA."
-
+- name: snowspeeder
+  title: "StarWars snowspeeder 1:48 finished build"
+  path: images/snowspeeder
+  images:
+    - path: PXL_20210617_202257631.jpg
+      description: ""
+    - path: PXL_20210617_202328039.jpg
+      description: ""
+    - path: PXL_20210617_202400465.jpg
+      description: ""
+    - path: PXL_20210617_202447760.jpg  
+      description: ""
+    - path: PXL_20210617_202659599.jpg
+      description: ""
+    - path: PXL_20210617_202806432.jpg
+      description: ""
+    - path: PXL_20210617_202837500.jpg
+      description: ""      
+    - path: PXL_20210617_202959873.jpg
+      description: ""            
