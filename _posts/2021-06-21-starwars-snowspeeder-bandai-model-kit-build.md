@@ -4,7 +4,7 @@ title: "Star Wars snowspeeder 1:48 model build log"
 categories: scalemodeling
 tags: [buildlog, model]
 published: true
-image: /images/showspeeder/PXL_20210617_202257631.jpg
+image: /images/snowspeeder/PXL_20210617_202257631.jpg
 ---
 
 Because [I enjoyed my last scale model build a lot][shuttle] I have quickly started working on another one. This time I picked a Star Wars snowspeeder kit by Bandai. I always liked the aesthetics of Star Wars and I am more interested in building sci-fi and space-related models rather than historic planes and tanks. 
