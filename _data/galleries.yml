@@ -326,3 +326,31 @@
       description: ""      
     - path: PXL_20210617_202959873.jpg
       description: ""            
+- name: beadbots
+  title: "Beadbots"
+  path: images/beadbots
+  images:
+    - path: PXL_20210605_110351425.jpg
+      description: "A load of beads from a local store."
+    - path: PXL_20210605_123852283.jpg
+      description: "Building my first bead-bot."
+    - path: PXL_20210605_151840644.jpg
+      description: "Body of the second one."
+    - path: PXL_20210605_163750155.jpg
+      description: "Finished and waiting for paint."
+    - path: PXL_20210605_165944104.jpg
+      description: "Primed and ready."
+    - path: PXL_20210606_092812438.jpg
+      description: "Painting in progress."
+    - path: PXL_20210606_142625257.jpg
+      description: "With some chipping (using the sponge technique, this was actually the first time I tried it)."
+    - path: PXL_20210606_180419939.jpg
+      description: ""
+    - path: PXL_20210617_194347308.jpg
+      description: "Some rust and staining using oil paints and clear coat. This is the final state."
+    - path: PXL_20210617_194422211.jpg
+      description: ""
+    - path: PXL_20210617_200435145.jpg
+      description: ""
+    - path: PXL_20210617_200722332.jpg
+      description: "Together with the two my partner built."
