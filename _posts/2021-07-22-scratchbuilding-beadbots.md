@@ -46,7 +46,10 @@ Here is [Bill's video for the challenge featuring our 9 seconds long contributio
 {:target="_blank"}
 
 [sophiehardy5]: <https://www.instagram.com/sophiehardy5/> "Instagram sophiehardy5"
+{:target="_blank"}
 
 [josefinstagram]: <https://www.instagram.com/josadamcik/> "Instagram josadamcik"
+{:target="_blank"}
 
 [billbeadbots]: <...> "Bill making stuff - bead-bot challenge"
+{:target="_blank"}
