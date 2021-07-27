@@ -31,8 +31,6 @@ My partner developed a bit of an addiction (a beaddiction!) and kept building bo
 
 Here is [Bill's video for the challenge featuring our 9 seconds long contribution][billbeadbots].
 
-**TODO: link to the final bills video.**
-
 ----
 #### Footnotes
 
