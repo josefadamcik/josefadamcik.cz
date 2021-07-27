@@ -7,7 +7,7 @@ published: true
 image: /images/beadbots/PXL_20210617_200722332.jpg
 ---
 
-A scratch-building building story full of beads, bots, super-glue and baking soda.
+A scratch-building story full of beads, bots, super-glue and baking soda.
 
 {% responsive_image path: images/beadbots/PXL_20210617_200722332.jpg alt:"Beadbots" %}
 
