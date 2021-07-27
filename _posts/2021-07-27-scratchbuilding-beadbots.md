@@ -3,7 +3,7 @@ layout: post
 title: "Scratchbuilding beatbots"
 categories: scalemodeling
 tags: [buildlog, model, scratchbuild]
-published: false
+published: true
 image: /images/beadbots/PXL_20210617_200722332.jpg
 ---
 
@@ -51,5 +51,5 @@ Here is [Bill's video for the challenge featuring our 9 seconds long contributio
 [josefinstagram]: <https://www.instagram.com/josadamcik/> "Instagram josadamcik"
 {:target="_blank"}
 
-[billbeadbots]: <...> "Bill making stuff - bead-bot challenge"
+[billbeadbots]: <https://www.youtube.com/watch?v=woCaHzlJckM> "Bill making stuff - Scratchbuilding A BEADBOT"
 {:target="_blank"}
