@@ -38,7 +38,7 @@ One of the community members, [Dane Evans][daneevans] did exactly that: took V2 
 
 Keep in mind please, that even though the RGB is based on V2, it has slightly different layout and different shape. See the image below for illustration. A The consequence is that a case designed for RGB is not compatible with V2 and vice-versa. Keep this mind when picking the case design. Sometimes people mistakenly mix-up V2 and RGB which can cause some confusion.
 
-{% responsive_image path: images/sofleupd/Sofle_RGB_v2_comparison.png figcaption: "Sofle V2 is red and Sofle RGB blue. Notice the difference in stagger and the shape." imgclass='imgmw600'%}
+{% responsive_image path: images/sofleupd/Sofle_RGB_v2_comparison.png figcaption: "Sofle V2 is red and Sofle RGB blue. Notice the difference in stagger and the shape." %}
 
 
 ## More work by community
@@ -58,37 +58,51 @@ And you might already guess what happened. Another nice person ([Brian Low][bria
 
 {% responsive_image path: images/sofleupd/129313355-4c8f2cd4-8c3b-4c7f-b1cc-613ccd24adf9.jpeg figcaption: "Sofle RGB Choc (photo by Brian Low)" %}
 
+### More goodies
 
+SVG files for laser-cut sandwich case (e.f. from acrylic) are available for both [Sofle V2][soflev2case] and [Sofle RGB][rgbcase] in the repository (contributions again!).
 
-- we have design for laser cut sandwich case in the repository
-- more things on thingiverse 
-- 
+I added some engraved logos to it and had one made recently and it's pretty nice. The file I submitted to the manufacturer can [be downloaded here][solfev2formulor]. It's in a template provided by the manufacturer and all done to their specification. You'll have to change it according to the requirements of your manufacturer.
 
+{% responsive_image path: images/sofleupd/PXL_20210812_175341910.jpg class: 'imgmw600' figcaption: "Sofle V2 and acrylic sandwich case" %}
 
+[More designs for case are available on Thingiverse][soflething]. Always double check what version it actually is. Some claim to be for V2 while they are for RGB.
+
+## Just a design, not a product
+
+I had to repeat the following disclaimer in variations dozens of times over the last year. 
+
+Keep in mind please, that Sofle is still just an open source design for a couple of DIY keyboards. It's not a product made for profit and production. All people selling the board do this on their behalf and I am we are not affiliated with them. Usually, I don't even know the board is being sold somewhere and that's perfectly fine with me. It's an open-source design, anyone can do whatever they want.
+
+But remember this, please, when you come the the Github repository and ask us to help with a problem you have while building the board. We are just few guys who made a keyboard for their personal use as part of their hobby and shared the design with you. We have jobs, families and life. We try to help when we have the time and know how, but you can't expect that we will take your hand and guide you through a debugging process of the problem you are be having.
+
+There are plenty of active communities (e.g. QMK Discord, MechKeyboards Discord, KeebTalk, some subreddits and others) where you can find active people who have experience with building and debugging keyboards and might be willing to help you. If you bought a kit from some vendor, such vendor (if it's a good one) has a Discord or a forum where they might be providing some support or have some community which might help you. You are more likely to find effective help in those places rather than in the official Github repository. 
 
 ## Kimiko by keycapsss.com
 
+Somewhere during the last year, Ben from [keycapsss.com](https://keycapsss.com) approached me and asked about Sofle V2 and that he is considering to sell the keyboard. I shared my concerns about the design (not production ready, problems here and there) and he said he'll look into it see if he can help to fix them. Well, later he got back to me and shared, that he ended up re-designing the whole board from scratch. We both agreed he should name it differently and keep it his own design so he can fully support it as he would like to.
 
-## Just a design, not a product.
+Later he released the design as [Kimiko][kimiko].
 
-I had to repeat the following disclaimer dozens of times over the last year. So once again.
+I am very happy he created the design. It's almost the same layout as Sofle V2, it has RGB support, alternative encoder placement (also a highly requested feature) and I am quite sure the overall quality of the design is much higher than if I did it. And mainly he is a person who has a keyboard based business and invests a lot of time into making many DIY keyboard designs accessible to other people by selling kits, components and by making his own hardware. [His e-shop](https://keycapsss.com) is my go-to place for keyboard stuff here in Europe (it's very convenient for me he is from Germany as well) and I was always happy with the service. 
 
-Keep in mind please, that Sofle is still just an open source design for a group of DIY keyboards. It's not a product made for profit and production. All people selling the board do this on their behalf and I am not affiliated with them. Usually, I don't even know the board is being sold somewhere and that's perfectly fine with me: it's an open-source design, anyone can do whatever they want.
-
-But remember this, please, when you come the the Github repository and ask us to help with a problem you have while building the board. We are just few guys who made a keyboard for their personal use as part of their hobby and shared the design with you. We have jobs, families and life. We try to help when we have the time and know how, but you can't expect that we will take your hand and guide you through debugging process of the problem you might be having. 
-
-There are plenty of active communities (e.g. QMK Discord, MechKeyboards Discord, KeebTalk, some subbredits on reddit etc) where you can find active people who have experience with building and debugging keyboards. If you bought a kit from a vendor, such vendor (if it's a good one) has a Discord where they might provide some support or have some community which might help you. You are more likely to find effective help in those places rather than in the official Github repository.
-
+And no, this is not a paid advertisement. I am just a happy customer and I believe that anyone interested in Sofle should pay attention to [Kimiko][kimiko] and consider trying it out.
 
 
 ## What about Sofle V3?
 
-- ideas about the version 3cxrwZ
+You might have noticed one thing. I did only two things since the last article:
+
+- released the V2 without any significant work,
+- built my second V2 build with laser cut acrylic case which happened a week ago.
+
+The rest was work of others and I merely contributed by responding to some emails and merging few pull requests. 
+
+I just wasn't in a keyboard design mood. That's why there also wasn't any work done on V3. 
+
+I do have some ideas abut what I would like my next keyboard to be. It would be quite different design than Sofle. And I am finally starting to feel the itch to open KiCad, Fusion360 or Inkscape and start designing. We'll see if the itch stays for long enough to yield a result. I hope it does!
 
 
-<!--more--> 
-
-{%- include post_series.html -%}
 
 [soflething]: <https://www.thingiverse.com/search?q=sofle&type=things&sort=relevant> "Thingiverse Sofle"
 {:target="_blank"} 
@@ -119,6 +133,14 @@ There are plenty of active communities (e.g. QMK Discord, MechKeyboards Discord,
 
 [sofleevolution]: <{{ site.baseurl }}{% post_url  2020-09-15-soflekeyboard-evolving %}> "Sofle Keyboard evolution: slow and not really steady"
 
+[kimiko]: <https://keycapsss.com/search?sSearch=kimiko> "Kimiko"
+{:target="_blank"}
 
+[rgbcase]: <https://github.com/josefadamcik/SofleKeyboard/tree/master/Sofle_RGB/Case> "Sofle RGB case files"
+{:target="_blank"}
 
+[soflev2case]: <https://github.com/josefadamcik/SofleKeyboard/tree/master/Sofle_v2/Case> "Sofle V2 case files"
+{:target="_blank"}
 
+[solfev2formulor]: <{{ site.baseurl }}/images/sofleupd/formulorde_P2_Soflev2.svg> "Sofle V2 laser cut case file formulor."
+{:target="_blank"}
