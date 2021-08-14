@@ -53,7 +53,7 @@ So far I haven't started working on another iteration. There isn't anything I wo
 
 I do think that the current revision of Sofle v2 is a highly unfinished and unpolished prototype. ~~It's still opensource, though. So it's technically possible to switch to the branch named "develop" in the git repository and try it out. If you don't know how to switch a branch in a git repository, or how to generate your own Gerber files, or need a build guide to build the keyboard, then build rather the first version (or a [different keyboard][awesomesplit]), please.~~
 
-**Update (January 2021)**: Since the development was not moving forward for several months and there were people asking about the new version (including group buys and vendors willing to sell kits), I decided to release it in the current state (which is not as good as I would like it to be) as the version 2. Only one detail was fixed (a too small size of a cut-out for encoder in the top plate). I believe it's a good way how to lower amount of counfusion about versions of the board among poeple.
+**Update (January 2021)**: Since the development was not moving forward for several months and there were people asking about the new version (including group buys and vendors willing to sell kits), I decided to release it in the current state (which is not as good as I would like it to be) as the version 2. Only one detail was fixed (a too small size of a cut-out for encoder in the top plate). I believe it's a good way how to lower amount of confusion about versions of the board among people.
 
 Any further development will be for version 3. It can be in a month but also in a year[^3].
 
