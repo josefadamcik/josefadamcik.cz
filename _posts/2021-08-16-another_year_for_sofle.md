@@ -54,7 +54,7 @@ There is another LED model (`SK6812 mini-e`) which should be easier to solder an
 
 Another requested feature for Sofle V2 is support for low-profile switches. Sofle V2 did have support for both Kailh Chock and Cherry MX switches (resp. sockets for them) but I decided to drop it for V2 to make my life easier.
 
-And you might already guess what happened. Another nice person ([Brian Low][brianlow]) decided to do the changes themselves and created another fork of the Sofle RGB. [You can find the corresponding Github issue here and follow the links to his design][soflekailh]. His version  uses the `SK6812 mini-e` LEDs as well.
+And you might already guess what happened. Another nice person ([Brian Low][brianlow]) decided to do the changes themselves and created another fork of the Sofle RGB. [You can find the corresponding Github pull request here][soflekailh]. His version  uses the `SK6812 mini-e` LEDs as well. 
 
 {% responsive_image path: images/sofleupd/129313355-4c8f2cd4-8c3b-4c7f-b1cc-613ccd24adf9.jpeg figcaption: "Sofle RGB Choc (photo by Brian Low)" %}
 
@@ -125,7 +125,7 @@ I do have some ideas abut what I would like my next keyboard to be. It would be 
 [soflergbminipr]: <https://github.com/josefadamcik/SofleKeyboard/issues/45> "Sofle SK6812-MINI-E PR"
 {:target="_blank"}
 
-[soflekailh]: <https://github.com/josefadamcik/SofleKeyboard/issues/40> "Sofle Kailh"
+[soflekailh]: <https://github.com/josefadamcik/SofleKeyboard/pull/104> "Sofle Choc"
 {:target="_blank"}
 
 [soflergbbg]: <https://josefadamcik.github.io/SofleKeyboard/build_guide_rgb.html> "Build guide for Sofle RGB"
