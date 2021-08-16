@@ -18,9 +18,9 @@ It's been almost a year since I wrote [my last update about Sofle Keyboard][sofl
 
 ## V2 released in an unpolished state
 
-When I wrote the article mentioned above, the V2 version was unreleased and hidden in a `evelop` branch. There were some minor problems with the design and some changes I planned to revert. The development was not moving forward for several months and people were asking about the new version. Some people even built it or started organizing group buys. 
+When I wrote the article mentioned above, the V2 version was unreleased and hidden in the `develop` branch. There were some minor problems with the design and some changes I planned to revert. The development was not moving forward for several months and people were asking about the new version. Some people even built it or started organizing group buys. 
 
-I decided to release it in the state it was at that time (January 2021). Only one detail was fixed (too small size of a cut-out for the encoder in the top plate). I believe was a good decision to prevent confusion about versions. I did update the build guide for Version 1 to cover even Version 2 since I didn't have the pictures, time or will to actually write a dedicated build guide for it.
+I decided to release it in the state it was at that time (January 2021). Only one detail was fixed (too small size of a cut-out for the encoder in the top plate). I believe it was a good decision to reduce the confusion about versions. I updated the build guide for Version 1 to cover even Version 2 since I didn't have the pictures, time or will to actually write a dedicated build guide for it.
 
 All the details about how it changed since V1 are in [the previous article][sofleevolution].
 
@@ -28,15 +28,15 @@ All the details about how it changed since V1 are in [the previous article][sofl
 
 ## RGB version contributed to the repository
 
-Support for RGB LEDs was the most frequently requested feature for Sofle. I am personally not interested in having a glowing keyboard so I didn't want to invest time into required changes. Keep in mind, this would be not just about doing the PCB design. I would have also needed to build the keyboard, test it (and possibly go through few iterations to make sure it works), and write a build guide. I would end up with a board that is more complex and therefore harder to maintain, change and support. 
+Support for RGB LEDs was the most frequently requested feature for Sofle. I am personally not interested in having a glowing keyboard so I didn't want to invest time into required changes. Keep in mind, this would be not just about doing the PCB design. I would also need to build the keyboard, test it (and possibly go through few iterations to make sure it works), and write a build guide. I would end up with a board that is more complex and therefore harder to maintain, change and support. 
 
 I also always tried to encourage people to do their own modifications and create their own keyboards which will suit their needs rather than trying to convince me to change the design.
 
-One of the community members, [Dane Evans][daneevans] did exactly that: took V2 design, added support for RGB, changed the layout slightly to his liking and fixed some design issues I introduced in version 2. I believe he basically redid the whole board and routing. He was kind enough to contribute his changes to the main repository, he wrote a build guide and he even joined me as a maintainer of the repository and invested a lot of time and effort into supporting the build and helping people. He shall be praised for that.
+One of the community members, [Dane Evans][daneevans] did exactly that: took V2 design, added support for RGB, changed the layout slightly to his liking and fixed some design issues I introduced in version 2. I believe he basically redid and rerouted the whole board. He was kind enough to contribute his changes to the main repository, he wrote a build guide and he even joined me as a maintainer of the repository and invested a lot of time and effort into supporting the build and helping people. He shall be praised for that.
 
 {% responsive_image path: images/sofleupd/SofleRGB_1.png figcaption: "Sofle RGB (photo by Dane Evans)" %}
 
-Keep in mind please, that even though the RGB is based on V2, it has a slightly different layout and different shape. See the image below for an illustration. The consequence is that a case designed for RGB is not compatible with V2 and vice-versa. Keep this in mind when choosing the case design. Sometimes people mistakenly mix up V2 and RGB which can cause some confusion.
+Keep in mind please, that even though the RGB is based on V2, it has a slightly different layout and a different shape. See the image below for an illustration. The consequence is that a case designed for RGB is not compatible with V2 and vice-versa. Keep this in mind when choosing the case design. Sometimes people mistakenly mix up V2 and RGB which can cause some confusion.
 
 {% responsive_image path: images/sofleupd/Sofle_RGB_v2_comparison.png figcaption: "Sofle V2 is red and Sofle RGB blue. Notice the difference in stagger and the shape." %}
 
@@ -68,34 +68,36 @@ I added some engraved logos to it and had one made recently and it's pretty nice
 
 ## Just a design, not a product
 
-I had to repeat the following disclaimer in variations dozens of times over the last year. 
+I had to repeat the following disclaimer in some variations many times over the last year. 
 
-Keep in mind please, that Sofle is still just an open-source design for a couple of DIY keyboards. It's not a product made for profit and production. All people selling the board do this on their behalf and I am we are not affiliated with them. Usually, I don't even know the board is being sold somewhere and that's perfectly fine with me. It's an open-source design, anyone can do whatever they want.
+Keep in mind please, that Sofle is still just an open-source design for a couple of DIY keyboards. It's not a product made for profit and production. All people selling the board do this on their behalf and I am not affiliated with them. Usually, I don't even know the board is being sold somewhere and that's perfectly fine with me. It's an open-source design, anyone can do whatever they want.
 
 But remember this, please, when you come to the Github repository and ask us to help with a problem you have while building the board. We are just a few guys who made a keyboard for their personal use as part of their hobby and shared the design with you. We have jobs, families and life. We try to help when we have the time and knowledge, but you can't expect that we will take your hand and guide you through a debugging process of the problem you are having.
 
 There are plenty of active communities (e.g. QMK Discord, MechKeyboards Discord, KeebTalk, some subreddits and others) where you can find active people who have experience with building and debugging keyboards and might be willing to help you. If you bought a kit from some vendor, such vendor (if it's a good one) has a Discord or a forum where they might be providing some support or have some community that might help you. You are more likely to find effective help in those places rather than in the official Github repository. 
 
-## Kimiko by keycapsss.com
+## Kimiko
+
+The last thing I would like to share is not directly about Sofle but it is closely related. 
 
 Somewhere during the last year, Ben from [keycapsss.com](https://keycapsss.com) approached me and asked about Sofle V2 and that he is considering selling the keyboard. I shared my concerns about the design (not production-ready, problems here and there) and he said he'll look into it see if he can help to fix them. Well, later he got back to me and shared, that he ended up re-designing the whole board from scratch. We both agreed he should name it differently and keep it his own design so he can fully support it as he would like to.
 
 Later he released the design as [Kimiko][kimiko].
 
-I am very happy he created the design. It's almost the same layout as Sofle V2, it has RGB support, alternative encoder placement (also a highly requested feature) and I am quite sure the overall quality of the design is much higher than if I did it. And mainly he is a person who has a DIY keyboard centered business and invests his time into making many DIY keyboard designs accessible to other people by selling kits, components, and even by making his own hardware. His e-shop is my go-to place for keyboard stuff here in Germany and I was always happy with the service. 
+I am very happy he created the design. It's almost the same layout as Sofle V2, it has RGB support, alternative encoder placement (also a highly requested feature) and I am quite sure the overall quality of the design is much higher than if I did it. And mainly, he is a person who has a DIY keyboard centered business and invests his time into making many DIY keyboard designs accessible to other people by selling kits, components, and even by making his own hardware. His e-shop is my go-to place for keyboard stuff here in Germany and I was always happy with the service. 
 
-And no, this is not a paid advertisement. I am just a happy customer and I believe that anyone interested in Sofle should know that [Kimiko][kimiko] exists and might be an interesting alternative.
+And no, this is not a paid advertisement. I am just a happy customer and I believe that anyone interested in Sofle should know that [Kimiko][kimiko] exists and might be an interesting alternative. 
 
 ## What about Sofle V3?
 
-You might have noticed one thing. I did only two things since the last article:
+One thing shuld be apparent from the above. I did only two things since the last article:
 
-- released the V2 without any significant work,
-- built my second V2 build with a laser-cut acrylic case which happened a week ago.
+- released the V2 without significant changes,
+- built my second V2 build with a laser-cut acrylic case (based on a desing contributed by a community member)
 
 The rest was the work of others and I merely contributed by responding to some emails and merging few pull requests. 
 
-I just wasn't in a keyboard design mood. That's why there also wasn't any work done on V3. 
+Why? I just wasn't in the keyboard design mood and was very happy with my daily driver. That's why there also wasn't any work done on V3. 
 
 I have some ideas about what I would like my next keyboard to be. It would be quite a different design than Sofle and yet very similar. And I am finally starting to feel the itch to open KiCad, Fusion360 or Inkscape and start designing. We'll see if the itch stays for long enough to yield a result. I hope it does!
 
