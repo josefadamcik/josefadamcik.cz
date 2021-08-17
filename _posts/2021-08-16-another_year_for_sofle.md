@@ -50,7 +50,7 @@ There is another LED model (`SK6812 mini-e`) which should be easier to solder an
 
 ## Kailh Choc version 
 
-Another requested feature for Sofle V2 is support for low-profile switches. Sofle V2 did have support for both Kailh Chock and Cherry MX switches (resp. sockets for them) but I decided to drop it for V2 to make my life easier.
+Another requested feature for Sofle V2 is support for low-profile switches. Sofle V1 did have support for both Kailh Choc and Cherry MX switches (resp. sockets for them) but I decided to drop it for V2 to make my life easier.
 
 And you might already guess what happened. Another nice person ([Brian Low][brianlow]) decided to do the changes themselves and created another fork of the Sofle RGB. [You can find the corresponding Github pull request here][soflekailh]. His version  uses the `SK6812 mini-e` LEDs as well. 
 
