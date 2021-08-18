@@ -52,15 +52,18 @@ There is another LED model (`SK6812 mini-e`) which should be easier to solder an
 
 Another requested feature for Sofle V2 is support for low-profile switches. Sofle V1 did have support for both Kailh Choc and Cherry MX switches (resp. sockets for them) but I decided to drop it for V2 to make my life easier.
 
+
 And you might already guess what happened. Another nice person ([Brian Low][brianlow]) decided to do the changes themselves and created another fork of the Sofle RGB. [You can find the corresponding Github pull request here][soflekailh]. His version  uses the `SK6812 mini-e` LEDs as well. 
 
 {% responsive_image path: images/sofleupd/129313355-4c8f2cd4-8c3b-4c7f-b1cc-613ccd24adf9.jpeg figcaption: "Sofle RGB Choc (photo by Brian Low)" %}
 
 ## More goodies 
 
-SVG files for laser-cut sandwich cases (e.f. from acrylic) are available for both [Sofle V2][soflev2case] and [Sofle RGB][rgbcase] including a tenting case for the RGB version. A contribution made by [kissetfall][kissetfall].
+SVG files for laser-cut sandwich cases (e.f. from acrylic) are available for both [Sofle V2][soflev2case] and [Sofle RGB][rgbcase] including a tenting case for the RGB version. A contribution made by redditor [atlantesque][atlantesque] (also as [kissetfall][kissetfall] on github).
 
-I added some engraved logos to it and had one made recently and it's pretty nice. The file I submitted to the manufacturer can [be downloaded here][solfev2formulor]. It's in a template provided by the manufacturer and all done to their specification. You'll have to change it according to the requirements of your manufacturer.
+{% responsive_image path: images/sofleupd/case_tenting2.jpeg figcaption: "Tenting case for Sofle RGB (photo and design by atlantesque)" %}
+
+I added some engraved logos to it and had one made (the one for V2) recently and it's pretty nice. The file I submitted to the manufacturer can [be downloaded here][solfev2formulor]. It's in a template provided by the manufacturer and all done to their specification. You'll have to change it according to the requirements of your manufacturer.
 
 {% responsive_image path: images/sofleupd/PXL_20210812_175341910.jpg class: 'imgmw600' figcaption: "Sofle V2 and acrylic sandwich case" %}
 
@@ -141,7 +144,10 @@ I have some ideas about what I would like my next keyboard to be. It would be qu
 {:target="_blank"}
 
 [kissetfall]: <https://github.com/kissetfall> "kissetfall"
-{:target="_blank"}  
+{:target="_blank"}
+
+[atlantesque]: <https://www.reddit.com/user/atlantesque/> "atlantesque"
+{:target="_blank"}
 
 [solfev2formulor]: <{{ site.baseurl }}/images/sofleupd/formulorde_P2_Soflev2.svg> "Sofle V2 laser cut case file formulor."
 {:target="_blank"}
