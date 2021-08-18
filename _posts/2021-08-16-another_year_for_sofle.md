@@ -58,7 +58,7 @@ And you might already guess what happened. Another nice person ([Brian Low][bria
 
 ## More goodies 
 
-SVG files for laser-cut sandwich cases (e.f. from acrylic) are available for both [Sofle V2][soflev2case] and [Sofle RGB][rgbcase] in the repository (contributions again!).
+SVG files for laser-cut sandwich cases (e.f. from acrylic) are available for both [Sofle V2][soflev2case] and [Sofle RGB][rgbcase] including a tenting case for the RGB version. A contribution made by [kissetfall][kissetfall].
 
 I added some engraved logos to it and had one made recently and it's pretty nice. The file I submitted to the manufacturer can [be downloaded here][solfev2formulor]. It's in a template provided by the manufacturer and all done to their specification. You'll have to change it according to the requirements of your manufacturer.
 
@@ -139,6 +139,9 @@ I have some ideas about what I would like my next keyboard to be. It would be qu
 
 [soflev2case]: <https://github.com/josefadamcik/SofleKeyboard/tree/master/Sofle_v2/Case> "Sofle V2 case files"
 {:target="_blank"}
+
+[kissetfall]: <https://github.com/kissetfall> "kissetfall"
+{:target="_blank"}  
 
 [solfev2formulor]: <{{ site.baseurl }}/images/sofleupd/formulorde_P2_Soflev2.svg> "Sofle V2 laser cut case file formulor."
 {:target="_blank"}
