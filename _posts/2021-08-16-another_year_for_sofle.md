@@ -40,6 +40,9 @@ Keep in mind please, that even though the RGB is based on V2, it has a slightly 
 
 {% responsive_image path: images/sofleupd/Sofle_RGB_v2_comparison.png figcaption: "Sofle V2 is red and Sofle RGB blue. Notice the difference in stagger and the shape." %}
 
+## Update (22.8.2021) - Sofle RGB by Keyhive 
+
+Only after I published the article, I learned that one particular vendor - **Keyhive** - is selling their own fork of Sofle RGB. This version is **modified** in way that makes it **incompatible** with the firmware for the official designs. You have to use the firmware provided by the vendor and build guide provided by them as well. Please, don't report problems with the desing and or firmware to the official Sofle github repository. Their modification is not part of the repository and therefore we cannot fix the problems or help you with solution. Contact the vendor instead. You are their client, in the end.
 
 ## Alternative LEDs for RGB
 
