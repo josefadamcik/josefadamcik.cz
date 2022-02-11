@@ -4,3 +4,4 @@ _site
 mywebsite.sublime-*
 assets/resized
 .jekyll-cache/
+vendor
