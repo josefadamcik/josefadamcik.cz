@@ -13,7 +13,7 @@ A build log for a Gaslands inspired vehicle with a piece of terrain.
 
 <!--more--> 
 
-I have started this project last year. This build was [again][beadbots] a challenge for Patrons by [Bill Making Stuff][bill]. The challenge was to build a [Gaslands][gaslands] vehicle build. [Gaslands][gaslands] is a tabletop post-apocalyptic game inspired by Mad Max. The idea is to take a regular toy car (Hot Wheels etc.) and make it look post-apocalyptic and ready for a deadly race. 
+I have started this project last year. This build was [again][beadbots] a challenge for Patroens by [Bill Making Stuff][bill]. The challenge was to build a [Gaslands][gaslands] vehicle build. [Gaslands][gaslands] is a tabletop post-apocalyptic game inspired by Mad Max. The idea is to take a regular toy car (Hot Wheels etc.) and make it look post-apocalyptic and ready for a deadly race. 
 I made the car at the time the challenge was taking place. I have added a piece of terrain later at the end of the year. It wouldn't really make sense for the game itself. But it was a good opportunity to learn a bit about how to create a basic piece of terrain and it makes it more interesting to display on my shelve.
 
 
