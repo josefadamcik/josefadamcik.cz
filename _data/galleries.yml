@@ -478,3 +478,65 @@
       description:
     - path: PXL_20220109_125012267.jpg
       description:
+- name: xwing
+  title: "Damaged resistance X-wing "
+  path: images/xwing
+  images:        
+    - path: PXL_20210615_203935563.MP.jpg
+    - path: PXL_20210621_200419746.jpg
+    - path: PXL_20220109_155927899.jpg
+    - path: PXL_20220109_155930807.jpg
+    - path: PXL_20220110_185345221.jpg
+    - path: PXL_20220121_133217220.jpg
+    - path: PXL_20220126_194408574.jpg
+    - path: PXL_20220126_195005410.jpg
+    - path: PXL_20220126_202226529.jpg
+    - path: PXL_20220129_163634521.jpg
+    - path: PXL_20220129_183513381.jpg
+    - path: PXL_20220129_184317091.jpg
+    - path: PXL_20220129_185022859.jpg
+    - path: PXL_20220130_162849588.jpg
+    - path: PXL_20220130_162905087.jpg
+    - path: PXL_20220205_195232758.jpg
+    - path: PXL_20220205_200438280.jpg
+    - path: PXL_20220205_202215366.jpg
+    - path: PXL_20220205_202405337.jpg
+    - path: PXL_20220206_184135578.jpg
+    - path: PXL_20220206_184142100.jpg
+    - path: PXL_20220206_184151737.jpg
+    - path: PXL_20220206_184212955.jpg
+    - path: PXL_20220211_121607820.jpg
+    - path: PXL_20220214_122959727.jpg
+    - path: PXL_20220214_123009089.jpg
+- name: xwingterrain
+  title: "Damaged resistance X-wing - terrain"
+  path: images/xwing
+  images:        
+    - path: PXL_20220219_135610198.jpg
+    - path: PXL_20220220_102836575.jpg
+    - path: PXL_20220220_104331138.jpg
+    - path: PXL_20220220_120921986.jpg
+    - path: PXL_20220220_134651605.jpg
+    - path: PXL_20220221_114158657.jpg
+    - path: PXL_20220302_203424856.jpg
+    - path: PXL_20220308_143010796.jpg
+    - path: PXL_20220311_120257678.jpg
+    - path: PXL_20220317_095750795.jpg
+    - path: PXL_20220318_124940484.jpg
+    - path: PXL_20220327_144049427.jpg
+    - path: PXL_20220328_191753770.jpg
+    - path: PXL_20220404_185746856.jpg
+    - path: PXL_20220404_185749983.jpg
+- name: xwhingfinished
+  title: "Damaged resistance X-wing - finished"
+  path: images/xwing
+  images:       
+    - path: PXL_20220409_151533428.jpg
+    - path: PXL_20220409_151550019.jpg
+    - path: PXL_20220409_151555368.jpg
+    - path: PXL_20220409_151559567.jpg
+    - path: PXL_20220409_151605718.jpg
+    - path: PXL_20220409_151720619.jpg
+    - path: PXL_20220409_152538644.jpg
+    - path: PXL_20220409_152808509.jpg
+    - path: PXL_20220409_152903893.jpg
