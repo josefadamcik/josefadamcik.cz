@@ -485,48 +485,75 @@
     - path: PXL_20210615_203935563.MP.jpg
     - path: PXL_20210621_200419746.jpg
     - path: PXL_20220109_155927899.jpg
+      description: I did most of the battle damage using my Proxxon rotary tool.
     - path: PXL_20220109_155930807.jpg
+      description: One of the bottom wings broke off when crash-landing.
     - path: PXL_20220110_185345221.jpg
+      description: The panel got shot off and revealed some pipes etc.
     - path: PXL_20220121_133217220.jpg
+      description: Primer time.
     - path: PXL_20220126_194408574.jpg
+      description: Tried to use chipping medium Vallejo. Applied by airbrush and off-white coat over that.
     - path: PXL_20220126_195005410.jpg
+      description: In some places, it worked quite well. Overall, I had very inconsistent results. 
     - path: PXL_20220126_202226529.jpg
     - path: PXL_20220129_163634521.jpg
+      description: The kit contains waterslide decals for all the blue/dark grey stripes and accents. I still wanted to paint them and use the chipping medium again.
     - path: PXL_20220129_183513381.jpg
     - path: PXL_20220129_184317091.jpg
     - path: PXL_20220129_185022859.jpg
+      description: Some chipping in the blue layer.
     - path: PXL_20220130_162849588.jpg
     - path: PXL_20220130_162905087.jpg
+      description: I lost the pilot seat so the cockpit looks a bit empty. Haven't found it yet.
     - path: PXL_20220205_195232758.jpg
     - path: PXL_20220205_200438280.jpg
     - path: PXL_20220205_202215366.jpg
     - path: PXL_20220205_202405337.jpg
     - path: PXL_20220206_184135578.jpg
+      description: Masking is tedious, so many of the other details are just hand-painted, often quite poorly. I have already learned that weathering steps will hide a lot of crimes.
     - path: PXL_20220206_184142100.jpg
     - path: PXL_20220206_184151737.jpg
     - path: PXL_20220206_184212955.jpg
     - path: PXL_20220211_121607820.jpg
+      description: Added some torn cables/pipes to the ends of broken wings. Everything was sealed by gloss varnish. Applied the few decals which still made sense, followed by several passes of oil washes and weathering with oils.
     - path: PXL_20220214_122959727.jpg
+      description: I remember adjusting the oil phase couple of times, so I am not even sure if those are the final pictures. Once I was happy on oils dried I sealed everything with matt varnish.
     - path: PXL_20220214_123009089.jpg
 - name: xwingterrain
   title: "Damaged resistance X-wing - terrain"
   path: images/xwing
   images:        
     - path: PXL_20220219_135610198.jpg
+      description: Planning the layout. 
     - path: PXL_20220220_102836575.jpg
+      description: Insulation foam I have found in a shop nearby. It would be a bit better without the pattern, but that wasn't hard to remove.
     - path: PXL_20220220_104331138.jpg
+      description: Used my hot-wire cutter to create the basic shape. I wanted to have some interesting terrain feature in the corner, something like a small cliff. I learned that using hot glue to attach the sheets of foam is not the smartest since it is much harder to cut with the hot-wire cutter.
     - path: PXL_20220220_120921986.jpg
+      description: Finished the surface with a hobby knife and sandpaper.
     - path: PXL_20220220_134651605.jpg
+      description: Paste from mod-podge, plaster and paint. This is my attempt to make the paste Boyley hobby time uses. I think the consistency could have been better.
     - path: PXL_20220221_114158657.jpg
+      description: I planned to make a trail of the X-wing as it was sliding through the mud by pressing the model to the paste. But the paste was too sticky and I didn't really manage to do a good imprint. I had to fix it later.
     - path: PXL_20220302_203424856.jpg
+      description: Added some sand, small stones, fragments of plaster and wood. Glued with watered-down PVA glue.
     - path: PXL_20220308_143010796.jpg
+      description: Primer time!
     - path: PXL_20220311_120257678.jpg
+      description: Painted using an airbrush. I was not happy with the colour, though.
     - path: PXL_20220317_095750795.jpg
+      description: Adjusting the colour. This time only hand brush. Various mixes of paints and thinned Thick mud from Vallejo. I believe I also used acrylic wash.
     - path: PXL_20220318_124940484.jpg
+      description: Added more variety and hand-painted some stones. Some dry-brushing.
     - path: PXL_20220327_144049427.jpg
+      description: This was my first attempt to use static grass and I struggled a lot. The first 2 static grass appliers I bought on Amazon were broken and I had to return them. The third one (branded German from NOCH) worked but the results weren't as good as I hoped for.
     - path: PXL_20220328_191753770.jpg
+      description: Here I am using Vallejo thick mud to glue the vehicle to the diorama and create an impression of it being stuck in the mud and overall muddy.
     - path: PXL_20220404_185746856.jpg
+      description: Added a little puddle of muddy water. Used Vallejo still water with a bit of paint. Must be applied in multiple thin layers, otherwise it'll crack. The first layer cracked for me anyway. But it was easy to fix by adding more.
     - path: PXL_20220404_185749983.jpg
+      description: You can also notice the broken canopy. The Kit contained 2 versions the traditional one from clear plastic and then one without the glass, which I broke and used thin clear plastic to simulate broken glass. 
 - name: xwhingfinished
   title: "Damaged resistance X-wing - finished"
   path: images/xwing
