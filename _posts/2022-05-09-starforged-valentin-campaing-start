@@ -25,7 +25,7 @@ Apart form the narative, I am also going to share the steps in the mechanical se
 These are going to be in code blocks as this parapraph is. They are not going to make much sense, unless you actually now how the game works mechanically. But they illustrate how the narrative is supported by the game's mechanics.
 ```
 
-## Session 0 - truths, starting sector and character
+## Truths
 
 The first part is all about preparating the setting for the game and the character. 
 "Truths" are facts (or at aleast, things that are assumed to be facts) about the universe the story is going to take place. My truths are chosen as fallows (note that the text of the thruths is copy/pasted from the game rules and shared under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license], they are created by Shawn Tomkin)
@@ -91,6 +91,40 @@ Those few with the ability to pay can call on the Legion—a guild of profession
 **Put enough alcohol in a spacer, and they’ll tell you stories of ghost ships crewed by vengeful undead. It’s nonsense.** Within the Forge, space and time are as mutable and unstable as a flooding river. When reality can't be trusted, we are bound to encounter unsettling phenomenon.
 
 
+## Starting sector 
+
+Starting sector is called **Corvux flux** and I'll just share the map here. The interesting or important details should appear in the narative. The map is taken from [Stargazer][stargazer]. It's amazing webtool for playing the game, check it out.
+
+The sector trouble as randomly rolled: `Prophecies foretell an imminent awakening of a dreadful power`.
+
+TODO: picture 
+
+## Character
+
+I chose the assets. Starforge does have random table for names, but I used it only for the callsign. The name itself is from much bigger name tables from another TTRPG game [Stars Without Number][swn]. Some of the details which helped to shape the characters are based on rolls.
+
+- Chosen assets: Courier (path), Infiltrator (path), Glowcat Jones(companion) 
+- Name: Valentin “Whisper” Sikorski 
+- Pronouns: he/him
+- Backstory prompt: `He is the sole survivor of an attack or calamity.`
+- Starship: Orca, History: `Inherited from a relative or mentor` (and they `Found it abandoned in perfect condition`)
+- Details: `Removable plate decks provide access to hidden storage`, `Ship is powered by an ancient precursor device.`
+- Look: Average height, subtle figure (slim, fit, not mascular). Short dark hair. Brown eyes.
+- Act: Quiet, reserved, introverted. 
+- Wear: Black cargo pants, practical pouches on the belt (can carry basic equipment around). Heavy, high boots. Long-sleeved black turtle-neck. Black tactical jacket when appropriate.  Small backpack for additional gear. 
+- Additional gear: Concealed handgun. Pendant from black iron with an image of augmented dolphin.
+
+I did detail the bacground a little bit more, but there's still room for discovery left. It's not necessary to know every detail. But the following is inspired by the random rolls for backstory for character and the ship and from truths.
+
+- Member of the Courier guild. The job is to transfer information captured and encrypted on small devices, data cubes.
+- Swears his vows on a circular pendant from black iron with an image of augmented dolphin. It’s a sign of the Courier guild. It was a gift from a mentor.
+- As a child he was a sole survivor of attack or calamity. He was saved by **Yelena "Rook" Volkov** (she/her), a young data courier. She practicaly raised him and tought him the way of the Courier Guild. 
+- At some point, she mysteriously dissapeared. 
+- Her ship, glowcat and job are now Valentins.
+
+His background vow is: **Figure out what happened to my mentor Yelena Volkov.**
+
+
 
 
 {%- include post_series.html -%}
@@ -101,6 +135,8 @@ Those few with the ability to pay can call on the Legion—a guild of profession
 {:target="_blank"}
 [license]: <http://creativecommons.org/licenses/by-nc-sa/4.0/> "Starforged"
 {:target="_blank"}
- 
-
+[stargazer]: <https://nboughton.uk/apps/stargazer> "Stargazer"
+{:target="_blank"}
+[swn]: <https://www.drivethrurpg.com/product/230009/Stars-Without-Number-Revised-Edition-Free-Version> "Stars Without Number"
+{:target="_blank"}
 
