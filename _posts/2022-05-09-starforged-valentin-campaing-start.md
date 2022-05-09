@@ -20,7 +20,7 @@ I don't really want to waste space and time by describing what the game is about
 
 I am eager to explore the game and stories it could help to create, though. I figured, I could write down some kind of play report, maybe a journal of the character as they go through the campaign. I am not going to attempt to write a high-quality prose because that requires a lot of effort an focus. But I'll try to make it at least a little bit readable. 
 
-``
+```
 Apart form the narative, I am also going to share the steps in the mechanical sense of the game: the moves and rolls I am making and their results. 
 These are going to be in code blocks as this parapraph is. They are not going to make much sense, unless you actually now how the game works mechanically. But they illustrate how the narrative is supported by the game's mechanics.
 ```
@@ -124,7 +124,7 @@ I did detail the bacground a little bit more, but there's still room for discove
 
 His background vow is: **Figure out what happened to my mentor Yelena Volkov.**
 
-
+## Session 1
 
 
 {%- include post_series.html -%}
