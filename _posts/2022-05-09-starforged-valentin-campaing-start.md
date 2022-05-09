@@ -97,7 +97,9 @@ Starting sector is called **Corvux flux** and I'll just share the map here. The 
 
 The sector trouble as randomly rolled: `Prophecies foretell an imminent awakening of a dreadful power`.
 
-TODO: picture 
+TODO: picture
+
+The connection in the sector is **Julio Cordova** (he/him). Data dealer (criminal). Haggard and shifty. Insightful, secretive. His goals are gain knowledge and protect a place. He lives in the **Prism Station** among community of salvagers. Extracts information from salvaged vehicles and finds a buyer. He is quite clever and able to connect dots, so often he uses the informatin he founds to get more valuable data and so on. He is regular client, mainly uses the services of data courier, but sometimes he even ask for some "data mining".
 
 ## Character
 
