@@ -24,8 +24,8 @@ I don't really want to waste space and time by describing what the game is about
 
 I am eager to explore the game and the stories it could help to create, though. I figured I could write down some kind of play report, maybe a journal of the character as they go through the campaign. I am not going to attempt to write high-quality prose because that requires a lot of effort and focus. But I'll try to make it at least a little bit readable. 
 
-This post contains first two session.
--
+This post contains first two sessions:
+
 - Session 0: a preparation for the actual game, which is a game as well 
 - Session 1: my first, clumsy session. It's in a way a prologue and the interesting stuff starts in the next session.
 
@@ -72,7 +72,7 @@ The first part is all about preparation setting, starting sector and character.
 
 **Information is life. We rely on spaceborne couriers to transport messages and data across the vast distances between settlements.** Direct communication and transmissions beyond the near-space of a ship or outpost are impossible. Digital archives are available at larger outposts, but the information is not always up-to-date or reliable. Therefore, the most important communications and discoveries are carried by couriers who swear vows to see that data safely to its destination. 
 
-## Medicine
+### Medicine
 
 **To help offset a scarcity of medical supplies and knowledge, the technicians we call riggers create basic organ and limb replacements.** Much was lost in the Exodus, and what remains of our medical technologies and expertise is co-opted by the privileged and powerful. For most, advanced medical care is simply out of reach. When someone suffers a grievous injury, they'll often turn to a rigger for a makeshift mechanical solution.
 
@@ -92,7 +92,7 @@ Those few with the ability to pay can call on the Legion—a guild of profession
 
 **This is a perilous and often inhospitable galaxy, but life finds a way.** Life in the Forge is diverse. Planets are often home to a vast array of creatures, and our starships cruise with spaceborne lifeforms riding their wake. Even animals from our homeworld— carried aboard the Exodus ships—have adapted to live with us in the Forge
 
-## Precursors
+### Precursors
 
 **Over eons, a vast number of civilizations rose and fell within the Forge. Today, the folk we call grubs—scavenger crews and audacious explorers—delve into the mysterious monuments and ruins of those ancient beings.** Incomprehensible technologies, inexorable time, and the strange energies of the Forge have corrupted the vaults of the precursors. Despite the perils, grubs scour those places for useful resources and discoveries. But some secrets are best left buried, and many have been lost to the forsaken depths of the vaults. 
 
@@ -131,7 +131,7 @@ I chose the assets. Starforged has a random table for names, but I used it only 
 - Details: `Removable plate decks provide access to hidden storage`, and `Ship is powered by an ancient precursor device.`
 
 
-### Detailed back
+### Backstory
 
 I did detail the background a little bit more, but there's still room for discovery left. It's not necessary to know every detail. But the following is inspired by the random rolls for backstory of the character and the ship, spiced with chose truths.
 
