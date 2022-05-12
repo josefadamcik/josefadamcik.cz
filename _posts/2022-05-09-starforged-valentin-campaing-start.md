@@ -16,13 +16,18 @@ image: /images/starforged/starforged_thumbnail_0.png
 
 {%- include post_series.html -%}
 
-There are never enough hobbies for Josef. In particular, I enjoy revisiting the hobbies I had and left in my younghood. Recently, I dove into the world of Pen And Paper adventures, or tabletop role-playing games, if you say so. Most of that is theoretical: reading through interesting game systems and settings (oh my god, they're so many interesting systems out there!). I have a little bit of real-world play as well. Nevertheless, today I would like to focus on solo play. I have only recently noticed that it is a thing to play TTRPG on your own. And when I read [Ironsworn][ironsworn] rules, I realized I am indeed interested in trying it out. Maybe only if the setting was maybe sci-fi.
+There are never enough hobbies for Josef. In particular, I enjoy revisiting the hobbies I had and left in my younghood. Recently, I dove into the world of Pen And Paper adventures, or tabletop role-playing games, if you say so. Most of that is theoretical: reading through interesting game systems and settings (oh my god, they're so many interesting systems out there!). I have a little bit of real-world play as well. Nevertheless, today I would like to focus on solo play. I have only recently noticed that it is a thing to play TTRPG on your own. And when I read [Ironsworn][ironsworn] rules, I realized I am indeed interested in trying it out. Maybe only if the setting was a bit more interesting, like steam punk, sci-fi or something alike.
 
-Well, [Starforged][starforged], a Sci-Fi iteration of [Ironsworn][ironsworn] was released last Friday (digitally). Both games are made by Shawn Tomkin and they are amazing. Like really, everything about the games is. They are worth every cent (and the original book of Ironsworn is even free to download).
+Well, [Starforged][starforged], a Sci-Fi version of [Ironsworn][ironsworn] was released last Friday (digitally). Both games are made by Shawn Tomkin and they are amazing. Really, everything about the games is great. Design, execution, art. Perfect. They are worth every cent (and the original book of Ironsworn is even free to download).
 
 I don't really want to waste space and time by describing what the game is about. There are plenty of sources which are going to do a much better job at that. If you don't know the game, I suggest reading at least the information on [the website][starforged] to have a rough idea before proceeding. Maybe watch an actual play video or something along those lines, I do not plan to go into explaining how the mechanics of the game work. 
 
 I am eager to explore the game and the stories it could help to create, though. I figured I could write down some kind of play report, maybe a journal of the character as they go through the campaign. I am not going to attempt to write high-quality prose because that requires a lot of effort and focus. But I'll try to make it at least a little bit readable. 
+
+This post contains first two session.
+-
+- Session 0: a preparation for the actual game, which is a game as well 
+- Session 1: my first, clumsy session. It's in a way a prologue and the interesting stuff starts in the next session.
 
 <aside>
 Apart from the narrative, I am also going to share the steps in the mechanical sense of the game: the moves and rolls I am making and their results. 
@@ -33,7 +38,7 @@ These are going to be in code blocks as this paragraph is. They are not going to
 
 The first part is all about preparation setting, starting sector and character. 
 
-"Truths" are facts (or at least, wide spread believes) about the universe the story is going to take place. My truths are chosen as follows (note that the text of the truths is copy&pasted from the game rules and shared under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license], they are created by Shawn Tomkin)
+"Truths" are facts (or at least, wide spread believes) about the universe the story is going to take place in. My truths are chosen as follows (note that the text of the truths is copy&pasted from the game rules and shared under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license], they are created by Shawn Tomkin)
 
 ### Cataclysm
 
@@ -128,7 +133,7 @@ I chose the assets. Starforged has a random table for names, but I used it only 
 
 ### Detailed back
 
-I did detail the background a little bit more, but there's still room for discovery left. It's not necessary to know every detail. But the following is inspired by the random rolls for backstory for character and the ship and from truths.
+I did detail the background a little bit more, but there's still room for discovery left. It's not necessary to know every detail. But the following is inspired by the random rolls for backstory of the character and the ship, spiced with chose truths.
 
 - Member of the Courier guild. The job is to transfer information captured and encrypted on small devices called data cubes.
 - Swears his vows on a circular pendant made of black iron with an image of an augmented dolphin. It’s a sign of the Courier guild. It was a gift from a mentor.
@@ -138,7 +143,7 @@ I did detail the background a little bit more, but there's still room for discov
 
 His background vow is: **Figure out what happened to my mentor Yelena Volkov.**
 
-Valentin's companions, Jones the Glowcat as drawn by my beloved partner [Anna Marklová (instagram)][sofatko].
+Valentin's companion, **Jones the Glowcat** as drawn by my beloved partner [Anna Marklová (instagram)][sofatko].
 
 {% responsive_image path: images/starforged/glowcat.jpg alt:"Jones, the glowcat" %}
 
@@ -187,7 +192,7 @@ Face danger (+wits):
 
 I carefully put my suit on, focusing on long deep breathing. I take Jones and close him in his sealed transport crate. It's made for those purposes. He is safe until I fix the problem. 
 
-The breach was small hole. It seems we were hit by a piece of space rock the size of human fist. Must have been pretty hard and fast. Normally, such object shouldn’t cause such damage.
+The breach was a small hole. It seems we were hit by a piece of space rock the size of a human fist. Must have been pretty hard and fast. Normally, such an object shouldn’t cause such damage.
 
 <aside>
 Repair (+wits) 
@@ -195,15 +200,15 @@ Repair (+wits)
 Weak hit in the field: 1 repair point
 </aside>
 
-I am no engineer and sealing a breach in a hull just with basic welder here, in the field is not the easiest. But I manage to do good enough welding job to patch the small hole. Quickly, the ship builds up the internal pressure again and alarms go off.  I can take off the suit and release Jones.
+I am no engineer and sealing a breach in a hull just with a basic welder here, in the field is not the easiest. But I manage to do a good enough welding job to patch the small hole. Quickly, the ship builds up the internal pressure again and alarms go off.  I can take off the suit and release Jones.
 
 "I  am glad you are fine, Jones", I stroke the cat, it purrs and vibrant shades of green pulsate through its fur. 
 
 ---
 
-Landing at the **Glimmer Outpost** went smoothly. Orca now rests in one of the many public hangars of the city. Most of the city is built underground and inside rocky cliffs. The surface of the planet is covered by icy glaciers of various vibrant colors and they are not the best base to build a city on. 
+Landing at the **Glimmer Outpost** went smoothly. Orca now rests in one of the many public hangars of the city. Most of the city is built underground and inside rocky cliffs. The surface of the planet is covered by icy glaciers of various vibrant colors and they are not the best base to build a city. 
 
-Now to the job. The contact is **Kiri Braddock***,* a local smuggler. She should have the data package for us, and expect appropriate payment, thankfully provided by Julio. I took Jones with me, he can be useful when dealing with people. We found ourselves in the dirty part of the city around docks. 
+Now to the job. The contact is **Kiri Braddock***,* a local smuggler. She should have the data package for us and expect an appropriate payment, thankfully provided by Julio. I took Jones with me, he can be useful when dealing with people. We found ourselves in the dirty part of the city around docks. 
 
 “Should be the right area to find a smuggler, shouldn't it?”
 
@@ -217,14 +222,14 @@ Gather information
 [Action + Theme] Explore commerce
 </aside>
 
-Asking around yields an important information: Kiri is doing here business usually in a nearby pub, but she is not around at the moment. 
+Asking around yields important information: Kiri is doing her business usually in a nearby pub, but she is not around at the moment. 
 
 <aside>
 Is it in a new location? 
 [Ask oracle, Likely: yes]
 
 (Increased the rank for the vow to dangerous.)
-(Used oracles for new location in the sector.)
+(Used oracles for the new location in the sector.)
 </aside>
 
 Several sources confirmed she traveled  to **Karma Station-** a big hydroponic multi-farm on the orbit of a desert planet **Dykuma**. It's rumored she had very important business there. I have considered waiting, but Julio insisted this matter needs to be resolved quickly. The intel might lose its value over time.
@@ -237,7 +242,7 @@ Reach a milestone.
 (Marked 2 full progress squares)
 </aside>
 
-Lets' embark on another journey. Our supply levels are good, there is no reason to wait. 
+Let's embark on another journey. Our supply levels are good, there is no reason to wait. 
 
 As Orca ascends the atmosphere, I enjoy the vibrant auroras over Karn. Jones entertains himself by reproducing their mesmerizing colors on his fur. 
 
@@ -252,9 +257,9 @@ Trying to stay under radar (+shadow) [miss: 2+3 = 5 vs 5|6]
 [Anomaly effect: awekens the dead]
 </aside>
 
-Trying  to asses the best path, we sail the drift for the first time and reach  an anchorage. The light in the ship dims as the power is drained to charge the e-drive for next jump. Something feels odd. According to the navigation instruments, this didn't really help us to get to our destination.  This wasn't the right drift. 
+Trying to assess the best path, we sail the drift for the first time and reach  an anchorage. The light in the ship dims as the power is drained to charge the e-drive for the next jump. Something feels odd. According to the navigation instruments, this didn't really help us to get to our destination. This wasn't the right drift. 
 
-Suddenly something hits the windshield of the cabin. It's a VAC suit. Damaged.  Cracked visor reveals a skull of a long dead person.
+Suddenly something hits the windshield of the cabin. It's a VAC suit. Damaged. A cracked visor reveals a skull of a long-dead body.
 
 "Shit!"
 
@@ -268,7 +273,7 @@ Closed  eyes, few deep breaths, open one eye. And it waves back to me. I squeeze
 
 When I finally open my eyes, the dead body is only a dot in a distance. I am starting to doubt what I saw. My hands are still shaking.
 
-I watch the e-drives indicator and hit jump as soon as it's ready. Let's et hell out of here.
+I watch the e-drives indicator and hit jump as soon as it's ready. Let's get the hell out of here.
 
 <aside>
 Keep under radar +shadow [3+3=6 vs 1 | 5] strong hit
@@ -280,7 +285,7 @@ This drift was good, we are getting closer. Still shaken keep stroking Jones, it
 Keep under radar +shadow [3+3=6 vs 6 | 3] weak hit.
 </aside>
 
-Another jump, getting closer. I fix a dinner for me and Jones, while the drive is recharging. This is taking much more time than anticipated and it's taking a toll on our fuel and rations. 
+Another jump, getting closer. I fix dinner for me and Jones, while the drive is recharging. This is taking much more time than anticipated and it's taking a toll on our fuel and rations. 
 
 <aside>
 Sacrifice resources -2
@@ -292,19 +297,19 @@ Ship type: Harvester
 
 We  are almost there. But as we jump to the waypoint we find ourselves in a dense nebula cloud. Partially covered by the stardust, a ship hails us. 
 
-"Orca, prepare to be bearded. The easiest would be to cooperate, nobody have to be hurt."
+"Orca, prepare to be bearded. The easiest would be to cooperate, nobody has to be hurt."
 
 It's  an old harvester, a huge ship. Usually used for fuel excavation. This one is modified and armed. Crude skull&bones painting covers its hull.  
 
 "I am sorry, big ship, we have some comm trouble, I haven't got your message. The rest of our fleet is here in a minute, I am sure they have comms in a better shape and are happy to talk to you."
 
-Trying to get some time, a quickly plot a course  deeper into the cloud, hoping to be able to hide until the engines are ready.
+Trying to get some time, I quickly plot a course  deeper into the cloud, hoping to be able to hide until the engines are ready.
 
 <aside>
 Face danger (+shadow) [4+3=7 vs 9 | 3] weak hit
 </aside>
 
-Taking  an opportunity of more dense wave of start dust, I quickly start the engines and move away. The maneuver is jerkier than I anticipated and the sudden force catapulted my coffee kettle. It flew over the cabin and with a loud bang crashed into my skull. 
+Taking  an opportunity of a more dense wave of start dust, I quickly start the engines and move away. The maneuver is jerkier than I anticipated and the sudden force catapulted my coffee kettle. It flew over the cabin and with a loud bang crashed into my skull. 
 
 <aside>
 Endure harm (-1), trying to resist the harm [5+4=9 vs 8 | 6] strong hit. 
@@ -313,7 +318,7 @@ Chosen +1 momentum.
 
 “I like my coffee strong”.  I shake the pain off and focus on evasive maneuvers through dust clouds. Thankfully, the pirates lost my track.  
 
-I feel in my bones, this must be the last jump.
+I feel in my bones, that this must be the last jump.
 
 <aside>
 [Finish an expedition: Weak Hit = 9 vs 10 | 6] 
@@ -322,25 +327,25 @@ I feel in my bones, this must be the last jump.
 
 ---
 
-Finally,  we can see this big station shaped as a slowly rotating cylindrical platforms. Huge, orbital greenhouses shimmer in the light of the nearby star. 
+Finally, we can see this big station build from many slowly rotating cylindrical platforms. Huge, orbital greenhouses shimmer in the light of the nearby star.
 
 <aside>
-Reach milestone. Mark 2 progress for vow.
+Reach milestone. Mark 2 progress for the vow.
 </aside>
 
 "Whisper to Karma. Orca on approach to Karma, kindly asking for a docking port."
 
-"Karma to Whisper. It's quite busy around here. We are in the  middle of harvest and our docking positions are currently overwhelmed. I don't think we have place for you. What is the purpose of your visit?" 
+"Karma to Whisper. It's quite busy around here. We are in the  middle of harvest and our docking positions are currently overwhelmed. I don't think we have a place for you. What is the purpose of your visit?" 
 
 "I am here on official business as a member of the Courier Guild, picking up a package from a person which should  be currently present at the location." 
 
-Let's not tell them that' we are gonna be delivering stolen data.
+Let's not tell them that we are gonna be delivering stolen data.
 
 <aside>
 Compel (+shadow) [3+3=6 vs 6 | 1] weak hit.
 </aside>
 
-"Ok, Orca. We have on place for similar purposes. But you'll have to pay extra for the stay, given the circumstances. I hope you have good budget for expenses. Dock at 11-0-1 and make it quick".
+"Ok, Orca. We have one place for similar purposes. But you'll have to pay extra for the stay, given the circumstances. I hope you have a good budget for expenses. Dock at 11-0-1 and make it quick".
 
 <aside>
 Sacrifice resources -1
