@@ -1,15 +1,16 @@
 pre,
-pre code {
+pre code, aside {
   background-color: transparent;
   border-radius: $pre-border-radius;
 }
 
 pre,
-code {
+code, 
+aside {
   font-family: $monospace-font-family;
 }
 
-code {
+code, aside {
   color: #7a7a7a;
 }
 
@@ -19,6 +20,14 @@ pre {
   overflow-x: scroll;
   margin-bottom: 0.88em;
   background-color: $pre-background-color;
+}
+
+aside {
+  padding: 1.125em;
+  line-height: 1.11;
+  margin-bottom: 0.88em;
+  background-color: $pre-background-color;
+  white-space: pre-line;  
 }
 
 .highlight .p {
@@ -67,4 +76,9 @@ pre a:last-of-type::before {
 
 pre a:only-of-type::before {
   padding: 10px;
+}
+
+aside.note {
+  font-family: $font-family;
+  line-height: 1.2;
 }
