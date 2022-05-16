@@ -34,61 +34,62 @@ Valentin has backstory prompt from the character creation: "He is the sole survi
 
 *As Orca jumped to the orbit of Thorn, Yelena took her legs from the control panel and kindly moved Jones from her lap to the ground.*
 
-*"It's time for delivery." She opened black box to reassure herself that the package is still there. It was. Crystal clear cube, roughly the size of human fist. "Let's land and find Ms. Sikorski."*
+*"It's time for delivery." She opened black box to reassure herself that the package is still there. Crystal clear cube, roughly the size of human fist. was still there." Let's land and find Ms. Sikorski."*
 
 *"Rook to Portent. Data courier with a package, preparing to land."* *Only radio silence answered her. Unusual, something is odd here. She repeated the message several times. When suddenly static cracked in radio speakers and young voice of child answered:*
 
-*"Hello? Is anyone there? Help me please! Please...." sobbing interrupted the sound. "Calm down kid, calm down. What is happening. Could you find someone grown up?"*
+*"Hello? Is anyone there? Help me please! Please...." sobbing interrupted the sound. "Calm down kid, calm down. What is happening? Could you find someone grown up?"*
 
-*"I am sorry... I think... they are all ... dead.... they are all dead. And  there is the creature. Scary one. Never saw it whole.... Please, help me. I have been hiding for two weeks already..."*
+*"I am sorry... I think... they are all ... dead.... they are all dead. And there is the creature. A scary one. Never saw it whole... Please, help me. I have been hiding for weeks already..."*
 
-*Yelena looked at her assault rifle attached to the wall in the cabin. She quickly plotted landing trajectory."I  guess Jones, the package is gonna return to the sender. But hold on, We  have saving to do. And maybe a bit of hunting as well".*
+*Yelena looked at her assault rifle attached to the wall in the cabin. She quickly plotted landing trajectory." I guess Jones, the package is gonna return to the sender. But hold on, We have saving to do. And maybe a bit of hunting as well".*
 
 ## The package delivery
 
-Karma is admirable piece of engineering. Hundreds of huge hydroponic farms which produce enough food to feed thousands of workers living here and a huge part of the sector's population. It's surprising that it orbits a desert planet. Where do they take all the water? The station is in control of big farmers guild and they are keeping their secrets. 
+Karma is an admirable piece of engineering. Hundreds of huge hydroponic farms which produce enough food to feed thousands of workers living here and a huge part of the sector's population. It's surprising that it orbits a desert planet. Where do they take all the water? The station controlled by local farmer's guild and they are keeping their secrets. 
 
-It's not the nicest place to be. The farmers guild struggles to keep the order here. Crime is common. I decided to leave the money hidden in the ship. There's nicely hidden compartment exactly for those purposes so even if someone breaks in, they shouldn't find it. Let's find Kiri Braddock first.
+It's not the nicest place to be. The guild struggles to keep the order here. Crime is common. I decided to leave the money hidden in the ship. There's a  hidden compartment exactly for those purposes. Even if someone breaks in, they shouldn't find it. Let's find Kiri Braddock.
 
 <aside>[Gather information +wits 3+2=5 vs 1 | 4 = strong hit]</aside>
 
-Not even an hour of asking around and I am forwarded to a table in local cantina. Tall, a little bid aged woman with short gray hair is sitting in a booth and talking to another person. Kiri Brook. As I approach, a big and wide fella dressed in rugged combat armor takes two steps from shadow and stood in may way.
+Not even an hour of asking around and I am forwarded to a table in local cantina. Tall, aged woman with short gray hair is sitting in a booth and talking to another person. Kiri Braddock. As I approach her, a big and wide fella dressed in rugged combat armor takes two steps from shadow and stands in may way. 
 
 "Miss Braddock is busy, as you can see. Who are you and what is you business?"
 
-"The name is Sikorski, data courier." I point to my pendant, "Looking for miss Brook to pick up a data package for Mr. Book. She will know. And I am happy to wait". I figured it's better to use Julio's call sign.
+"The name is Sikorski, data courier." I point to my pendant, "Looking for miss Braddock to pick up a data package for Mr. Book. She will know. And I am happy to wait". I figured it's better to use Julio's call sign.
 
-He nods and approaches Kiri and whispers something to her. She gives me a grim look and answers.
+He nods and approaches Kiri and whispers something to her. She gives me a grim look and whispers answer to him.
 
-"Come in 30 minutes and bring the payment."
+"Come in 30 minutes and bring the payment," he says.
 
-Perfect, finally something goes smoothly. The box with payment was still in the hidden compartment. Thankfully it not that big so I as able to  strap it on my body and hide it under my jacket. I realized I don't even know what is in there. Sometimes it's better not to know.
+Perfect, finally something goes smoothly. The box with payment was still in the hidden compartment. Thankfully it's not that big so I was able to strap it on my body and hide it under my jacket. I realized I don't even know what's in there. Sometimes it's better not to know.
 
 ---
 
-"So you are Mr Books friend, hmm." when I sat before her. "Is Julio feeling old already, so he sends youngsters?". I glance over Jones. Light purple and ochre flashes. She is suspicious.
+"So you are Mr. Book's friend. Hmm." She said as I was sitting before her. "Is Julio feeling old already so he sends youngsters?". I glanced over Jones. Light purple and ochre flashes. She is suspicious.
 "I have been working with Mr. Book for some time, I suppose he considers me trustworthy."
 I slide the package with payment to her over the table.
 "Do you have the data?"
-She the package it into her lap and checks the content. She nods at the big fella.
+She took the package it into her lap and checked the content. She noded at the big fella.
 
-He places a transparent data cube before me. Blue tint. That's military grade.
+He placed a transparent data cube in front of me. Blue tint. That's military grade.
 
-I take it and put into a hidden pocket.  "Pleasure was mine."
+I took it and put it into a hidden pocket.  "Pleasure was mine."
 
 <aside>[reach a milestone]</aside>
 
-"Do you, by any chance know nice place to stay and someone who could help me to get some supplies? I think I need a bit of rest before I go back.
+"Do you, by any chance know nice place to stay and someone who could help me to get some supplies  I need a bit of rest before I go back."
 
-<aside>[Sojourn +heart: 3+2=5 vs 9|3 weak hit]  Resupply, automatic strong hit +2 supply.</aside>
+<aside>[Sojourn +heart: 3+2=5 vs 9|3 weak hit] 
+choosing resupply, automatic strong hit, +2 supply</aside>
 
-She raises eyebrows. "There are no nice places around. It's just dirt and mold everywhere. But Lowell can introduce you to some folks in the port to resupply your ship."  The big fella nods.
+She raises eyebrows. "There are no nice places around. It's just dirt and mold everywhere. But Lowell can introduce you to some folks in the port to resupply your ship." The big fella nods.
 
-And as she said, we didn't have trouble to refill the fell and of course, plenty of rations to get around here. Food gets only more expensive as it travels from here. I was tempted to stay and have couple of drinks to make cheer up myself. But we are in hurry.
+As she said, we didn't have trouble to refill fell and of course, plenty of rations to get around here. Food gets only more expensive as it travels from here. I was tempted to stay and have couple of drinks to cheer up myself. But I am in hurry.
 
 "Common Jones, going back. Should be easier than getting here".
 
-<aside>[set a course +supply 6+4=10 vs 4|10]  weak hit. Courier asset, -1 safety (alternative cost)</aside>
+<aside>[set a course +supply 6+4=10 vs 4|10] weak hit. Courier asset, -1 safety (alternative cost)</aside>
 
 The journey back was indeed easier and safer, just jumping through drifts along the known paths. Yet it took some time to go all the way to Prism Station.
 
