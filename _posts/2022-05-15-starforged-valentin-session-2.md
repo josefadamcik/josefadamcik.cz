@@ -22,10 +22,10 @@ Session 2 of my [Ironsworn: Starforged][starforged] actual play journal.
 
 Valentin has backstory prompt from the character creation: "He is the sole survivor of an attack or calamity"
 
-- What was the disaster he survived?Manipulate life
-- What was the result? Unstable territory
-- Who did that? Faction name: Stellar serpents
-- Where it was? Jungle planet Thorn, planet-side settlement Porten
+What was the disaster he survived? Manipulate life
+What was the result? Unstable territory
+Who did that? Faction name: Stellar serpents
+Where it was? Jungle planet Thorn, planet-side settlement Porten
 
 (+1 momentum)
 </aside>
@@ -89,24 +89,25 @@ As she said, we didn't have trouble to refill fell and of course, plenty of rati
 
 "Common Jones, going back. Should be easier than getting here".
 
-<aside>[set a course +supply 6+4=10 vs 4|10] weak hit. Courier asset, -1 safety (alternative cost)</aside>
+<aside>[set a course +supply 6+4=10 vs 4|10] weak hit 
+ Alternative cost: courier asset, -1 safety (delivering a )</aside>
 
 The journey back was indeed easier and safer, just jumping through drifts along the known paths. Yet it took some time to go all the way to Prism Station.
 
 <aside>
-Location oracles:
+Location oracles
 First look: Industrial architecture, build from scrap metal.
 Trouble: Preyed upon by raiders
 Initial contact: Uncooperative
 </aside>
 
-Once you see Prism Station you can immediately tell that it is a home of scavengers. Chaotic patchwork of old star ship wrecks welded together using plates of scrap metal from destroyed ships and stations. People used what hey found to build it piece by piece over time. It's wonder it still holds together.
+Once you see Prism Station you can immediately tell that it is a home of scavengers. Chaotic patchwork of old star ship wrecks welded together using plates of scrap metal from destroyed ships and stations. People used what they found to build it piece by piece over time. It's wonder it still holds together.
 
-"Orca to Prism, have you got a free spot for a courier."
+"Orca to Prism, have you got a free spot for a courier?"
 
 "Prism to Orca. We don't really have time to baby sit you. Just suit yourself, find a spot. Prism over and out."
 
-"Well, that wasn't really welcoming, Jones, was it?". Prism is quite chaotic place to dock in. Thankfully I wasn't here for the first time and I found one empty airlock. Not far away from Julio's place. The corridors of Prism Station were bit more chaotic than usually. People running around, some of them injured, other's dragging around welding equipment. Bots beeping like crazy.  I buzzed at Julio's door.
+"Well, that wasn't really welcoming, Jones, was it?". Prism is quite chaotic place to dock in. Thankfully I wasn't here for the first time and I found one empty airlock. Not far away from Julio's place. The corridors of Prism Station were bit more chaotic than usually. People running around, some of them injured, other's dragging around welding equipment. Bots beeping like crazy. I buzzed at Julio's door.
 
 <aside>
 [reach a milestone]
@@ -115,17 +116,17 @@ Once you see Prism Station you can immediately tell that it is a home of scaveng
 
 "Young Valentin, welcome back, what took you so long?" sounds from the speaker before I even say anything."
 
-Julio opens the door, glances over my shoulder, perhaps to make sure nobody is tailing me. Wild grey beard an unkempt curly hair, dressed in shabby clothes, hands always a bit dirtier than you would expect from someone who works with data. He is certainly not a poor guy, just not interested in looks. He  does crave information and knowledge.
+Julio opens the door, glances over my shoulder, perhaps to make sure nobody is tailing me. Wild grey beard an unkempt curly hair, dressed in shabby clothes, hands always a bit dirtier than you would expect from someone who works with data. He is certainly not a poor guy, just not interested in looks. He does crave information and knowledge.
 
 "Julio, I am glad to be back. What is the havoc outside?"
 
 "Raider attack. Second this month already. I don't understand what they think they gonna find here. Do you have the data cube?"
 
-"Here it is. It was a tad bit more complicated, sender was at a different location and we had some trouble getting there.
+"Here it is. It was a bit more complicated, sender was at a different location and we had some trouble getting there."
 
-He stick the cube into a reader and quickly scrolls through stream of characters and images on the display.
+He stick the cube into a reader and quickly scrolls through a stream of characters and images on the display.
 
-"Bingo! That's exactly what I was looking for. I'll have spend some time analyzing the data, but this looks very promising. I might have a bit more interesting job for you tomorrow.  Now, let's have a drink tell me about your travels." He reaches for bottle of liquor and two metal mugs. 
+"Bingo! That's exactly what I was looking for. I'll have to spend some time analyzing the data, but this looks very promising. I might have a bit more interesting job for you tomorrow. Now, let's have a drink tell me about your travels." He reaches for a bottle of liquor and two metal mugs. 
 
 <aside>[develop relationship] +3 boxes for connection with Julio.
 [Sojourn: +heart: weak hit: 3+2=5 vs 4|9], Hearten with automatic strong hit.</aside>
@@ -133,15 +134,6 @@ He stick the cube into a reader and quickly scrolls through stream of characters
 <aside>[end a session]
 Next time, Julio we will discover what is the next job Julio was promising. And how is it connected to Yelena.
 </aside>
-
-
-
-
-
-
-
-
-
 
 [ironsworn]: <https://www.ironswornrpg.com/> "Ironsworn"
 {:target="_blank"}
