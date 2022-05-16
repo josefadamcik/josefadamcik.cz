@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Starforged: Valentin Sikorski (Sessoin 2)"
+title: "Starforged: Valentin Sikorski (Session 2)"
 categories: starforged
 tags: [ttrpg, pnp, soloplay]
 series: "starforged-valentin"
