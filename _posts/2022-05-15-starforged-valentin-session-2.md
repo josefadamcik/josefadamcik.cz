@@ -16,6 +16,7 @@ Session 2 of my [Ironsworn: Starforged][starforged] actual play journal.
 
 {%- include post_series.html -%}
 
+Details about [truths][truths], [character][character] and [the starting sector][sector].
 
 <aside>
 [Begin a Session: Flashback reveals an aspect of your background or nature]
@@ -147,3 +148,6 @@ Next time, we will discover what is the next job Julio was promising. And how is
 {:target="_blank"}
 [sofatko]: <https://www.instagram.com/sophiehardy5/> "Anna Marklová (Instagram)"
 {:target="_blank"}
+[truths]: <{{ site.baseurl }}{% post_url 2022-05-09-starforged-valentin-campaing-start %}#truths> "Session 0: Truths"
+[character]: <{{ site.baseurl }}{% post_url 2022-05-09-starforged-valentin-campaing-start %}#character> "Session 0: Character"
+[sector]: <{{ site.baseurl }}{% post_url 2022-05-09-starforged-valentin-campaing-start %}#starting-sector> "Session 0: Starting sector"

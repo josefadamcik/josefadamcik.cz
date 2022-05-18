@@ -16,6 +16,8 @@ Session 3 of my [Ironsworn: Starforged][starforged] actual play journal. We lear
 
 {%- include post_series.html -%}
 
+Details about [truths][truths], [character][character] and [the starting sector][sector].
+
 
 <aside>[Begin a Session: Influential character or faction is introduced or given new detail] 
 +1 momentum
@@ -344,3 +346,6 @@ I learned that fighting a formidable group of foes can take quite some time.
 {:target="_blank"}
 [sofatko]: <https://www.instagram.com/sophiehardy5/> "Anna Marklová (Instagram)"
 {:target="_blank"}
+[truths]: <{{ site.baseurl }}{% post_url 2022-05-09-starforged-valentin-campaing-start %}#truths> "Session 0: Truths"
+[character]: <{{ site.baseurl }}{% post_url 2022-05-09-starforged-valentin-campaing-start %}#character> "Session 0: Character"
+[sector]: <{{ site.baseurl }}{% post_url 2022-05-09-starforged-valentin-campaing-start %}#starting-sector> "Session 0: Starting sector"
