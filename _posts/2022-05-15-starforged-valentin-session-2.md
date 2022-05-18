@@ -132,7 +132,7 @@ He sticks the cube into a reader and quickly scrolls through a stream of charact
 [Sojourn, +heart: weak hit: 3+2=5 vs 4|9], Hearten with an automatic strong hit.</aside>
 
 <aside>[end a session]
-Next time, Julio we will discover what is the next job Julio was promising. And how is it connected to Yelena?
+Next time, we will discover what is the next job Julio was promising. And how is it connected to Yelena?
 </aside>
 
 [ironsworn]: <https://www.ironswornrpg.com/> "Ironsworn"
