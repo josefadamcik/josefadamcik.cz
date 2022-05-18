@@ -8,7 +8,7 @@ published: true
 image: /images/starforged/starforged_thumbnail_1.png
 ---
 
-Session 2 of my [Ironsworn: Starforged][starforged] actual play journal. Is Valenting going to be able to pick up and deliver the package? 
+Session 2 of my [Ironsworn: Starforged][starforged] actual play journal. Is Valentin going to be able to pick up and deliver the package?
 
 {% responsive_image path: images/starforged/starforged_thumbnail_1.png alt:"Valentin & Jones, Session 2, Starforged actual play journal" %}
 
@@ -16,6 +16,7 @@ Session 2 of my [Ironsworn: Starforged][starforged] actual play journal. Is Vale
 
 {%- include post_series.html -%}
 
+Details about [truths][truths], [character][character] and [the starting sector][sector].
 
 <aside>
 [Begin a Session: Flashback reveals an aspect of your background or nature]
@@ -132,7 +133,7 @@ He sticks the cube into a reader and quickly scrolls through a stream of charact
 [Sojourn, +heart: weak hit: 3+2=5 vs 4|9], Hearten with an automatic strong hit.</aside>
 
 <aside>[end a session]
-Next time, Julio we will discover what is the next job Julio was promising. And how is it connected to Yelena?
+Next time, we will discover what is the next job Julio was promising. And how is it connected to Yelena?
 </aside>
 
 [ironsworn]: <https://www.ironswornrpg.com/> "Ironsworn"
@@ -147,3 +148,6 @@ Next time, Julio we will discover what is the next job Julio was promising. And 
 {:target="_blank"}
 [sofatko]: <https://www.instagram.com/sophiehardy5/> "Anna Marklová (Instagram)"
 {:target="_blank"}
+[truths]: <{{ site.baseurl }}{% post_url 2022-05-09-starforged-valentin-campaing-start %}#truths> "Session 0: Truths"
+[character]: <{{ site.baseurl }}{% post_url 2022-05-09-starforged-valentin-campaing-start %}#character> "Session 0: Character"
+[sector]: <{{ site.baseurl }}{% post_url 2022-05-09-starforged-valentin-campaing-start %}#starting-sector> "Session 0: Starting sector"
