@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Starforged: Valentin Sikorski (Sessoin 2)"
+title: "Starforged: Valentin Sikorski (Session 2)"
 categories: starforged
 tags: [ttrpg, pnp, soloplay]
 series: "starforged-valentin"
@@ -8,7 +8,7 @@ published: true
 image: /images/starforged/starforged_thumbnail_1.png
 ---
 
-Session 2 of my [Ironsworn: Starforged][starforged] actual play journal.
+Session 2 of my [Ironsworn: Starforged][starforged] actual play journal. Is Valenting going to be able to pick up and deliver the package? 
 
 {% responsive_image path: images/starforged/starforged_thumbnail_1.png alt:"Valentin & Jones, Session 2, Starforged actual play journal" %}
 
