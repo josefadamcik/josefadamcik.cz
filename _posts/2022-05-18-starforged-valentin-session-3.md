@@ -8,7 +8,7 @@ published: true
 image: /images/starforged/starforged_thumbnail_3.png
 ---
 
-Session 3 of my [Ironsworn: Starforged][starforged] actual play journal. We learn a bit more about Yelena. Valentin gets the promised job and a plan. Valentin is introduced to a new connection and he is tested in a battle.
+Session 3 of my [Ironsworn: Starforged][starforged] actual play journal. We learn a bit more about Valentin's lost mentor Yelena. Valentin is offered the promised job and given a plan. He is also introduced to a new connection and tested in a battle.
 
 {% responsive_image path: images/starforged/starforged_thumbnail_3.png alt:"Valentin & Jones, Session 3, Starforged actual play journal" %}
 
