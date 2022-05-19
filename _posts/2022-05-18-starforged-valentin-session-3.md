@@ -31,7 +31,7 @@ In a settlement? [Ask the Oracle: Yes]
 
 ## Flashback: Lost
 
-*A screen shows a silent video stream, most likely a security cam footage from a corridor. People and droids are passing by, a busy day. Yelena Volkov enters the frame and walks towards a door.  She rings, waits and enters. The daily routine of a courier. The stream is fast-forwarded. Nobody leaves the place for around 30 minutes. Finally, a tall guy with wide shoulders, wearing a long coat, with his head covered by a hoodie, exits the door. A utility droid follows him and drags a wheeled container. Suspiciously big for a piece of travel luggage. Big enough to fit a person. As the man watches the bot and makes sure the container gets from the room, a courier droid whizzes into the picture tries to avoid running into the container and partially hits the man. His hoodie falls down from his head. He is facing away from the camera. We can only see his bald head with a circle@shaped tattoo behind his left ear.*
+*A screen shows a silent video stream, most likely a security cam footage from a corridor. People and droids are passing by, a busy day. Yelena Volkov enters the frame and walks towards a door.  She rings, waits and enters. The daily routine of a courier. The stream is fast-forwarded. Nobody leaves the place for around 30 minutes. Finally, a tall guy with wide shoulders, wearing a long coat, with his head covered by a hoodie, exits the door. A utility droid follows him and drags a wheeled container. Suspiciously big for a piece of travel luggage. Big enough to fit a person. As the man watches the bot and makes sure the container gets from the room, a courier droid whizzes into the picture tries to avoid running into the container and partially hits the man. His hoodie falls down from his head. He is facing away from the camera. We can only see his bald head with a circle-shaped tattoo behind his left ear.*
 
 ## The next job
 
@@ -94,9 +94,9 @@ I told her just the most important details. It's not necessary to disclose every
 
 She nodded. "You forgot something."
 
-I took a platinum ingot from my pocket and threw it on the table.
+I took a small platinum ingot from my pocket and threw it on the table.
 
-"Another one after the job".
+"Another one after the job."
 
 <aside>[Secure an advantage, +heart +3 (Glowcat): strong hit 8 vs 2 | 3]
 +2 momentum (already full) 
@@ -111,7 +111,7 @@ Suddenly, a loud alarm sounds from outside. Kayla jumps up and grabs her rifle. 
 
 She looks at me. "Well, you want me to cover your back? Show me that you can cover mine." She opens a locker and throws me another pulse rifle. "Come on with me, they always fire a few barrages and then they board around the main storage area. We are going to help to defend." and she runs out of the room.
 
-"Well Jones, apparently we are fighting some bandits. But you stay here." e
+"Well Jones, apparently we are fighting some bandits. But you stay here."
 
 ## Raiders
 
@@ -330,6 +330,8 @@ Valentin managed to get a new connection and reached the first milestone in the 
 Next time, he should try to extract identification codes and coordinates from one of the Selena Station's supply ships.
 
 I learned that fighting a formidable group of foes can take quite some time.
+
+I also forgot/missed that a strong hit on the endure harm move gives me the controll (the initiative) when in combat.
 
 +1 momentum
 </aside>

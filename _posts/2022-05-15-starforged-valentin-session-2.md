@@ -26,7 +26,7 @@ Valentin has backstory prompt from the character creation: "He is the sole survi
 What was the disaster he survived? Manipulate life
 What was the result? Unstable territory
 Who did that? Faction name: Stellar serpents
-Where it was? Jungle planet Thorn, planet-side settlement Porten
+Where it was? Jungle planet Thorn, planet-side settlement Portent
 
 (+1 momentum)
 </aside>
