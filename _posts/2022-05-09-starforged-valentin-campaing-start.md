@@ -122,7 +122,11 @@ I chose the assets. Starforged has a random table for names, but I used it only 
 - Look: Average height, subtle figure (slim, fit, not muscular). Short dark hair. Brown eyes.
 - Act: Quiet, reserved, introverted. 
 - Wear: Black cargo pants, practical pouches on the belt (can carry basic equipment around). Heavy, high boots. Long-sleeved black turtle-neck. Black tactical jacket when appropriate.  Small backpack for additional gear. 
-- Additional gear: A concealed handgun. Pendant from black iron with an image of an augmented dolphin.
+- Additional gear: 
+    - Pendant from black iron with an image of an augmented dolphin.
+    - A concealed handgun.
+    - Taser
+    - Hacking-kit (extensions for personnal com. device).
 
 ### Ship
 
