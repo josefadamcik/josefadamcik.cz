@@ -101,7 +101,7 @@ DATA:    [======    ]  55.5% (used 284 bytes from 512 bytes)
 PROGRAM: [========= ]  94.9% (used 7776 bytes from 8192 bytes)
 ```
 
-### Happy end 
+### Happy end
 
 Even though it was a bit frustrating in the end it was a great lesson for me. I should be so more patient and careful when dealing with hardware. Those quick and dirty trial-and-error iterations I am so comfortable with when it comes to software development just don't work when it comes to hacking hardware.
 
