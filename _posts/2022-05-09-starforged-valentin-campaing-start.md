@@ -127,6 +127,12 @@ I chose the assets. Starforged has a random table for names, but I used it only 
     - A concealed handgun.
     - Taser
     - Hacking-kit (extensions for personnal com. device).
+- Stats:
+    - Edge: 1 
+    - Heart:2 
+    - Iron: 1
+    - Shadow: 3 
+    - Wits: 2 
 
 ### Ship
 

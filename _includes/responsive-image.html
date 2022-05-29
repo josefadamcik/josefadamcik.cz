@@ -13,7 +13,7 @@ Usage:
 {%- unless ingallery -%}
 <div class="gallery gallery-alone">
 {%- endunless -%}
-<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"><a  itemprop="contentUrl" class="imagelink" href="/{{ path }}" target="_image"  data-size="{{original.width}}x{{original.height}}"><img class="{{ class }}" src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}"  itemprop="thumbnail"></a>{%- if figcaption -%}<figcaption  itemprop="caption description">{{ figcaption }}</figcaption>{%- endif -%}
+<figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">{%- unless thumbnail -%}<a  itemprop="contentUrl" class="imagelink" href="/{{ path }}" target="_image"  data-size="{{original.width}}x{{original.height}}">{%- endunless -%}<img class="{{ class }}" src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}"  itemprop="thumbnail">{%- unless thumbnail -%}</a>{%- endunless -%}{%- if figcaption -%}<figcaption  itemprop="caption description">{{ figcaption }}</figcaption>{%- endif -%}
 </figure>
 {%- unless ingallery -%}
 </div>
