@@ -10,7 +10,7 @@ image: /images/starforged/starforged_thumbnail_5.png
 
 Session 5 of my [Ironsworn: Starforged][starforged] actual play journal. A simple delivery side job develops unexpectedly. And who are Scarlet Blades
 ?
-{% responsive_image path: images/starforged/starforged_thumbnail_5.png alt:"Valentin & Jones, Session 5, Starforged actual play journal" thumbnail %}
+{% responsive_image path: images/starforged/starforged_thumbnail_5.png alt:"Valentin & Jones, Session 5, Starforged actual play journal" thumbnail:true %}
 
 <!--more--> 
 
@@ -275,6 +275,8 @@ Derya was quite grateful as well. I wished them good travel and good luck.
 
 <aside>[develop relationship: Derya Bond]
 ■■■■□□□□□□</aside>
+
+{% responsive_image path: images/starforged/sector_map02.png alt:"Sector map" %}
 
 "Julio, I am on my way to you. Tell Kayla to get ready, I would prefer to leave sooner than later. I think this place is not the safest right now"
 

@@ -244,7 +244,7 @@ Is it in a new location?
 
 Several sources confirmed she traveled  to **Karma Station-** a big hydroponic multi-farm on the orbit of a desert planet **Dykuma**. It's rumored she had very important business there. I have considered waiting, but Julio insisted this matter needs to be resolved quickly. The intel might lose its value over time.
 
-{% responsive_image path: images/starforged/sector_map02.png alt:"Valentin & Jones, Session 0+1, Starforged actual play journal" %}
+{% responsive_image path: images/starforged/sector_map02.png alt:"Sector map" %}
 
 
 <aside>
