@@ -82,3 +82,8 @@ aside.note {
   font-family: $font-family;
   line-height: 1.2;
 }
+
+aside.character {
+  line-height: 1.2;
+  white-space: pre;
+}
