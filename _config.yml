@@ -11,7 +11,8 @@ date_format: "%b %-d, %Y"
 header_pages:
   - index.html
   - notebook/index.html
-  - about.md
+  - links.md
+  # - about.md
 
 tag_page_layout: tag_page
 tag_page_dir: tag

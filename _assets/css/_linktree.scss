@@ -1,0 +1,88 @@
+.links-container {
+    min-width: 300px;
+    max-width: 30rem;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links-container h1, .links-container h2 {
+    width: 100%;
+    text-align: center;
+    color: #555;
+}
+
+.links-container a, .links-container a:hover {
+    background-image: none;
+    text-decoration: none;
+    color: #555;
+}
+
+.links-container .social-icons{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.links-container .social-icons-left{
+    text-align: center;
+}
+
+.links {
+
+}
+.links > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    color: #333;
+    border: 1px solid #DDD;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    opacity: 0.8;
+}
+
+.links > a > span.fa {
+    box-sizing: border-box;
+    font-size: 4rem;
+    padding: 24px;
+    /*min-width: 128px;*/
+    /*min-height: 128px;*/
+}
+
+.links > a > span.ko-fi{
+    padding: 24px;
+}
+
+.links > a > span.linklabel {
+    /*flex-grow: 1;*/
+    text-align: center;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+.links > a > span.ko-fi > img {
+    width: 80px;
+    height: 80px;
+}
+
+
+/*@media(max-width: 480px) {*/
+    .links > a > span.fa {
+        font-size: 2rem;
+    }
+    .links > a > span.linklabel {
+        font-size: 1.5rem;
+    }
+
+    .links > a > span.ko-fi > img {
+        width: 42px;
+        height: 42px;
+    }
+ 
+/*}*/
