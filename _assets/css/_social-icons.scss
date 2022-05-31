@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+.social-icons a {
+  font-size: 1.25rem;
+}
+
 .social-icons a.fa {
   cursor: pointer;
   opacity: 0.8;
@@ -30,4 +34,18 @@ footer .social-icons {
 
 footer .social-icons-left, footer .social-icons-right {
   text-align:center;
+}
+
+
+.social-icons a.ko-fi {
+  padding:0px;
+  line-height: 0
+}
+
+.social-icons a.ko-fi img {
+  width: 25px;
+  height: 25px;
+  opacity: 0.8;
+  position:relative;
+  top:6px;
 }
