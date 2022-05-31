@@ -11,7 +11,8 @@ date_format: "%b %-d, %Y"
 header_pages:
   - index.html
   - notebook/index.html
-  - about.md
+  - links.md
+  # - about.md
 
 tag_page_layout: tag_page
 tag_page_dir: tag
@@ -64,7 +65,7 @@ linkedin_username: josefadamcik
 instagram_username: josadamcik
 stackoverflow_id: 135837
 stackoverlflow_username: josef.adamcik
-
+kofi_username: josefadamcik
 
 # Post sharing icons
 show_sharing_icons: true
@@ -223,6 +224,7 @@ assets:
     - default-skin.png
     - default-skin.svg
     - preloader.gif
+    - kofi.svg
   plugins:
     css: { autoprefixer: {}}
     img: { optim: {}}

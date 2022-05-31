@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="site">
+  <div class="site-wrap">
+    <nav>
+    </nav>  
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        <div class="links-container">
+        <h1>Josef Adamčík</h1>
+        {% if site.show_social_icons %}
+            {% include social_links.html %}
+        {% endif %}
+
+        {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
