@@ -224,7 +224,6 @@ assets:
     - default-skin.png
     - default-skin.svg
     - preloader.gif
-    - kofi.svg
   plugins:
     css: { autoprefixer: {}}
     img: { optim: {}}

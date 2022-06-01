@@ -6,13 +6,13 @@ tags: [ttrpg, pnp, soloplay]
 series: "starforged-valentin"
 published: true
 image: /images/starforged/starforged_thumbnail_5.png
+summary: "Session 5 of my Ironsworn: Starforged actual play journal. A simple delivery side job develops unexpectedly. And who are Scarlet Blades?"
 ---
+
 
 Session 5 of my [Ironsworn: Starforged][starforged] actual play journal. A simple delivery side job develops unexpectedly. And who are Scarlet Blades
 ?
 {% responsive_image path: images/starforged/starforged_thumbnail_5.png alt:"Valentin & Jones, Session 5, Starforged actual play journal" thumbnail:true %}
-
-<!--more--> 
 
 {%- include post_series.html -%}
 

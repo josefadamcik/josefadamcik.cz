@@ -3,6 +3,7 @@ title: A place to write things down
 layout: post
 categories: various
 published: true
+
 ---
 
 I had [a blog](https://zapisnik.pepiino.cz) for a long time. I wrote the first post at 2005 and the last one at 2010. Blog was written in Czech language and the topics varied from Programming, through Linux, films, music, to various jottings about my daily life. I had covered my first serious attempt to quit smoking (which failed after 6 months), projects I had been working and so on. Though I wasn't the most productive writer, yet I had managed to write over 100 posts during those 5 years.
