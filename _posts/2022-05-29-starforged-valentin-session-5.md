@@ -68,7 +68,9 @@ Avian/winged
 Many-eyed
 Camouflager</aside>
 
-For a moment I thought Bruno was just joking. I wiped the dusty window to see better because the crate looked empty. Then something in the corner moved. And blinked. Blinked with half a dozen of eyes at the same time. I took a light and shined it in the crate. The creature started changing skin colours as the light confused its ability to camouflage. It was a small, winged creature. Like a cross-breed of a chameleon and a bat.
+For a moment I thought Bruno was just joking. I wiped the dusty window to see better because the crate looked empty. Then something in the corner moved. And blinked. Blinked with half a dozen of eyes at the same time. I took a light and shined it in the crate. The creature started changing skin colours as the light confused its ability to camouflage. It was a small, winged creature. 
+
+{% responsive_image path: images/starforged/monster2.kra.jpg alt:"Tiny, winged, many-eyed, Camouflager illustration " figcaption: "Illustration by my beloved partner <a href='https://www.instagram.com/sophiehardy5' target='_blank'>Anna Marklová</a>" %}
 
 Three short beeps signalled that we exited the drift and are at the destination. I gasped when I looked at the screen.
 
