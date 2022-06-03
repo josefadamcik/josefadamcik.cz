@@ -6,11 +6,10 @@ tags: [ttrpg, pnp, soloplay]
 series: "starforged-valentin"
 published: true
 image: /images/starforged/starforged_thumbnail_6.png
-summary: "TODO"
+summary: "Session 6 of my Ironsworn: Starforged actual play journal. Valentin meets a new enemy and embarks on a journey."
 ---
 
-
-Session 6 of my [Ironsworn: Starforged][starforged] actual play journal. TODO:
+Session 6 of my [Ironsworn: Starforged][starforged] actual play journal. Valentin meets a new enemy and embarks on a journey.
 
 {% responsive_image path: images/starforged/starforged_thumbnail_6.png alt:"Valentin & Jones, Session 5, Starforged actual play journal" thumbnail:true %}
 
@@ -41,7 +40,7 @@ to my mentor Yelena Volkov.
 </aside>
 
 
-## Before we embark
+## Consequences
 
 <aside>[begin a session]
 Peril lies ahead or lurks just out of view.
@@ -52,34 +51,35 @@ Location theme (inhabited) peril: Arrival of a rival or foe
 **Kiana O'Niel** was laying on her bed, tattooed arms behind her head, whistling a melody.
 
 A man in grey overalls entered the room. 
-"We have a contact. You were right when you guessed they'll meet with the smuggler here. Orca just arrived in orbit."
+"We have contact. You were right when you guessed they'll meet with the smuggler here. Orca just arrived in orbit."
 
 "Sounds like you didn't trust my judgement. I'll remember that. Let's land, we have some questions to ask. I am really curious what he did with the stolen data."
 
------
 
-Necropolis. Always hidden under dark grey clouds. A dead world, most likely destroyed by its former inhabitants. The atmosphere is so corrosive, it would eat a person's skin if unprotected. Its surface is covered by endless dunes of ash mixed with fetid mudlfats. 
+## The promised payment
 
-In the middle of this, one quite large settlement: Enigma. The only reason people settled here are the ruins of a long  dead civilisation. The city wouldn't exist without explorers, relics hunters, grunts and researchers. All trying to desperately get rich or make a scientific breakthrough while risking their lives on this uninhabitable planet.
+Necropolis. Always hidden under dark grey clouds. A dead world, most likely destroyed by its former inhabitants. The atmosphere is so corrosive, that it would eat a person's skin if unprotected. Its surface is covered by endless dunes of ash mixed with fetid mudflats. 
+
+In the middle of this, one quite large settlement: Enigma. The only reason people settled here is the ruins of a long-dead civilisation. The city wouldn't exist without explorers, relics hunters, grunts and researchers. All trying to desperately get rich or make a scientific breakthrough while risking their lives on this uninhabitable planet.
 
 As we descended below the clouds we could see several big transparent domes protecting the city from the corrosive environment. 
 
-Things have changed since I was here for the last time. The biggest dome has clearly suffered significant structural damage. There is a huge crack in the middle of the dome. From the ground all the way to the top.  The crack is being patched and fixed. We can see many construction vehicles working on repairs. It seems to be mostly patched already but the damage must happened quite recently.
+Things have changed since I was here for the last time. The biggest dome has clearly suffered significant structural damage. There is a huge crack in the middle of the dome. From the ground all the way to the top.  The crack is being patched and fixed. We can see many construction vehicles working on repairs. It seems to be mostly patched already but the damage must have happened quite recently.
 
 ---
 
 We landed close to "Dead Reckoning", Bruno's ship.
 
-Part of me was wondering if he is actually going to wait for me to pay as he promised.When I entered his ship I was welcomed by both him and Derya Bond.
+Part of me was wondering if he is actually going to wait for me to pay as he promised. When I entered his ship I was welcomed by both him and Derya Bond.
 
 "Glad you made it, Valentin! Part of me was wondering if I am gonna wait or run away without actually paying you." he laughed.
 
-"Nice to see you again, Mr Valentin." said Derya Bond. "I came to thank you again. And also to make sure you get all the supplies you need. If it happens that Mr Bond would feel that you are asking for more than he would consider as fair payment, I am more than happy to help to cover the difference."
+"Nice to see you again, Mr Valentin," said Derya Bond. "I came to thank you again. And also to make sure you get all the supplies you need. If Mr Bond would feel that you are asking for more than he would consider as fair payment, I am more than happy to help to cover the difference."
 
 <aside>[resupply +heart +1 (Bruno) +1 (Derya)=10 vs 6|7: strong hit]
 +2 supply (4)</aside>
 
-Bruno helped me to move all the supplies to Orca. I returned back to his ship to say the good byes. As I was getting back to Orca, three figures blocked my path. Two people in grey overalls would be hard to remember. But the tall, slim, dark skinned woman in a black tank top would be certainly easy to remember. The tank top was revealing her arms completely covered with tattoos. 
+Bruno helped me to move all the supplies to Orca. I returned back to his ship to say my goodbyes. As I was getting back to Orca, three figures blocked my path. Two people in grey overalls would be hard to remember. But the tall, slim, dark-skinned woman in a black tank top would be certainly easy to remember. The tank top was revealing her arms completely covered with tattoos. 
 
 "Mr Sikorski, I suppose? Or should I call you Whisper?"
 
@@ -99,33 +99,33 @@ They were in my way and something told me they are not going to let me pass.
 
 They know about the transaction, but they don't know who was the recipient. So either they didn't get any information from Kiri Braddock or she didn't tell everything.
 
-"You are well informed. So you are also aware of my profession. I transferred the data to a recipient. I don't know their identity. They paid for the service upfront. We exchanged the cube on Prism, they left with their ship immediately. Something tells me they expected that you are going to ask questions."
+"You are well informed. So you are also aware of my profession. I transferred the data to a recipient. I don't know their identity. They paid for the service upfront. We exchanged the cube on Prism, and they left with their ship immediately. Something tells me they expected that you are going to ask questions."
 
 <aside>[Compel +shadow+1(advantage)=8 vs 6 |9: weak hit]</aside>
 
-"Since when curiers travel with money to acquire the data?"
+"Since when do couriers travel with money to acquire the data?"
 
 "It's an extra service for extra pay. Feel free to check the official price list of the Syndicate of Iron Heralds. We have to try harder and harder when the bulk data delivery guilds are getting cheaper and cheaper. Anyway, you know that even if I knew the customer I couldn't tell you."
 
-"It would be in your best interest. At the moment, I'll have to report you as a suspicious person to my employer. That means more investigation into your person. Eventually we are going to find out everything about your contacts and we'll follow all the leads. We are going to figure out if you told us the truth or not. And the consequences will follow. The Syndicate of Stellar Vanguards don't like their secrets stolen."
+"It would be in your best interest. At the moment, I'll have to report you as a suspicious person to my employer. That means more investigation into your person. Eventually, we are going to find out everything about your contacts and we'll follow all the leads. We are going to figure out if you told us the truth or not. And the consequences will follow. The Syndicate of Stellar Vanguards don't like their secrets stolen."
 
-She was looking confidently into my eyes. I didn't need Jones to recognise this was a threat.
+She was looking confidently into my eyes. I didn't need Jones to recognise this as a threat.
 
-"Say hello to all my friends. But you are going to be wasting your time. Would you be so kind and let me pass to my ship. I certainly must earn my pay by doing something useful."
+"Say hello to all my friends. But you are going to be wasting your time. Would you be so kind as to let me continue to my ship? I am one of the unfortunate who must earn their pay by doing something useful."
 
-She kept the piercing stare and the smirk on her face. Nevertheless, she stepped aside.
-
+She kept the piercing stare and the smirk on her face. Nevertheless, she stepped aside
+.
 ----
 
 Kayla saw everything on screen. "Who was that? I almost came out with a gun pointed at them." 
 
-"Some investigators form Stellar Vanguards. They know we bought the data. I believe I was their last lead, but sooner or later they'll find Julio. Hopefully we'll be back so we can warn him. It would be too dangerous to go there now. And also, the sooner we do the job, the better. I am officially getting on their list of suspicious people. Let's hope the information is going to travel slow. I am quite sure I'll need a false identity when we get there."
+"Some investigators form Stellar Vanguards. They know we bought the data. I believe I was their last lead, but sooner or later they'll find Julio. Hopefully, we'll be back so we can warn him. It would be too dangerous to go there now. And also, the sooner we do the job, the better. I am officially getting on their list of suspicious people. Let's hope the information is going to travel slow. I am quite sure I'll need a false identity when we get there."
 
 <aside>[new campaign clock]
 "Kiana O'Niel and her team find Julio"
 6 segments, likely to advance at the beginning of each session.</aside>
 
-## Journy to Selena Station begins
+## The journey to Selena Station begins
 
 Let's remind us of the plan:
 
@@ -133,14 +133,12 @@ Let's remind us of the plan:
 - (done) Steal identification codes and location of the Selena station from one of their supply ships. 
 - Find the way to Selena. It's still going to be up to me to find the right drifts.
 - Use the identification codes to land there. Gather more information about the facility. Establish a fake identity if needed.
-- Infiltrate the facility and get deep enough to access their internal highs security network.
+- Infiltrate the facility and get deep enough to access their internal high-security network.
 - Download the data.
 - Get back safely.
 
 
-Now it is the time to discover the path to Selena Station.
-
-
+Now is the time to discover the path to Selena Station.
 
 <aside>
 Expedition to Selena Station: Dangerous.
@@ -159,13 +157,13 @@ Material: Crystalline or glass-like
 Phasing in and out of reality</aside>
 
 We arrived at a waypoint and the e-drive immediately started recharging. 
-We were in the middle of deep space, no spatial bodies nearby. Among the blackness I saw a very unusual object. It looked almost like a glass sculpture of some space animal, roughly in the shape of a squid. For a moment I even thought it was moving or pulsating. But no, it was perfectly static. A long forgotten structure or a machine. It looked like parts of it were phasing in and out. I kept staring at the object trying to figure out if I see what I see or if it is just some kind of illusion.
+We were in the middle of deep space, with no spatial bodies nearby. Among the blackness, I saw a very unusual object. It looked almost like a glass sculpture of some space animal, roughly in the shape of a squid. For a moment I even thought it was moving or pulsating. But no, it was perfectly static. A long-forgotten structure or a machine. It looked like parts of it were phasing in and out. I kept staring at the object trying to figure out if I see what I see or if it is just some kind of illusion.
 
 At that moment an alarm went off. 
 
 "Proximity warning, starboard. Proximity warning, starboard."
 
-What? The radar screen was showing only the object in front of us. I turned on the docking cameras and... yes, it was there. A small ship, painted deep black slowly getting closer to us. Almost ready to attach its magnetic boarding lock.
+What? The radar screen was showing only the object in front of us. I turned on the docking cameras and... yes, it was there. A small ship, painted deep black slowly got closer to us. Almost ready to attach its magnetic boarding lock.
 
 "Fuck, somebody is trying to board us. They have some kind of stealth technology. Hold on!"
 
@@ -200,7 +198,6 @@ Jump!
 
 <aside>[Undertake an expedition: +wits=3 vs 7 | 10: miss]
 Don't mark progress
-Shit, third miss in a row.
 
 What is at the waypoint?
 Orbital settlement, Huge (Tens of thousands)
@@ -213,9 +210,9 @@ Pay the price: you are delayed or put into a disadvantage.
 
 I sit for some time quietly staring at the huge orbital station in the distance. Its complex, sprawling structure is very impressive. So are the unfinished bodies of ships scattered around, covered with scaffolding or docked in sophisticated space hangars.
 
-I know this place. This is Port Aurora. The biggest shipyard in the sector. Quite interesting place to visit. 
+I know this place. This is Port Aurora. The biggest shipyard in the sector. Quite an interesting place to visit. 
 
-The problem is, that we are getting further away from Selena. We shouldn't be nowhere near this place. Damn drifts.
+The problem is, that we are getting further away from Selena. We shouldn't be anywhere near this place. Damn drifts.
 
 ---
 
@@ -238,7 +235,7 @@ Shake it off: +1 health
 [withstand damage -1, resist=7 vs 6 | 8: weak hit]
 press on</aside>
 
-Eventually we got out of the storm to a calmer area.
+Eventually, we got out of the storm to a calmer area.
 
 ---
 
@@ -258,27 +255,27 @@ I really hoped finding the path to Selena would be a bit easier. So far it seems
 <aside>[Endure stress: -1, resist +spirit=7 vs 8|5: weak hit]
 press on</aside>
 
-It was quiet in the cockpit. I think Kayla was bored by our travels as well. We were at the orbit of a tainted planet. Colourful ball covered by giant, sky-breaching fungi. 
+It was quiet in the cockpit. I think Kayla was bored by our travels as well. We were in orbit of a tainted planet. Colourful ball covered by giant, sky-breaching fungi. 
 
-According to my database there was supposed to be a settlement. But nobody was answering my calls. Complete radio silence. It was supposed to be a rather small research station. Nevertheless, we could use a little bit of distraction from the boredom of space travel.
+According to my database, there was supposed to be a settlement. But nobody was answering my calls. Complete radio silence. It was supposed to be a rather small research station. Nevertheless, we could use a little bit of distraction from the boredom of space travel.
 
 <aside>[explore waypoint +wits=7 vs 8 | 10: miss]
 PtP: a surprising development complicates your quest
 Action/Theme: Uncover blood</aside>
 
-As we were descending to the station we could already see it's not in the best shape. The place was clearly damaged and breached. We landed on one of landing pads near the station. Sensors shown that the has a highly toxic atmosphere. I suppose it's all the spores in the air.
+As we were descending to the station we could already see it's not in the best shape. The place was clearly damaged and breached. We landed on one of the landing pads near the station. Sensors have shown that the planet has a highly toxic atmosphere. I suppose it's all the spores in the air.
 
 <aside>first outer look: odd orientation
 inner first look: sacred symbol</aside>
 
-The station was built from prefabricated modules which were placed on some kind of base and connected together. Pretty usual for small temporary settlements like this. The weird detail was that some of those modules were placed vertically forming small towers and supported by crude structure from iron I-beams.
+The station was built from prefabricated modules which were placed on some kind of base and connected together. Pretty usual for small temporary settlements like this. The weird detail was that some of those modules were placed vertically forming small towers and supported by crude structures from iron I-beams.
 
-We suited up, took our pulse rifles and went out to look around. The main doors were covered by big piece of sheet metal. We moved it away and uncovered the door... covered in blood.
+We suited up, took our pulse rifles and went out to look around. The main doors were covered by a big piece of sheet metal. We moved it away and uncovered the door... covered in blood.
 
 <aside>[end session]
-At the end of the last session, I complained that the dice were too nice to me. As soon as Valentin embarked on the expedition, they decided to be mean. I still have to find how to approach those long expeditions narratively.So far it felt a bit dull.
+At the end of the last session, I complained that the dice were too nice to me. As soon as Valentin embarked on the expedition, they decided to be mean. I still have to find how to approach those long expeditions narratively. So far it felt a bit dull.
 
-At the end, I wanted to use just the one move to quickly explore the waypoint (derelict) and see if we find something interesting. But now I am going to interpret the miss and the "pay the price" result as that they want to investigate what happened and if there might be some survivors. This'll trigger bad memories for Valentin and he surely don't want to leave unless he is sure that he is not leaving any survivor behind.
+The intention behind the last move was to quickly explore the waypoint (derelict) and see if we find something interesting. But now I am going to interpret the miss and the "pay the price" result as that they want to investigate what happened and if there might be some survivors. This triggers bad memories for Valentin and he is not going to want to leave unless he is sure that he is not leaving any survivors behind.
 
 +1 momentum(1)
 </aside>
