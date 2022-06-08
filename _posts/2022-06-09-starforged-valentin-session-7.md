@@ -5,7 +5,7 @@ categories: starforged
 tags: [ttrpg, pnp, soloplay]
 series: "starforged-valentin"
 published: true
-image: /images/starforged/starforged_thumbnail_7.jpg
+image: images/starforged/starforged_thumbnail_7.jpg
 summary: "Session 7 of my Ironsworn: Starforged actual play journal. Valentin is reminded of a child trauma and tries to save a person. Will he succeed?"
 ---
 

@@ -5,7 +5,7 @@ categories: starforged
 tags: [ttrpg, pnp, soloplay]
 series: "starforged-valentin"
 published: true
-image: /images/starforged/starforged_thumbnail_0.png
+image: images/starforged/starforged_thumbnail_0.png
 summary: "Starforged is a TTRPG game with a focus on narrative and is very well designed for (not only) solo play. This post is the first in a series of my play reports. Let's see which stories are going to unfold."
 ---
 

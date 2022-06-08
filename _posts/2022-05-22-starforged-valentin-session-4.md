@@ -5,7 +5,7 @@ categories: starforged
 tags: [ttrpg, pnp, soloplay]
 series: "starforged-valentin"
 published: true
-image: /images/starforged/starforged_thumbnail_4.png
+image: images/starforged/starforged_thumbnail_4.png
 summary: "Session 4 of my Ironsworn: Starforged actual play journal. Valentin continues in his preparations for an information-extraction heist. Is he going to be able to steal the necessary navigational data?"
 ---
 

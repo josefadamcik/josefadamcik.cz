@@ -50,8 +50,8 @@
 
     {{ pagi.image }}
     {% if page.image %}
-        <meta property="og:image" content="{{ page.image | prepend: site.url }}" />
-        <meta name="twitter:image" content="{{ page.image | prepend: site.url }}" />
+        <meta property="og:image" content="{{ page.image | prepend: '/' | prepend: site.url }}" />
+        <meta name="twitter:image" content="{{ page.image | prepend: '/' | prepend: site.url }}" />
     {% else %}
         <meta property="og:image" content="{{ site.url }}/images/me_400x400.jpg" />
         <meta name="twitter:image" content="{{ site.url }}/images/me_400x400.jpg" />

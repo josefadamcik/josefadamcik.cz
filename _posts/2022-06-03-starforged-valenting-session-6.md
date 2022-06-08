@@ -5,7 +5,7 @@ categories: starforged
 tags: [ttrpg, pnp, soloplay]
 series: "starforged-valentin"
 published: true
-image: /images/starforged/starforged_thumbnail_6.png
+image: images/starforged/starforged_thumbnail_6.png
 summary: "Session 6 of my Ironsworn: Starforged actual play journal. Valentin meets a new enemy and embarks on a journey."
 ---
 

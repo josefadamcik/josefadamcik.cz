@@ -5,7 +5,7 @@ categories: starforged
 tags: [ttrpg, pnp, soloplay]
 series: "starforged-valentin"
 published: true
-image: /images/starforged/starforged_thumbnail_1.png
+image: images/starforged/starforged_thumbnail_1.png
 summary: "Session 2 of my Ironsworn: Starforged actual play journal. Is Valentin going to be able to pick up and deliver the package?" 
 ---
 

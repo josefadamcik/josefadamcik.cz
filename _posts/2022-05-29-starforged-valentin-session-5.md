@@ -5,7 +5,7 @@ categories: starforged
 tags: [ttrpg, pnp, soloplay]
 series: "starforged-valentin"
 published: true
-image: /images/starforged/starforged_thumbnail_5.png
+image: images/starforged/starforged_thumbnail_5.png
 summary: "Session 5 of my Ironsworn: Starforged actual play journal. A simple delivery side job develops unexpectedly. And who are Scarlet Blades?"
 ---
 
