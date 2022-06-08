@@ -11,7 +11,7 @@ summary: "Session 6 of my Ironsworn: Starforged actual play journal. Valentin me
 
 Session 6 of my [Ironsworn: Starforged][starforged] actual play journal. Valentin meets a new enemy and embarks on a journey.
 
-{% responsive_image path: images/starforged/starforged_thumbnail_6.png alt:"Valentin & Jones, Session 5, Starforged actual play journal" thumbnail:true %}
+{% responsive_image path: images/starforged/starforged_thumbnail_6.png alt:"Valentin & Jones, Session 6, Starforged actual play journal" thumbnail:true %}
 
 
 {%- include post_series.html -%}
