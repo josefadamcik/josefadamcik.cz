@@ -49,21 +49,21 @@ Progress: ■□□□□□</aside>
 
 ## Flashback: Rescued
 
-Little Valentin was observing the room through a grating of an air duct cover. The room was empty and dark. The only lighting was provided by blinking emergency lights and glowing communications consoles. It was around ten minutes ago when he had to find the courage to get out of safety of the duct and run to the console to answer a call. Somebody is coming for him. He is scared. What if they die? Like the others? Like Mike, Drake, Nancy and.... and his mother? 
+Little Valentin was observing the room through a grating on a cover of an air duct. The room was empty and dark. The only lighting was provided by blinking emergency lights and glowing communications consoles. It was around ten minutes ago when he had to find the courage to get out of safety of the duct and run to the console to answer a call. Somebody is coming for him. He is scared. What if they die? Like the others? Like Mike, Drake, Nancy and.... and his mother? 
 
-He wasn't sure how long he was hiding. I must have been for weeks. When the Thing started killing the crew, he managed to run away and hide in the air ducts. The creature was too big to crawl in and he blocked or closed most of the entrances anyway. He learned to navigate the station just by crawling through those tiny tunnels. He had to sneak out occasionally to get water and rations.
+He wasn't sure how long he was hiding. I must have been for weeks. When the Thing started killing the crew, he managed to run away and hide in the air ducts. The creature was too big to crawl in and he blocked or closed most of the entrances anyway. He learned to navigate the station just by crawling through those tiny tunnels.
 
-He never saw the Thing completely. He heard it a lot. Whizzing, screeching. Occasional thumps when it tried to get past closed doors. A few times he saw a piece of the body in the dark. The tail. The claw. Just a hint of head in the shadows. He always made sure to get away and hide as quickly as possible. This saved his life many times. He is the only one who survived on the station. And now, there was a hope for the nightmare to end.
+He had to sneak out occasionally to get water and rations. He was never able to see the whole Thing. He heard it a lot. Thumps when it tried to get past closed doors. Wheezing of its breath. And distant roars. A couple of times he saw a piece of the body in the dark. The tail. The claw. Just a hint of its head in the shadows. He always made sure to get away and hide as quickly as possible. This saved his life many times. He is the only one who survived on the station. And now, there was a hope for the nightmare to end.
 
 The silence was broken by a loud burst of shots fired from a weapon. The sound was coming from the hallway. More sounds followed. Screams, pounding, more shots, an explosion. And silence.
 
-The door whizzed and opened. A woman with a big gun limped through, her leg injured.
+The door opened. A woman with a big gun limped through, her leg injured.
 
 "Are you here kid? That was hell of a thing out there. But it is dead now. You can come out."
 
-
-
 ## Lyra outpost
+
+{% responsive_image path: images/starforged/sector_map04s.png alt:"Corvus Flux sector, Session 7" %}
 
 "We should leave. This is not our business. And we have no clue what could have happened here, " said Kayla.
 
@@ -71,9 +71,9 @@ I kept staring at the blood marks on the door. Flashes of memory. Blood on walls
 
 "I have to go in. I have to check that there's nobody left,nobody to save. No matter how small the chance is."
 
-I looked at Kayla. "You don't have to go, this wasn't part of our deal. But I have to. I was rescued once, the only survivor. And only because there was one person who risked their life to save me. They didn't leave."
+I looked at Kayla. "You don't have to go. This wasn't part of our deal. But I have to. I was rescued once. And only because there was one person who risked their life to save me. They didn't leave even though it was not their business as well.e"
 
-She sighs, "Let's look around quickly. I  don't want to be the one to explain to Julio how is favorite young Valentin died."
+She sighs. "Let's look around quickly. I don't want to be the one to explain to Julio how his favourite Valentin died."
 
 <aside>Because of the miss we had in the last session I feel this deserves more space in the story, so I'll go for another "Dangerous" expedition.
 
@@ -86,16 +86,15 @@ inner first look: sacred symbol,
 
 Ask oracle, name: Lyra outpost
 Another inner first look: Esoteric writing or symbols 
-That's funny, so the first one I rolled was descriptor/focus and we got basically the same as above.
+(Interesting. The first one I rolled was descriptor/focus and we got basically the same as above which is from directly from the derelict table.)
 
-[UNDERTAKE AN EXPEDITION +wits]
-[Weak Hit: 3 + 2 + 0 = 5 vs 9 | 4]
-[Mark Progress: Expedition through derelict] ] ■■□□□□□□□□
-Suffer or peril.
+[Undertake an expedition +wits= 5 vs 9|4: weak hit]
+[Mark Progress: Expedition through derelict] ■■□□□□□□□□
+Suffer or peril?
 Waypoint: Area corridor, feature: a corpse.
 Peril: Path is trapped</aside>
 
-With flashlights turned on we entered a corridor behind the door. It appears it acted also as an airlock and decontamination chamber. The walls are covered in strange symbols. Doesn't look light to any alphabet, more like some kind of esoteric symbol. There is a body lying in front of the door on the other end of the corridor. The body is in a VAC suit but the helmet and gloves are missing. The eyes are wide open, hair burnt. 
+With flash-lights turned on we enter a corridor behind the door. It seems it acted also as an airlock and decontamination chamber. The walls are covered in strange symbols. Doesn't look like any known alphabet rather like some kind of esoteric symbols. There is a body lying in front of the door on the other end of the corridor. The body is in a VAC suit but the helmet and gloves are missing. The eyes are wide open, hair burnt. 
 
 "It seems like they died when trying to open the door," says Kayla as she points her light at a control panel next to the door.
 
