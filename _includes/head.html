@@ -19,7 +19,8 @@
     {% asset roboto.css %}
 
     {% if site.show_social_icons or site.show_sharing_icons %}
-        {% asset font-awesome.css %}
+        <link rel="stylesheet" href="/assets/fa/all.min.css">
+        <link rel="stylesheet" href="/assets/fa/v4-shims.min.css">
     {% endif %}
 
     {% if site.google_verification %}
