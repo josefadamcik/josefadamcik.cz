@@ -8,26 +8,7 @@ pagination:
 <div class="home">
     <div class="posts">
       {% for post in page.posts %}
-        <div class="post py3">
-          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
-          <!-- <img src="{{ post.image }}" > -->
-          <span class="post-summary">
-            {% if post.summary %}
-              {{ post.summary }}
-            {% else %}
-              {{ post.excerpt }}
-            {% endif %}
-          </span>
-          {% if post.image and post.summary%}
-          <a class="post-thumbnail" href="{{ post.url | prepend: site.baseurl }}">{% responsive_image_block %}
-                path: {{ post.image | prepend: site.baseurl }}
-                cache: false
-                template: _includes/picture.html
-            {% endresponsive_image_block %}</a>
-          {% endif %}
-          {% include morelink.html %}
-        </div>
+          {% include post_item.html %}
       {% endfor %}
     </div>
 </div>

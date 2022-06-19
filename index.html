@@ -7,23 +7,19 @@ pagination:
 <h1>Recent posts from notebook</h1>
 
 {% include tagcloud.html %}
-{% for cat in site.categories %}
-{% capture category_name %}{{ cat | first }}{% endcapture %}
-{{category_name}},{%endfor%}
 {% assign categories  = "TTRPG,Scale modeling,electronics" | split: "," %}
 <div class="posts-homepage">
   {% for cat in categories %}
   <div class="posts-category">
-    <h2>Latest from category <a href="{{ site.baseurl }}/category/{{ cat | slugify }}">{{cat}}</a></h2>  
+    <h2 class="h1 mt4">Latest from category <a href="{{ site.baseurl }}/category/{{ cat | slugify }}">{{cat}}</a></h2>  
     {% for post in site.categories[cat] limit: 2 %}
       {% include post_item.html %}
     {% endfor %}
-    <a href="{{ site.baseurl }}/category/{{ cat | slugify }}">All in category "{{cat}}"</a>
+    <div class="pagination clearfix mb2 mt8">
+        <a class="pagination-item" href="{{ site.baseurl }}/category/{{ cat | slugify }}">All in category "{{cat}}"</a>
+        <a class="pagination-item" href="{{ site.baseurl }}/notebook/">All posts</a>
+    </div>
   </div>
   {% endfor %}
-</div>
-
-<div class="pagination clearfix mb1 mt4">
-    <a class="pagination-item" href="{{ site.baseurl }}/notebook/">All posts</a>
 </div>
 

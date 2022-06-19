@@ -20,6 +20,10 @@
   color: #333;
 }
 
+.posts-category .post-link .post-title {
+  font-size: $h2;
+}
+
 .post-footer {
   @extend .italic;
 
