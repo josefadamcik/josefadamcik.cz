@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Crashed Resistance X-Wing 1:72 diorama"
-categories: scalemodeling
+categories: ["Scale modeling"]
 tags: [buildlog, model]
 published: true
 image: /images/xwing/title.jpg

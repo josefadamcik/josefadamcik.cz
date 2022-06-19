@@ -40,7 +40,7 @@ Keep in mind please, that even though the RGB is based on V2, it has a slightly 
 
 {% responsive_image path: images/sofleupd/Sofle_RGB_v2_comparison.png figcaption: "Sofle V2 is red and Sofle RGB blue. Notice the difference in stagger and the shape." %}
 
-## Update (22.8.2021) - Sofle RGB by Keyhive 
+## Update (22.8.2021) - Sofle RGB by Keyhive
 
 Only after I published the article, I learned that one particular vendor - **Keyhive** - is selling their own fork of Sofle RGB. This version is **modified** in way that makes it **incompatible** with the firmware for the official designs. You have to use the firmware provided by the vendor and build guide provided by them as well. Please, don't report problems with the desing and or firmware to the official Sofle github repository. Their modification is not part of the repository and therefore we cannot fix the problems or help you with solution. Contact the vendor instead. You are their client, in the end.
 
@@ -51,7 +51,7 @@ One of the common issues when building the RGB version is the fact that the chos
 There is another LED model (`SK6812 mini-e`) which should be easier to solder and less likely to break. Another nice community member, [tiadobatima][tiadobatima] updated the Sofle RGB to use them. The current state is that the work is basically done, design is reviewed, but nobody has actually built the design. If anyone is interested in trying that out (and knows what they are doing) [the related Github issue is here. Just read and follow the links to find the actual design][soflergbminipr]. Once we know it actually works, we can merge it and release it as another alternative. 
 
 
-## Kailh Choc version 
+## Kailh Choc version
 
 Another requested feature for Sofle V2 is support for low-profile switches. Sofle V1 did have support for both Kailh Choc and Cherry MX switches (resp. sockets for them) but I decided to drop it for V2 to make my life easier.
 
@@ -60,7 +60,7 @@ And you might already guess what happened. Another nice person ([Brian Low][bria
 
 {% responsive_image path: images/sofleupd/129313355-4c8f2cd4-8c3b-4c7f-b1cc-613ccd24adf9.jpeg figcaption: "Sofle RGB Choc (photo by Brian Low)" %}
 
-## More goodies 
+## More goodies
 
 SVG files for laser-cut sandwich cases (e.f. from acrylic) are available for both [Sofle V2][soflev2case] and [Sofle RGB][rgbcase] including a tenting case for the RGB version. A contribution made by redditor [atlantesque][atlantesque] (also as [kissetfall][kissetfall] on github).
 

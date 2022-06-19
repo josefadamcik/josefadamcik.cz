@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Star Wars snowspeeder 1:48 model build log"
-categories: scalemodeling
+categories: ["Scale modeling"]
 tags: [buildlog, model]
 published: true
 image: /images/snowspeeder/PXL_20210617_202257631.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gaslands vehicle and diorama"
-categories: scalemodeling
+categories: ["Scale modeling"]
 tags: [buildlog, model, scratchbuild]
 published: true
 image: /images/gaslands/PXL_20220109_124914587.jpg

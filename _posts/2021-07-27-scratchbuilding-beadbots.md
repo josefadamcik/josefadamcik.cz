@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Scratchbuilding beatbots"
-categories: scalemodeling
+categories: ["Scale modeling"]
 tags: [buildlog, model, scratchbuild]
 published: true
 image: /images/beadbots/PXL_20210617_200722332.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Snowspeeder flying over Hoth diorama"
-categories: scalemodeling
+categories: ["Scale modeling"]
 tags: [buildlog, model]
 published: true
 image: /images/snowspeederdiorama/PXL_20210719_132604873.jpg

@@ -1,15 +1,13 @@
 ---
-layout: page
-title: Notebook
-path: notebook/index.html
+layout: default
 pagination: 
   enabled: true
 ---
-{% include tagcloud.html %}
+<h1 class="h2">Category: {{ page.autopages.display_name }}</h1>
 <div class="home">
     <div class="posts">
       {% for post in paginator.posts %}
-             {% include post_item.html %}
+         {% include post_item.html %}
       {% endfor %}
     </div>
     {% include pagination.html %}

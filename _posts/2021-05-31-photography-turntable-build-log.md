@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DIY 3D printed photography turntable"
-categories: electronics 3dprinting
+categories: [electronics, 3dprinting]
 tags: [buildlog, electronics, 3dprinting]
 published: true
 image: /images/turntable/final_desing.png 

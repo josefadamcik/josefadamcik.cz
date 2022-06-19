@@ -131,7 +131,7 @@ Suggested approach is to build the firmware yourself. You should be familiar wit
 
 Elite-C v3.0 had problems when used with split bords (on both halves). Those are fixed in version 3.1. For v3.0 add `#define SPLIT_USB_DETECT` to `config.h` file. I don't have Elite-C so this is untested, but should work.
 
-### Typing lag when used without OLED 
+### Typing lag when used without OLED
 
 If you chose to not use OLED for both halves you should disable support for oled (set `OLED_DRIVER_ENABLE` to `no` in `keymaps/defualt/rules.mk`).
 
@@ -154,7 +154,7 @@ Just keep in mind, please, that this is just a hobby and SofleKeyboard is only a
 - [QMK Firmware][qmk_firmware]
 - [QMK Configurator][qmk_configurator]
 
-## Footnotes and links to components 
+## Footnotes and links to components
 
 Most of the links are to AliExpress and usually are the same I have ordered and used. They are meant for illustration. They are not affiliate links. It seems AliExpress is going to require you to be registered and logged in to see the detail of the product. I discovered that when putting this together and I am sorry for that but it's out of my control.
 
