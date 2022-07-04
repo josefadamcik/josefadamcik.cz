@@ -26,7 +26,7 @@ At the beginning of the session.
 <em>Assets:</em> Courier, Infiltrator, Glowcat
 Edge: <strong>1</strong>, Heart: <strong>2</strong>, Iron: <strong>1</strong>, Shadow: <strong>3</strong>, Wits: <strong>2</strong>
 ==============================================
-Helath: ■■■■■ Spirit: ■■■□□ Supply: ■■■■□ 
+Health: ■■■■■ Spirit: ■■■□□ Supply: ■■■■□ 
 Momentum: 1 
 ==============================================
 Infiltrate the military tech factory in 
