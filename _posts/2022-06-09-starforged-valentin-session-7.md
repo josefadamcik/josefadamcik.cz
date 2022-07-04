@@ -226,7 +226,7 @@ I looked back at Kayla and shook my head.
 
 "Fuck! Somebody just killed him in a cold blood."
 
-"You did everything you could, that was a bad stab, " said Kayla. "It's not your fault.""
+"You did everything you could, that was a bad stab, " said Kayla. "It's not your fault."
 
 "Well, I didn't have to drag him with us around. I swear I am gonna find the one who did this. They are gonna pay."
 
