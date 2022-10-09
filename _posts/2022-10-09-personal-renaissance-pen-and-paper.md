@@ -12,13 +12,17 @@ summary: "About my latest obsession - table top roleplaying games or pen and pap
 
 Interesting thing that happened to me in the last years, as I am getting older (38 at the time of writing) is that I am returning back to the hobbies I had (or almost had) as a kid or teenager.
 
-I have played a bit of Magic The Gathering, I made [some][shuttle] [models][snowspeeder] and [dioramas][xwing], I have got into micro-electronics (which wasn't truly my childhood hobby but it was part of my education).
+I have played a bit of Magic The Gathering, I made [some][shuttle] [models][snowspeeder] and [dioramas][xwing], I have got into micro-electronics (which wasn't truly my childhood hobby but it was part of my education). 
+
+Now I got obsessed by TTRPGs (table top roleplaying games) or Pen and paper games how I remember them beeing called in the past. As a teenegar, I spent quite some time running and playing a Czech TTRPG game called ["Dračí doupě" which was a local D&D clone (old website in czech)][drd]. I had also run several games of Shadowrun and read and through about couple of more systems that were available back then. 
+
+I believed those times are long time in the past. I couldn't imagine I would ever have enought time to actually prepare a traditional TTRPG campaing with all the world building and storybuilding I had been doing back in that time. And also, all the old friends I had been playing with are out of reach. 
 
 ## Mausritter
 
 First, I came across [Mausritter][mausritter] while some people mentioned the game in unrelated discussion group. In this game players play a little sapient mouse going on adventures. It's still the "sword and sorcery" RPG we know very well from other games, but re-flavoured into something quite different. 
 
-I bought a copy and convinced my partner and a friend to play it. Since then wee have been playing a campaign in The Estate (an official adventure set for Mausritter). We had a lot of fun which my partner documents in game in her painted diary.
+I bought a copy and convinced my partner and a friend to play it. Since then we have been playing a campaign in [The Estate (an official adventure set for Mausritter)][estate]. We are having a lot of fun that my partner documents in her awesome game diary.
 
 {% responsive_image path: images/ttrpg/mausritter_1.jpg alt:"Session notes painted during the session by ma beloved partner " figcaption: "Session notes painted during the session by ma beloved partner <a href='https://www.instagram.com/sophiehardy5' target='_blank'>Anna</a> and a sculpture of one of the characters."  %}
 
@@ -104,4 +108,6 @@ There's going to be more TTRPG content on this blog. So [fallow me on twitter][t
 [mythicgm]: <https://www.drivethrurpg.com/product/20798/Mythic-Game-Master-Emulator> "Mythic Game Master Emulator"
 {:target="_blank"}
 [twitter]: <https://twitter.com/josefadamcik> "on twitter"
+{:target="_blank"}
+[drd]: <https://www.altar.cz/drd/> "Draci doupe"
 {:target="_blank"}
