@@ -4,11 +4,11 @@ title: "My personall rennaissance of Pen & Paper games and Mausritter"
 categories: TTRPG
 tags: [ttrpg, pnp]
 published: true
-image: 
-summary: ""
+image: images/ttrpg/books.jpg
+summary: "About my latest obsession - table top roleplaying games or pen and paper games."
 
 ---
-## Pen & Paper role-playing games, or table top role playing games
+## Old hobies
 
 Interesting thing that happened to me in the last years, as I am getting older (38 at the time of writing) is that I am returning back to the hobbies I had (or almost had) as a kid or teenager.
 
@@ -30,7 +30,7 @@ I did what I did with any of the hobbies mentioned above: reading about how to r
 
 {% responsive_image path: images/ttrpg/books.jpg alt:"Physical books I have bought in recent months." figcaption: "Physical books I have bought in recent months."  %}
 
-## Solo: Ironsworn & Ironsworn: Starforged
+## Solo play, Ironsworn & Ironsworn: Starforged
 
 One of the very interesting branches of TTRPG games I have discovered are solo games. It sounded as a very odd idea to play a game solo but also as a very appealing idea for a socially anxious person who lives in a foreign country and doesn't speak the local language fluently (yes, me)
 
@@ -39,6 +39,8 @@ I have already published several posts where [I capture the story of Valentin Si
 Apart from that I played [The Wretched][wretched] - a sci-fi horror journalling game. That was interesting experience but it didn't really tick the box of "game" for me. It felt just like a story driven by random prompts without any agency on my side. 
 
 There's also a copy of [Thousand Years Old Vampire][vampire] on the photo above. It's perhaps the most famous solo journalling game. I am yet to play it, so far I haven't figured out who is my vampire going to be at the beginning of the journey. I am looking forward to this one since it seems to have interesting mechanics of memories and experiences where the character forgets important events and people as they go through their life. 
+
+I also plan to try solo play with other games. Maybe using [Mythic Game Master Emulator][mythicgm]
 
 ## Play by Post
 
@@ -52,8 +54,13 @@ From all my attempts to join a PbP game only one survived a significant time is 
 
 ## Online play
 
+The last but not least. Playing via video/voice calls, sometimes using some additional software. It took me some time to find courage to try to play a game with total strangers on the internet. So far I had two very nice sessions ([Blades in the Dark][blades] and [Brindlewood Bay][brindlewood]) and I am excited to play more. 
 
+## What next
 
+Play more! Play more solo, play more PbP, play more online. And eventually find some people in Berlin who would enjoy playing in English and exploring various games. And of course, I am eager to run more games. Be it PbP, online or in the real world. Of course, running games for strangers is way out my comfort zone so it might take me some time to get there. Playing with strangers is a very good first step, though!
+
+There's going to be more TTRPG content on this blog. So [fallow me on twitter][twitter] find your old RSS reader. You can also add me on discord (`josefadamcik#0052`) if you feel like chatting!
 
 
 [sofatko]: <https://www.instagram.com/sophiehardy5/> "Anna Marklová (Instagram)"
@@ -89,4 +96,12 @@ From all my attempts to join a PbP game only one survived a significant time is 
 [vampire]: <https://thousandyearoldvampire.com/> "Thousand Years Old vampire"
 {:target="_blank"}
 [gamemouster]: <https://betweenthecracks.wixsite.com/one-more-hedgehog/post/play-by-discord-first-thoughts> "Play by Discord"
+{:target="_blank"}
+[brindlewood]:  <https://www.gauntlet-rpg.com/brindlewood-bay.html> "Brindlewood Bay"
+{:target="_blank"}
+[blades]: <https://bladesinthedark.com/> "Blades in the Dark"
+{:target="_blank"}
+[mythicgm]: <https://www.drivethrurpg.com/product/20798/Mythic-Game-Master-Emulator> "Mythic Game Master Emulator"
+{:target="_blank"}
+[twitter]: <https://twitter.com/josefadamcik> "on twitter"
 {:target="_blank"}
