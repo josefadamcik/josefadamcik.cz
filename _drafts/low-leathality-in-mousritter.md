@@ -84,8 +84,5 @@ So far it worked quite well for us. Until now, they have killed couple of skele-
 {:target="_blank"}
 [estate]: <https://losing-games.itch.io/mausritter-the-estate-adventure-collection/> "The Estate"
 {:target="_blank"}
-[mausritter]: <https://mausritter.com/> "The Estate"
+[mausritter]: <https://mausritter.com/> "Mausritter"
 {:target="_blank"}
-[snowspeeder]: <{{ site.baseurl }}{% post_url 2021-06-21-starwars-snowspeeder-bandai-model-kit-build %}> "Star Wars snowspeeder 1:48 model build log"
-[xwing]: <{{ site.baseurl }}{% post_url 2022-04-29-x-wing-dioarama %}> "Crashed X-wing dioaram"
-[shuttle]: <{{ site.baseurl }}{% post_url 2021-05-04-revisiting-old-hobby-shuttle-model-kit %}> "Revisiting an old hobby - building a plastic model kit: Space Shuttle Atlantis"

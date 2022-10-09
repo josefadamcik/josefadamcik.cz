@@ -20,43 +20,73 @@ First, I came across [Mausritter][mausritter] while some people mentioned the ga
 
 I bought a copy and convinced my partner and a friend to play it. Since then wee have been playing a campaign in The Estate (an official adventure set for Mausritter). We had a lot of fun which my partner documents in game in her painted diary.
 
-TODO: sofci mausritter
+{% responsive_image path: images/ttrpg/mausritter_1.jpg alt:"Session notes painted during the session by ma beloved partner " figcaption: "Session notes painted during the session by ma beloved partner <a href='https://www.instagram.com/sophiehardy5' target='_blank'>Anna</a> and a sculpture of one of the characters."  %}
 
 ## Obsession
 
 I did what I did with any of the hobbies mentioned above: reading about how to run games, how to play games. Joined many discords, where I mostly lurk and observe other people talking about TTRPG games. I started buying and reading rules and supplements for various games. I have discovered very rich and amazing subculture of Indie TTRPG games. Amazing word full of amazing ideas and games I would love to play.
 
-TODO: links
-Mausritter itself is based on Into The Odd and that lead me to other games like Electric Basionland, Cairn, Liminal Horror. I bounced into game families like Powered By The Apocalypse (PBtA), Forged in the Dark (FitD) and many other. I collected dozens of PDFs, quite a few physical books and pledged on many crowdfunded products. I bet they'll keep coming long after I get bored of the hobby and move on something else.
+[Mausritter][mausritter] itself is based on [Into The Odd][intotheodd] and that lead me to other games like [Electric Bastionland][bastionland], [Cairn][cairn], [Liminal Horror][liminalhorror]. I bounced into game families like [Powered By The Apocalypse (PBtA)][pbta], [Forged in the Dark (FitD)][fitd]. I collected dozens of PDFs, quite a few physical books and pledged on many crowd-funded products. I bet they'll keep coming long after I get bored of the hobby and move on something else.
 
-TODO: picture of books
+{% responsive_image path: images/ttrpg/books.jpg alt:"Physical books I have bought in recent months." figcaption: "Physical books I have bought in recent months."  %}
+
+## Solo: Ironsworn & Ironsworn: Starforged
 
 One of the very interesting branches of TTRPG games I have discovered are solo games. It sounded as a very odd idea to play a game solo but also as a very appealing idea for a socially anxious person who lives in a foreign country and doesn't speak the local language fluently (yes, me)
 
-## Ironsworn & Ironsworn: Starforged
+I have already published several posts where [I capture the story of Valentin Sikorski - a space courier][valentin] in [Ironsworn: Starforged][starforged]. [Ironsworn] is older version in a fantasy setting and I am currently also playing one character in this game. I plan to write a bit more about how I play those games and how is my approach developing. I takes some learning and unlearning but it is certainly very interesting experience. 
 
-I have already published several posts with my  while playing Ironsworn: Starforged.
-TODO: link to series. 
+Apart from that I played [The Wretched][wretched] - a sci-fi horror journalling game. That was interesting experience but it didn't really tick the box of "game" for me. It felt just like a story driven by random prompts without any agency on my side. 
 
-TODO: wriet`
+There's also a copy of [Thousand Years Old Vampire][vampire] on the photo above. It's perhaps the most famous solo journalling game. I am yet to play it, so far I haven't figured out who is my vampire going to be at the beginning of the journey. I am looking forward to this one since it seems to have interesting mechanics of memories and experiences where the character forgets important events and people as they go through their life. 
+
+## Play by Post
+
+Play by post (PbP) was originally about people playing games via good old letters. Nowadays it usually represents asynchronous play on internet forums. It's perhaps the most approachable kind of play because doesn't require people to be able to participate at the same time or even be present at the same place in the same time. It's a very specific kind of playing with it's positives and negatives. 
+
+The game goes of course much slower than normal games. It can not offer as much immersion and it's really a lot about luck if players and GM stay interested in the game for long enough so something actually happens. I have seen several games which never got past character creation and world-building, some that ended after one scene. 
+
+From all my attempts to join a PbP game only one survived a significant time is a Mousritter campaign run by [an awesome "gamemouster" (link is to their blogpost from the time we started playing)][gamemouster]. This game had quite rapid tempo at the begging. A lot happened in quite short period of time and players and GM were very active. Over the time it slowed down. It's not really a problem but there are days why I wonder if it's getting to stall already or if it'll pick up again. So far it keeps going and I am still eager to see what happens to the characters.
+
+{% responsive_image path: images/ttrpg/birch.jpeg class:'imgmw400' alt:"Birch Butterball, a woodcutter from Oakstone" figcaption: "Birch Butterball, a former woodcutter from Oakstone. Illustrated by my beloved partner <a href='https://www.instagram.com/sophiehardy5' target='_blank'>Anna</a>"  %}
+
+## Online play
 
 
 
-
-
-## Play by post
-
-
-- Buying, reading
-- Other games I would like to play
 
 
 [sofatko]: <https://www.instagram.com/sophiehardy5/> "Anna Marklová (Instagram)"
 {:target="_blank"}
 [estate]: <https://losing-games.itch.io/mausritter-the-estate-adventure-collection/> "The Estate"
 {:target="_blank"}
-[mausritter]: <https://mausritter.com/> "The Estate"
+[mausritter]: <https://mausritter.com/> "Mausritter"
 {:target="_blank"}
 [snowspeeder]: <{{ site.baseurl }}{% post_url 2021-06-21-starwars-snowspeeder-bandai-model-kit-build %}> "Star Wars snowspeeder 1:48 model build log"
 [xwing]: <{{ site.baseurl }}{% post_url 2022-04-29-x-wing-dioarama %}> "Crashed X-wing dioaram"
 [shuttle]: <{{ site.baseurl }}{% post_url 2021-05-04-revisiting-old-hobby-shuttle-model-kit %}> "Revisiting an old hobby - building a plastic model kit: Space Shuttle Atlantis"
+[valentin]: <{{ site.baseurl }}{% post_url 2022-05-09-starforged-valentin-campaing-start %}> "Start of the series with my actual play journal of Ironsworn: Starforged"
+[intotheodd]: <https://www.bastionland.com/2021/09/into-odd-remastered.html> "Into The Odd"
+{:target="_blank"}
+[bastionland]: <https://chrismcdee.itch.io/electric-bastionland> "Electric Bastionland"
+{:target="_blank"}
+[liminalhorror]: <https://goblinarchives.github.io/LiminalHorror/> "Liminal Horror"
+{:target="_blank"}
+[ironsworn]: <https://www.ironswornrpg.com/> "Ironsworn"
+{:target="_blank"}
+[starforged]: <https://www.ironswornrpg.com/product-ironsworn-starforged> "Starforged"
+{:target="_blank"}
+[cairn]: <https://cairnrpg.com/> "Cairn"
+{:target="_blank"}
+[2400]: <https://jasontocci.itch.io/2400> "2400"
+{:target="_blank"}
+[fitd]: <https://bladesinthedark.com/forged-dark> "FitD"
+{:target="_blank"}
+[pbta]: <http://apocalypse-world.com/pbta/games/find> "PbtA"
+{:target="_blank"}
+[wretched]: <https://loottheroom.itch.io/wretched> "Wretched"
+{:target="_blank"}
+[vampire]: <https://thousandyearoldvampire.com/> "Thousand Years Old vampire"
+{:target="_blank"}
+[gamemouster]: <https://betweenthecracks.wixsite.com/one-more-hedgehog/post/play-by-discord-first-thoughts> "Play by Discord"
+{:target="_blank"}
