@@ -3,8 +3,9 @@ layout: landing
 ---
 <div class="links">
     <a href="{{ site.url }}"><span class="fa fa-home"></span><span class="linklabel">Website (blog)</span></a>
-    {% if site.kofi_username %}
     <a href="https://josefadamcik.github.io/SofleKeyboard/"><span class="fa fa-keyboard-o"></span><span class="linklabel">SofleKeyboard</span></a>
+    <a href="https://josefadamcik.itch.io/"><span class="fa-brands fa-itch-io"></span><span class="linklabel">Itch store (TTRPG)</span></a>  
+    {% if site.kofi_username %}
     <a href="https://ko-fi.com/{{ site.kofi_username }}"><span class="fa fa-solid fa-mug-hot"></span><span class="linklabel">Buy me a coffee!</span></a>
     {% endif %}
     {% if site.email %}
@@ -22,6 +23,7 @@ layout: landing
     {% if site.reddit_username %}
     <a  href="https://reddit.com/user/{{ site.reddit_username }}"><span class="fa fa-reddit"></span><span class="linklabel">Reddit</span></a>
     {% endif %}
+    <a href="https://mstdn.social/@josefadamcik"><span class="fa-brands fa-mastodon"></span><span class="linklabel">Mastodon</span></a>    
     {% if site.github_username %}
       <a  href="https://github.com/{{ site.github_username }}"><span class="fa fa-github"></span><span class="linklabel">Github</span></a>
     {% endif %}

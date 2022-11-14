@@ -47,7 +47,7 @@
     opacity: 0.8;
 }
 
-.links > a > span.fa {
+.links > a > span.fa, .links > a > span.fa-brands {
     box-sizing: border-box;
     font-size: 4rem;
     padding: 24px;
@@ -73,7 +73,7 @@
 
 
 /*@media(max-width: 480px) {*/
-    .links > a > span.fa {
+    .links > a > span.fa, .links > a > span.fa-brands {
         font-size: 2rem;
     }
     .links > a > span.linklabel {
