@@ -8,7 +8,6 @@ image: images/ttrpg/PXL_20221011_151755002.MP.jpg
 summary: "My players wished to avoid character and npc death in our Mausritter game. Here are my thoughts and remarks how to make it work."
 
 ---
-## Low-lethality in Mausritter
 
 [Mausritter][mausritter] is an amazing sword & whiskers tabletop role-playing game. [I wrote a bit about how I got to running it recently][pnp].
 
