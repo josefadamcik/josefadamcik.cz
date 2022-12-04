@@ -19,7 +19,7 @@ I am very socially anxious person, therefore playing TTPRPG solo is very appeali
 
 I started as soon as [Starforged][starforged] released. I was late to join the Kickstarter, I was event too late for the "late pledge", but I bought the physical copy as soon as the store opened and therefore got the PDFs. I dove right in.
 
-[I even started capturing my first Starforged experience in written form on this blog. It has so far 10 episodes.][valentin] I moved on and started playing other characters but I am quite sure I'll return to Valentin Sikorski, the space courier soon. 
+[I even started capturing my first Starforged experience in written form on this blog. It has so far 8 parts.][valentin] I moved on and started playing other characters but I am quite sure I'll return to Valentin Sikorski, the space courier soon. 
 
 My first gaming setup was in front of my computer. PDF with the book and captured my sessions in [Stargazer][stargazer]. Stargazer is very nice web application for solo play of Starforged. It can run in fully offline mode, even on mobile devices, has moves reference, all the oracles for random generation, star map and a possibility to write down journal entries. It's truly amazing application which keeps getting better. 
 
@@ -64,7 +64,7 @@ I found a nice mobile app that would allow met roll dice when it's not practical
 
 I didn't have any of the books in physical form. I had the move references, but the oracles and foes are quite useful as well. Of course, I could always use my phone and check a pdf there. But that wasn't working really well. 
 
-I ended up taking quite some effort to put together and print small booklets with oracles and foes for both Ironsworn and Starforged. Using various PDF manipulations programs I took the pages and ordered them in the documents as I wanted. For Ironsworn I combined pages from both the main Ironsworn book and Ironsworn: Delve. The page numbering is obviously wrong but they are still much easier to use than PDF.
+I ended up taking quite some effort to put together and print small booklets with oracles and foes for both [Ironsworn][ironsworn] and [Starforged][starforged]. Using various PDF manipulations programs I took the pages and ordered them in the documents as I wanted. For Ironsworn I combined pages from both the main Ironsworn book and [Ironsworn: Delve][delve]. The page numbering is obviously wrong but they are still much easier to use than PDF.
 
 {% responsive_image path: images/solorpg/PXL_20220808_212414642.MP.jpg  alt:"" figcaption: "Ironsworn and Ironsworn: Delve oracles and foes combined into two small booklets" %}
 
@@ -114,7 +114,10 @@ I also had been quite frustrated when I couldn't come up for an interpretation f
 
 There's action/theme oracle which provides a verb/noun pair and descriptor/focus which provides an adjective/noun pair. I struggle with those since they often give me only very vague information or just doesn't make sense. 
 
-I learned I that re-rolling those oracles or using other tricks to quickly go through more options is fine. I am also learning that  I shouldn't stress it too much and just move forward, even when things are not super interesting or don't make 100% sense. And the last but not lest: I give myself time to think about it a bit. My sessions are usually short, just few moves and a bit of story progress. When I don't know how to continue, I pause and let it go. Usually, some idea will come to me during a walk, when taking a shower or the next time I pick up the game. Getting rid of the expectation that I should be able to sit down and play through a coherent session was a very important step for me. I have multiple characters in my Journal so I can even switch between them If I get stuck but still want to play.
+
+{% responsive_image path: images/solorpg/PXL_20220915_113330394.jpg class:'imgmw400' alt:"" figcaption: "Dunbar, Scotland" %}
+
+I learned that re-rolling those oracles or using other tricks to quickly go through more options is fine and not a failure. I am also learning that  I shouldn't stress it too much and just move forward, even when things are not super interesting or don't make 100% sense. And the last but not lest: I give myself time to think about it a bit. My sessions are usually short, just few moves and a bit of story progress. When I don't know how to continue, I pause and let it go. Usually, some idea will come to me during a walk, when taking a shower or the next time I pick up the game. Getting rid of the expectation that I should be able to sit down and play through a coherent session was a very important step for me. I have multiple characters in my Journal so I can even switch between them If I get stuck but still want to play.
 
 ### Expectations!
 
@@ -122,9 +125,12 @@ Overall, expectation management plays a big role in playing a satisfying solo ga
 
 The one revelation I had about the solo games is that they do really teach you (or force you to learn) skills that are going to be useful while playing games with other people. Being mindful about what kind of story you want to play, rolling with punches, failing forward, understanding what kind of game the system can help you to play, interpreting what happens on the fly. All of them are useful tools for every player.
 
+{% responsive_image path: images/solorpg/PXL_20220912_110310530.jpg  alt:"" figcaption: "Posing with my journal on a beach in Edinburgh." %}
+
+
 ### What next?
 
-More games. I played The Wretched and Dead Belt. I have a physical copy of Thousand Years Old Vampire I would like to try, but I struggle to figure out who my vampire should be at the begging. I and I would also like to try play in some interesting settings using the Mythic Game Master emulator or similar system. But I am certainly going to keep my little journal with Ironsworn and Starforged. The games are amazing and the system works very well, when you take your time to understand how is it supposed to work.
+More games. I played [The Wretched][thewretched] and [Dead Belt][deadbelt]. I have a physical copy of [Thousand Years Old Vampire][vampire] I would like to try, but I struggle to figure out who my vampire should be at the begging. I and I would also like to try play in some interesting settings using the Mythic Game Master emulator or similar system. But I am certainly going to keep my little journal with Ironsworn and Starforged. The games are amazing and the system works very well, when you take your time to understand how is it supposed to work.
 
 
 
@@ -136,6 +142,8 @@ More games. I played The Wretched and Dead Belt. I have a physical copy of Thous
 {:target="_blank"}
 [starforged]: <https://www.ironswornrpg.com/product-ironsworn-starforged> "Starforged"
 {:target="_blank"}
+[delve]: <https://www.ironswornrpg.com/product-ironsworn-delve> "Ironsworn: Delve"
+{:target="_blank"}
 [stargazer]: <https://nboughton.uk/apps/stargazer> "Stargazer"
 {:target="_blank"}
 [valentin]: <{{ site.baseurl }}{% post_url 2022-05-09-starforged-valentin-campaing-start %}> "Valentin and Jones session writeups"
@@ -145,4 +153,10 @@ More games. I played The Wretched and Dead Belt. I have a physical copy of Thous
 [travelers]: <https://www.drivethrurpg.com/product/301866/Travelers-Ironsworn-DIY-Edition> "Traveler's Ironsworn, DrivethruRPG"
 {:target="_blank"}
 [terriblybeautiful]: <https://www.patreon.com/terriblybeautiful> "Terribly Beautiful Patreon"
+{:target="_blank"}
+[deadbelt]: <https://www.kickstarter.com/projects/acoupleofdrakes/deadbelt> "Dead Belt"
+{:target="_blank"}
+[thewretched]: <https://loottheroom.itch.io/wretched> "The Wretched"
+{:target="_blank"}
+[vampire]: <https://thousandyearoldvampire.com/> "Thousand Yars Old Vampire"
 {:target="_blank"}
