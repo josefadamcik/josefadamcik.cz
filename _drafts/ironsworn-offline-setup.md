@@ -49,9 +49,9 @@ It worked only partially. I liked the ability to play outside, but typing on the
 
 ## Getting analogue
 
-{% responsive_image path: images/solorpg/PXL_20220802_180703932.jpg  alt:"" figcaption: "Short beer and play session on the Tempelhofer Feldin Berlin" %}
-
 I stumbled upon [Traveler's Ironsown][travelers]. It's a very nice set of cards with move reference for the [Ironsworn][ironsworn] game meant to be used with a traveler's notebook in the 11&nbsp;x&nbsp;21&nbsp;(cm) format. It also includes characters sheet and other sheets to support the play. 
+
+{% responsive_image path: images/solorpg/PXL_20220802_180703932.jpg  alt:"" figcaption: "Short beer and play session on the Tempelhofer Feldin Berlin" %}
 
 I hesitated a bit. First, the sci-fi Starforged is much closer to my heart and I wasn't sure how much I am going to enjoy it's fantasy predecessor. But the main concern was writing by hand. I knew it would certainly slow me down since I type everything on my keyboard nowadays, including all my work notes, todo-lists, shopping lists. Everything. I almost forgot how to write cursive and I have never really been good at it. But I was intrigued. 
 
@@ -82,7 +82,7 @@ I got used to writing by hand again and it went so far that I even write a perso
 
 {% responsive_image path: images/solorpg/PXL_20220918_160105405.jpg  alt:"" figcaption: "Playing Ironsworn in a cafe in Edinburgh" %}
 
-I played quite a bit of Ironsworn while on vacation in Scotland and I must say that imagining the story of Asha, who rescues her sister from a raider camp, while sitting among hills above Edinburgh or taking a break in cafe in the city of Edinburgh was amazing.
+I played quite a bit of Ironsworn while on vacation in Scotland and I must say that imagining the story of Asha (cutthroat, shadow-walk, a giant spider companion), who rescues her sister from a raider camp, while sitting among hills above Edinburgh or taking a break in cafe in the city of Edinburgh was amazing.
 
 I was so happy with the experience I even laminated the Traveler's Ironsworn cards.
 
@@ -94,7 +94,7 @@ I appreciate the offline and compact setup at home as well. I can just play on m
 
 Playing solo is demanding from many aspects. I had to figure out what stories I want to create and what kind of fun I seek. But I also had to unlearn a bit and train my self to approach things differently. There was a lot of thinking about playing, reading about playing and lurking in discords while other people discussed playing involved (and still is) in the process. 
 
-### Failures, fail forward and building of story
+### Failures, fail forward and building of a story
 
 Ironsworn is designed in a way that it inserts complications when a roll fails (miss) or successes only partially (weak hit). The probability distribution of rolls is carefully picked to support this. It's most common to get the "weak hit" and misses are quite probable as ell. It's sort of "fail forward" approach we see in many other games. It works really well but it can be also very frustrating when the player is not completely into it.
 
@@ -104,20 +104,29 @@ I would say there's were roughly 2 sources of this frustration:
 
 First, I wanted to **be good in the game** and succeed in a similar way how I would like to succeed in a computer game. It's interesting, that I don't have this urge when I play a TTRPG game with a GM. But in solo I had it. I just didn't want to fail. Starforged doesn't really work if you can have fun only when you roll well all the time. As a GM a do prefer players who can "roll with the punches" and I thing games when failure is celebrated are better. But somehow I had to learn (and I am still learning) how to actually appreciate this in solo play. On the other hand, it's certainly a good training for any other TTRPG game I could play in the future.
 
-Second, I got too attached to the direction I wanted the story to go to. I would imagine certain goal I want to achieve with the character (e.g. Valentin Sikorski wanted to infiltrate a secret factory) and the step they would get to get there. Then I would play and the game would throw complications and twists on me and I would be upset I am being distracted or doing something else than I wanted (e.g. Valentin is doing an expedition and dealing with perils on the way instead of just going there and doing something to fulfil the wov.)
+Second, I got **too attached to the direction** I wanted the story to go to. I would imagine certain goal I want to achieve with the character (e.g. Valentin Sikorski wanted to infiltrate a secret factory) and the step they would get to get there. Then I would play and the game would throw complications and twists on me and I would be upset I am being distracted or doing something else than I wanted (e.g. Valentin is doing an expedition and dealing with perils on the way instead of just going there and doing something to fulfil the wov.)
 
-The second one is a bit trickier to deal with and it was the main reason why I paused Valentin's story and tried to play other characters. I decide to try to just make a character and give them simple vow and avoid thinking about where it could go in the future. I also started trying to avoid complicating the story myself. The game can do it on it's own very well and If I add too many complications myself, it might be harder to figure out, what the next complications introduced by the game should be. I tried couple of characters and it worked much better. It requires some learning and training and I am still trying to improve, but being really able to let the story flow and just wonder where it goes is amazing and I suppose it's the experience a player should have in this game.
+The second one is a bit trickier to deal with and it was the main reason why I paused Valentin's story and tried to play other characters. I decide to try to just make a character and give them simple vow and avoid thinking about where it could go in the future. I also tried to avoid complicating the story myself. The game can do it on it's own very well and If I add too many complications myself, it might be harder to figure out, what the next complications introduced by the game should be. I tried couple of characters and it worked much better. It requires some learning and training and I am still trying to improve, but being really able to let the story flow and just wonder where it goes is amazing. I suppose, it's the experience a player should have in this game.
+
+### Oracles and imagination
+
+I also had been quite frustrated when I couldn't come up for an interpretation for a oracle roll in certain situation. Ironsworn asks player quite often to imagine what happens and provides a lot of tables with random details. Many of the oracle tables are concrete (like "Spaceborne opportunity") but the core ones are very abstract. 
+
+There's action/theme oracle which provides a verb/noun pair and descriptor/focus which provides an adjective/noun pair. I struggle with those since they often give me only very vague information or just doesn't make sense. 
+
+I learned I that re-rolling those oracles or using other tricks to quickly go through more options is fine. I am also learning that  I shouldn't stress it too much and just move forward, even when things are not super interesting or don't make 100% sense. And the last but not lest: I give myself time to think about it a bit. My sessions are usually short, just few moves and a bit of story progress. When I don't know how to continue, I pause and let it go. Usually, some idea will come to me during a walk, when taking a shower or the next time I pick up the game. Getting rid of the expectation that I should be able to sit down and play through a coherent session was a very important step for me. I have multiple characters in my Journal so I can even switch between them If I get stuck but still want to play.
+
+### Expectations!
+
+Overall, expectation management plays a big role in playing a satisfying solo game. But isn't that true even for the traditional, multi-player TTRPG games? Of course it is! 
+
+The one revelation I had about the solo games is that they do really teach you (or force you to learn) skills that are going to be useful while playing games with other people. Being mindful about what kind of story you want to play, rolling with punches, failing forward, understanding what kind of game the system can help you to play, interpreting what happens on the fly. All of them are useful tools for every player.
+
+### What next?
+
+More games. I played The Wretched and Dead Belt. I have a physical copy of Thousand Years Old Vampire I would like to try, but I struggle to figure out who my vampire should be at the begging. I and I would also like to try play in some interesting settings using the Mythic Game Master emulator or similar system. But I am certainly going to keep my little journal with Ironsworn and Starforged. The games are amazing and the system works very well, when you take your time to understand how is it supposed to work.
 
 
-
-
-
-
-
-
-
-
-## What I want to try
 
 
 
