@@ -45,7 +45,7 @@ Thankfully [Stargazer][stargazer] runs offline. So I took my Chrome tablet, down
 
 {% responsive_image path: images/solorpg/PXL_20220604_111206536.jpg  alt:"" figcaption: "Fully digital: Chrome OS tablet, Stargazer, PDFs" %}
 
-It worked only partially. I liked the ability to pay outside, but typing on the tablet was pain and I was still in the "I am going to put this on blog" mood so I would just spend more time editing when I got home. ANother issue I had is that I had to keep switching between PDF's and Stargazer and search for things in PDF's. It ended up to be inconvenient and fiddly. Also, typing on the tablet when it sits on the lap (while sitting on a bench or in public transport) is very uncomfortable because it's just too low and it tends to slide down from my short legs.
+It worked only partially. I liked the ability to play outside, but typing on the tablet was pain and I was still in the "I am going to put this on blog" mood so I would just spend more time editing when I got home. ANother issue I had is that I had to keep switching between PDF's and Stargazer and search for things in PDF's. It ended up to be inconvenient and fiddly. Also, typing on the tablet when it sits on the lap (while sitting on a bench or in public transport) is very uncomfortable because it's just too low and it tends to slide down from my short legs.
 
 ## Getting analogue
 
@@ -72,25 +72,49 @@ For Starforged, I just selected pages I wanted. There's much more oracles and I 
 
 {% responsive_image path: images/solorpg/PXL_20220808_212634812.jpg alt:"" figcaption: "Starforged oracles (4 small booklets) and foes" %}
 
-I ended up taking quite some effort to put together and print small booklets with oracles and foes for both Ironsworn and Starforged. Using various PDF manipulations programs I took the pages and ordered them in the documents as I wanted. For Ironsworn I combined pages from both the main Ironsworn book and the Ironsworn: Delve supplement. 
+I ended up taking quite some effort to put together and print small roughly A6-sized booklets with oracles and foes for both Ironsworn and Starforged. Using various PDF-manipulation programs, I took the pages and ordered them in the documents as I wanted. For Ironsworn I combined pages from both the main Ironsworn book and the Ironsworn: Delve supplement. 
 Nevertheless, this really gave me a lot of freedom to play at various places and in various situations. I have played on plain, trains, in cafes, or just sitting in the nature.
+
+{% responsive_image path: images/solorpg/PXL_20220913_115908512.jpg  alt:"" figcaption: "Playing Ironsworn in hills above Edinburgh" %}
 
 
 I got used to writing by hand again and it went so far that I even write a personal journal by hand now. I still tend to write a bit more narration while playing than I hoped for but at least I don't obsess about formulations and editing. The fact that the written text is harder to change helped me a lot.
 
-{% responsive_image path: images/solorpg/PXL_20220913_115908512.jpg  alt:"" figcaption: "Playing Ironsworn in hills above Edinburgh" %}
-
-I played quite a bit of Ironsworn while on vacation in Scotland and I must say that imagining the story of "Asha who walks in shadows" and a rescue of her sister from raider camp while sitting among hills above Edinburgh or taking a break in cafe while exploring the city was amazing. 
-
 {% responsive_image path: images/solorpg/PXL_20220918_160105405.jpg  alt:"" figcaption: "Playing Ironsworn in a cafe in Edinburgh" %}
+
+I played quite a bit of Ironsworn while on vacation in Scotland and I must say that imagining the story of Asha, who rescues her sister from a raider camp, while sitting among hills above Edinburgh or taking a break in cafe in the city of Edinburgh was amazing.
 
 I was so happy with the experience I even laminated the Traveler's Ironsworn cards.
 
 {% responsive_image path: images/solorpg/PXL_20220925_111833385.jpg  alt:"" figcaption: "La-mi-na-tion, La-mi-na-tion!" %}
 
-I appreciate the offline and compact setup at home as well. I can just play on my balcony or even in bed. Sometimes it's a bit of mess with all the cards, booklets and pens around but the experience suits me much better than tablet or computer. 
+I appreciate the offline and compact setup at home as well. I can just play on my balcony or even in bed. Sometimes it's a bit of mess with all the cards, booklets and pens around but the experience suits me much better than on a tablet or computer. 
 
-## Other struggles and learning
+## Other struggles and learning how to play solo
+
+Playing solo is demanding from many aspects. I had to figure out what stories I want to create and what kind of fun I seek. But I also had to unlearn a bit and train my self to approach things differently. There was a lot of thinking about playing, reading about playing and lurking in discords while other people discussed playing involved (and still is) in the process. 
+
+### Failures, fail forward and building of story
+
+Ironsworn is designed in a way that it inserts complications when a roll fails (miss) or successes only partially (weak hit). The probability distribution of rolls is carefully picked to support this. It's most common to get the "weak hit" and misses are quite probable as ell. It's sort of "fail forward" approach we see in many other games. It works really well but it can be also very frustrating when the player is not completely into it.
+
+At the begging I was a bit frustrated when I didn't roll "strong hit". I was aware of what is the game trying to do an why, but often I would hate the outcome because I imagined the story going somewhere else. 
+
+I would say there's were roughly 2 sources of this frustration:
+
+First, I wanted to **be good in the game** and succeed in a similar way how I would like to succeed in a computer game. It's interesting, that I don't have this urge when I play a TTRPG game with a GM. But in solo I had it. I just didn't want to fail. Starforged doesn't really work if you can have fun only when you roll well all the time. As a GM a do prefer players who can "roll with the punches" and I thing games when failure is celebrated are better. But somehow I had to learn (and I am still learning) how to actually appreciate this in solo play. On the other hand, it's certainly a good training for any other TTRPG game I could play in the future.
+
+Second, I got too attached to the direction I wanted the story to go to. I would imagine certain goal I want to achieve with the character (e.g. Valentin Sikorski wanted to infiltrate a secret factory) and the step they would get to get there. Then I would play and the game would throw complications and twists on me and I would be upset I am being distracted or doing something else than I wanted (e.g. Valentin is doing an expedition and dealing with perils on the way instead of just going there and doing something to fulfil the wov.)
+
+The second one is a bit trickier to deal with and it was the main reason why I paused Valentin's story and tried to play other characters. I decide to try to just make a character and give them simple vow and avoid thinking about where it could go in the future. I also started trying to avoid complicating the story myself. The game can do it on it's own very well and If I add too many complications myself, it might be harder to figure out, what the next complications introduced by the game should be. I tried couple of characters and it worked much better. It requires some learning and training and I am still trying to improve, but being really able to let the story flow and just wonder where it goes is amazing and I suppose it's the experience a player should have in this game.
+
+
+
+
+
+
+
+
 
 
 ## What I want to try
