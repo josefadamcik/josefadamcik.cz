@@ -2,7 +2,7 @@
 layout: post
 title: "Low-lethality in Mausritter"
 categories: TTRPG
-tags: [ttrpg, pnp]
+tags: [ttrpg, pnp, mausritter]
 published: true
 image: images/ttrpg/PXL_20221011_151755002.MP.jpg
 summary: "My players wished to avoid character and npc death in our Mausritter game. Here are my thoughts and remarks how to make it work."

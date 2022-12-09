@@ -2,7 +2,7 @@
 layout: post
 title: "Sole RPGs and evelution of my setup for Ironsworn and Starforged"
 categories: TTRPG
-tags: [ttrpg, pnp, solo]
+tags: [ttrpg, pnp, solo, ironsworn, starforged]
 published: true
 image: images/solorpg/PXL_20220826_095337919.jpg
 summary: "The concept of playing TTRPGs alone sounds very odd and very appealing at the same time. This post is about how is my relationship with solo RPGs developing." 

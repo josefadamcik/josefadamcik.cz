@@ -2,7 +2,7 @@
 layout: post
 title: "Starforged: Valentin Sikorski (Sessions 0+1)"
 categories: TTRPG
-tags: [ttrpg, pnp, soloplay]
+tags: [ttrpg, pnp, soloplay, ironsworn, starforged]
 series: "starforged-valentin"
 published: true
 image: images/starforged/starforged_thumbnail_0.png
