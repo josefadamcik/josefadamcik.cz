@@ -2,7 +2,7 @@
 layout: post
 title: "The Whites - a Mausritter supplement (devlog)"
 categories: TTRPG
-tags: [ttrpg, pnp]
+tags: [ttrpg, pnp, mausritter]
 published: true
 image: images/thewhites/PXL_20221122_211318160.jpg
 summary: "A reader of this blog might have noticed I like to make things. So even my recent obsession - TTRPG games - leans towards making things. Let me share how I made a small Mausritter supplement based on content I created for my Mausritter campaign."
