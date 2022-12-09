@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sole RPGs and evelution of my setup for Ironsworn and Starforged"
+title: "Solo RPGs and the evolution of my setup for Ironsworn and Starforged"
 categories: TTRPG
 tags: [ttrpg, pnp, solo, ironsworn, starforged]
 published: true
