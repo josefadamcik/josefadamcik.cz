@@ -90,6 +90,8 @@ I didn't really think it was worth publishing, but my players kept telling me I 
 
 We enjoyed the process, and we are already working on another one. This time it's going to be a proper adventure, for the [Winter has come Mausritter Jam][jam]. We have a nice pile of ideas, let's just hope we finish it. 
 
+**Update** We since finished and published the adventure ["Chrismous forever" and you can grab it on itch][chrismous].
+
 
 
 [mausritter]: <https://mausritter.com/> "Mausritter"
@@ -107,4 +109,6 @@ We enjoyed the process, and we are already working on another one. This time it'
 [itch]: <https://josefadamcik.itch.io/the-whites> "The Whites on itch"
 {:target="_blank"}
 [jam]: <https://itch.io/jam/winter-has-come-mausritter-game-jam> "Winter has come Mausritter Jam"
+{:target="_blank"}
+[chrismous]: <https://josefadamcik.itch.io/chrismous-forever> "Chrismous forever"
 {:target="_blank"}
