@@ -7,7 +7,7 @@ pagination:
 <h1>Recent posts from notebook</h1>
 
 {% include tagcloud.html %}
-{% assign categories  = "electronics,TTRPG,Scale modeling" | split: "," %}
+{% assign categories  = "TTRPG,electronics,Scale modeling" | split: "," %}
 <div class="posts-homepage">
   {% for cat in categories %}
   <div class="posts-category">
