@@ -8,17 +8,17 @@ image: images/ttrpg/books.jpg
 summary: "Year 2023 was for me huge regarding playing table-top RPG games and meeting new people." 
 ---
 
-A year and a few months ago, I wrote about ]my personal renaissance of pen and paper games][pnp]. Long story short, I shared how I returned to the hobby after many years without engaging in it at all and how amazed I am by the abundance of amazing games and adventures available nowadays. Back then, I had been running a Mausritter campaign for two people, exploring [solo gaming][ironsworn] and tentatively venturing into playing with others, whether through PbP (play-by-post), online play via voice/video, and I had hoped to find some people to play in person as well
+A year and a few months ago, I wrote about [my personal renaissance of pen and paper games][pnp]. Long story short, I shared how I returned to the hobby after many years without engaging in it at all and how amazed I am by the abundance of amazing games and adventures available nowadays. Back then, I had been running a Mausritter campaign for two people, exploring [solo gaming][ironsworn] and tentatively venturing into playing with others, whether through PbP (play-by-post), online play via voice/video, and I had hoped to find some people to play in person as well
 
 {% responsive_image path: images/ttrpg/books.jpg  alt:"" figcaption: "Just some of he TTRPG books I bought."  %}
 
-"To provide better context: I live in Berlin, English is my second language, and German is my third, though I am far from fluent in it. I also struggle with social anxiety, which immensely hinders me when it comes to seeking new people and interacting with them (it's no accident that most of the hobbies captured on this blog are things I can do alone at home). Even playing in Play-by-post was anxiety-inducing and way out of my comfort zone.
+To provide better context: I live in Berlin, English is my second language, and German is my third, though I am far from fluent in it. I also struggle with social anxiety, which immensely hinders me when it comes to seeking new people and interacting with them (it's no accident that most of the hobbies captured on this blog are things I can do alone at home). Even playing in Play-by-post was anxiety-inducing and way out of my comfort zone.
 
 For the last year, I decided to use my obsession with TTRPGs as motivation to start overcoming this anxiety. The plan involved repeatedly exposing myself to social interactions until I became more comfortable in those situations. This included playing and even running PbP games at the beginning, then adding online one-shots through StartPlaying and some Discord communities, and eventually joining open table campaigns. The ultimate goal was to start attending in-person games organized by a community here in Berlin.
 
 Looking back, I must say I not only succeeded but even surprised myself with the progress I made. I started keeping a log of games at the end of September (unfortunately, I didn't have this idea sooner) and, in just the last 3 and a half months, I played in 25 games. Out of those, six were in-person with the Berlin community, three were run by me in-person for my partner and a friend, and one was run by me online. Even the months before were quite intensive. There were weeks when I had 3 or 4 games. I estimate that I must have played at least between 50 and 60 games last year. Apart from that, I had run a PbP of Starforged, I have been running a PbP of Blades in the Dark, and I participated in several other PbP games.
 
-So, what games have I been playing? Here's a simple list.
+So, what games have I been playing? Here's a simple list, just from the top of my head. 
 
 - Blades In The Dark
 - Lovercrafesque
@@ -45,6 +45,7 @@ So, what games have I been playing? Here's a simple list.
 - Troika!
 - Starforged
 - Liminal Horror
+
 
 
 ## Solo play
