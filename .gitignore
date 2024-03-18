@@ -5,3 +5,4 @@ mywebsite.sublime-*
 assets/resized
 .jekyll-cache/
 vendor
+.vscode
