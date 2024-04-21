@@ -8,9 +8,9 @@ image: images/zine/PXL_20240420_155117702.jpg
 summary: "The Berlin RPG group I happen to be member of celebrated its second birthday and released a small zine written by some of the members. My contributtion is part of the zine as well." 
 ---
 
-I haven mentioned the group I started playing with last year in my previous post. Since the beginning of the year, I've had a blast playing around 15 games with the group, and I ran three games myself (two games of Mothership and one of Alien RPG).
+I have mentioned the group I started playing with last year in [my previous post][berlingroup]. Since the beginning of the year, I've had a blast playing around 15 games with the group, and I ran three games myself (two games of Mothership and one of Alien RPG).
 
-The group celebrated two years of its existence in April. Yes, there was a party, and yes, there were gamesnd. We also published a zine called [Every Wednesday WE roll volume 2 (You can grab it for free on itch)][ewwr2]. It's the second issue; the first one was released last year and is [also available on itch][ewwr].
+The group celebrated two years of its existence in April. Yes, there was a party, and yes, there were games. We also published a zine called [Every Wednesday WE roll volume 2 (You can grab it for free on itch)][ewwr2]. It's the second issue; the first one was released last year and is [also available on itch][ewwr].
 
 {% responsive_image path: images/zine/PXL_20240420_155117702.jpg  alt:"" figcaption: "Every Wednesday WE roll volume 2" class:'imgmw400' %}
 
