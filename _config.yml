@@ -12,14 +12,14 @@ header_pages:
   - index.html
   - notebook/index.html
   # - links.md
-  # - about.md
+  # - about.md 
 
 tag_page_layout: tag_page
 tag_page_dir: tag
 ignored_tags: [cpp,android]
 
 autopages:
-  enabled: false
+  enabled: true
   categories: 
       # Optional, the list of layouts that should be processed for every category found in the site
       layouts: 
