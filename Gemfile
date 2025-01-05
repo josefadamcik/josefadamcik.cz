@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 gem "jekyll", "~> 4.3.0"
-
 gem "uglifier"
 gem "image_optim"
 gem "image_optim_bin" # Optional
@@ -19,5 +18,3 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-tagging'
 end
-
-

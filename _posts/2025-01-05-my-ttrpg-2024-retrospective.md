@@ -71,7 +71,7 @@ Notable one-shots include:
 - **The Waking of Willowby Hall**: Played using Cairn, though I don't think the system mattered much. The module is very good.
 - **Escape from Dino Island**: The first GMing experience for the person who ran it, and it was amazing.
 - **House of the Hollow**: for Mörk Borg.
-- One session of **Deathmatch **Island: My character got a haircut during a chase scene and, in the final round, fought the hairdresser—and won!
+- One session of **Deathmatch Island**: My character got a haircut during a chase scene and, in the final round, fought the hairdresser—and won!
 
 ## The games I ran
 
