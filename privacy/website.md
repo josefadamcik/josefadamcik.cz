@@ -5,7 +5,7 @@ title: Privacy policy
 
 # Privacy policy
 
-This website is operated by [Josef Adamcik](https://josef-adamcik.cz/). You can contact me on email [josef.adamcik@gmail.com](josef.adamcik@gmail.com).
+This website is operated by [Josef Adamcik](https://josef-adamcik.cz/). You can contact me on email [contact@adamcik.me](contact@adamcik.me).
 
 ## Cookies and embedded content
 

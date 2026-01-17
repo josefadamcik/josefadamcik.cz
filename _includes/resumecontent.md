@@ -3,7 +3,7 @@
 ## Android developer, Software developer
 
 > [Download PDF](resume.pdf)  
-> [josef.adamcik@gmail.com](mailto:josef.adamcik@gmail.com)  
+> [contact@adamcik.me](mailto:contact@adamcik.me)  
 
 
 ------
@@ -136,7 +136,7 @@ Showcase project (Android + Kotlin)
 ------
 ### Footer {#footer}
 
-Josef Adamčík --  [josef.adamcik@gmail.com](josef.adamcik@gmail.com) 
+Josef Adamčík --  [contact@adamcik.me](contact@adamcik.me) 
  -- 
 
 ------

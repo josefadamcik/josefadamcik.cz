@@ -38,4 +38,4 @@ There are many smaller projects [on my github](https://github.com/josefadamcik).
 
 ## Contact
 
-e-mail: [josef.adamcik@gmail.com](mailto:josef.adamcik@gmail.com)
+e-mail: [contact@adamcik.me](mailto:contact@adamcik.me)
