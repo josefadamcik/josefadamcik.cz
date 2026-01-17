@@ -1,0 +1,20 @@
+figure {
+    margin: 0 0 0 0;
+    text-align:center;
+}
+figure figcaption {
+//  border-left: 5px solid #7a7a7a;
+  // font-style: italic;
+  margin-bottom: $space-3;
+  padding: $space-2;
+  padding-top: $space-1;
+  color: #7a7a7a;
+  font-size: .85rem;
+  border-bottom: 1px solid #7a7a7a;
+  text-align: left;
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
